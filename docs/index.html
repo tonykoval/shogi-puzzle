@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+    <link rel="stylesheet" href="assets/css/base.css"/>
+    <link rel="stylesheet" href="assets/css/shogiground.css"/>
+    <link rel="stylesheet" href="assets/css/hands.css"/>
+    <link rel="stylesheet" href="assets/css/themes/wood-grid.css"/>
+    <link rel="stylesheet" href="assets/css/pieces/ryoko.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+</head>
+
+<body>
+<div class="main">
+    <div class="wrap" style="display: flex">
+        <div id="hand-top" class="sg-hand-wrap"></div>
+        <div style="width: 500px; height: calc(500px / 11 * 12)" id="main-wrap" class="main-board">
+            <div id="dirty" class="sg-wrap"></div>
+            <select class="games" style="width: 80%"></select>
+            <button class="random" style="width: 19%">Random</button>
+        </div>
+        <div id="hand-bottom" class="sg-hand-wrap"></div>
+    </div>
+</div>
+<script src="js/shogiground.js"></script>
+<script src="js/shogiops.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+<script type="module">
+    let data, ids, sg
+    $.ajax({
+        url:"data/blunders.json",
+        dataType : 'json',
+        async : false,
+        success : function(json) {
+            data = json
+            ids = json.map( (value, index) => {
+                    let obj = {}
+                    obj["id"] = index
+                    obj["text"] = value.id
+                    return obj
+                }
+            )
+
+            $(".games").select2({
+                placeholder: 'Select a position',
+                data: ids
+            })
+
+            selectSituation(randomNumber(0, data.length - 1))
+        }
+    });
+
+    $('.games').on('select2:select', function (e) {
+        selectSituation(e.params.data.id)
+    });
+
+    $(".random").click( function (e) {
+        selectSituation(randomNumber(0, data.length - 1))
+    });
+
+    function selectSituation(id) {
+        $('.games').val(ids[id].id)
+        $('.games').trigger('change');
+
+        sg = Shogiground();
+        sg.set(generateConfig(data[id]));
+
+        sg.attach({
+            board: document.getElementById('dirty'),
+        });
+        sg.attach({
+            hands: {
+                bottom: document.getElementById('hand-bottom'),
+            },
+        });
+        sg.attach({
+            hands: {
+                top: document.getElementById('hand-top'),
+            },
+        });
+    }
+
+    function isEngineMove(engineMove, playerMove, playerPositionMove) {
+        if (engineMove.drop !== null) {
+            if (playerPositionMove === "DROP") {
+                return engineMove.drop.drop.role === playerMove.piece.role && engineMove.drop.drop.pos === playerMove.key;
+            } else {
+                return false
+            }
+        } else {
+            if (playerPositionMove === "MOVE") {
+                return engineMove.move.move.orig === playerMove.orig &&
+                    engineMove.move.move.dest === playerMove.dest &&
+                    engineMove.move.move.promotion === playerMove.prom
+            } else {
+                return false
+            }
+        }
+    }
+
+    function setHint(move) {
+        if (move.drop !== null) {
+            return move.drop.hint
+        } else {
+            return move.move.hint
+        }
+    }
+
+    function fireError(pos) {
+        Swal.fire({
+            icon: 'error',
+            title: 'Failure',
+            html: '<p>You played again the blunder move!</p> ' +
+                '<p>You should play <b>' + pos.engineMoveUsi + '</b> (green arrow) move.</p> ' +
+                '<p><i>' + pos.comment + '</i></p>' +
+                '<p><a href="' + pos.site + '" target="_blank">Lishogi game</a></p>',
+            footer: '<a href="https://lishogi.org/analysis/standard/' + pos.sfen + '" target="_blank">Lishogi position</a>'
+        })
+    }
+
+    function fireWarning(pos) {
+        Swal.fire({
+            icon: 'warning',
+            title: 'Warning',
+            html: '<p>You played the unknown move! Please analyze your move.</p>' +
+                '<p>You should play <b>' + pos.engineMoveUsi + '</b> (green arrow) move.</p> ' +
+                '<p><i>' + pos.comment + '</i></p>' +
+                '<p><a href="' + pos.site + '" target="_blank">Lishogi game</a></p>',
+            footer: '<a href="https://lishogi.org/analysis/standard/' + pos.sfen + '" target="_blank">Lishogi position</a>'
+        })
+    }
+
+    function fireSuccess(pos) {
+        Swal.fire({
+            icon: 'success',
+            title: 'Success',
+            html: '<p>You found the engine move!</p> ' +
+                '<p>You played <b>' + pos.yourMoveUsi + '</b> (red arrow) move and was blunder.</p> ' +
+                '<p><i>' + pos.comment + '</i></p>' +
+                '<p><a href="' + pos.site + '" target="_blank">Lishogi game</a></p>',
+            footer: '<a href="https://lishogi.org/analysis/standard/' + pos.sfen + '" target="_blank">Lishogi position</a>'
+        })
+    }
+
+    function generateConfig(pos) {
+        return {
+            sfen: {
+                board: pos.sfen,
+                hands: pos.hands,
+            },
+            orientation: pos.player,
+            turnColor: pos.player,
+            activeColor: pos.player,
+            lastDests: pos.opponentLastMovePosition,
+            movable: {
+                free: false,
+                dests: Shogiops.compat.shogigroundMoveDests(Shogiops.sfen.parseSfen("standard", pos.sfen, false).value),
+            },
+            droppable: {
+                free: false,
+                dests: Shogiops.compat.shogigroundDropDests(Shogiops.sfen.parseSfen("standard", pos.sfen, false).value),
+            },
+            promotion: {
+                promotesTo: role => {
+                    return Shogiops.variantUtil.promote("standard")(role);
+                },
+                movePromotionDialog: (orig, dest) => {
+                    const piece = sg.state.pieces.get(orig);
+                    const capture = sg.state.pieces.get(dest) | undefined;
+                    return Shogiops.variantUtil.pieceCanPromote("standard")(piece, Shogiops.parseSquare(orig), Shogiops.parseSquare(dest), capture)
+                        && !Shogiops.variantUtil.pieceForcePromote("standard")(piece, Shogiops.parseSquare(dest))
+                },
+                forceMovePromotion: (orig, dest) => {
+                    const piece = sg.state.pieces.get(orig);
+                    return Shogiops.variantUtil.pieceForcePromote("standard")(piece, Shogiops.parseSquare(dest))
+                },
+            },
+            events: {
+                move: (a, b, prom) => {
+                    sg.setAutoShapes([setHint(pos.engineMove), setHint(pos.yourMove)]);
+                    if (isEngineMove(pos.engineMove, {"orig": a, "dest": b, "prom": prom}, "MOVE")) {
+                        fireSuccess(pos)
+                    } else {
+                        if (isEngineMove(pos.yourMove, {"orig": a, "dest": b, "prom": prom}, "MOVE")) {
+                            fireError(pos)
+                        } else {
+                            fireWarning(pos)
+                        }
+                    }
+                },
+                drop: (piece, key, prom) => {
+                    sg.setAutoShapes([setHint(pos.engineMove), setHint(pos.yourMove)]);
+                    if (isEngineMove(pos.engineMove, {"piece": piece, "key": key, "prom": prom}, "DROP")) {
+                        fireSuccess(pos)
+                    } else {
+                        if (isEngineMove(pos.yourMove, {"piece": piece, "key": key, "prom": prom}, "DROP")) {
+                            fireError(pos)
+                        } else {
+                            fireWarning(pos)
+                        }
+                    }
+                },
+            },
+        }
+    }
+
+    function randomNumber(min, max) {
+        return Math.floor(min + Math.random()*(max - min + 1))
+    }
+
+</script>
+</body>
+</html>
