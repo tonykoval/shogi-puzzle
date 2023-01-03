@@ -1,0 +1,143 @@
+開始日時：2022/11/16 21:01:35
+棋戦：将棋ウォーズ(10分切れ負け)
+場所：https://lishogi.org/p7fby8j5
+持ち時間：10分
+手合割：平手
+先手：island24 4級
+後手：Tonyko 2級
+手数----指手---------消費時間--
+   1   ７六歩(77)
+* [%eval 0.28]
+   2   ７二飛(82)
+* [%eval 1.45]
+   3   ７五歩(76)
+* [%eval -0.6]
+   4   ６二銀(71)
+* [%eval -0.52]
+   5   ７八飛(28)
+* [%eval -0.48]
+   6   ３四歩(33)
+* [%eval -0.17]
+   7   ２二角成(88)
+* [%eval -0.67]
+   8   同　銀(31)
+* [%eval -0.36]
+   9   ７四歩(75)
+* [%eval -3.22]
+  10   ３三銀(22)
+* [%eval -1.32]
+  11   ７三歩成(74)
+* [%eval -0.84]
+  12   同　銀(62)
+* [%eval -0.9]
+  13   ７四歩打
+* (-0.90 → -4.54) Inaccuracy. Best move was [usi:12.B*6e]
+* [%eval -4.54]
+  14   ６四銀(73)
+* [%eval -3.56]
+  15   ７六飛(78)
+* [%eval -5.17]
+  16   ５四角打
+* [%eval -4.25]
+  17   ８六飛(76)
+* [%eval -4.41]
+  18   ２七角成(54)
+* (-4.41 → -1.03) Inaccuracy. Best move was [usi:17.7b8b]
+* [%eval -1.03]
+  19   ３八金(49)
+* (-1.03 → -4.92) Inaccuracy. Best move was [usi:18.8f8c+]
+* [%eval -4.92]
+  20   ４五馬(27)
+* [%eval -4.78]
+  21   ７八銀(79)
+* [%eval -7.14]
+  22   ７四飛(72)
+* (-7.14 → 6.60) Blunder. Best move was [usi:21.7b8b]
+* [%eval 6.6]
+  23   ６八金(69)
+* (6.60 → -12.50) Blunder. Best move was [usi:22.8f8c+]
+* [%eval -12.5]
+  24   ７五銀(64)
+* (-12.50 → 12.82) Blunder. Best move was [usi:23.6a7b]
+* [%eval 12.82]
+  25   ８三飛成(86)
+* [%eval 12.61]
+  26   ６四飛(74)
+* (12.61 → 20.21) Inaccuracy. Best move was [usi:25.7d7a]
+* [%eval 20.21]
+  27   ８一龍(83)
+* [%eval 18.97]
+  28   ７六銀(75)
+* (18.97 → 47.03) Blunder. Best move was [usi:27.P*7a]
+* [%eval 47.03]
+  29   ７三角打
+* [%eval 46.3]
+  30   ５二玉(51)
+* (46.30 → Mate in 17) Checkmate is now unavoidable. Best move was [usi:29.5a4b]
+* [%eval mate17]
+  31   ６四角成(73)
+* (Mate in 17 → 21.80) Lost forced checkmate sequence. Best move was [usi:30.8a6a]
+* [%eval 21.8]
+  32   同　歩(63)
+* [%eval 21.0]
+  33   ７七歩打
+* (21.00 → -9.68) Blunder. Best move was [usi:32.8a9a]
+* [%eval -9.68]
+  34   ８一馬(45)
+* [%eval -10.36]
+  35   ７四桂打
+* (-10.36 → -32.38) Blunder. Best move was [usi:34.N*7c]
+* [%eval -32.38]
+  36   ７三歩打
+* (-32.38 → -21.67) Inaccuracy. Best move was [usi:35.7f6e]
+* [%eval -21.67]
+  37   ８二飛打
+* (-21.67 → -32.70) Inaccuracy. Best move was [usi:36.R*8d]
+* [%eval -32.7]
+  38   同　馬(81)
+* [%eval -32.5]
+  39   同　桂成(74)
+* [%eval -34.86]
+  40   ７九飛打
+* [%eval -33.21]
+  41   ６九金(68)
+* [%eval -32.98]
+  42   同　飛成(79)
+* [%eval -32.63]
+  43   同　玉(59)
+* (-32.63 → -46.41) Inaccuracy. Best move was [usi:42.7h6i]
+* [%eval -46.41]
+  44   ６七銀成(76)
+* (-46.41 → -20.21) Blunder. Best move was [usi:43.G*8h]
+* [%eval -20.21]
+  45   同　銀(78)
+* [%eval -20.44]
+  46   ４九角打
+* (-20.44 → -9.13) Blunder. Best move was [usi:45.P*8h]
+* [%eval -9.13]
+  47   ６八玉(69)
+* (-9.13 → -34.72) Blunder. Best move was [usi:46.B*8e]
+* [%eval -34.72]
+  48   ８八飛打
+* [%eval -36.21]
+  49   ７八銀打
+* [%eval -33.93]
+  50   ６五歩(64)
+* (-33.93 → -3.57) Blunder. Best move was [usi:49.4i6g+]
+* [%eval -3.57]
+  51   ９一成桂(82)
+* (-3.57 → -311.11) Blunder. Best move was [usi:50.6h7i]
+* [%eval -311.11]
+  52   ６六歩(65)
+* [%eval -40.5]
+  53   同　銀(67)
+* (-40.50 → Mate in 5) Checkmate is now unavoidable. Best move was [usi:52.B*8e]
+* [%eval mate-5]
+  54   ６七金打
+* [%eval mate-4]
+  55   ７九玉(68)
+* [%eval mate-1]
+  56   ７八飛成(88)
+  57   詰み
+
+

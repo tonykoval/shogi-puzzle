@@ -4,7 +4,7 @@ import shogi.format.Reader.Result.{Complete, Incomplete}
 import shogi.format.forsyth.Sfen
 import shogi.format.kif.KifParser
 import shogi.format.usi.Usi
-import shogi.format.{ParsedNotation, Reader, Tag}
+import shogi.format.{Glyph, ParsedNotation, Reader, Tag}
 import shogi.{Color, Game, Replay}
 
 import java.io.{File, PrintWriter}
@@ -119,10 +119,32 @@ object Main extends App {
     }).flatten
   }
 
-  case class Blunder(
+  sealed abstract class Judgement(val glyph: Glyph, val name: String) {
+    override def toString: String = name
+    def isBlunder: Boolean = this == Judgement.Blunder
+  }
+
+  object Judgement {
+    object Inaccuracy extends Judgement(Glyph.MoveAssessment.dubious, "Inaccuracy")
+    object Mistake    extends Judgement(Glyph.MoveAssessment.mistake, "Mistake")
+    object Blunder    extends Judgement(Glyph.MoveAssessment.blunder, "Blunder")
+    val all: Seq[Judgement] = List(Inaccuracy, Mistake, Blunder)
+  }
+
+  def getJudgement(comment: String): Option[Judgement] = {
+    comment match {
+      case x if x.contains(Judgement.Blunder.name) => Some(Judgement.Blunder)
+      case x if x.contains(Judgement.Mistake.name) => Some(Judgement.Mistake)
+      case x if x.contains(Judgement.Inaccuracy.name) => Some(Judgement.Inaccuracy)
+      case _ => None
+    }
+  }
+
+  case class Position(
                       id: String,
                       sfen: String,
                       hands: String,
+                      judgement: String,
                       comment: String,
                       timeControl: String,
                       date: String,
@@ -137,7 +159,7 @@ object Main extends App {
                       engineMove: WrapPiece
                     )
 
-  val blunders = (for (kifFilename <- getListOfFiles("kif")) yield {
+  val positions = (for (kifFilename <- getListOfFiles("kif")) yield {
     parser(Source.fromFile(kifFilename).mkString) map { parsedNotation: ParsedNotation =>
 
       val listSfen: Seq[(Vector[Usi], Sfen)] =
@@ -157,19 +179,21 @@ object Main extends App {
 
       (for ((move, index) <- parsedNotation.parsedMoves.value.zipWithIndex) yield {
         val game = Game(Some(shogi.variant.Standard), Some(listSfen(index)._2))
+        val judgement = getJudgement(move.metas.comments.mkString(" "))
 
-        if (move.metas.comments.mkString(" ").contains("Blunder")
+        if (judgement.nonEmpty
           && (player == game.color)
         ) {
           val sfen = Game(Some(shogi.variant.Standard), Some(listSfen(index)._2)).toSfen.toString
           val yourMove = listSfen(index + 1)._1.last
           splitComment(move.metas.comments.head) match {
             case Some(commentMove) =>
-              List(Blunder(
+              List(Position(
                 id = kifFilename.replaceAll("kif\\\\","") + "#" + index,
                 sfen = sfen,
                 hands = sfen.split(" ")(2),
                 comment = move.metas.comments.head,
+                judgement = judgement.get.name,
                 timeControl = timeControl.getOrElse(""),
                 date = date.getOrElse(""),
                 site = site.getOrElse(""),
@@ -190,11 +214,13 @@ object Main extends App {
     } getOrElse List()
   }).flatten
 
-  new PrintWriter("docs/data/blunders.json") {
-    write(blunders.asJson.spaces2)
+  new PrintWriter("docs/data/positions.json") {
+    write(positions.asJson.spaces2)
     close()
   }
 
   println(s"number of games: ${getListOfFiles("kif").size}")
-  println(s"number of blunders ${blunders.size}")
+  println(s"number of blunders: ${positions.count(_.judgement == Judgement.Blunder.name)}")
+  println(s"number of mistakes ${positions.count(_.judgement == Judgement.Mistake.name)}")
+  println(s"number of inaccuracies: ${positions.count(_.judgement == Judgement.Inaccuracy.name)}")
 }

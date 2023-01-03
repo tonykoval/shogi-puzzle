@@ -1,0 +1,6223 @@
+[
+  {
+    "id" : "lishogi_game_2022_12_16_Response_31_2級_vs_Tonyko_3級_hFl3Qh12.kif#37",
+    "sfen" : "ln1g1k1nl/2r3gb1/1p1psppp1/p2s5/2p5L/P3R4/BPPPPPP2/3SKS3/LNG3GN1 w 3Pp 38",
+    "hands" : "3Pp",
+    "judgement" : "Mistake",
+    "comment" : "(0.31 → 6.97) Mistake. Best move was [usi:37.P*1c]",
+    "timeControl" : "3分",
+    "date" : "2022/11/21 17:15:21",
+    "site" : "https://lishogi.org/hFl3Qh12",
+    "kifName" : "kif\\lishogi_game_2022_12_16_Response_31_2級_vs_Tonyko_3級_hFl3Qh12.kif",
+    "player" : "gote",
+    "opponentLastMoveUsi" : "1i1e",
+    "opponentLastMovePosition" : [
+      "1i",
+      "1e"
+    ],
+    "yourMoveUsi" : "P*5e",
+    "yourMove" : {
+      "drop" : {
+        "drop" : {
+          "role" : "pawn",
+          "pos" : "5e"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "pawn",
+            "color" : "gote"
+          },
+          "dest" : "5e",
+          "brush" : "alternative0"
+        }
+      },
+      "move" : null
+    },
+    "engineMoveUsi" : "P*1c",
+    "engineMove" : {
+      "drop" : {
+        "drop" : {
+          "role" : "pawn",
+          "pos" : "1c"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "pawn",
+            "color" : "gote"
+          },
+          "dest" : "1c",
+          "brush" : "primary"
+        }
+      },
+      "move" : null
+    }
+  },
+  {
+    "id" : "lishogi_game_2022_12_16_Response_31_2級_vs_Tonyko_3級_hFl3Qh12.kif#45",
+    "sfen" : "l2g1k1n1/2r3gb1/1pnpsppp1/pl1s5/2p1p3P/P4R3/BPPPPPP2/2GSKS3/LN4GN1 w L2P 46",
+    "hands" : "L2P",
+    "judgement" : "Inaccuracy",
+    "comment" : "(4.70 → 8.66) Inaccuracy. Best move was [usi:45.6a5b]",
+    "timeControl" : "3分",
+    "date" : "2022/11/21 17:15:21",
+    "site" : "https://lishogi.org/hFl3Qh12",
+    "kifName" : "kif\\lishogi_game_2022_12_16_Response_31_2級_vs_Tonyko_3級_hFl3Qh12.kif",
+    "player" : "gote",
+    "opponentLastMoveUsi" : "1f1e",
+    "opponentLastMovePosition" : [
+      "1f",
+      "1e"
+    ],
+    "yourMoveUsi" : "7c8e",
+    "yourMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "7c",
+          "dest" : "8e",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "7c",
+          "dest" : "8e",
+          "brush" : "alternative0"
+        }
+      }
+    },
+    "engineMoveUsi" : "6a5b",
+    "engineMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "6a",
+          "dest" : "5b",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "6a",
+          "dest" : "5b",
+          "brush" : "primary"
+        }
+      }
+    }
+  },
+  {
+    "id" : "lishogi_game_2022_12_16_Response_31_2級_vs_Tonyko_3級_hFl3Qh12.kif#49",
+    "sfen" : "l2g1k1n1/2r3gb1/1p1psppp1/pl6P/1npsp4/P4R3/1PPPPPP2/1BGSKS3/LN4GN1 w L2P 50",
+    "hands" : "L2P",
+    "judgement" : "Inaccuracy",
+    "comment" : "(8.84 → 12.16) Inaccuracy. Best move was [usi:49.7b7d]",
+    "timeControl" : "3分",
+    "date" : "2022/11/21 17:15:21",
+    "site" : "https://lishogi.org/hFl3Qh12",
+    "kifName" : "kif\\lishogi_game_2022_12_16_Response_31_2級_vs_Tonyko_3級_hFl3Qh12.kif",
+    "player" : "gote",
+    "opponentLastMoveUsi" : "1e1d",
+    "opponentLastMovePosition" : [
+      "1e",
+      "1d"
+    ],
+    "yourMoveUsi" : "3c3d",
+    "yourMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "3c",
+          "dest" : "3d",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "3c",
+          "dest" : "3d",
+          "brush" : "alternative0"
+        }
+      }
+    },
+    "engineMoveUsi" : "7b7d",
+    "engineMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "7b",
+          "dest" : "7d",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "7b",
+          "dest" : "7d",
+          "brush" : "primary"
+        }
+      }
+    }
+  },
+  {
+    "id" : "lishogi_game_2022_12_16_Response_31_2級_vs_Tonyko_3級_hFl3Qh12.kif#57",
+    "sfen" : "l2g1k1n1/6gb1/1p1psp1p1/pl2s1p1P/1n2p4/P1rL4R/1PPPPPP2/1BGSKS3/LN4GN1 w 2Pp 58",
+    "hands" : "2Pp",
+    "judgement" : "Inaccuracy",
+    "comment" : "(5.90 → 10.95) Inaccuracy. Best move was [usi:57.7f7e]",
+    "timeControl" : "3分",
+    "date" : "2022/11/21 17:15:21",
+    "site" : "https://lishogi.org/hFl3Qh12",
+    "kifName" : "kif\\lishogi_game_2022_12_16_Response_31_2級_vs_Tonyko_3級_hFl3Qh12.kif",
+    "player" : "gote",
+    "opponentLastMoveUsi" : "P*7g",
+    "opponentLastMovePosition" : [
+      "7g"
+    ],
+    "yourMoveUsi" : "8e7g+",
+    "yourMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "8e",
+          "dest" : "7g",
+          "promotion" : true
+        },
+        "hint" : {
+          "orig" : "8e",
+          "dest" : "7g",
+          "brush" : "alternative0"
+        }
+      }
+    },
+    "engineMoveUsi" : "7f7e",
+    "engineMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "7f",
+          "dest" : "7e",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "7f",
+          "dest" : "7e",
+          "brush" : "primary"
+        }
+      }
+    }
+  },
+  {
+    "id" : "lishogi_game_2022_12_16_Response_31_2級_vs_Tonyko_3級_hFl3Qh12.kif#59",
+    "sfen" : "l2g1k1n1/6gb1/1p1psp1p1/pl2s1p1P/4p4/P1rL4R/1PNPPPP2/1BGSKS3/L5GN1 w N2P2p 60",
+    "hands" : "N2P2p",
+    "judgement" : "Inaccuracy",
+    "comment" : "(12.10 → 16.13) Inaccuracy. Best move was [usi:59.6c6d]",
+    "timeControl" : "3分",
+    "date" : "2022/11/21 17:15:21",
+    "site" : "https://lishogi.org/hFl3Qh12",
+    "kifName" : "kif\\lishogi_game_2022_12_16_Response_31_2級_vs_Tonyko_3級_hFl3Qh12.kif",
+    "player" : "gote",
+    "opponentLastMoveUsi" : "8i7g",
+    "opponentLastMovePosition" : [
+      "8i",
+      "7g"
+    ],
+    "yourMoveUsi" : "7f7b",
+    "yourMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "7f",
+          "dest" : "7b",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "7f",
+          "dest" : "7b",
+          "brush" : "alternative0"
+        }
+      }
+    },
+    "engineMoveUsi" : "6c6d",
+    "engineMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "6c",
+          "dest" : "6d",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "6c",
+          "dest" : "6d",
+          "brush" : "primary"
+        }
+      }
+    }
+  },
+  {
+    "id" : "lishogi_game_2022_12_16_Response_31_2級_vs_Tonyko_3級_hFl3Qh12.kif#61",
+    "sfen" : "l2g1k1n1/2r3gb1/1p1psp1p1/pl2s1p1P/4p2N1/P2L4R/1PNPPPP2/1BGSKS3/L5GN1 w 2P2p 62",
+    "hands" : "2P2p",
+    "judgement" : "Mistake",
+    "comment" : "(7.07 → 16.42) Mistake. Best move was [usi:61.P*1b]",
+    "timeControl" : "3分",
+    "date" : "2022/11/21 17:15:21",
+    "site" : "https://lishogi.org/hFl3Qh12",
+    "kifName" : "kif\\lishogi_game_2022_12_16_Response_31_2級_vs_Tonyko_3級_hFl3Qh12.kif",
+    "player" : "gote",
+    "opponentLastMoveUsi" : "N*2e",
+    "opponentLastMovePosition" : [
+      "2e"
+    ],
+    "yourMoveUsi" : "P*7f",
+    "yourMove" : {
+      "drop" : {
+        "drop" : {
+          "role" : "pawn",
+          "pos" : "7f"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "pawn",
+            "color" : "gote"
+          },
+          "dest" : "7f",
+          "brush" : "alternative0"
+        }
+      },
+      "move" : null
+    },
+    "engineMoveUsi" : "P*1b",
+    "engineMove" : {
+      "drop" : {
+        "drop" : {
+          "role" : "pawn",
+          "pos" : "1b"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "pawn",
+            "color" : "gote"
+          },
+          "dest" : "1b",
+          "brush" : "primary"
+        }
+      },
+      "move" : null
+    }
+  },
+  {
+    "id" : "lishogi_game_2022_12_16_Response_31_2級_vs_Tonyko_3級_hFl3Qh12.kif#67",
+    "sfen" : "l2g1k1n1/2r3gb1/1p1p+Bp1p1/pl2s1p1P/4p2N1/P2L4R/1P1PPPP2/2+pS1S3/L4KGN1 w S2Pgnp 68",
+    "hands" : "S2Pgnp",
+    "judgement" : "Blunder",
+    "comment" : "(-13.54 → 19.33) Blunder. Best move was [usi:67.7h6h]",
+    "timeControl" : "3分",
+    "date" : "2022/11/21 17:15:21",
+    "site" : "https://lishogi.org/hFl3Qh12",
+    "kifName" : "kif\\lishogi_game_2022_12_16_Response_31_2級_vs_Tonyko_3級_hFl3Qh12.kif",
+    "player" : "gote",
+    "opponentLastMoveUsi" : "5h4i",
+    "opponentLastMovePosition" : [
+      "5h",
+      "4i"
+    ],
+    "yourMoveUsi" : "G*2g",
+    "yourMove" : {
+      "drop" : {
+        "drop" : {
+          "role" : "gold",
+          "pos" : "2g"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "gold",
+            "color" : "gote"
+          },
+          "dest" : "2g",
+          "brush" : "alternative0"
+        }
+      },
+      "move" : null
+    },
+    "engineMoveUsi" : "7h6h",
+    "engineMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "7h",
+          "dest" : "6h",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "7h",
+          "dest" : "6h",
+          "brush" : "primary"
+        }
+      }
+    }
+  },
+  {
+    "id" : "lishogi_game_2022_12_16_Response_31_2級_vs_Tonyko_3級_hFl3Qh12.kif#69",
+    "sfen" : "l2g1k1n1/2r3gb1/1p1p+Bp1p1/pl2s1p1P/4p2N1/P2L4R/1P1PPPPg1/2+pS1S1P1/L4KGN1 w SPnp 70",
+    "hands" : "SPnp",
+    "judgement" : "Inaccuracy",
+    "comment" : "(7.10 → 11.12) Inaccuracy. Best move was [usi:69.7h6h]",
+    "timeControl" : "3分",
+    "date" : "2022/11/21 17:15:21",
+    "site" : "https://lishogi.org/hFl3Qh12",
+    "kifName" : "kif\\lishogi_game_2022_12_16_Response_31_2級_vs_Tonyko_3級_hFl3Qh12.kif",
+    "player" : "gote",
+    "opponentLastMoveUsi" : "P*2h",
+    "opponentLastMovePosition" : [
+      "2h"
+    ],
+    "yourMoveUsi" : "N*2d",
+    "yourMove" : {
+      "drop" : {
+        "drop" : {
+          "role" : "knight",
+          "pos" : "2d"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "knight",
+            "color" : "gote"
+          },
+          "dest" : "2d",
+          "brush" : "alternative0"
+        }
+      },
+      "move" : null
+    },
+    "engineMoveUsi" : "7h6h",
+    "engineMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "7h",
+          "dest" : "6h",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "7h",
+          "dest" : "6h",
+          "brush" : "primary"
+        }
+      }
+    }
+  },
+  {
+    "id" : "lishogi_game_2022_12_16_Response_31_2級_vs_Tonyko_3級_hFl3Qh12.kif#75",
+    "sfen" : "l2g1k1n1/2r3gb1/1p1p+Bp1p1/pl2s1p1P/2P1p2N1/P2L2P1n/1P1PPP1P1/3+p1S3/L4KGN1 w GSrsp 76",
+    "hands" : "GSrsp",
+    "judgement" : "Mistake",
+    "comment" : "(-39.64 → -22.52) Mistake. Best move was [usi:75.R*1h]",
+    "timeControl" : "3分",
+    "date" : "2022/11/21 17:15:21",
+    "site" : "https://lishogi.org/hFl3Qh12",
+    "kifName" : "kif\\lishogi_game_2022_12_16_Response_31_2級_vs_Tonyko_3級_hFl3Qh12.kif",
+    "player" : "gote",
+    "opponentLastMoveUsi" : "P*7e",
+    "opponentLastMovePosition" : [
+      "7e"
+    ],
+    "yourMoveUsi" : "R*6i",
+    "yourMove" : {
+      "drop" : {
+        "drop" : {
+          "role" : "rook",
+          "pos" : "6i"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "rook",
+            "color" : "gote"
+          },
+          "dest" : "6i",
+          "brush" : "alternative0"
+        }
+      },
+      "move" : null
+    },
+    "engineMoveUsi" : "R*1h",
+    "engineMove" : {
+      "drop" : {
+        "drop" : {
+          "role" : "rook",
+          "pos" : "1h"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "rook",
+            "color" : "gote"
+          },
+          "dest" : "1h",
+          "brush" : "primary"
+        }
+      },
+      "move" : null
+    }
+  },
+  {
+    "id" : "lishogi_game_2022_12_16_Response_31_2級_vs_Tonyko_3級_hFl3Qh12.kif#87",
+    "sfen" : "l2g1k1n1/2r3gb1/1p1p1p1p1/pl2+B1p1P/2P1p2N1/P2L2P1n/1P1PPP1P1/5K1g1/L6N1 w R2SPg2sp 88",
+    "hands" : "R2SPg2sp",
+    "judgement" : "Blunder",
+    "comment" : "(-17.51 → -5.30) Blunder. Best move was [usi:87.5e5f]",
+    "timeControl" : "3分",
+    "date" : "2022/11/21 17:15:21",
+    "site" : "https://lishogi.org/hFl3Qh12",
+    "kifName" : "kif\\lishogi_game_2022_12_16_Response_31_2級_vs_Tonyko_3級_hFl3Qh12.kif",
+    "player" : "gote",
+    "opponentLastMoveUsi" : "3g4h",
+    "opponentLastMovePosition" : [
+      "3g",
+      "4h"
+    ],
+    "yourMoveUsi" : "G*3h",
+    "yourMove" : {
+      "drop" : {
+        "drop" : {
+          "role" : "gold",
+          "pos" : "3h"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "gold",
+            "color" : "gote"
+          },
+          "dest" : "3h",
+          "brush" : "alternative0"
+        }
+      },
+      "move" : null
+    },
+    "engineMoveUsi" : "5e5f",
+    "engineMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "5e",
+          "dest" : "5f",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "5e",
+          "dest" : "5f",
+          "brush" : "primary"
+        }
+      }
+    }
+  },
+  {
+    "id" : "lishogi_game_2022_12_16_Response_31_2級_vs_Tonyko_3級_hFl3Qh12.kif#89",
+    "sfen" : "l2g1k1n1/2r3gb1/1p1p1p1p1/pl2+B1p1P/2P1p2N1/P2L2P1n/1P1PPP1P1/4K1gg1/L6N1 w R2SP2sp 90",
+    "hands" : "R2SP2sp",
+    "judgement" : "Blunder",
+    "comment" : "(-1.70 → 9.05) Blunder. Best move was [usi:89.5e5f]",
+    "timeControl" : "3分",
+    "date" : "2022/11/21 17:15:21",
+    "site" : "https://lishogi.org/hFl3Qh12",
+    "kifName" : "kif\\lishogi_game_2022_12_16_Response_31_2級_vs_Tonyko_3級_hFl3Qh12.kif",
+    "player" : "gote",
+    "opponentLastMoveUsi" : "4h5h",
+    "opponentLastMovePosition" : [
+      "4h",
+      "5h"
+    ],
+    "yourMoveUsi" : "S*4i",
+    "yourMove" : {
+      "drop" : {
+        "drop" : {
+          "role" : "silver",
+          "pos" : "4i"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "silver",
+            "color" : "gote"
+          },
+          "dest" : "4i",
+          "brush" : "alternative0"
+        }
+      },
+      "move" : null
+    },
+    "engineMoveUsi" : "5e5f",
+    "engineMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "5e",
+          "dest" : "5f",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "5e",
+          "dest" : "5f",
+          "brush" : "primary"
+        }
+      }
+    }
+  },
+  {
+    "id" : "lishogi_game_2022_12_16_Response_31_2級_vs_Tonyko_3級_hFl3Qh12.kif#91",
+    "sfen" : "l2g1k1n1/2r3gb1/1p1p1p1p1/pl2+B1p1P/2P1p2N1/P2L2P1n/1P1PPP1P1/3K2gg1/L4s1N1 w R2SPsp 92",
+    "hands" : "R2SPsp",
+    "judgement" : "Mistake",
+    "comment" : "(5.53 → 13.35) Mistake. Best move was [usi:91.5e5f]",
+    "timeControl" : "3分",
+    "date" : "2022/11/21 17:15:21",
+    "site" : "https://lishogi.org/hFl3Qh12",
+    "kifName" : "kif\\lishogi_game_2022_12_16_Response_31_2級_vs_Tonyko_3級_hFl3Qh12.kif",
+    "player" : "gote",
+    "opponentLastMoveUsi" : "5h6h",
+    "opponentLastMovePosition" : [
+      "5h",
+      "6h"
+    ],
+    "yourMoveUsi" : "8d8g+",
+    "yourMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "8d",
+          "dest" : "8g",
+          "promotion" : true
+        },
+        "hint" : {
+          "orig" : "8d",
+          "dest" : "8g",
+          "brush" : "alternative0"
+        }
+      }
+    },
+    "engineMoveUsi" : "5e5f",
+    "engineMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "5e",
+          "dest" : "5f",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "5e",
+          "dest" : "5f",
+          "brush" : "primary"
+        }
+      }
+    }
+  },
+  {
+    "id" : "lishogi_game_2022_12_16_Tonyko_3級_vs_Hashifuseme_1級_p8b0751F.kif#14",
+    "sfen" : "ln1gkgsnl/4r4/pppp1pppb/4psP1p/9/2P6/PP1PPP1PP/1B2GSR2/LNSGK2NL b - 15",
+    "hands" : "-",
+    "judgement" : "Mistake",
+    "comment" : "(8.46 → 1.67) Mistake. Best move was [usi:14.8h4d]",
+    "timeControl" : "3分",
+    "date" : "2022/12/16 06:15:57",
+    "site" : "https://lishogi.org/p8b0751F",
+    "kifName" : "kif\\lishogi_game_2022_12_16_Tonyko_3級_vs_Hashifuseme_1級_p8b0751F.kif",
+    "player" : "sente",
+    "opponentLastMoveUsi" : "5c4d",
+    "opponentLastMovePosition" : [
+      "5c",
+      "4d"
+    ],
+    "yourMoveUsi" : "1g1f",
+    "yourMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "1g",
+          "dest" : "1f",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "1g",
+          "dest" : "1f",
+          "brush" : "alternative0"
+        }
+      }
+    },
+    "engineMoveUsi" : "8h4d",
+    "engineMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "8h",
+          "dest" : "4d",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "8h",
+          "dest" : "4d",
+          "brush" : "primary"
+        }
+      }
+    }
+  },
+  {
+    "id" : "lishogi_game_2022_12_16_Tonyko_3級_vs_Hashifuseme_1級_p8b0751F.kif#24",
+    "sfen" : "ln2kg3/3gr1s1l/ppp+R3pb/4pp2p/9/2P5P/PP1PPP1P1/4GS3/LNSGK2NL b SN2Pbp 25",
+    "hands" : "SN2Pbp",
+    "judgement" : "Blunder",
+    "comment" : "(16.80 → 4.08) Blunder. Best move was [usi:24.6c6e]",
+    "timeControl" : "3分",
+    "date" : "2022/12/16 06:15:57",
+    "site" : "https://lishogi.org/p8b0751F",
+    "kifName" : "kif\\lishogi_game_2022_12_16_Tonyko_3級_vs_Hashifuseme_1級_p8b0751F.kif",
+    "player" : "sente",
+    "opponentLastMoveUsi" : "6a6b",
+    "opponentLastMovePosition" : [
+      "6a",
+      "6b"
+    ],
+    "yourMoveUsi" : "N*4c",
+    "yourMove" : {
+      "drop" : {
+        "drop" : {
+          "role" : "knight",
+          "pos" : "4c"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "knight",
+            "color" : "sente"
+          },
+          "dest" : "4c",
+          "brush" : "alternative0"
+        }
+      },
+      "move" : null
+    },
+    "engineMoveUsi" : "6c6e",
+    "engineMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "6c",
+          "dest" : "6e",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "6c",
+          "dest" : "6e",
+          "brush" : "primary"
+        }
+      }
+    }
+  },
+  {
+    "id" : "lishogi_game_2022_12_16_Tonyko_3級_vs_Hashifuseme_1級_p8b0751F.kif#36",
+    "sfen" : "ln5sR/3gk1sbl/ppp3Pp1/4pp2p/9/2P5P/PP1PPP1P1/4GS3/LNSGK2NL b GPrbnp 37",
+    "hands" : "GPrbnp",
+    "judgement" : "Blunder",
+    "comment" : "(2.26 → -17.25) Blunder. Best move was [usi:36.1a1b+]",
+    "timeControl" : "3分",
+    "date" : "2022/12/16 06:15:57",
+    "site" : "https://lishogi.org/p8b0751F",
+    "kifName" : "kif\\lishogi_game_2022_12_16_Tonyko_3級_vs_Hashifuseme_1級_p8b0751F.kif",
+    "player" : "sente",
+    "opponentLastMoveUsi" : "1c2b",
+    "opponentLastMovePosition" : [
+      "1c",
+      "2b"
+    ],
+    "yourMoveUsi" : "1a2a+",
+    "yourMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "1a",
+          "dest" : "2a",
+          "promotion" : true
+        },
+        "hint" : {
+          "orig" : "1a",
+          "dest" : "2a",
+          "brush" : "alternative0"
+        }
+      }
+    },
+    "engineMoveUsi" : "1a1b+",
+    "engineMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "1a",
+          "dest" : "1b",
+          "promotion" : true
+        },
+        "hint" : {
+          "orig" : "1a",
+          "dest" : "1b",
+          "brush" : "primary"
+        }
+      }
+    }
+  },
+  {
+    "id" : "lishogi_game_2022_12_21_Tonyko_2級_vs_tsukifuzume_2級_XA3GeIoX.kif#30",
+    "sfen" : "ln2k2nl/1r4gb1/2pp1gsp1/ps2ppp1p/1p7/2P2SP2/PPBPPP1PP/LG1S2R2/KN3G1NL b - 31",
+    "hands" : "-",
+    "judgement" : "Inaccuracy",
+    "comment" : "(-3.10 → -6.64) Inaccuracy. Best move was [usi:30.6h7i]",
+    "timeControl" : "10分",
+    "date" : "2022/12/21 21:31:49",
+    "site" : "https://lishogi.org/XA3GeIoX",
+    "kifName" : "kif\\lishogi_game_2022_12_21_Tonyko_2級_vs_tsukifuzume_2級_XA3GeIoX.kif",
+    "player" : "sente",
+    "opponentLastMoveUsi" : "8c8d",
+    "opponentLastMovePosition" : [
+      "8c",
+      "8d"
+    ],
+    "yourMoveUsi" : "9g9f",
+    "yourMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "9g",
+          "dest" : "9f",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "9g",
+          "dest" : "9f",
+          "brush" : "alternative0"
+        }
+      }
+    },
+    "engineMoveUsi" : "6h7i",
+    "engineMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "6h",
+          "dest" : "7i",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "6h",
+          "dest" : "7i",
+          "brush" : "primary"
+        }
+      }
+    }
+  },
+  {
+    "id" : "lishogi_game_2022_12_21_Tonyko_2級_vs_tsukifuzume_2級_XA3GeIoX.kif#36",
+    "sfen" : "1n2k2nl/1r4gb1/2pp1gsp1/4ppp1p/lp7/2P2SP2/1PBPPP1PP/1G1S2R2/KN3G1NL b SPlp 37",
+    "hands" : "SPlp",
+    "judgement" : "Mistake",
+    "comment" : "(-1.45 → -7.86) Mistake. Best move was [usi:36.7g9e]",
+    "timeControl" : "10分",
+    "date" : "2022/12/21 21:31:49",
+    "site" : "https://lishogi.org/XA3GeIoX",
+    "kifName" : "kif\\lishogi_game_2022_12_21_Tonyko_2級_vs_tsukifuzume_2級_XA3GeIoX.kif",
+    "player" : "sente",
+    "opponentLastMoveUsi" : "9a9e",
+    "opponentLastMovePosition" : [
+      "9a",
+      "9e"
+    ],
+    "yourMoveUsi" : "P*9g",
+    "yourMove" : {
+      "drop" : {
+        "drop" : {
+          "role" : "pawn",
+          "pos" : "9g"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "pawn",
+            "color" : "sente"
+          },
+          "dest" : "9g",
+          "brush" : "alternative0"
+        }
+      },
+      "move" : null
+    },
+    "engineMoveUsi" : "7g9e",
+    "engineMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "7g",
+          "dest" : "9e",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "7g",
+          "dest" : "9e",
+          "brush" : "primary"
+        }
+      }
+    }
+  },
+  {
+    "id" : "lishogi_game_2022_12_21_Tonyko_2級_vs_tsukifuzume_2級_XA3GeIoX.kif#40",
+    "sfen" : "ln2k1bnl/1r4g2/2pp1gsp1/4ppp1p/Bp7/2P2SP2/PP1PPP1PP/1G1S2R2/KN3G1NL b SLp 41",
+    "hands" : "SLp",
+    "judgement" : "Inaccuracy",
+    "comment" : "(9.54 → 6.20) Inaccuracy. Best move was [usi:40.L*8d]",
+    "timeControl" : "10分",
+    "date" : "2022/12/21 21:31:49",
+    "site" : "https://lishogi.org/XA3GeIoX",
+    "kifName" : "kif\\lishogi_game_2022_12_21_Tonyko_2級_vs_tsukifuzume_2級_XA3GeIoX.kif",
+    "player" : "sente",
+    "opponentLastMoveUsi" : "L*9a",
+    "opponentLastMovePosition" : [
+      "9a"
+    ],
+    "yourMoveUsi" : "9e7g",
+    "yourMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "9e",
+          "dest" : "7g",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "9e",
+          "dest" : "7g",
+          "brush" : "alternative0"
+        }
+      }
+    },
+    "engineMoveUsi" : "L*8d",
+    "engineMove" : {
+      "drop" : {
+        "drop" : {
+          "role" : "lance",
+          "pos" : "8d"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "lance",
+            "color" : "sente"
+          },
+          "dest" : "8d",
+          "brush" : "primary"
+        }
+      },
+      "move" : null
+    }
+  },
+  {
+    "id" : "lishogi_game_2022_12_21_Tonyko_2級_vs_tsukifuzume_2級_XA3GeIoX.kif#50",
+    "sfen" : "ln2k2nl/1r4g2/2pp1gsp1/4ppp1p/9/1PP2SP2/PG1PP+b1PP/1S1S2R2/KN3G1NL b BL2Pp 51",
+    "hands" : "BL2Pp",
+    "judgement" : "Blunder",
+    "comment" : "(3.25 → -8.32) Blunder. Best move was [usi:50.L*4h]",
+    "timeControl" : "10分",
+    "date" : "2022/12/21 21:31:49",
+    "site" : "https://lishogi.org/XA3GeIoX",
+    "kifName" : "kif\\lishogi_game_2022_12_21_Tonyko_2級_vs_tsukifuzume_2級_XA3GeIoX.kif",
+    "player" : "sente",
+    "opponentLastMoveUsi" : "6i4g+",
+    "opponentLastMovePosition" : [
+      "6i",
+      "4g"
+    ],
+    "yourMoveUsi" : "L*8e",
+    "yourMove" : {
+      "drop" : {
+        "drop" : {
+          "role" : "lance",
+          "pos" : "8e"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "lance",
+            "color" : "sente"
+          },
+          "dest" : "8e",
+          "brush" : "alternative0"
+        }
+      },
+      "move" : null
+    },
+    "engineMoveUsi" : "L*4h",
+    "engineMove" : {
+      "drop" : {
+        "drop" : {
+          "role" : "lance",
+          "pos" : "4h"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "lance",
+            "color" : "sente"
+          },
+          "dest" : "4h",
+          "brush" : "primary"
+        }
+      },
+      "move" : null
+    }
+  },
+  {
+    "id" : "lishogi_game_2022_12_21_Tonyko_2級_vs_tsukifuzume_2級_XA3GeIoX.kif#56",
+    "sfen" : "l+L2k2nl/4r1g2/2pp1gsp1/4ppp1p/9/1PP2SP2/PG1PP2PP/1S1Sr1G2/KN5NL b 2BN2Pp 57",
+    "hands" : "2BN2Pp",
+    "judgement" : "Inaccuracy",
+    "comment" : "(5.48 → 0.26) Inaccuracy. Best move was [usi:56.6h7i]",
+    "timeControl" : "10分",
+    "date" : "2022/12/21 21:31:49",
+    "site" : "https://lishogi.org/XA3GeIoX",
+    "kifName" : "kif\\lishogi_game_2022_12_21_Tonyko_2級_vs_tsukifuzume_2級_XA3GeIoX.kif",
+    "player" : "sente",
+    "opponentLastMoveUsi" : "R*5h",
+    "opponentLastMovePosition" : [
+      "5h"
+    ],
+    "yourMoveUsi" : "B*8c",
+    "yourMove" : {
+      "drop" : {
+        "drop" : {
+          "role" : "bishop",
+          "pos" : "8c"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "bishop",
+            "color" : "sente"
+          },
+          "dest" : "8c",
+          "brush" : "alternative0"
+        }
+      },
+      "move" : null
+    },
+    "engineMoveUsi" : "6h7i",
+    "engineMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "6h",
+          "dest" : "7i",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "6h",
+          "dest" : "7i",
+          "brush" : "primary"
+        }
+      }
+    }
+  },
+  {
+    "id" : "lishogi_game_2022_12_21_Tonyko_2級_vs_tsukifuzume_2級_XA3GeIoX.kif#58",
+    "sfen" : "l+L2k2nl/4r1g2/1Bpp1gsp1/4ppp1p/9/1PP2SP2/PG1PP2PP/1S1+r2G2/KN5NL b BN2Psp 59",
+    "hands" : "BN2Psp",
+    "judgement" : "Blunder",
+    "comment" : "(-0.22 → -20.72) Blunder. Best move was [usi:58.8a9a]",
+    "timeControl" : "10分",
+    "date" : "2022/12/21 21:31:49",
+    "site" : "https://lishogi.org/XA3GeIoX",
+    "kifName" : "kif\\lishogi_game_2022_12_21_Tonyko_2級_vs_tsukifuzume_2級_XA3GeIoX.kif",
+    "player" : "sente",
+    "opponentLastMoveUsi" : "5h6h+",
+    "opponentLastMovePosition" : [
+      "5h",
+      "6h"
+    ],
+    "yourMoveUsi" : "B*7e",
+    "yourMove" : {
+      "drop" : {
+        "drop" : {
+          "role" : "bishop",
+          "pos" : "7e"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "bishop",
+            "color" : "sente"
+          },
+          "dest" : "7e",
+          "brush" : "alternative0"
+        }
+      },
+      "move" : null
+    },
+    "engineMoveUsi" : "8a9a",
+    "engineMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "8a",
+          "dest" : "9a",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "8a",
+          "dest" : "9a",
+          "brush" : "primary"
+        }
+      }
+    }
+  },
+  {
+    "id" : "lishogi_game_2022_12_21_Tonyko_2級_vs_tsukifuzume_2級_XA3GeIoX.kif#62",
+    "sfen" : "+L3k2nl/4r1g2/1Bpp1gsp1/4ppp1p/2B6/1PP2SP2/+pG1PP2PP/1S1+r2G2/KN5NL b NL2Psp 63",
+    "hands" : "NL2Psp",
+    "judgement" : "Mistake",
+    "comment" : "(-11.38 → -20.36) Mistake. Best move was [usi:62.8g9g]",
+    "timeControl" : "10分",
+    "date" : "2022/12/21 21:31:49",
+    "site" : "https://lishogi.org/XA3GeIoX",
+    "kifName" : "kif\\lishogi_game_2022_12_21_Tonyko_2級_vs_tsukifuzume_2級_XA3GeIoX.kif",
+    "player" : "sente",
+    "opponentLastMoveUsi" : "9f9g+",
+    "opponentLastMovePosition" : [
+      "9f",
+      "9g"
+    ],
+    "yourMoveUsi" : "8i9g",
+    "yourMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "8i",
+          "dest" : "9g",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "8i",
+          "dest" : "9g",
+          "brush" : "alternative0"
+        }
+      }
+    },
+    "engineMoveUsi" : "8g9g",
+    "engineMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "8g",
+          "dest" : "9g",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "8g",
+          "dest" : "9g",
+          "brush" : "primary"
+        }
+      }
+    }
+  },
+  {
+    "id" : "lishogi_game_2022_12_21_Tonyko_2級_vs_tsukifuzume_2級_XA3GeIoX.kif#64",
+    "sfen" : "+L3k2nl/4r1g2/1Bpp1gsp1/4ppp1p/2B6/1PP2SP2/NG1PP2PP/1S4G2/K2+r3NL b NL3Psp 65",
+    "hands" : "NL3Psp",
+    "judgement" : "Inaccuracy",
+    "comment" : "(-20.81 → -29.80) Inaccuracy. Best move was [usi:64.L*7i]",
+    "timeControl" : "10分",
+    "date" : "2022/12/21 21:31:49",
+    "site" : "https://lishogi.org/XA3GeIoX",
+    "kifName" : "kif\\lishogi_game_2022_12_21_Tonyko_2級_vs_tsukifuzume_2級_XA3GeIoX.kif",
+    "player" : "sente",
+    "opponentLastMoveUsi" : "6h6i",
+    "opponentLastMovePosition" : [
+      "6h",
+      "6i"
+    ],
+    "yourMoveUsi" : "N*7i",
+    "yourMove" : {
+      "drop" : {
+        "drop" : {
+          "role" : "knight",
+          "pos" : "7i"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "knight",
+            "color" : "sente"
+          },
+          "dest" : "7i",
+          "brush" : "alternative0"
+        }
+      },
+      "move" : null
+    },
+    "engineMoveUsi" : "L*7i",
+    "engineMove" : {
+      "drop" : {
+        "drop" : {
+          "role" : "lance",
+          "pos" : "7i"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "lance",
+            "color" : "sente"
+          },
+          "dest" : "7i",
+          "brush" : "primary"
+        }
+      },
+      "move" : null
+    }
+  },
+  {
+    "id" : "lishogi_game_2022_12_21_Tonyko_2級_vs_tsukifuzume_2級_XA3GeIoX.kif#68",
+    "sfen" : "+L3k2nl/4r1g2/1Bpp1gsp1/4ppp1p/p1B6/1PP2SP2/NG1PP2PP/KSs3G2/2N+r3NL b L3P 69",
+    "hands" : "L3P",
+    "judgement" : "Blunder",
+    "comment" : "(-2.06 → -27.50) Blunder. Best move was [usi:68.8c4g+]",
+    "timeControl" : "10分",
+    "date" : "2022/12/21 21:31:49",
+    "site" : "https://lishogi.org/XA3GeIoX",
+    "kifName" : "kif\\lishogi_game_2022_12_21_Tonyko_2級_vs_tsukifuzume_2級_XA3GeIoX.kif",
+    "player" : "sente",
+    "opponentLastMoveUsi" : "P*9e",
+    "opponentLastMovePosition" : [
+      "9e"
+    ],
+    "yourMoveUsi" : "8f8e",
+    "yourMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "8f",
+          "dest" : "8e",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "8f",
+          "dest" : "8e",
+          "brush" : "alternative0"
+        }
+      }
+    },
+    "engineMoveUsi" : "8c4g+",
+    "engineMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "8c",
+          "dest" : "4g",
+          "promotion" : true
+        },
+        "hint" : {
+          "orig" : "8c",
+          "dest" : "4g",
+          "brush" : "primary"
+        }
+      }
+    }
+  },
+  {
+    "id" : "lishogi_game_2022_12_21_Tonyko_2級_vs_tsukifuzume_2級_XA3GeIoX.kif#74",
+    "sfen" : "+L3k2nl/4r1g2/1Bpp1gsp1/4ppp1p/pPB6/1KP2SP2/N2PP2PP/1g4G2/2N+r3NL b SL3Ps 75",
+    "hands" : "SL3Ps",
+    "judgement" : "Mistake",
+    "comment" : "(12.88 → 6.16) Mistake. Best move was [usi:74.S*6a]",
+    "timeControl" : "10分",
+    "date" : "2022/12/21 21:31:49",
+    "site" : "https://lishogi.org/XA3GeIoX",
+    "kifName" : "kif\\lishogi_game_2022_12_21_Tonyko_2級_vs_tsukifuzume_2級_XA3GeIoX.kif",
+    "player" : "sente",
+    "opponentLastMoveUsi" : "7h8h",
+    "opponentLastMovePosition" : [
+      "7h",
+      "8h"
+    ],
+    "yourMoveUsi" : "8f9e",
+    "yourMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "8f",
+          "dest" : "9e",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "8f",
+          "dest" : "9e",
+          "brush" : "alternative0"
+        }
+      }
+    },
+    "engineMoveUsi" : "S*6a",
+    "engineMove" : {
+      "drop" : {
+        "drop" : {
+          "role" : "silver",
+          "pos" : "6a"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "silver",
+            "color" : "sente"
+          },
+          "dest" : "6a",
+          "brush" : "primary"
+        }
+      },
+      "move" : null
+    }
+  },
+  {
+    "id" : "lishogi_game_2022_12_21_Tonyko_2級_vs_tsukifuzume_2級_XA3GeIoX.kif#80",
+    "sfen" : "+L6nl/4k1g2/1Bpp1gsp1/4ppp1p/KPB6/2+r2SP2/N2PP2PP/1g4G2/7NL b RL4P2snp 81",
+    "hands" : "RL4P2snp",
+    "judgement" : "Inaccuracy",
+    "comment" : "(19.42 → 12.37) Inaccuracy. Best move was [usi:80.7e9c+]",
+    "timeControl" : "10分",
+    "date" : "2022/12/21 21:31:49",
+    "site" : "https://lishogi.org/XA3GeIoX",
+    "kifName" : "kif\\lishogi_game_2022_12_21_Tonyko_2級_vs_tsukifuzume_2級_XA3GeIoX.kif",
+    "player" : "sente",
+    "opponentLastMoveUsi" : "5a5b",
+    "opponentLastMovePosition" : [
+      "5a",
+      "5b"
+    ],
+    "yourMoveUsi" : "L*5c",
+    "yourMove" : {
+      "drop" : {
+        "drop" : {
+          "role" : "lance",
+          "pos" : "5c"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "lance",
+            "color" : "sente"
+          },
+          "dest" : "5c",
+          "brush" : "alternative0"
+        }
+      },
+      "move" : null
+    },
+    "engineMoveUsi" : "7e9c+",
+    "engineMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "7e",
+          "dest" : "9c",
+          "promotion" : true
+        },
+        "hint" : {
+          "orig" : "7e",
+          "dest" : "9c",
+          "brush" : "primary"
+        }
+      }
+    }
+  },
+  {
+    "id" : "lishogi_game_2022_12_21_Tonyko_2級_vs_tsukifuzume_2級_XA3GeIoX.kif#82",
+    "sfen" : "+L6nl/5kg2/1BppLgsp1/4ppp1p/KPB6/2+r2SP2/N2PP2PP/1g4G2/7NL b R4P2snp 83",
+    "hands" : "R4P2snp",
+    "judgement" : "Inaccuracy",
+    "comment" : "(15.57 → 11.56) Inaccuracy. Best move was [usi:82.R*5a]",
+    "timeControl" : "10分",
+    "date" : "2022/12/21 21:31:49",
+    "site" : "https://lishogi.org/XA3GeIoX",
+    "kifName" : "kif\\lishogi_game_2022_12_21_Tonyko_2級_vs_tsukifuzume_2級_XA3GeIoX.kif",
+    "player" : "sente",
+    "opponentLastMoveUsi" : "5b4b",
+    "opponentLastMovePosition" : [
+      "5b",
+      "4b"
+    ],
+    "yourMoveUsi" : "R*5b",
+    "yourMove" : {
+      "drop" : {
+        "drop" : {
+          "role" : "rook",
+          "pos" : "5b"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "rook",
+            "color" : "sente"
+          },
+          "dest" : "5b",
+          "brush" : "alternative0"
+        }
+      },
+      "move" : null
+    },
+    "engineMoveUsi" : "R*5a",
+    "engineMove" : {
+      "drop" : {
+        "drop" : {
+          "role" : "rook",
+          "pos" : "5a"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "rook",
+            "color" : "sente"
+          },
+          "dest" : "5a",
+          "brush" : "primary"
+        }
+      },
+      "move" : null
+    }
+  },
+  {
+    "id" : "lishogi_game_2022_12_21_Tonyko_2級_vs_tsukifuzume_2級_XA3GeIoX.kif#86",
+    "sfen" : "+L3+R2nl/6gk1/1BppLgsp1/4ppp1p/KPB6/2+r2SP2/N2PP2PP/1g4G2/7NL b 4P2snp 87",
+    "hands" : "4P2snp",
+    "judgement" : "Blunder",
+    "comment" : "(8.36 → -14.10) Blunder. Best move was [usi:86.7e9c+]",
+    "timeControl" : "10分",
+    "date" : "2022/12/21 21:31:49",
+    "site" : "https://lishogi.org/XA3GeIoX",
+    "kifName" : "kif\\lishogi_game_2022_12_21_Tonyko_2級_vs_tsukifuzume_2級_XA3GeIoX.kif",
+    "player" : "sente",
+    "opponentLastMoveUsi" : "3a2b",
+    "opponentLastMovePosition" : [
+      "3a",
+      "2b"
+    ],
+    "yourMoveUsi" : "5c5b+",
+    "yourMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "5c",
+          "dest" : "5b",
+          "promotion" : true
+        },
+        "hint" : {
+          "orig" : "5c",
+          "dest" : "5b",
+          "brush" : "alternative0"
+        }
+      }
+    },
+    "engineMoveUsi" : "7e9c+",
+    "engineMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "7e",
+          "dest" : "9c",
+          "promotion" : true
+        },
+        "hint" : {
+          "orig" : "7e",
+          "dest" : "9c",
+          "brush" : "primary"
+        }
+      }
+    }
+  },
+  {
+    "id" : "lishogi_game_2023_01_02_Tonyko_3級_vs_ponanch_4級_bYlClHyG.kif#8",
+    "sfen" : "lnsgkgs1l/1r5b1/pppp1p1pp/4p1p2/5nP2/9/PPPPPP1PP/1B3SR2/LNSGKG1NL b - 9",
+    "hands" : "-",
+    "judgement" : "Inaccuracy",
+    "comment" : "(10.11 → 5.87) Inaccuracy. Best move was [usi:8.3e3d]",
+    "timeControl" : "3分",
+    "date" : "2022/12/27 21:39:30",
+    "site" : "https://lishogi.org/bYlClHyG",
+    "kifName" : "kif\\lishogi_game_2023_01_02_Tonyko_3級_vs_ponanch_4級_bYlClHyG.kif",
+    "player" : "sente",
+    "opponentLastMoveUsi" : "3c4e",
+    "opponentLastMovePosition" : [
+      "3c",
+      "4e"
+    ],
+    "yourMoveUsi" : "4i5h",
+    "yourMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "4i",
+          "dest" : "5h",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "4i",
+          "dest" : "5h",
+          "brush" : "alternative0"
+        }
+      }
+    },
+    "engineMoveUsi" : "3e3d",
+    "engineMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "3e",
+          "dest" : "3d",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "3e",
+          "dest" : "3d",
+          "brush" : "primary"
+        }
+      }
+    }
+  },
+  {
+    "id" : "lishogi_game_2023_01_02_Tonyko_3級_vs_ponanch_4級_bYlClHyG.kif#12",
+    "sfen" : "lnsgkgs1l/6r2/pppp1p1pp/4p1P2/4bn3/9/PPPPPP1PP/1B2GSR2/LNSGK2NL b P 13",
+    "hands" : "P",
+    "judgement" : "Blunder",
+    "comment" : "(11.64 → -5.73) Blunder. Best move was [usi:12.3h3f]",
+    "timeControl" : "3分",
+    "date" : "2022/12/27 21:39:30",
+    "site" : "https://lishogi.org/bYlClHyG",
+    "kifName" : "kif\\lishogi_game_2023_01_02_Tonyko_3級_vs_ponanch_4級_bYlClHyG.kif",
+    "player" : "sente",
+    "opponentLastMoveUsi" : "2b5e",
+    "opponentLastMovePosition" : [
+      "2b",
+      "5e"
+    ],
+    "yourMoveUsi" : "2i3g",
+    "yourMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "2i",
+          "dest" : "3g",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "2i",
+          "dest" : "3g",
+          "brush" : "alternative0"
+        }
+      }
+    },
+    "engineMoveUsi" : "3h3f",
+    "engineMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "3h",
+          "dest" : "3f",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "3h",
+          "dest" : "3f",
+          "brush" : "primary"
+        }
+      }
+    }
+  },
+  {
+    "id" : "lishogi_game_2023_01_02_Tonyko_3級_vs_ponanch_4級_bYlClHyG.kif#28",
+    "sfen" : "lnsgkgs1l/9/pppp1+P+Rpp/3br4/9/4pS3/PPPPPP1PP/1B2G4/LNSGK3L b 2P2n 29",
+    "hands" : "2P2n",
+    "judgement" : "Mistake",
+    "comment" : "(14.07 → 6.83) Mistake. Best move was [usi:28.5g5f]",
+    "timeControl" : "3分",
+    "date" : "2022/12/27 21:39:30",
+    "site" : "https://lishogi.org/bYlClHyG",
+    "kifName" : "kif\\lishogi_game_2023_01_02_Tonyko_3級_vs_ponanch_4級_bYlClHyG.kif",
+    "player" : "sente",
+    "opponentLastMoveUsi" : "2d5d",
+    "opponentLastMovePosition" : [
+      "2d",
+      "5d"
+    ],
+    "yourMoveUsi" : "P*3b",
+    "yourMove" : {
+      "drop" : {
+        "drop" : {
+          "role" : "pawn",
+          "pos" : "3b"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "pawn",
+            "color" : "sente"
+          },
+          "dest" : "3b",
+          "brush" : "alternative0"
+        }
+      },
+      "move" : null
+    },
+    "engineMoveUsi" : "5g5f",
+    "engineMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "5g",
+          "dest" : "5f",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "5g",
+          "dest" : "5f",
+          "brush" : "primary"
+        }
+      }
+    }
+  },
+  {
+    "id" : "lishogi_game_2023_01_02_Tonyko_3級_vs_ponanch_4級_bYlClHyG.kif#32",
+    "sfen" : "lnsgkgs1l/6P2/pppp1+P+Rpp/3br4/9/4p4/PPPPSP1PP/1B2G4/LNSGK3L b 2P2n 33",
+    "hands" : "2P2n",
+    "judgement" : "Blunder",
+    "comment" : "(20.37 → 6.71) Blunder. Best move was [usi:32.3b3a+]",
+    "timeControl" : "3分",
+    "date" : "2022/12/27 21:39:30",
+    "site" : "https://lishogi.org/bYlClHyG",
+    "kifName" : "kif\\lishogi_game_2023_01_02_Tonyko_3級_vs_ponanch_4級_bYlClHyG.kif",
+    "player" : "sente",
+    "opponentLastMoveUsi" : "P*5f",
+    "opponentLastMovePosition" : [
+      "5f"
+    ],
+    "yourMoveUsi" : "5g4f",
+    "yourMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "5g",
+          "dest" : "4f",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "5g",
+          "dest" : "4f",
+          "brush" : "alternative0"
+        }
+      }
+    },
+    "engineMoveUsi" : "3b3a+",
+    "engineMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "3b",
+          "dest" : "3a",
+          "promotion" : true
+        },
+        "hint" : {
+          "orig" : "3b",
+          "dest" : "3a",
+          "brush" : "primary"
+        }
+      }
+    }
+  },
+  {
+    "id" : "lishogi_game_2023_01_02_Tonyko_3級_vs_ponanch_4級_bYlClHyG.kif#34",
+    "sfen" : "lnsgkgs1l/6P2/pppp1+P+Rpp/3br4/9/4pS3/PPPPnP1PP/1B2G4/LNSGK3L b 2Pn 35",
+    "hands" : "2Pn",
+    "judgement" : "Mistake",
+    "comment" : "(25.60 → 13.73) Mistake. Best move was [usi:34.3b3a+]",
+    "timeControl" : "3分",
+    "date" : "2022/12/27 21:39:30",
+    "site" : "https://lishogi.org/bYlClHyG",
+    "kifName" : "kif\\lishogi_game_2023_01_02_Tonyko_3級_vs_ponanch_4級_bYlClHyG.kif",
+    "player" : "sente",
+    "opponentLastMoveUsi" : "N*5g",
+    "opponentLastMovePosition" : [
+      "5g"
+    ],
+    "yourMoveUsi" : "6i6h",
+    "yourMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "6i",
+          "dest" : "6h",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "6i",
+          "dest" : "6h",
+          "brush" : "alternative0"
+        }
+      }
+    },
+    "engineMoveUsi" : "3b3a+",
+    "engineMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "3b",
+          "dest" : "3a",
+          "promotion" : true
+        },
+        "hint" : {
+          "orig" : "3b",
+          "dest" : "3a",
+          "brush" : "primary"
+        }
+      }
+    }
+  },
+  {
+    "id" : "lishogi_game_2023_01_02_Tonyko_3級_vs_ponanch_4級_bYlClHyG.kif#36",
+    "sfen" : "lnsgkgs1l/6P2/pppp1+P+Rpp/4r4/9/4pb3/PPPPnP1PP/1B1GG4/LNS1K3L b 2Psn 37",
+    "hands" : "2Psn",
+    "judgement" : "Mistake",
+    "comment" : "(27.71 → 15.53) Mistake. Best move was [usi:36.3b3a+]",
+    "timeControl" : "3分",
+    "date" : "2022/12/27 21:39:30",
+    "site" : "https://lishogi.org/bYlClHyG",
+    "kifName" : "kif\\lishogi_game_2023_01_02_Tonyko_3級_vs_ponanch_4級_bYlClHyG.kif",
+    "player" : "sente",
+    "opponentLastMoveUsi" : "6d4f",
+    "opponentLastMovePosition" : [
+      "6d",
+      "4f"
+    ],
+    "yourMoveUsi" : "4g4f",
+    "yourMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "4g",
+          "dest" : "4f",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "4g",
+          "dest" : "4f",
+          "brush" : "alternative0"
+        }
+      }
+    },
+    "engineMoveUsi" : "3b3a+",
+    "engineMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "3b",
+          "dest" : "3a",
+          "promotion" : true
+        },
+        "hint" : {
+          "orig" : "3b",
+          "dest" : "3a",
+          "brush" : "primary"
+        }
+      }
+    }
+  },
+  {
+    "id" : "lishogi_game_2023_01_02_yukimetal2021_2級_vs_Tonyko_3級_zS6OBXx7.kif#27",
+    "sfen" : "ln3k1nl/3g1sgb1/pp1ppp1pp/3s2S2/2r1P4/P8/1P1P1PPPP/1B2R1S2/LN1G1GKNL w 2Pp 28",
+    "hands" : "2Pp",
+    "judgement" : "Mistake",
+    "comment" : "(0.47 → 6.76) Mistake. Best move was [usi:27.7e8e]",
+    "timeControl" : "3分",
+    "date" : "2023/01/02 03:54:15",
+    "site" : "https://lishogi.org/zS6OBXx7",
+    "kifName" : "kif\\lishogi_game_2023_01_02_yukimetal2021_2級_vs_Tonyko_3級_zS6OBXx7.kif",
+    "player" : "gote",
+    "opponentLastMoveUsi" : "4e3d",
+    "opponentLastMovePosition" : [
+      "4e",
+      "3d"
+    ],
+    "yourMoveUsi" : "P*7h",
+    "yourMove" : {
+      "drop" : {
+        "drop" : {
+          "role" : "pawn",
+          "pos" : "7h"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "pawn",
+            "color" : "gote"
+          },
+          "dest" : "7h",
+          "brush" : "alternative0"
+        }
+      },
+      "move" : null
+    },
+    "engineMoveUsi" : "7e8e",
+    "engineMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "7e",
+          "dest" : "8e",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "7e",
+          "dest" : "8e",
+          "brush" : "primary"
+        }
+      }
+    }
+  },
+  {
+    "id" : "lishogi_game_2023_01_02_yukimetal2021_2級_vs_Tonyko_3級_zS6OBXx7.kif#43",
+    "sfen" : "l4k1nl/5sg2/pprppp1pp/3b2S2/3n5/P2PR4/1P3PPPP/2p3S2/LN1G1GKNL w Gbs3p 44",
+    "hands" : "Gbs3p",
+    "judgement" : "Inaccuracy",
+    "comment" : "(-19.04 → -12.11) Inaccuracy. Best move was [usi:43.B*6g]",
+    "timeControl" : "3分",
+    "date" : "2023/01/02 03:54:15",
+    "site" : "https://lishogi.org/zS6OBXx7",
+    "kifName" : "kif\\lishogi_game_2023_01_02_yukimetal2021_2級_vs_Tonyko_3級_zS6OBXx7.kif",
+    "player" : "gote",
+    "opponentLastMoveUsi" : "6g6f",
+    "opponentLastMovePosition" : [
+      "6g",
+      "6f"
+    ],
+    "yourMoveUsi" : "6e7g+",
+    "yourMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "6e",
+          "dest" : "7g",
+          "promotion" : true
+        },
+        "hint" : {
+          "orig" : "6e",
+          "dest" : "7g",
+          "brush" : "alternative0"
+        }
+      }
+    },
+    "engineMoveUsi" : "B*6g",
+    "engineMove" : {
+      "drop" : {
+        "drop" : {
+          "role" : "bishop",
+          "pos" : "6g"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "bishop",
+            "color" : "gote"
+          },
+          "dest" : "6g",
+          "brush" : "primary"
+        }
+      },
+      "move" : null
+    }
+  },
+  {
+    "id" : "lishogi_game_2023_01_02_yukimetal2021_2級_vs_Tonyko_3級_zS6OBXx7.kif#49",
+    "sfen" : "l4k1nl/5sg2/pp1ppp1pp/6S2/2bP5/P3R4/1P+r2PPPP/2p2GS2/L2G2KNL w GNbsn3p 50",
+    "hands" : "GNbsn3p",
+    "judgement" : "Mistake",
+    "comment" : "(-51.32 → -22.96) Mistake. Best move was [usi:49.7e4h+]",
+    "timeControl" : "3分",
+    "date" : "2023/01/02 03:54:15",
+    "site" : "https://lishogi.org/zS6OBXx7",
+    "kifName" : "kif\\lishogi_game_2023_01_02_yukimetal2021_2級_vs_Tonyko_3級_zS6OBXx7.kif",
+    "player" : "gote",
+    "opponentLastMoveUsi" : "4i4h",
+    "opponentLastMovePosition" : [
+      "4i",
+      "4h"
+    ],
+    "yourMoveUsi" : "N*7f",
+    "yourMove" : {
+      "drop" : {
+        "drop" : {
+          "role" : "knight",
+          "pos" : "7f"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "knight",
+            "color" : "gote"
+          },
+          "dest" : "7f",
+          "brush" : "alternative0"
+        }
+      },
+      "move" : null
+    },
+    "engineMoveUsi" : "7e4h+",
+    "engineMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "7e",
+          "dest" : "4h",
+          "promotion" : true
+        },
+        "hint" : {
+          "orig" : "7e",
+          "dest" : "4h",
+          "brush" : "primary"
+        }
+      }
+    }
+  },
+  {
+    "id" : "lishogi_game_2023_01_02_yukimetal2021_2級_vs_Tonyko_3級_zS6OBXx7.kif#51",
+    "sfen" : "l4k1nl/5sg2/pp1ppp1pp/6S2/2bPN4/P1n1R4/1P+r2PPPP/2p2GS2/L2G2KNL w Gbs3p 52",
+    "hands" : "Gbs3p",
+    "judgement" : "Inaccuracy",
+    "comment" : "(-43.26 → -27.93) Inaccuracy. Best move was [usi:51.7e4h+]",
+    "timeControl" : "3分",
+    "date" : "2023/01/02 03:54:15",
+    "site" : "https://lishogi.org/zS6OBXx7",
+    "kifName" : "kif\\lishogi_game_2023_01_02_yukimetal2021_2級_vs_Tonyko_3級_zS6OBXx7.kif",
+    "player" : "gote",
+    "opponentLastMoveUsi" : "N*5e",
+    "opponentLastMovePosition" : [
+      "5e"
+    ],
+    "yourMoveUsi" : "7f6h+",
+    "yourMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "7f",
+          "dest" : "6h",
+          "promotion" : true
+        },
+        "hint" : {
+          "orig" : "7f",
+          "dest" : "6h",
+          "brush" : "alternative0"
+        }
+      }
+    },
+    "engineMoveUsi" : "7e4h+",
+    "engineMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "7e",
+          "dest" : "4h",
+          "promotion" : true
+        },
+        "hint" : {
+          "orig" : "7e",
+          "dest" : "4h",
+          "brush" : "primary"
+        }
+      }
+    }
+  },
+  {
+    "id" : "lishogi_game_2023_01_03_108wowow_3級_vs_Tonyko_3級_kL9EIpEH.kif#41",
+    "sfen" : "l3g1knl/5sgb1/1pnp1p1p1/pr1sp1p1p/2p6/P1PPPPP1P/1PRS1GNP1/1B4SK1/LN3G2L w - 42",
+    "hands" : "-",
+    "judgement" : "Inaccuracy",
+    "comment" : "(-8.75 → -4.55) Inaccuracy. Best move was [usi:41.7e7f]",
+    "timeControl" : "3分",
+    "date" : "2022/12/23 19:08:23",
+    "site" : "https://lishogi.org/kL9EIpEH",
+    "kifName" : "kif\\lishogi_game_2023_01_03_108wowow_3級_vs_Tonyko_3級_kL9EIpEH.kif",
+    "player" : "gote",
+    "opponentLastMoveUsi" : "P*7f",
+    "opponentLastMovePosition" : [
+      "7f"
+    ],
+    "yourMoveUsi" : "7c8e",
+    "yourMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "7c",
+          "dest" : "8e",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "7c",
+          "dest" : "8e",
+          "brush" : "alternative0"
+        }
+      }
+    },
+    "engineMoveUsi" : "7e7f",
+    "engineMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "7e",
+          "dest" : "7f",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "7e",
+          "dest" : "7f",
+          "brush" : "primary"
+        }
+      }
+    }
+  },
+  {
+    "id" : "lishogi_game_2023_01_03_108wowow_3級_vs_Tonyko_3級_kL9EIpEH.kif#43",
+    "sfen" : "l3g1knl/5sgb1/1p1p1p1p1/pr1sp1p1p/1np6/P1PPPPP1P/1P1S1GNP1/1BR3SK1/LN3G2L w - 44",
+    "hands" : "-",
+    "judgement" : "Mistake",
+    "comment" : "(-7.87 → 0.38) Mistake. Best move was [usi:43.8e9g+]",
+    "timeControl" : "3分",
+    "date" : "2022/12/23 19:08:23",
+    "site" : "https://lishogi.org/kL9EIpEH",
+    "kifName" : "kif\\lishogi_game_2023_01_03_108wowow_3級_vs_Tonyko_3級_kL9EIpEH.kif",
+    "player" : "gote",
+    "opponentLastMoveUsi" : "7g7h",
+    "opponentLastMovePosition" : [
+      "7g",
+      "7h"
+    ],
+    "yourMoveUsi" : "7e7f",
+    "yourMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "7e",
+          "dest" : "7f",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "7e",
+          "dest" : "7f",
+          "brush" : "alternative0"
+        }
+      }
+    },
+    "engineMoveUsi" : "8e9g+",
+    "engineMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "8e",
+          "dest" : "9g",
+          "promotion" : true
+        },
+        "hint" : {
+          "orig" : "8e",
+          "dest" : "9g",
+          "brush" : "primary"
+        }
+      }
+    }
+  },
+  {
+    "id" : "lishogi_game_2023_01_03_108wowow_3級_vs_Tonyko_3級_kL9EIpEH.kif#49",
+    "sfen" : "l3g1knl/5sgb1/1p1p1p1p1/pr1sp1p1p/9/P1SPPPP1P/1PB2GNP1/2R3SK1/L4G2L w N2Pn 50",
+    "hands" : "N2Pn",
+    "judgement" : "Blunder",
+    "comment" : "(1.28 → 15.90) Blunder. Best move was [usi:49.N*2d]",
+    "timeControl" : "3分",
+    "date" : "2022/12/23 19:08:23",
+    "site" : "https://lishogi.org/kL9EIpEH",
+    "kifName" : "kif\\lishogi_game_2023_01_03_108wowow_3級_vs_Tonyko_3級_kL9EIpEH.kif",
+    "player" : "gote",
+    "opponentLastMoveUsi" : "8h7g",
+    "opponentLastMovePosition" : [
+      "8h",
+      "7g"
+    ],
+    "yourMoveUsi" : "N*7e",
+    "yourMove" : {
+      "drop" : {
+        "drop" : {
+          "role" : "knight",
+          "pos" : "7e"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "knight",
+            "color" : "gote"
+          },
+          "dest" : "7e",
+          "brush" : "alternative0"
+        }
+      },
+      "move" : null
+    },
+    "engineMoveUsi" : "N*2d",
+    "engineMove" : {
+      "drop" : {
+        "drop" : {
+          "role" : "knight",
+          "pos" : "2d"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "knight",
+            "color" : "gote"
+          },
+          "dest" : "2d",
+          "brush" : "primary"
+        }
+      },
+      "move" : null
+    }
+  },
+  {
+    "id" : "lishogi_game_2023_01_03_108wowow_3級_vs_Tonyko_3級_kL9EIpEH.kif#55",
+    "sfen" : "l3g1knl/5sg2/1p1p1p1p1/pr2p1p1p/2s6/P2bPPP1P/1PB2GNP1/2R3SK1/L4G2L w 2N2Psp 56",
+    "hands" : "2N2Psp",
+    "judgement" : "Inaccuracy",
+    "comment" : "(-9.05 → -4.06) Inaccuracy. Best move was [usi:55.6f7g+]",
+    "timeControl" : "3分",
+    "date" : "2022/12/23 19:08:23",
+    "site" : "https://lishogi.org/kL9EIpEH",
+    "kifName" : "kif\\lishogi_game_2023_01_03_108wowow_3級_vs_Tonyko_3級_kL9EIpEH.kif",
+    "player" : "gote",
+    "opponentLastMoveUsi" : "5i7g",
+    "opponentLastMovePosition" : [
+      "5i",
+      "7g"
+    ],
+    "yourMoveUsi" : "8d8g+",
+    "yourMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "8d",
+          "dest" : "8g",
+          "promotion" : true
+        },
+        "hint" : {
+          "orig" : "8d",
+          "dest" : "8g",
+          "brush" : "alternative0"
+        }
+      }
+    },
+    "engineMoveUsi" : "6f7g+",
+    "engineMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "6f",
+          "dest" : "7g",
+          "promotion" : true
+        },
+        "hint" : {
+          "orig" : "6f",
+          "dest" : "7g",
+          "brush" : "primary"
+        }
+      }
+    }
+  },
+  {
+    "id" : "lishogi_game_2023_01_03_108wowow_3級_vs_Tonyko_3級_kL9EIpEH.kif#57",
+    "sfen" : "l3g1knl/5sg2/1p1p1p1p1/p3p1p1p/2s6/P2BPPP1P/1+r3GNP1/2R3SK1/L4G2L w B2N2Ps2p 58",
+    "hands" : "B2N2Ps2p",
+    "judgement" : "Inaccuracy",
+    "comment" : "(-2.18 → 3.50) Inaccuracy. Best move was [usi:57.7e6f]",
+    "timeControl" : "3分",
+    "date" : "2022/12/23 19:08:23",
+    "site" : "https://lishogi.org/kL9EIpEH",
+    "kifName" : "kif\\lishogi_game_2023_01_03_108wowow_3級_vs_Tonyko_3級_kL9EIpEH.kif",
+    "player" : "gote",
+    "opponentLastMoveUsi" : "7g6f",
+    "opponentLastMovePosition" : [
+      "7g",
+      "6f"
+    ],
+    "yourMoveUsi" : "8g7h",
+    "yourMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "8g",
+          "dest" : "7h",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "8g",
+          "dest" : "7h",
+          "brush" : "alternative0"
+        }
+      }
+    },
+    "engineMoveUsi" : "7e6f",
+    "engineMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "7e",
+          "dest" : "6f",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "7e",
+          "dest" : "6f",
+          "brush" : "primary"
+        }
+      }
+    }
+  },
+  {
+    "id" : "lishogi_game_2023_01_03_108wowow_3級_vs_Tonyko_3級_kL9EIpEH.kif#65",
+    "sfen" : "l3g1kn1/5sgs+B/1p1p1p1p1/p3p1p1p/2s6/P3PPPNP/5GNP1/2+r3SK1/+r3LG2L w BN2Pl2p 66",
+    "hands" : "BN2Pl2p",
+    "judgement" : "Mistake",
+    "comment" : "(2.35 → 11.15) Mistake. Best move was [usi:65.L*1a]",
+    "timeControl" : "3分",
+    "date" : "2022/12/23 19:08:23",
+    "site" : "https://lishogi.org/kL9EIpEH",
+    "kifName" : "kif\\lishogi_game_2023_01_03_108wowow_3級_vs_Tonyko_3級_kL9EIpEH.kif",
+    "player" : "gote",
+    "opponentLastMoveUsi" : "N*2f",
+    "opponentLastMovePosition" : [
+      "2f"
+    ],
+    "yourMoveUsi" : "4b3c",
+    "yourMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "4b",
+          "dest" : "3c",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "4b",
+          "dest" : "3c",
+          "brush" : "alternative0"
+        }
+      }
+    },
+    "engineMoveUsi" : "L*1a",
+    "engineMove" : {
+      "drop" : {
+        "drop" : {
+          "role" : "lance",
+          "pos" : "1a"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "lance",
+            "color" : "gote"
+          },
+          "dest" : "1a",
+          "brush" : "primary"
+        }
+      },
+      "move" : null
+    }
+  },
+  {
+    "id" : "lishogi_game_2023_01_03_108wowow_3級_vs_Tonyko_3級_kL9EIpEH.kif#71",
+    "sfen" : "l3g1kn1/6gs+B/1p1p+Np1p1/p3p1p1p/2s6/P3PPPNP/5G1P1/2+r3SK1/+r3LG2L w SN2Pbl2p 72",
+    "hands" : "SN2Pbl2p",
+    "judgement" : "Blunder",
+    "comment" : "(9.55 → 41.84) Blunder. Best move was [usi:71.L*5b]",
+    "timeControl" : "3分",
+    "date" : "2022/12/23 19:08:23",
+    "site" : "https://lishogi.org/kL9EIpEH",
+    "kifName" : "kif\\lishogi_game_2023_01_03_108wowow_3級_vs_Tonyko_3級_kL9EIpEH.kif",
+    "player" : "gote",
+    "opponentLastMoveUsi" : "4e5c+",
+    "opponentLastMovePosition" : [
+      "4e",
+      "5c"
+    ],
+    "yourMoveUsi" : "B*7f",
+    "yourMove" : {
+      "drop" : {
+        "drop" : {
+          "role" : "bishop",
+          "pos" : "7f"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "bishop",
+            "color" : "gote"
+          },
+          "dest" : "7f",
+          "brush" : "alternative0"
+        }
+      },
+      "move" : null
+    },
+    "engineMoveUsi" : "L*5b",
+    "engineMove" : {
+      "drop" : {
+        "drop" : {
+          "role" : "lance",
+          "pos" : "5b"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "lance",
+            "color" : "gote"
+          },
+          "dest" : "5b",
+          "brush" : "primary"
+        }
+      },
+      "move" : null
+    }
+  },
+  {
+    "id" : "lishogi_game_2023_01_03_14280_1級_vs_Tonyko_2級_nZW1Vvjv.kif#29",
+    "sfen" : "ln3k1nl/2r1gsg2/pp1pppbpp/3s5/9/1PPPB2P1/P1S1PPP1P/2G1GS1R1/LNK4NL w 2P 30",
+    "hands" : "2P",
+    "judgement" : "Mistake",
+    "comment" : "(3.57 → 12.60) Mistake. Best move was [usi:29.7b8b]",
+    "timeControl" : "10分",
+    "date" : "2022/11/16 20:23:47",
+    "site" : "https://lishogi.org/nZW1Vvjv",
+    "kifName" : "kif\\lishogi_game_2023_01_03_14280_1級_vs_Tonyko_2級_nZW1Vvjv.kif",
+    "player" : "gote",
+    "opponentLastMoveUsi" : "6g5f",
+    "opponentLastMovePosition" : [
+      "6g",
+      "5f"
+    ],
+    "yourMoveUsi" : "6d5e",
+    "yourMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "6d",
+          "dest" : "5e",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "6d",
+          "dest" : "5e",
+          "brush" : "alternative0"
+        }
+      }
+    },
+    "engineMoveUsi" : "7b8b",
+    "engineMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "7b",
+          "dest" : "8b",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "7b",
+          "dest" : "8b",
+          "brush" : "primary"
+        }
+      }
+    }
+  },
+  {
+    "id" : "lishogi_game_2023_01_03_14280_1級_vs_Tonyko_2級_nZW1Vvjv.kif#31",
+    "sfen" : "ln3k1nl/2r1gsg2/p+B1pppbpp/9/4s4/1PPP3P1/P1S1PPP1P/2G1GS1R1/LNK4NL w 3P 32",
+    "hands" : "3P",
+    "judgement" : "Inaccuracy",
+    "comment" : "(12.50 → 19.60) Inaccuracy. Best move was [usi:31.7b6b]",
+    "timeControl" : "10分",
+    "date" : "2022/11/16 20:23:47",
+    "site" : "https://lishogi.org/nZW1Vvjv",
+    "kifName" : "kif\\lishogi_game_2023_01_03_14280_1級_vs_Tonyko_2級_nZW1Vvjv.kif",
+    "player" : "gote",
+    "opponentLastMoveUsi" : "5f8c+",
+    "opponentLastMovePosition" : [
+      "5f",
+      "8c"
+    ],
+    "yourMoveUsi" : "7b7a",
+    "yourMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "7b",
+          "dest" : "7a",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "7b",
+          "dest" : "7a",
+          "brush" : "alternative0"
+        }
+      }
+    },
+    "engineMoveUsi" : "7b6b",
+    "engineMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "7b",
+          "dest" : "6b",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "7b",
+          "dest" : "6b",
+          "brush" : "primary"
+        }
+      }
+    }
+  },
+  {
+    "id" : "lishogi_game_2023_01_03_14280_1級_vs_Tonyko_2級_nZW1Vvjv.kif#61",
+    "sfen" : "1n1g2knl/3l1sg2/p+R2ppbpp/9/4g4/1PPP3P1/P1S1PPP1P/2G2S1R1/LN1K3NL w S4Pb 62",
+    "hands" : "S4Pb",
+    "judgement" : "Blunder",
+    "comment" : "(-8.50 → 4.94) Blunder. Best move was [usi:61.B*7b]",
+    "timeControl" : "10分",
+    "date" : "2022/11/16 20:23:47",
+    "site" : "https://lishogi.org/nZW1Vvjv",
+    "kifName" : "kif\\lishogi_game_2023_01_03_14280_1級_vs_Tonyko_2級_nZW1Vvjv.kif",
+    "player" : "gote",
+    "opponentLastMoveUsi" : "6c8c+",
+    "opponentLastMovePosition" : [
+      "6c",
+      "8c"
+    ],
+    "yourMoveUsi" : "6b6f",
+    "yourMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "6b",
+          "dest" : "6f",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "6b",
+          "dest" : "6f",
+          "brush" : "alternative0"
+        }
+      }
+    },
+    "engineMoveUsi" : "B*7b",
+    "engineMove" : {
+      "drop" : {
+        "drop" : {
+          "role" : "bishop",
+          "pos" : "7b"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "bishop",
+            "color" : "gote"
+          },
+          "dest" : "7b",
+          "brush" : "primary"
+        }
+      },
+      "move" : null
+    }
+  },
+  {
+    "id" : "lishogi_game_2023_01_03_14280_1級_vs_Tonyko_2級_nZW1Vvjv.kif#79",
+    "sfen" : "1n1g2knl/5sg2/p+R2pp1pp/9/5b3/1PP4P1/P2PPPP1P/1LG1S2R1/+bNK1s2NL w G3Pslp 80",
+    "hands" : "G3Pslp",
+    "judgement" : "Inaccuracy",
+    "comment" : "(-33.76 → -23.50) Inaccuracy. Best move was [usi:79.S*2g]",
+    "timeControl" : "10分",
+    "date" : "2022/11/16 20:23:47",
+    "site" : "https://lishogi.org/nZW1Vvjv",
+    "kifName" : "kif\\lishogi_game_2023_01_03_14280_1級_vs_Tonyko_2級_nZW1Vvjv.kif",
+    "player" : "gote",
+    "opponentLastMoveUsi" : "L*8h",
+    "opponentLastMovePosition" : [
+      "8h"
+    ],
+    "yourMoveUsi" : "P*6f",
+    "yourMove" : {
+      "drop" : {
+        "drop" : {
+          "role" : "pawn",
+          "pos" : "6f"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "pawn",
+            "color" : "gote"
+          },
+          "dest" : "6f",
+          "brush" : "alternative0"
+        }
+      },
+      "move" : null
+    },
+    "engineMoveUsi" : "S*2g",
+    "engineMove" : {
+      "drop" : {
+        "drop" : {
+          "role" : "silver",
+          "pos" : "2g"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "silver",
+            "color" : "gote"
+          },
+          "dest" : "2g",
+          "brush" : "primary"
+        }
+      },
+      "move" : null
+    }
+  },
+  {
+    "id" : "lishogi_game_2023_01_03_14280_1級_vs_Tonyko_2級_nZW1Vvjv.kif#81",
+    "sfen" : "1n1g2knl/5sg2/p+R2pp1pp/9/5b3/1PPp3P1/P1GPPPP1P/1LG1S2R1/+bNK1s2NL w 3Psl 82",
+    "hands" : "3Psl",
+    "judgement" : "Inaccuracy",
+    "comment" : "(-37.67 → -28.41) Inaccuracy. Best move was [usi:81.S*3i]",
+    "timeControl" : "10分",
+    "date" : "2022/11/16 20:23:47",
+    "site" : "https://lishogi.org/nZW1Vvjv",
+    "kifName" : "kif\\lishogi_game_2023_01_03_14280_1級_vs_Tonyko_2級_nZW1Vvjv.kif",
+    "player" : "gote",
+    "opponentLastMoveUsi" : "G*7g",
+    "opponentLastMovePosition" : [
+      "7g"
+    ],
+    "yourMoveUsi" : "L*6b",
+    "yourMove" : {
+      "drop" : {
+        "drop" : {
+          "role" : "lance",
+          "pos" : "6b"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "lance",
+            "color" : "gote"
+          },
+          "dest" : "6b",
+          "brush" : "alternative0"
+        }
+      },
+      "move" : null
+    },
+    "engineMoveUsi" : "S*3i",
+    "engineMove" : {
+      "drop" : {
+        "drop" : {
+          "role" : "silver",
+          "pos" : "3i"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "silver",
+            "color" : "gote"
+          },
+          "dest" : "3i",
+          "brush" : "primary"
+        }
+      },
+      "move" : null
+    }
+  },
+  {
+    "id" : "lishogi_game_2023_01_03_14280_1級_vs_Tonyko_2級_nZW1Vvjv.kif#85",
+    "sfen" : "1n1g2knl/5sg2/p+R2pp1pp/9/5b3/1PPG3P1/P3PPP1P/1LG1S2R1/+bNK1s2NL w L4Psp 86",
+    "hands" : "L4Psp",
+    "judgement" : "Inaccuracy",
+    "comment" : "(-42.78 → -25.67) Inaccuracy. Best move was [usi:85.9i8i]",
+    "timeControl" : "10分",
+    "date" : "2022/11/16 20:23:47",
+    "site" : "https://lishogi.org/nZW1Vvjv",
+    "kifName" : "kif\\lishogi_game_2023_01_03_14280_1級_vs_Tonyko_2級_nZW1Vvjv.kif",
+    "player" : "gote",
+    "opponentLastMoveUsi" : "7g6f",
+    "opponentLastMovePosition" : [
+      "7g",
+      "6f"
+    ],
+    "yourMoveUsi" : "4e7h+",
+    "yourMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "4e",
+          "dest" : "7h",
+          "promotion" : true
+        },
+        "hint" : {
+          "orig" : "4e",
+          "dest" : "7h",
+          "brush" : "alternative0"
+        }
+      }
+    },
+    "engineMoveUsi" : "9i8i",
+    "engineMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "9i",
+          "dest" : "8i",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "9i",
+          "dest" : "8i",
+          "brush" : "primary"
+        }
+      }
+    }
+  },
+  {
+    "id" : "lishogi_game_2023_01_03_14280_1級_vs_Tonyko_2級_nZW1Vvjv.kif#93",
+    "sfen" : "1+R1g2knl/5sg2/p3pp1pp/9/9/1PPG3P1/P3PPP1P/KL+bgS2R1/4s2NL w BNL4Psnp 94",
+    "hands" : "BNL4Psnp",
+    "judgement" : "Blunder",
+    "comment" : "(-82.33 → -4.03) Blunder. Best move was [usi:93.S*8i]",
+    "timeControl" : "10分",
+    "date" : "2022/11/16 20:23:47",
+    "site" : "https://lishogi.org/nZW1Vvjv",
+    "kifName" : "kif\\lishogi_game_2023_01_03_14280_1級_vs_Tonyko_2級_nZW1Vvjv.kif",
+    "player" : "gote",
+    "opponentLastMoveUsi" : "8g9h",
+    "opponentLastMovePosition" : [
+      "8g",
+      "9h"
+    ],
+    "yourMoveUsi" : "S*8g",
+    "yourMove" : {
+      "drop" : {
+        "drop" : {
+          "role" : "silver",
+          "pos" : "8g"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "silver",
+            "color" : "gote"
+          },
+          "dest" : "8g",
+          "brush" : "alternative0"
+        }
+      },
+      "move" : null
+    },
+    "engineMoveUsi" : "S*8i",
+    "engineMove" : {
+      "drop" : {
+        "drop" : {
+          "role" : "silver",
+          "pos" : "8i"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "silver",
+            "color" : "gote"
+          },
+          "dest" : "8i",
+          "brush" : "primary"
+        }
+      },
+      "move" : null
+    }
+  },
+  {
+    "id" : "lishogi_game_2023_01_03_14280_1級_vs_Tonyko_2級_nZW1Vvjv.kif#95",
+    "sfen" : "1+R1g2knl/5sg2/p3pp1pp/9/9/1PPG3P1/PL2PPP1P/K1+bgS2R1/4s2NL w BSNL4Pnp 96",
+    "hands" : "BSNL4Pnp",
+    "judgement" : "Blunder",
+    "comment" : "(-4.28 → 25.85) Blunder. Best move was [usi:95.N*7a]",
+    "timeControl" : "10分",
+    "date" : "2022/11/16 20:23:47",
+    "site" : "https://lishogi.org/nZW1Vvjv",
+    "kifName" : "kif\\lishogi_game_2023_01_03_14280_1級_vs_Tonyko_2級_nZW1Vvjv.kif",
+    "player" : "gote",
+    "opponentLastMoveUsi" : "8h8g",
+    "opponentLastMovePosition" : [
+      "8h",
+      "8g"
+    ],
+    "yourMoveUsi" : "6h7i",
+    "yourMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "6h",
+          "dest" : "7i",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "6h",
+          "dest" : "7i",
+          "brush" : "alternative0"
+        }
+      }
+    },
+    "engineMoveUsi" : "N*7a",
+    "engineMove" : {
+      "drop" : {
+        "drop" : {
+          "role" : "knight",
+          "pos" : "7a"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "knight",
+            "color" : "gote"
+          },
+          "dest" : "7a",
+          "brush" : "primary"
+        }
+      },
+      "move" : null
+    }
+  },
+  {
+    "id" : "lishogi_game_2023_01_03_14280_1級_vs_Tonyko_2級_nZW1Vvjv.kif#97",
+    "sfen" : "3+R2knl/5sg2/p3pp1pp/9/9/1PPG3P1/PL2PPP1P/K1+b1S2R1/2g1s2NL w BGSNL4Pnp 98",
+    "hands" : "BGSNL4Pnp",
+    "judgement" : "Inaccuracy",
+    "comment" : "(25.98 → 33.30) Inaccuracy. Best move was [usi:97.N*5a]",
+    "timeControl" : "10分",
+    "date" : "2022/11/16 20:23:47",
+    "site" : "https://lishogi.org/nZW1Vvjv",
+    "kifName" : "kif\\lishogi_game_2023_01_03_14280_1級_vs_Tonyko_2級_nZW1Vvjv.kif",
+    "player" : "gote",
+    "opponentLastMoveUsi" : "8a6a",
+    "opponentLastMovePosition" : [
+      "8a",
+      "6a"
+    ],
+    "yourMoveUsi" : "3a2b",
+    "yourMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "3a",
+          "dest" : "2b",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "3a",
+          "dest" : "2b",
+          "brush" : "alternative0"
+        }
+      }
+    },
+    "engineMoveUsi" : "N*5a",
+    "engineMove" : {
+      "drop" : {
+        "drop" : {
+          "role" : "knight",
+          "pos" : "5a"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "knight",
+            "color" : "gote"
+          },
+          "dest" : "5a",
+          "brush" : "primary"
+        }
+      },
+      "move" : null
+    }
+  },
+  {
+    "id" : "lishogi_game_2023_01_03_14280_1級_vs_Tonyko_2級_nZW1Vvjv.kif#99",
+    "sfen" : "3+R3nl/5sgk1/p3pp1pp/6N2/9/1PPG3P1/PL2PPP1P/K1+b1S2R1/2g1s2NL w BGSL4Pnp 100",
+    "hands" : "BGSL4Pnp",
+    "judgement" : "Mistake",
+    "comment" : "(23.90 → 44.27) Mistake. Best move was [usi:99.7h3d]",
+    "timeControl" : "10分",
+    "date" : "2022/11/16 20:23:47",
+    "site" : "https://lishogi.org/nZW1Vvjv",
+    "kifName" : "kif\\lishogi_game_2023_01_03_14280_1級_vs_Tonyko_2級_nZW1Vvjv.kif",
+    "player" : "gote",
+    "opponentLastMoveUsi" : "N*3d",
+    "opponentLastMovePosition" : [
+      "3d"
+    ],
+    "yourMoveUsi" : "2b3c",
+    "yourMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "2b",
+          "dest" : "3c",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "2b",
+          "dest" : "3c",
+          "brush" : "alternative0"
+        }
+      }
+    },
+    "engineMoveUsi" : "7h3d",
+    "engineMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "7h",
+          "dest" : "3d",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "7h",
+          "dest" : "3d",
+          "brush" : "primary"
+        }
+      }
+    }
+  },
+  {
+    "id" : "lishogi_game_2023_01_03_island24_4級_vs_Tonyko_2級_p7fby8j5.kif#17",
+    "sfen" : "ln1gkg1nl/2r6/pp1pppspp/2Psb1p2/9/1R7/PP1PPPPPP/9/LNSGKGSNL w Bp 18",
+    "hands" : "Bp",
+    "judgement" : "Inaccuracy",
+    "comment" : "(-4.41 → -1.03) Inaccuracy. Best move was [usi:17.7b8b]",
+    "timeControl" : "10分",
+    "date" : "2022/11/16 21:01:35",
+    "site" : "https://lishogi.org/p7fby8j5",
+    "kifName" : "kif\\lishogi_game_2023_01_03_island24_4級_vs_Tonyko_2級_p7fby8j5.kif",
+    "player" : "gote",
+    "opponentLastMoveUsi" : "7f8f",
+    "opponentLastMovePosition" : [
+      "7f",
+      "8f"
+    ],
+    "yourMoveUsi" : "5d2g+",
+    "yourMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "5d",
+          "dest" : "2g",
+          "promotion" : true
+        },
+        "hint" : {
+          "orig" : "5d",
+          "dest" : "2g",
+          "brush" : "alternative0"
+        }
+      }
+    },
+    "engineMoveUsi" : "7b8b",
+    "engineMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "7b",
+          "dest" : "8b",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "7b",
+          "dest" : "8b",
+          "brush" : "primary"
+        }
+      }
+    }
+  },
+  {
+    "id" : "lishogi_game_2023_01_03_island24_4級_vs_Tonyko_2級_p7fby8j5.kif#21",
+    "sfen" : "ln1gkg1nl/2r6/pp1pppspp/2Ps2p2/5+b3/1R7/PP1PPPP1P/2S3G2/LN1GK1SNL w B2p 22",
+    "hands" : "B2p",
+    "judgement" : "Blunder",
+    "comment" : "(-7.14 → 6.60) Blunder. Best move was [usi:21.7b8b]",
+    "timeControl" : "10分",
+    "date" : "2022/11/16 21:01:35",
+    "site" : "https://lishogi.org/p7fby8j5",
+    "kifName" : "kif\\lishogi_game_2023_01_03_island24_4級_vs_Tonyko_2級_p7fby8j5.kif",
+    "player" : "gote",
+    "opponentLastMoveUsi" : "7i7h",
+    "opponentLastMovePosition" : [
+      "7i",
+      "7h"
+    ],
+    "yourMoveUsi" : "7b7d",
+    "yourMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "7b",
+          "dest" : "7d",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "7b",
+          "dest" : "7d",
+          "brush" : "alternative0"
+        }
+      }
+    },
+    "engineMoveUsi" : "7b8b",
+    "engineMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "7b",
+          "dest" : "8b",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "7b",
+          "dest" : "8b",
+          "brush" : "primary"
+        }
+      }
+    }
+  },
+  {
+    "id" : "lishogi_game_2023_01_03_island24_4級_vs_Tonyko_2級_p7fby8j5.kif#23",
+    "sfen" : "ln1gkg1nl/9/pp1pppspp/2rs2p2/5+b3/1R7/PP1PPPP1P/2SG2G2/LN2K1SNL w B3p 24",
+    "hands" : "B3p",
+    "judgement" : "Blunder",
+    "comment" : "(-12.50 → 12.82) Blunder. Best move was [usi:23.6a7b]",
+    "timeControl" : "10分",
+    "date" : "2022/11/16 21:01:35",
+    "site" : "https://lishogi.org/p7fby8j5",
+    "kifName" : "kif\\lishogi_game_2023_01_03_island24_4級_vs_Tonyko_2級_p7fby8j5.kif",
+    "player" : "gote",
+    "opponentLastMoveUsi" : "6i6h",
+    "opponentLastMovePosition" : [
+      "6i",
+      "6h"
+    ],
+    "yourMoveUsi" : "6d7e",
+    "yourMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "6d",
+          "dest" : "7e",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "6d",
+          "dest" : "7e",
+          "brush" : "alternative0"
+        }
+      }
+    },
+    "engineMoveUsi" : "6a7b",
+    "engineMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "6a",
+          "dest" : "7b",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "6a",
+          "dest" : "7b",
+          "brush" : "primary"
+        }
+      }
+    }
+  },
+  {
+    "id" : "lishogi_game_2023_01_03_island24_4級_vs_Tonyko_2級_p7fby8j5.kif#25",
+    "sfen" : "ln1gkg1nl/9/p+R1pppspp/2r3p2/2s2+b3/9/PP1PPPP1P/2SG2G2/LN2K1SNL w BP3p 26",
+    "hands" : "BP3p",
+    "judgement" : "Inaccuracy",
+    "comment" : "(12.61 → 20.21) Inaccuracy. Best move was [usi:25.7d7a]",
+    "timeControl" : "10分",
+    "date" : "2022/11/16 21:01:35",
+    "site" : "https://lishogi.org/p7fby8j5",
+    "kifName" : "kif\\lishogi_game_2023_01_03_island24_4級_vs_Tonyko_2級_p7fby8j5.kif",
+    "player" : "gote",
+    "opponentLastMoveUsi" : "8f8c+",
+    "opponentLastMovePosition" : [
+      "8f",
+      "8c"
+    ],
+    "yourMoveUsi" : "7d6d",
+    "yourMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "7d",
+          "dest" : "6d",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "7d",
+          "dest" : "6d",
+          "brush" : "alternative0"
+        }
+      }
+    },
+    "engineMoveUsi" : "7d7a",
+    "engineMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "7d",
+          "dest" : "7a",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "7d",
+          "dest" : "7a",
+          "brush" : "primary"
+        }
+      }
+    }
+  },
+  {
+    "id" : "lishogi_game_2023_01_03_island24_4級_vs_Tonyko_2級_p7fby8j5.kif#27",
+    "sfen" : "l+R1gkg1nl/9/p2pppspp/3r2p2/2s2+b3/9/PP1PPPP1P/2SG2G2/LN2K1SNL w BNP3p 28",
+    "hands" : "BNP3p",
+    "judgement" : "Blunder",
+    "comment" : "(18.97 → 47.03) Blunder. Best move was [usi:27.P*7a]",
+    "timeControl" : "10分",
+    "date" : "2022/11/16 21:01:35",
+    "site" : "https://lishogi.org/p7fby8j5",
+    "kifName" : "kif\\lishogi_game_2023_01_03_island24_4級_vs_Tonyko_2級_p7fby8j5.kif",
+    "player" : "gote",
+    "opponentLastMoveUsi" : "8c8a",
+    "opponentLastMovePosition" : [
+      "8c",
+      "8a"
+    ],
+    "yourMoveUsi" : "7e7f",
+    "yourMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "7e",
+          "dest" : "7f",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "7e",
+          "dest" : "7f",
+          "brush" : "alternative0"
+        }
+      }
+    },
+    "engineMoveUsi" : "P*7a",
+    "engineMove" : {
+      "drop" : {
+        "drop" : {
+          "role" : "pawn",
+          "pos" : "7a"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "pawn",
+            "color" : "gote"
+          },
+          "dest" : "7a",
+          "brush" : "primary"
+        }
+      },
+      "move" : null
+    }
+  },
+  {
+    "id" : "lishogi_game_2023_01_03_island24_4級_vs_Tonyko_2級_p7fby8j5.kif#35",
+    "sfen" : "l+b1g1g1nl/4k4/p3ppspp/2Np2p2/9/2s6/PPPPPPP1P/2SG2G2/LN2K1SNL w Rrb3p 36",
+    "hands" : "Rrb3p",
+    "judgement" : "Inaccuracy",
+    "comment" : "(-32.38 → -21.67) Inaccuracy. Best move was [usi:35.7f6e]",
+    "timeControl" : "10分",
+    "date" : "2022/11/16 21:01:35",
+    "site" : "https://lishogi.org/p7fby8j5",
+    "kifName" : "kif\\lishogi_game_2023_01_03_island24_4級_vs_Tonyko_2級_p7fby8j5.kif",
+    "player" : "gote",
+    "opponentLastMoveUsi" : "N*7d",
+    "opponentLastMovePosition" : [
+      "7d"
+    ],
+    "yourMoveUsi" : "P*7c",
+    "yourMove" : {
+      "drop" : {
+        "drop" : {
+          "role" : "pawn",
+          "pos" : "7c"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "pawn",
+            "color" : "gote"
+          },
+          "dest" : "7c",
+          "brush" : "alternative0"
+        }
+      },
+      "move" : null
+    },
+    "engineMoveUsi" : "7f6e",
+    "engineMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "7f",
+          "dest" : "6e",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "7f",
+          "dest" : "6e",
+          "brush" : "primary"
+        }
+      }
+    }
+  },
+  {
+    "id" : "lishogi_game_2023_01_03_island24_4級_vs_Tonyko_2級_p7fby8j5.kif#43",
+    "sfen" : "l2g1g1nl/1+N2k4/p1p1ppspp/3p2p2/9/2s6/PPPPPPP1P/2S3G2/LN1K2SNL w RBrbg2p 44",
+    "hands" : "RBrbg2p",
+    "judgement" : "Blunder",
+    "comment" : "(-46.41 → -20.21) Blunder. Best move was [usi:43.G*8h]",
+    "timeControl" : "10分",
+    "date" : "2022/11/16 21:01:35",
+    "site" : "https://lishogi.org/p7fby8j5",
+    "kifName" : "kif\\lishogi_game_2023_01_03_island24_4級_vs_Tonyko_2級_p7fby8j5.kif",
+    "player" : "gote",
+    "opponentLastMoveUsi" : "5i6i",
+    "opponentLastMovePosition" : [
+      "5i",
+      "6i"
+    ],
+    "yourMoveUsi" : "7f6g+",
+    "yourMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "7f",
+          "dest" : "6g",
+          "promotion" : true
+        },
+        "hint" : {
+          "orig" : "7f",
+          "dest" : "6g",
+          "brush" : "alternative0"
+        }
+      }
+    },
+    "engineMoveUsi" : "G*8h",
+    "engineMove" : {
+      "drop" : {
+        "drop" : {
+          "role" : "gold",
+          "pos" : "8h"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "gold",
+            "color" : "gote"
+          },
+          "dest" : "8h",
+          "brush" : "primary"
+        }
+      },
+      "move" : null
+    }
+  },
+  {
+    "id" : "lishogi_game_2023_01_03_island24_4級_vs_Tonyko_2級_p7fby8j5.kif#45",
+    "sfen" : "l2g1g1nl/1+N2k4/p1p1ppspp/3p2p2/9/9/PPPSPPP1P/6G2/LN1K2SNL w RBSrbg3p 46",
+    "hands" : "RBSrbg3p",
+    "judgement" : "Blunder",
+    "comment" : "(-20.44 → -9.13) Blunder. Best move was [usi:45.P*8h]",
+    "timeControl" : "10分",
+    "date" : "2022/11/16 21:01:35",
+    "site" : "https://lishogi.org/p7fby8j5",
+    "kifName" : "kif\\lishogi_game_2023_01_03_island24_4級_vs_Tonyko_2級_p7fby8j5.kif",
+    "player" : "gote",
+    "opponentLastMoveUsi" : "7h6g",
+    "opponentLastMovePosition" : [
+      "7h",
+      "6g"
+    ],
+    "yourMoveUsi" : "B*4i",
+    "yourMove" : {
+      "drop" : {
+        "drop" : {
+          "role" : "bishop",
+          "pos" : "4i"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "bishop",
+            "color" : "gote"
+          },
+          "dest" : "4i",
+          "brush" : "alternative0"
+        }
+      },
+      "move" : null
+    },
+    "engineMoveUsi" : "P*8h",
+    "engineMove" : {
+      "drop" : {
+        "drop" : {
+          "role" : "pawn",
+          "pos" : "8h"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "pawn",
+            "color" : "gote"
+          },
+          "dest" : "8h",
+          "brush" : "primary"
+        }
+      },
+      "move" : null
+    }
+  },
+  {
+    "id" : "lishogi_game_2023_01_03_island24_4級_vs_Tonyko_2級_p7fby8j5.kif#49",
+    "sfen" : "l2g1g1nl/1+N2k4/p1p1ppspp/3p2p2/9/9/PPPSPPP1P/1rSK2G2/LN3bSNL w RBg3p 50",
+    "hands" : "RBg3p",
+    "judgement" : "Blunder",
+    "comment" : "(-33.93 → -3.57) Blunder. Best move was [usi:49.4i6g+]",
+    "timeControl" : "10分",
+    "date" : "2022/11/16 21:01:35",
+    "site" : "https://lishogi.org/p7fby8j5",
+    "kifName" : "kif\\lishogi_game_2023_01_03_island24_4級_vs_Tonyko_2級_p7fby8j5.kif",
+    "player" : "gote",
+    "opponentLastMoveUsi" : "S*7h",
+    "opponentLastMovePosition" : [
+      "7h"
+    ],
+    "yourMoveUsi" : "6d6e",
+    "yourMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "6d",
+          "dest" : "6e",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "6d",
+          "dest" : "6e",
+          "brush" : "alternative0"
+        }
+      }
+    },
+    "engineMoveUsi" : "4i6g+",
+    "engineMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "4i",
+          "dest" : "6g",
+          "promotion" : true
+        },
+        "hint" : {
+          "orig" : "4i",
+          "dest" : "6g",
+          "brush" : "primary"
+        }
+      }
+    }
+  },
+  {
+    "id" : "lishogi_game_2023_01_03_Kari7515_2級_vs_Tonyko_2級_b3Ea9eVR.kif#15",
+    "sfen" : "ln2kg1nl/1sr1g4/pp1pppspp/2p3p2/3NB4/2P6/PP1PPPPPP/2R2K3/L1SG1GSNL w b 16",
+    "hands" : "b",
+    "judgement" : "Blunder",
+    "comment" : "(-8.33 → 4.21) Blunder. Best move was [usi:15.B*5d]",
+    "timeControl" : "10分",
+    "date" : "2022/11/17 04:58:40",
+    "site" : "https://lishogi.org/b3Ea9eVR",
+    "kifName" : "kif\\lishogi_game_2023_01_03_Kari7515_2級_vs_Tonyko_2級_b3Ea9eVR.kif",
+    "player" : "gote",
+    "opponentLastMoveUsi" : "5i4h",
+    "opponentLastMovePosition" : [
+      "5i",
+      "4h"
+    ],
+    "yourMoveUsi" : "5c5d",
+    "yourMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "5c",
+          "dest" : "5d",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "5c",
+          "dest" : "5d",
+          "brush" : "alternative0"
+        }
+      }
+    },
+    "engineMoveUsi" : "B*5d",
+    "engineMove" : {
+      "drop" : {
+        "drop" : {
+          "role" : "bishop",
+          "pos" : "5d"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "bishop",
+            "color" : "gote"
+          },
+          "dest" : "5d",
+          "brush" : "primary"
+        }
+      },
+      "move" : null
+    }
+  },
+  {
+    "id" : "lishogi_game_2023_01_03_Kari7515_2級_vs_Tonyko_2級_b3Ea9eVR.kif#19",
+    "sfen" : "ln2kg1nl/1r2g4/pp1p1pspp/2p1p1p2/2PN5/9/PP1PPPPPP/2R2K3/L1SG1GSNL w S2b 20",
+    "hands" : "S2b",
+    "judgement" : "Mistake",
+    "comment" : "(3.58 → 10.24) Mistake. Best move was [usi:19.7d7e]",
+    "timeControl" : "10分",
+    "date" : "2022/11/17 04:58:40",
+    "site" : "https://lishogi.org/b3Ea9eVR",
+    "kifName" : "kif\\lishogi_game_2023_01_03_Kari7515_2級_vs_Tonyko_2級_b3Ea9eVR.kif",
+    "player" : "gote",
+    "opponentLastMoveUsi" : "7f7e",
+    "opponentLastMovePosition" : [
+      "7f",
+      "7e"
+    ],
+    "yourMoveUsi" : "B*4d",
+    "yourMove" : {
+      "drop" : {
+        "drop" : {
+          "role" : "bishop",
+          "pos" : "4d"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "bishop",
+            "color" : "gote"
+          },
+          "dest" : "4d",
+          "brush" : "alternative0"
+        }
+      },
+      "move" : null
+    },
+    "engineMoveUsi" : "7d7e",
+    "engineMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "7d",
+          "dest" : "7e",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "7d",
+          "dest" : "7e",
+          "brush" : "primary"
+        }
+      }
+    }
+  },
+  {
+    "id" : "lishogi_game_2023_01_03_Kari7515_2級_vs_Tonyko_2級_b3Ea9eVR.kif#23",
+    "sfen" : "ln2kg1nl/1r2g4/pp1p1pspp/2P1p1p2/3N5/2R6/PP1PPPPPP/5K3/+b1SG1GSNL w SPbl 24",
+    "hands" : "SPbl",
+    "judgement" : "Blunder",
+    "comment" : "(-5.34 → 13.12) Blunder. Best move was [usi:23.B*9d]",
+    "timeControl" : "10分",
+    "date" : "2022/11/17 04:58:40",
+    "site" : "https://lishogi.org/b3Ea9eVR",
+    "kifName" : "kif\\lishogi_game_2023_01_03_Kari7515_2級_vs_Tonyko_2級_b3Ea9eVR.kif",
+    "player" : "gote",
+    "opponentLastMoveUsi" : "7e7d",
+    "opponentLastMovePosition" : [
+      "7e",
+      "7d"
+    ],
+    "yourMoveUsi" : "B*4e",
+    "yourMove" : {
+      "drop" : {
+        "drop" : {
+          "role" : "bishop",
+          "pos" : "4e"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "bishop",
+            "color" : "gote"
+          },
+          "dest" : "4e",
+          "brush" : "alternative0"
+        }
+      },
+      "move" : null
+    },
+    "engineMoveUsi" : "B*9d",
+    "engineMove" : {
+      "drop" : {
+        "drop" : {
+          "role" : "bishop",
+          "pos" : "9d"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "bishop",
+            "color" : "gote"
+          },
+          "dest" : "9d",
+          "brush" : "primary"
+        }
+      },
+      "move" : null
+    }
+  },
+  {
+    "id" : "lishogi_game_2023_01_03_Kari7515_2級_vs_Tonyko_2級_b3Ea9eVR.kif#27",
+    "sfen" : "l3kg1nl/1r2g4/pp+Rp1pspp/4p1p2/3N1b3/9/PP1PPPPPP/5K3/+b1SG1GSNL w SNPlp 28",
+    "hands" : "SNPlp",
+    "judgement" : "Blunder",
+    "comment" : "(11.84 → 28.48) Blunder. Best move was [usi:27.9i5e]",
+    "timeControl" : "10分",
+    "date" : "2022/11/17 04:58:40",
+    "site" : "https://lishogi.org/b3Ea9eVR",
+    "kifName" : "kif\\lishogi_game_2023_01_03_Kari7515_2級_vs_Tonyko_2級_b3Ea9eVR.kif",
+    "player" : "gote",
+    "opponentLastMoveUsi" : "7f7c+",
+    "opponentLastMovePosition" : [
+      "7f",
+      "7c"
+    ],
+    "yourMoveUsi" : "8b6b",
+    "yourMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "8b",
+          "dest" : "6b",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "8b",
+          "dest" : "6b",
+          "brush" : "alternative0"
+        }
+      }
+    },
+    "engineMoveUsi" : "9i5e",
+    "engineMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "9i",
+          "dest" : "5e",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "9i",
+          "dest" : "5e",
+          "brush" : "primary"
+        }
+      }
+    }
+  },
+  {
+    "id" : "lishogi_game_2023_01_03_Kari7515_2級_vs_Tonyko_2級_b3Ea9eVR.kif#29",
+    "sfen" : "l3kg1nl/3rg4/pp+RpSpspp/4p1p2/3N1b3/9/PP1PPPPPP/5K3/+b1SG1GSNL w NPlp 30",
+    "hands" : "NPlp",
+    "judgement" : "Inaccuracy",
+    "comment" : "(26.76 → 45.36) Inaccuracy. Best move was [usi:29.9i4d]",
+    "timeControl" : "10分",
+    "date" : "2022/11/17 04:58:40",
+    "site" : "https://lishogi.org/b3Ea9eVR",
+    "kifName" : "kif\\lishogi_game_2023_01_03_Kari7515_2級_vs_Tonyko_2級_b3Ea9eVR.kif",
+    "player" : "gote",
+    "opponentLastMoveUsi" : "S*5c",
+    "opponentLastMovePosition" : [
+      "5c"
+    ],
+    "yourMoveUsi" : "P*7b",
+    "yourMove" : {
+      "drop" : {
+        "drop" : {
+          "role" : "pawn",
+          "pos" : "7b"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "pawn",
+            "color" : "gote"
+          },
+          "dest" : "7b",
+          "brush" : "alternative0"
+        }
+      },
+      "move" : null
+    },
+    "engineMoveUsi" : "9i4d",
+    "engineMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "9i",
+          "dest" : "4d",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "9i",
+          "dest" : "4d",
+          "brush" : "primary"
+        }
+      }
+    }
+  },
+  {
+    "id" : "lishogi_game_2023_01_03_kazuto1355_2級_vs_Tonyko_3級_HpRiJlaM.kif#29",
+    "sfen" : "ln3k1nl/2r1g1gb1/pp1psp1pp/2ps2p2/9/P1PPR4/1P1SPPP1P/1BG1KSG2/LN5NL w 2P 30",
+    "hands" : "2P",
+    "judgement" : "Inaccuracy",
+    "comment" : "(-2.25 → 2.11) Inaccuracy. Best move was [usi:29.7d7e]",
+    "timeControl" : "3分",
+    "date" : "2022/12/22 04:46:36",
+    "site" : "https://lishogi.org/HpRiJlaM",
+    "kifName" : "kif\\lishogi_game_2023_01_03_kazuto1355_2級_vs_Tonyko_3級_HpRiJlaM.kif",
+    "player" : "gote",
+    "opponentLastMoveUsi" : "7g7f",
+    "opponentLastMovePosition" : [
+      "7g",
+      "7f"
+    ],
+    "yourMoveUsi" : "6d5e",
+    "yourMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "6d",
+          "dest" : "5e",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "6d",
+          "dest" : "5e",
+          "brush" : "alternative0"
+        }
+      }
+    },
+    "engineMoveUsi" : "7d7e",
+    "engineMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "7d",
+          "dest" : "7e",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "7d",
+          "dest" : "7e",
+          "brush" : "primary"
+        }
+      }
+    }
+  },
+  {
+    "id" : "lishogi_game_2023_01_03_kazuto1355_2級_vs_Tonyko_3級_HpRiJlaM.kif#41",
+    "sfen" : "ln3k1nl/2r2ggb1/1p1psp1pp/p5R2/2s6/P1PP5/BP1SPPP1P/2G1KSG2/LN5NL w 3Pp 42",
+    "hands" : "3Pp",
+    "judgement" : "Inaccuracy",
+    "comment" : "(-5.87 → -0.80) Inaccuracy. Best move was [usi:41.7e6f]",
+    "timeControl" : "3分",
+    "date" : "2022/12/22 04:46:36",
+    "site" : "https://lishogi.org/HpRiJlaM",
+    "kifName" : "kif\\lishogi_game_2023_01_03_kazuto1355_2級_vs_Tonyko_3級_HpRiJlaM.kif",
+    "player" : "gote",
+    "opponentLastMoveUsi" : "7g7f",
+    "opponentLastMovePosition" : [
+      "7g",
+      "7f"
+    ],
+    "yourMoveUsi" : "7e7f",
+    "yourMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "7e",
+          "dest" : "7f",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "7e",
+          "dest" : "7f",
+          "brush" : "alternative0"
+        }
+      }
+    },
+    "engineMoveUsi" : "7e6f",
+    "engineMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "7e",
+          "dest" : "6f",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "7e",
+          "dest" : "6f",
+          "brush" : "primary"
+        }
+      }
+    }
+  },
+  {
+    "id" : "lishogi_game_2023_01_03_kazuto1355_2級_vs_Tonyko_3級_HpRiJlaM.kif#45",
+    "sfen" : "ln3k1nl/5ggb1/1p1psp1pp/p5R2/9/P1rP5/BPP1PPP1P/2G1KSG2/LN5NL w S2Ps2p 46",
+    "hands" : "S2Ps2p",
+    "judgement" : "Blunder",
+    "comment" : "(-1.16 → 15.16) Blunder. Best move was [usi:45.7f7b]",
+    "timeControl" : "3分",
+    "date" : "2022/12/22 04:46:36",
+    "site" : "https://lishogi.org/HpRiJlaM",
+    "kifName" : "kif\\lishogi_game_2023_01_03_kazuto1355_2級_vs_Tonyko_3級_HpRiJlaM.kif",
+    "player" : "gote",
+    "opponentLastMoveUsi" : "P*7g",
+    "opponentLastMovePosition" : [
+      "7g"
+    ],
+    "yourMoveUsi" : "7f7a",
+    "yourMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "7f",
+          "dest" : "7a",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "7f",
+          "dest" : "7a",
+          "brush" : "alternative0"
+        }
+      }
+    },
+    "engineMoveUsi" : "7f7b",
+    "engineMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "7f",
+          "dest" : "7b",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "7f",
+          "dest" : "7b",
+          "brush" : "primary"
+        }
+      }
+    }
+  },
+  {
+    "id" : "lishogi_game_2023_01_03_kazuto1355_2級_vs_Tonyko_3級_HpRiJlaM.kif#47",
+    "sfen" : "lnr2k1nl/5ggb1/1p1psp1pp/p8/6R2/P2P5/BPP1PPP1P/2G1KSG2/LN5NL w S2Ps2p 48",
+    "hands" : "S2Ps2p",
+    "judgement" : "Blunder",
+    "comment" : "(-1.61 → 11.80) Blunder. Best move was [usi:47.5c6d]",
+    "timeControl" : "3分",
+    "date" : "2022/12/22 04:46:36",
+    "site" : "https://lishogi.org/HpRiJlaM",
+    "kifName" : "kif\\lishogi_game_2023_01_03_kazuto1355_2級_vs_Tonyko_3級_HpRiJlaM.kif",
+    "player" : "gote",
+    "opponentLastMoveUsi" : "3d3e",
+    "opponentLastMovePosition" : [
+      "3d",
+      "3e"
+    ],
+    "yourMoveUsi" : "9d9e",
+    "yourMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "9d",
+          "dest" : "9e",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "9d",
+          "dest" : "9e",
+          "brush" : "alternative0"
+        }
+      }
+    },
+    "engineMoveUsi" : "5c6d",
+    "engineMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "5c",
+          "dest" : "6d",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "5c",
+          "dest" : "6d",
+          "brush" : "primary"
+        }
+      }
+    }
+  },
+  {
+    "id" : "lishogi_game_2023_01_03_kazuto1355_2級_vs_Tonyko_3級_HpRiJlaM.kif#49",
+    "sfen" : "lnr2k1nl/5ggb1/1p1psp1pp/9/P5R2/3P5/BPP1PPP1P/2G1KSG2/LN5NL w S3Ps2p 50",
+    "hands" : "S3Ps2p",
+    "judgement" : "Blunder",
+    "comment" : "(-2.86 → 8.77) Blunder. Best move was [usi:49.2b4d]",
+    "timeControl" : "3分",
+    "date" : "2022/12/22 04:46:36",
+    "site" : "https://lishogi.org/HpRiJlaM",
+    "kifName" : "kif\\lishogi_game_2023_01_03_kazuto1355_2級_vs_Tonyko_3級_HpRiJlaM.kif",
+    "player" : "gote",
+    "opponentLastMoveUsi" : "9f9e",
+    "opponentLastMovePosition" : [
+      "9f",
+      "9e"
+    ],
+    "yourMoveUsi" : "P*9f",
+    "yourMove" : {
+      "drop" : {
+        "drop" : {
+          "role" : "pawn",
+          "pos" : "9f"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "pawn",
+            "color" : "gote"
+          },
+          "dest" : "9f",
+          "brush" : "alternative0"
+        }
+      },
+      "move" : null
+    },
+    "engineMoveUsi" : "2b4d",
+    "engineMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "2b",
+          "dest" : "4d",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "2b",
+          "dest" : "4d",
+          "brush" : "primary"
+        }
+      }
+    }
+  },
+  {
+    "id" : "lishogi_game_2023_01_03_kazuto1355_2級_vs_Tonyko_3級_HpRiJlaM.kif#51",
+    "sfen" : "lnr2k1nl/5ggb1/1p1psp1pp/9/P5R2/p2P5/1PP1PPP1P/1BG1KSG2/LN5NL w S3Psp 52",
+    "hands" : "S3Psp",
+    "judgement" : "Inaccuracy",
+    "comment" : "(-4.80 → -0.17) Inaccuracy. Best move was [usi:51.7a7d]",
+    "timeControl" : "3分",
+    "date" : "2022/12/22 04:46:36",
+    "site" : "https://lishogi.org/HpRiJlaM",
+    "kifName" : "kif\\lishogi_game_2023_01_03_kazuto1355_2級_vs_Tonyko_3級_HpRiJlaM.kif",
+    "player" : "gote",
+    "opponentLastMoveUsi" : "9g8h",
+    "opponentLastMovePosition" : [
+      "9g",
+      "8h"
+    ],
+    "yourMoveUsi" : "2b6f",
+    "yourMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "2b",
+          "dest" : "6f",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "2b",
+          "dest" : "6f",
+          "brush" : "alternative0"
+        }
+      }
+    },
+    "engineMoveUsi" : "7a7d",
+    "engineMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "7a",
+          "dest" : "7d",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "7a",
+          "dest" : "7d",
+          "brush" : "primary"
+        }
+      }
+    }
+  },
+  {
+    "id" : "lishogi_game_2023_01_03_kazuto1355_2級_vs_Tonyko_3級_HpRiJlaM.kif#53",
+    "sfen" : "lnr2k1nl/5gg2/1p1psp1pp/9/P2R5/p2b5/1PP1PPP1P/1BG1KSG2/LN5NL w S3Ps2p 54",
+    "hands" : "S3Ps2p",
+    "judgement" : "Blunder",
+    "comment" : "(2.21 → 21.07) Blunder. Best move was [usi:53.6f4d]",
+    "timeControl" : "3分",
+    "date" : "2022/12/22 04:46:36",
+    "site" : "https://lishogi.org/HpRiJlaM",
+    "kifName" : "kif\\lishogi_game_2023_01_03_kazuto1355_2級_vs_Tonyko_3級_HpRiJlaM.kif",
+    "player" : "gote",
+    "opponentLastMoveUsi" : "3e6e",
+    "opponentLastMovePosition" : [
+      "3e",
+      "6e"
+    ],
+    "yourMoveUsi" : "6f7g+",
+    "yourMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "6f",
+          "dest" : "7g",
+          "promotion" : true
+        },
+        "hint" : {
+          "orig" : "6f",
+          "dest" : "7g",
+          "brush" : "alternative0"
+        }
+      }
+    },
+    "engineMoveUsi" : "6f4d",
+    "engineMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "6f",
+          "dest" : "4d",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "6f",
+          "dest" : "4d",
+          "brush" : "primary"
+        }
+      }
+    }
+  },
+  {
+    "id" : "lishogi_game_2023_01_03_kazuto1355_2級_vs_Tonyko_3級_HpRiJlaM.kif#55",
+    "sfen" : "lnr2k1nl/5gg2/1p1psp1pp/9/P2R5/p8/1PG1PPP1P/1B2KSG2/LN5NL w BS3Ps3p 56",
+    "hands" : "BS3Ps3p",
+    "judgement" : "Inaccuracy",
+    "comment" : "(20.82 → 31.57) Inaccuracy. Best move was [usi:55.9f9g+]",
+    "timeControl" : "3分",
+    "date" : "2022/12/22 04:46:36",
+    "site" : "https://lishogi.org/HpRiJlaM",
+    "kifName" : "kif\\lishogi_game_2023_01_03_kazuto1355_2級_vs_Tonyko_3級_HpRiJlaM.kif",
+    "player" : "gote",
+    "opponentLastMoveUsi" : "7h7g",
+    "opponentLastMovePosition" : [
+      "7h",
+      "7g"
+    ],
+    "yourMoveUsi" : "S*7f",
+    "yourMove" : {
+      "drop" : {
+        "drop" : {
+          "role" : "silver",
+          "pos" : "7f"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "silver",
+            "color" : "gote"
+          },
+          "dest" : "7f",
+          "brush" : "alternative0"
+        }
+      },
+      "move" : null
+    },
+    "engineMoveUsi" : "9f9g+",
+    "engineMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "9f",
+          "dest" : "9g",
+          "promotion" : true
+        },
+        "hint" : {
+          "orig" : "9f",
+          "dest" : "9g",
+          "brush" : "primary"
+        }
+      }
+    }
+  },
+  {
+    "id" : "lishogi_game_2023_01_03_kazuto1355_2級_vs_Tonyko_3級_HpRiJlaM.kif#61",
+    "sfen" : "ln3k1nl/1B3gg2/1prpsp1pp/9/P2R5/p8/1PP1PPP1P/1B2KSG2/LN5NL w 2S2Pg3p 62",
+    "hands" : "2S2Pg3p",
+    "judgement" : "Inaccuracy",
+    "comment" : "(15.08 → 22.56) Inaccuracy. Best move was [usi:61.G*7h]",
+    "timeControl" : "3分",
+    "date" : "2022/12/22 04:46:36",
+    "site" : "https://lishogi.org/HpRiJlaM",
+    "kifName" : "kif\\lishogi_game_2023_01_03_kazuto1355_2級_vs_Tonyko_3級_HpRiJlaM.kif",
+    "player" : "gote",
+    "opponentLastMoveUsi" : "B*8b",
+    "opponentLastMovePosition" : [
+      "8b"
+    ],
+    "yourMoveUsi" : "5c6d",
+    "yourMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "5c",
+          "dest" : "6d",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "5c",
+          "dest" : "6d",
+          "brush" : "alternative0"
+        }
+      }
+    },
+    "engineMoveUsi" : "G*7h",
+    "engineMove" : {
+      "drop" : {
+        "drop" : {
+          "role" : "gold",
+          "pos" : "7h"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "gold",
+            "color" : "gote"
+          },
+          "dest" : "7h",
+          "brush" : "primary"
+        }
+      },
+      "move" : null
+    }
+  },
+  {
+    "id" : "lishogi_game_2023_01_03_kazuto1355_2級_vs_Tonyko_3級_HpRiJlaM.kif#65",
+    "sfen" : "ln3k1nl/5gg2/1ps+R1p1pp/9/P8/p8/1PP1PPP1P/1B2KSG2/LN5NL w R2S3Pbg3p 66",
+    "hands" : "R2S3Pbg3p",
+    "judgement" : "Blunder",
+    "comment" : "(2.30 → 39.41) Blunder. Best move was [usi:65.B*8e]",
+    "timeControl" : "3分",
+    "date" : "2022/12/22 04:46:36",
+    "site" : "https://lishogi.org/HpRiJlaM",
+    "kifName" : "kif\\lishogi_game_2023_01_03_kazuto1355_2級_vs_Tonyko_3級_HpRiJlaM.kif",
+    "player" : "gote",
+    "opponentLastMoveUsi" : "6e6c+",
+    "opponentLastMovePosition" : [
+      "6e",
+      "6c"
+    ],
+    "yourMoveUsi" : "G*5b",
+    "yourMove" : {
+      "drop" : {
+        "drop" : {
+          "role" : "gold",
+          "pos" : "5b"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "gold",
+            "color" : "gote"
+          },
+          "dest" : "5b",
+          "brush" : "alternative0"
+        }
+      },
+      "move" : null
+    },
+    "engineMoveUsi" : "B*8e",
+    "engineMove" : {
+      "drop" : {
+        "drop" : {
+          "role" : "bishop",
+          "pos" : "8e"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "bishop",
+            "color" : "gote"
+          },
+          "dest" : "8e",
+          "brush" : "primary"
+        }
+      },
+      "move" : null
+    }
+  },
+  {
+    "id" : "lishogi_game_2023_01_03_kazuto1355_2級_vs_Tonyko_3級_HpRiJlaM.kif#71",
+    "sfen" : "ln2pk1nl/5gg2/1ps+R1p1pp/9/P8/p8/1PP1PPP1P/1B2KSG2/LN5NL w RGS3Pbs2p 72",
+    "hands" : "RGS3Pbs2p",
+    "judgement" : "Blunder",
+    "comment" : "(2.24 → 34.23) Blunder. Best move was [usi:71.B*8e]",
+    "timeControl" : "3分",
+    "date" : "2022/12/22 04:46:36",
+    "site" : "https://lishogi.org/HpRiJlaM",
+    "kifName" : "kif\\lishogi_game_2023_01_03_kazuto1355_2級_vs_Tonyko_3級_HpRiJlaM.kif",
+    "player" : "gote",
+    "opponentLastMoveUsi" : "6a6c",
+    "opponentLastMovePosition" : [
+      "6a",
+      "6c"
+    ],
+    "yourMoveUsi" : "S*6b",
+    "yourMove" : {
+      "drop" : {
+        "drop" : {
+          "role" : "silver",
+          "pos" : "6b"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "silver",
+            "color" : "gote"
+          },
+          "dest" : "6b",
+          "brush" : "alternative0"
+        }
+      },
+      "move" : null
+    },
+    "engineMoveUsi" : "B*8e",
+    "engineMove" : {
+      "drop" : {
+        "drop" : {
+          "role" : "bishop",
+          "pos" : "8e"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "bishop",
+            "color" : "gote"
+          },
+          "dest" : "8e",
+          "brush" : "primary"
+        }
+      },
+      "move" : null
+    }
+  },
+  {
+    "id" : "lishogi_game_2023_01_03_kazuto1355_2級_vs_Tonyko_3級_HpRiJlaM.kif#73",
+    "sfen" : "ln2pk1nl/2+Rs1gg2/1ps2p1pp/9/P8/p8/1PP1PPP1P/1B2KSG2/LN5NL w RGS3Pb2p 74",
+    "hands" : "RGS3Pb2p",
+    "judgement" : "Inaccuracy",
+    "comment" : "(26.94 → 34.84) Inaccuracy. Best move was [usi:73.P*6f]",
+    "timeControl" : "3分",
+    "date" : "2022/12/22 04:46:36",
+    "site" : "https://lishogi.org/HpRiJlaM",
+    "kifName" : "kif\\lishogi_game_2023_01_03_kazuto1355_2級_vs_Tonyko_3級_HpRiJlaM.kif",
+    "player" : "gote",
+    "opponentLastMoveUsi" : "6c7b",
+    "opponentLastMovePosition" : [
+      "6c",
+      "7b"
+    ],
+    "yourMoveUsi" : "P*7a",
+    "yourMove" : {
+      "drop" : {
+        "drop" : {
+          "role" : "pawn",
+          "pos" : "7a"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "pawn",
+            "color" : "gote"
+          },
+          "dest" : "7a",
+          "brush" : "alternative0"
+        }
+      },
+      "move" : null
+    },
+    "engineMoveUsi" : "P*6f",
+    "engineMove" : {
+      "drop" : {
+        "drop" : {
+          "role" : "pawn",
+          "pos" : "6f"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "pawn",
+            "color" : "gote"
+          },
+          "dest" : "6f",
+          "brush" : "primary"
+        }
+      },
+      "move" : null
+    }
+  },
+  {
+    "id" : "lishogi_game_2023_01_03_nori1972_3級_vs_Tonyko_3級_yW5OqbVM.kif#9",
+    "sfen" : "lnsgkgsnl/7b1/pp1pppppp/9/2r6/3P5/PP2PPPPP/1BSR5/LN1GKGSNL w Pp 10",
+    "hands" : "Pp",
+    "judgement" : "Inaccuracy",
+    "comment" : "(-0.43 → 3.22) Inaccuracy. Best move was [usi:9.1c1d]",
+    "timeControl" : "3分",
+    "date" : "2022/11/18 03:17:14",
+    "site" : "https://lishogi.org/yW5OqbVM",
+    "kifName" : "kif\\lishogi_game_2023_01_03_nori1972_3級_vs_Tonyko_3級_yW5OqbVM.kif",
+    "player" : "gote",
+    "opponentLastMoveUsi" : "7i7h",
+    "opponentLastMovePosition" : [
+      "7i",
+      "7h"
+    ],
+    "yourMoveUsi" : "P*7f",
+    "yourMove" : {
+      "drop" : {
+        "drop" : {
+          "role" : "pawn",
+          "pos" : "7f"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "pawn",
+            "color" : "gote"
+          },
+          "dest" : "7f",
+          "brush" : "alternative0"
+        }
+      },
+      "move" : null
+    },
+    "engineMoveUsi" : "1c1d",
+    "engineMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "1c",
+          "dest" : "1d",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "1c",
+          "dest" : "1d",
+          "brush" : "primary"
+        }
+      }
+    }
+  },
+  {
+    "id" : "lishogi_game_2023_01_03_nori1972_3級_vs_Tonyko_3級_yW5OqbVM.kif#31",
+    "sfen" : "l2g1k1nl/5sgb1/ppnpsp1pp/2r1p1p2/3P5/1PPS5/P3PPPPP/1B1R2SK1/LN1G1G1NL w p 32",
+    "hands" : "p",
+    "judgement" : "Blunder",
+    "comment" : "(-5.56 → 6.23) Blunder. Best move was [usi:31.7d7f]",
+    "timeControl" : "3分",
+    "date" : "2022/11/18 03:17:14",
+    "site" : "https://lishogi.org/yW5OqbVM",
+    "kifName" : "kif\\lishogi_game_2023_01_03_nori1972_3級_vs_Tonyko_3級_yW5OqbVM.kif",
+    "player" : "gote",
+    "opponentLastMoveUsi" : "7g6f",
+    "opponentLastMovePosition" : [
+      "7g",
+      "6f"
+    ],
+    "yourMoveUsi" : "7d8d",
+    "yourMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "7d",
+          "dest" : "8d",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "7d",
+          "dest" : "8d",
+          "brush" : "alternative0"
+        }
+      }
+    },
+    "engineMoveUsi" : "7d7f",
+    "engineMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "7d",
+          "dest" : "7f",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "7d",
+          "dest" : "7f",
+          "brush" : "primary"
+        }
+      }
+    }
+  },
+  {
+    "id" : "lishogi_game_2023_01_03_nori1972_3級_vs_Tonyko_3級_yW5OqbVM.kif#33",
+    "sfen" : "l2g1k1nl/5sgb1/ppnpsp1pp/1r2p1p2/3P5/1PPS5/P1B1PPPPP/3R2SK1/LN1G1G1NL w p 34",
+    "hands" : "p",
+    "judgement" : "Blunder",
+    "comment" : "(0.98 → 10.07) Blunder. Best move was [usi:33.P*7d]",
+    "timeControl" : "3分",
+    "date" : "2022/11/18 03:17:14",
+    "site" : "https://lishogi.org/yW5OqbVM",
+    "kifName" : "kif\\lishogi_game_2023_01_03_nori1972_3級_vs_Tonyko_3級_yW5OqbVM.kif",
+    "player" : "gote",
+    "opponentLastMoveUsi" : "8h7g",
+    "opponentLastMovePosition" : [
+      "8h",
+      "7g"
+    ],
+    "yourMoveUsi" : "6c6d",
+    "yourMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "6c",
+          "dest" : "6d",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "6c",
+          "dest" : "6d",
+          "brush" : "alternative0"
+        }
+      }
+    },
+    "engineMoveUsi" : "P*7d",
+    "engineMove" : {
+      "drop" : {
+        "drop" : {
+          "role" : "pawn",
+          "pos" : "7d"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "pawn",
+            "color" : "gote"
+          },
+          "dest" : "7d",
+          "brush" : "primary"
+        }
+      },
+      "move" : null
+    }
+  },
+  {
+    "id" : "lishogi_game_2023_01_03_nori1972_3級_vs_Tonyko_3級_yW5OqbVM.kif#35",
+    "sfen" : "l2g1k1nl/5sgb1/ppn1sp1pp/1r1pp1p2/2SP5/1PP6/P1B1PPPPP/3R2SK1/LN1G1G1NL w p 36",
+    "hands" : "p",
+    "judgement" : "Mistake",
+    "comment" : "(9.92 → 18.58) Mistake. Best move was [usi:35.7c6e]",
+    "timeControl" : "3分",
+    "date" : "2022/11/18 03:17:14",
+    "site" : "https://lishogi.org/yW5OqbVM",
+    "kifName" : "kif\\lishogi_game_2023_01_03_nori1972_3級_vs_Tonyko_3級_yW5OqbVM.kif",
+    "player" : "gote",
+    "opponentLastMoveUsi" : "6f7e",
+    "opponentLastMovePosition" : [
+      "6f",
+      "7e"
+    ],
+    "yourMoveUsi" : "8d9d",
+    "yourMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "8d",
+          "dest" : "9d",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "8d",
+          "dest" : "9d",
+          "brush" : "alternative0"
+        }
+      }
+    },
+    "engineMoveUsi" : "7c6e",
+    "engineMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "7c",
+          "dest" : "6e",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "7c",
+          "dest" : "6e",
+          "brush" : "primary"
+        }
+      }
+    }
+  },
+  {
+    "id" : "lishogi_game_2023_01_03_nori1972_3級_vs_Tonyko_3級_yW5OqbVM.kif#47",
+    "sfen" : "l2g1k1nl/5s1g1/p3sp1pp/1p1pp1p2/P8/1PPR5/2+n1PPPPP/6SK1/L2G1G1NL w RBbsn2p 48",
+    "hands" : "RBbsn2p",
+    "judgement" : "Mistake",
+    "comment" : "(1.16 → 8.13) Mistake. Best move was [usi:47.P*7a]",
+    "timeControl" : "3分",
+    "date" : "2022/11/18 03:17:14",
+    "site" : "https://lishogi.org/yW5OqbVM",
+    "kifName" : "kif\\lishogi_game_2023_01_03_nori1972_3級_vs_Tonyko_3級_yW5OqbVM.kif",
+    "player" : "gote",
+    "opponentLastMoveUsi" : "6h6f",
+    "opponentLastMovePosition" : [
+      "6h",
+      "6f"
+    ],
+    "yourMoveUsi" : "S*6e",
+    "yourMove" : {
+      "drop" : {
+        "drop" : {
+          "role" : "silver",
+          "pos" : "6e"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "silver",
+            "color" : "gote"
+          },
+          "dest" : "6e",
+          "brush" : "alternative0"
+        }
+      },
+      "move" : null
+    },
+    "engineMoveUsi" : "P*7a",
+    "engineMove" : {
+      "drop" : {
+        "drop" : {
+          "role" : "pawn",
+          "pos" : "7a"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "pawn",
+            "color" : "gote"
+          },
+          "dest" : "7a",
+          "brush" : "primary"
+        }
+      },
+      "move" : null
+    }
+  },
+  {
+    "id" : "lishogi_game_2023_01_03_nori1972_3級_vs_Tonyko_3級_yW5OqbVM.kif#49",
+    "sfen" : "l2g1k1nl/5s1g1/p3sp1pp/1p1pp1p2/P2s5/1PP4R1/2+n1PPPPP/6SK1/L2G1G1NL w RBbn2p 50",
+    "hands" : "RBbn2p",
+    "judgement" : "Mistake",
+    "comment" : "(7.88 → 17.94) Mistake. Best move was [usi:49.P*7a]",
+    "timeControl" : "3分",
+    "date" : "2022/11/18 03:17:14",
+    "site" : "https://lishogi.org/yW5OqbVM",
+    "kifName" : "kif\\lishogi_game_2023_01_03_nori1972_3級_vs_Tonyko_3級_yW5OqbVM.kif",
+    "player" : "gote",
+    "opponentLastMoveUsi" : "6f2f",
+    "opponentLastMovePosition" : [
+      "6f",
+      "2f"
+    ],
+    "yourMoveUsi" : "4b3c",
+    "yourMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "4b",
+          "dest" : "3c",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "4b",
+          "dest" : "3c",
+          "brush" : "alternative0"
+        }
+      }
+    },
+    "engineMoveUsi" : "P*7a",
+    "engineMove" : {
+      "drop" : {
+        "drop" : {
+          "role" : "pawn",
+          "pos" : "7a"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "pawn",
+            "color" : "gote"
+          },
+          "dest" : "7a",
+          "brush" : "primary"
+        }
+      },
+      "move" : null
+    }
+  },
+  {
+    "id" : "lishogi_game_2023_01_03_nori1972_3級_vs_Tonyko_3級_yW5OqbVM.kif#55",
+    "sfen" : "+R3gk1nl/4n2g1/p2Bspspp/1p1pp1p2/P2s5/1PP4R1/2+n1PPPPP/6SK1/L2G1G1NL w Lb2p 56",
+    "hands" : "Lb2p",
+    "judgement" : "Inaccuracy",
+    "comment" : "(18.28 → 24.24) Inaccuracy. Best move was [usi:55.3c4b]",
+    "timeControl" : "3分",
+    "date" : "2022/11/18 03:17:14",
+    "site" : "https://lishogi.org/yW5OqbVM",
+    "kifName" : "kif\\lishogi_game_2023_01_03_nori1972_3級_vs_Tonyko_3級_yW5OqbVM.kif",
+    "player" : "gote",
+    "opponentLastMoveUsi" : "8a9a+",
+    "opponentLastMovePosition" : [
+      "8a",
+      "9a"
+    ],
+    "yourMoveUsi" : "5c4b",
+    "yourMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "5c",
+          "dest" : "4b",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "5c",
+          "dest" : "4b",
+          "brush" : "alternative0"
+        }
+      }
+    },
+    "engineMoveUsi" : "3c4b",
+    "engineMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "3c",
+          "dest" : "4b",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "3c",
+          "dest" : "4b",
+          "brush" : "primary"
+        }
+      }
+    }
+  },
+  {
+    "id" : "lishogi_game_2023_01_03_nori1972_3級_vs_Tonyko_3級_yW5OqbVM.kif#63",
+    "sfen" : "+R3gk1nl/4ns1s1/p2B1p2p/1p1pp1p2/P2s5/1PP4P1/2+n1PPP1P/6SK1/L2G1G1NL w BGPrl2p 64",
+    "hands" : "BGPrl2p",
+    "judgement" : "Inaccuracy",
+    "comment" : "(26.75 → 43.18) Inaccuracy. Best move was [usi:63.R*7c]",
+    "timeControl" : "3分",
+    "date" : "2022/11/18 03:17:14",
+    "site" : "https://lishogi.org/yW5OqbVM",
+    "kifName" : "kif\\lishogi_game_2023_01_03_nori1972_3級_vs_Tonyko_3級_yW5OqbVM.kif",
+    "player" : "gote",
+    "opponentLastMoveUsi" : "2g2f",
+    "opponentLastMovePosition" : [
+      "2g",
+      "2f"
+    ],
+    "yourMoveUsi" : "R*8i",
+    "yourMove" : {
+      "drop" : {
+        "drop" : {
+          "role" : "rook",
+          "pos" : "8i"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "rook",
+            "color" : "gote"
+          },
+          "dest" : "8i",
+          "brush" : "alternative0"
+        }
+      },
+      "move" : null
+    },
+    "engineMoveUsi" : "R*7c",
+    "engineMove" : {
+      "drop" : {
+        "drop" : {
+          "role" : "rook",
+          "pos" : "7c"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "rook",
+            "color" : "gote"
+          },
+          "dest" : "7c",
+          "brush" : "primary"
+        }
+      },
+      "move" : null
+    }
+  },
+  {
+    "id" : "lishogi_game_2023_01_03_nori1972_3級_vs_Tonyko_3級_yW5OqbVM.kif#65",
+    "sfen" : "+R3gk1nl/4ns1s1/p2B1p2p/1p1pp1p2/P2s5/1PP4P1/2+n1PPP1P/6SK1/Lr2GG1NL w BGPl2p 66",
+    "hands" : "BGPl2p",
+    "judgement" : "Inaccuracy",
+    "comment" : "(32.22 → 43.95) Inaccuracy. Best move was [usi:65.P*2g]",
+    "timeControl" : "3分",
+    "date" : "2022/11/18 03:17:14",
+    "site" : "https://lishogi.org/yW5OqbVM",
+    "kifName" : "kif\\lishogi_game_2023_01_03_nori1972_3級_vs_Tonyko_3級_yW5OqbVM.kif",
+    "player" : "gote",
+    "opponentLastMoveUsi" : "6i5i",
+    "opponentLastMovePosition" : [
+      "6i",
+      "5i"
+    ],
+    "yourMoveUsi" : "7g6g",
+    "yourMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "7g",
+          "dest" : "6g",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "7g",
+          "dest" : "6g",
+          "brush" : "alternative0"
+        }
+      }
+    },
+    "engineMoveUsi" : "P*2g",
+    "engineMove" : {
+      "drop" : {
+        "drop" : {
+          "role" : "pawn",
+          "pos" : "2g"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "pawn",
+            "color" : "gote"
+          },
+          "dest" : "2g",
+          "brush" : "primary"
+        }
+      },
+      "move" : null
+    }
+  },
+  {
+    "id" : "lishogi_game_2023_01_03_shinsansa_29級_vs_Tonyko_3級_b5INan8E.kif#27",
+    "sfen" : "ln2gk1nl/2r2sgb1/1psp1p1pp/p5p2/2p1S4/P5P1P/1PPP1PNP1/1BG1RSG2/LN2K3L w Pp 28",
+    "hands" : "Pp",
+    "judgement" : "Inaccuracy",
+    "comment" : "(-0.32 → 2.85) Inaccuracy. Best move was [usi:27.1c1d]",
+    "timeControl" : "0分 (1手10秒)",
+    "date" : "2022/12/26 01:52:37",
+    "site" : "https://lishogi.org/b5INan8E",
+    "kifName" : "kif\\lishogi_game_2023_01_03_shinsansa_29級_vs_Tonyko_3級_b5INan8E.kif",
+    "player" : "gote",
+    "opponentLastMoveUsi" : "2i3g",
+    "opponentLastMovePosition" : [
+      "2i",
+      "3g"
+    ],
+    "yourMoveUsi" : "7b5b",
+    "yourMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "7b",
+          "dest" : "5b",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "7b",
+          "dest" : "5b",
+          "brush" : "alternative0"
+        }
+      }
+    },
+    "engineMoveUsi" : "1c1d",
+    "engineMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "1c",
+          "dest" : "1d",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "1c",
+          "dest" : "1d",
+          "brush" : "primary"
+        }
+      }
+    }
+  },
+  {
+    "id" : "lishogi_game_2023_01_03_shinsansa_29級_vs_Tonyko_3級_b5INan8E.kif#29",
+    "sfen" : "ln2gk1nl/4rsgb1/1psp1p1pp/p3P1p2/2p1S4/P5P1P/1PPP1PNP1/1BG1RSG2/LN2K3L w p 30",
+    "hands" : "p",
+    "judgement" : "Inaccuracy",
+    "comment" : "(2.75 → 6.81) Inaccuracy. Best move was [usi:29.5b7b]",
+    "timeControl" : "0分 (1手10秒)",
+    "date" : "2022/12/26 01:52:37",
+    "site" : "https://lishogi.org/b5INan8E",
+    "kifName" : "kif\\lishogi_game_2023_01_03_shinsansa_29級_vs_Tonyko_3級_b5INan8E.kif",
+    "player" : "gote",
+    "opponentLastMoveUsi" : "P*5d",
+    "opponentLastMovePosition" : [
+      "5d"
+    ],
+    "yourMoveUsi" : "P*5c",
+    "yourMove" : {
+      "drop" : {
+        "drop" : {
+          "role" : "pawn",
+          "pos" : "5c"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "pawn",
+            "color" : "gote"
+          },
+          "dest" : "5c",
+          "brush" : "alternative0"
+        }
+      },
+      "move" : null
+    },
+    "engineMoveUsi" : "5b7b",
+    "engineMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "5b",
+          "dest" : "7b",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "5b",
+          "dest" : "7b",
+          "brush" : "primary"
+        }
+      }
+    }
+  },
+  {
+    "id" : "lishogi_game_2023_01_03_shinsansa_29級_vs_Tonyko_3級_b5INan8E.kif#33",
+    "sfen" : "ln2gk1nl/4r1gb1/1pspsp1pp/p3P1p2/2p1S4/P5P1P/1PPP1PNP1/1BG1RSG2/LN2K3L w p 34",
+    "hands" : "p",
+    "judgement" : "Blunder",
+    "comment" : "(7.48 → 24.71) Blunder. Best move was [usi:33.5c4b]",
+    "timeControl" : "0分 (1手10秒)",
+    "date" : "2022/12/26 01:52:37",
+    "site" : "https://lishogi.org/b5INan8E",
+    "kifName" : "kif\\lishogi_game_2023_01_03_shinsansa_29級_vs_Tonyko_3級_b5INan8E.kif",
+    "player" : "gote",
+    "opponentLastMoveUsi" : "P*5d",
+    "opponentLastMovePosition" : [
+      "5d"
+    ],
+    "yourMoveUsi" : "5c4d",
+    "yourMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "5c",
+          "dest" : "4d",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "5c",
+          "dest" : "4d",
+          "brush" : "alternative0"
+        }
+      }
+    },
+    "engineMoveUsi" : "5c4b",
+    "engineMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "5c",
+          "dest" : "4b",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "5c",
+          "dest" : "4b",
+          "brush" : "primary"
+        }
+      }
+    }
+  },
+  {
+    "id" : "lishogi_game_2023_01_03_shinsansa_29級_vs_Tonyko_3級_b5INan8E.kif#37",
+    "sfen" : "ln2gk1nl/4r1g2/1psp1p1pp/p3Pbp2/2p2N3/P5P1P/1PPP1P1P1/1BG1RSG2/LN2K3L w Ssp 38",
+    "hands" : "Ssp",
+    "judgement" : "Inaccuracy",
+    "comment" : "(20.86 → 26.25) Inaccuracy. Best move was [usi:37.5b9b]",
+    "timeControl" : "0分 (1手10秒)",
+    "date" : "2022/12/26 01:52:37",
+    "site" : "https://lishogi.org/b5INan8E",
+    "kifName" : "kif\\lishogi_game_2023_01_03_shinsansa_29級_vs_Tonyko_3級_b5INan8E.kif",
+    "player" : "gote",
+    "opponentLastMoveUsi" : "3g4e",
+    "opponentLastMovePosition" : [
+      "3g",
+      "4e"
+    ],
+    "yourMoveUsi" : "7c6d",
+    "yourMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "7c",
+          "dest" : "6d",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "7c",
+          "dest" : "6d",
+          "brush" : "alternative0"
+        }
+      }
+    },
+    "engineMoveUsi" : "5b9b",
+    "engineMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "5b",
+          "dest" : "9b",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "5b",
+          "dest" : "9b",
+          "brush" : "primary"
+        }
+      }
+    }
+  },
+  {
+    "id" : "lishogi_game_2023_01_03_shinsansa_29級_vs_Tonyko_3級_b5INan8E.kif#69",
+    "sfen" : "ln2+PGGnl/9/1p3pkpp/p5p2/9/P5P1P/1P+bP1P1P1/3SRSG2/L3K3L w R3Pbg2s2np 70",
+    "hands" : "R3Pbg2s2np",
+    "judgement" : "Blunder",
+    "comment" : "(9.13 → 54.16) Blunder. Best move was [usi:69.7g8g]",
+    "timeControl" : "0分 (1手10秒)",
+    "date" : "2022/12/26 01:52:37",
+    "site" : "https://lishogi.org/b5INan8E",
+    "kifName" : "kif\\lishogi_game_2023_01_03_shinsansa_29級_vs_Tonyko_3級_b5INan8E.kif",
+    "player" : "gote",
+    "opponentLastMoveUsi" : "S*6h",
+    "opponentLastMovePosition" : [
+      "6h"
+    ],
+    "yourMoveUsi" : "S*7i",
+    "yourMove" : {
+      "drop" : {
+        "drop" : {
+          "role" : "silver",
+          "pos" : "7i"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "silver",
+            "color" : "gote"
+          },
+          "dest" : "7i",
+          "brush" : "alternative0"
+        }
+      },
+      "move" : null
+    },
+    "engineMoveUsi" : "7g8g",
+    "engineMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "7g",
+          "dest" : "8g",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "7g",
+          "dest" : "8g",
+          "brush" : "primary"
+        }
+      }
+    }
+  },
+  {
+    "id" : "lishogi_game_2023_01_03_shinsansa_29級_vs_Tonyko_3級_b5INan8E.kif#71",
+    "sfen" : "ln2+PGGnl/4+R4/1p3pkpp/p5p2/9/P5P1P/1P+bP1P1P1/3S1SG2/L1s1K3L w R3Pbgs2np 72",
+    "hands" : "R3Pbgs2np",
+    "judgement" : "Mistake",
+    "comment" : "(-10.36 → -2.88) Mistake. Best move was [usi:71.7i6h+]",
+    "timeControl" : "0分 (1手10秒)",
+    "date" : "2022/12/26 01:52:37",
+    "site" : "https://lishogi.org/b5INan8E",
+    "kifName" : "kif\\lishogi_game_2023_01_03_shinsansa_29級_vs_Tonyko_3級_b5INan8E.kif",
+    "player" : "gote",
+    "opponentLastMoveUsi" : "5h5b+",
+    "opponentLastMovePosition" : [
+      "5h",
+      "5b"
+    ],
+    "yourMoveUsi" : "7g6h",
+    "yourMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "7g",
+          "dest" : "6h",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "7g",
+          "dest" : "6h",
+          "brush" : "alternative0"
+        }
+      }
+    },
+    "engineMoveUsi" : "7i6h+",
+    "engineMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "7i",
+          "dest" : "6h",
+          "promotion" : true
+        },
+        "hint" : {
+          "orig" : "7i",
+          "dest" : "6h",
+          "brush" : "primary"
+        }
+      }
+    }
+  },
+  {
+    "id" : "lishogi_game_2023_01_03_Tonyko_2級_vs_Ruhiel_2級_xzdFYpIs.kif#24",
+    "sfen" : "lnsg3nl/3kg2b1/pppppprpp/9/6p2/2P4R1/PP1PPPNPP/1B7/LNSGKG2L b SPs 25",
+    "hands" : "SPs",
+    "judgement" : "Blunder",
+    "comment" : "(14.58 → 2.88) Blunder. Best move was [usi:24.3g4e]",
+    "timeControl" : "10分",
+    "date" : "2022/11/22 19:51:58",
+    "site" : "https://lishogi.org/xzdFYpIs",
+    "kifName" : "kif\\lishogi_game_2023_01_03_Tonyko_2級_vs_Ruhiel_2級_xzdFYpIs.kif",
+    "player" : "sente",
+    "opponentLastMoveUsi" : "3d3e",
+    "opponentLastMovePosition" : [
+      "3d",
+      "3e"
+    ],
+    "yourMoveUsi" : "8h3c+",
+    "yourMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "8h",
+          "dest" : "3c",
+          "promotion" : true
+        },
+        "hint" : {
+          "orig" : "8h",
+          "dest" : "3c",
+          "brush" : "alternative0"
+        }
+      }
+    },
+    "engineMoveUsi" : "3g4e",
+    "engineMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "3g",
+          "dest" : "4e",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "3g",
+          "dest" : "4e",
+          "brush" : "primary"
+        }
+      }
+    }
+  },
+  {
+    "id" : "lishogi_game_2023_01_03_Tonyko_2級_vs_Ruhiel_2級_xzdFYpIs.kif#32",
+    "sfen" : "lnsg3+Rl/3kg4/pppppp2p/5s3/5Np2/2P6/PP1PPP1PP/7b1/+bNSGKG2L b RSN2Pl 33",
+    "hands" : "RSN2Pl",
+    "judgement" : "Inaccuracy",
+    "comment" : "(22.37 → 16.04) Inaccuracy. Best move was [usi:32.R*3b]",
+    "timeControl" : "10分",
+    "date" : "2022/11/22 19:51:58",
+    "site" : "https://lishogi.org/xzdFYpIs",
+    "kifName" : "kif\\lishogi_game_2023_01_03_Tonyko_2級_vs_Ruhiel_2級_xzdFYpIs.kif",
+    "player" : "sente",
+    "opponentLastMoveUsi" : "S*4d",
+    "opponentLastMovePosition" : [
+      "4d"
+    ],
+    "yourMoveUsi" : "R*3a",
+    "yourMove" : {
+      "drop" : {
+        "drop" : {
+          "role" : "rook",
+          "pos" : "3a"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "rook",
+            "color" : "sente"
+          },
+          "dest" : "3a",
+          "brush" : "alternative0"
+        }
+      },
+      "move" : null
+    },
+    "engineMoveUsi" : "R*3b",
+    "engineMove" : {
+      "drop" : {
+        "drop" : {
+          "role" : "rook",
+          "pos" : "3b"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "rook",
+            "color" : "sente"
+          },
+          "dest" : "3b",
+          "brush" : "primary"
+        }
+      },
+      "move" : null
+    }
+  },
+  {
+    "id" : "lishogi_game_2023_01_03_Tonyko_2級_vs_Ruhiel_2級_xzdFYpIs.kif#34",
+    "sfen" : "ln1g2R+Rl/2skg4/pppppp2p/5s3/5Np2/2P6/PP1PPP1PP/7b1/+bNSGKG2L b SN2Pl 35",
+    "hands" : "SN2Pl",
+    "judgement" : "Inaccuracy",
+    "comment" : "(16.57 → 10.53) Inaccuracy. Best move was [usi:34.S*4a]",
+    "timeControl" : "10分",
+    "date" : "2022/11/22 19:51:58",
+    "site" : "https://lishogi.org/xzdFYpIs",
+    "kifName" : "kif\\lishogi_game_2023_01_03_Tonyko_2級_vs_Ruhiel_2級_xzdFYpIs.kif",
+    "player" : "sente",
+    "opponentLastMoveUsi" : "7a7b",
+    "opponentLastMovePosition" : [
+      "7a",
+      "7b"
+    ],
+    "yourMoveUsi" : "N*7e",
+    "yourMove" : {
+      "drop" : {
+        "drop" : {
+          "role" : "knight",
+          "pos" : "7e"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "knight",
+            "color" : "sente"
+          },
+          "dest" : "7e",
+          "brush" : "alternative0"
+        }
+      },
+      "move" : null
+    },
+    "engineMoveUsi" : "S*4a",
+    "engineMove" : {
+      "drop" : {
+        "drop" : {
+          "role" : "silver",
+          "pos" : "4a"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "silver",
+            "color" : "sente"
+          },
+          "dest" : "4a",
+          "brush" : "primary"
+        }
+      },
+      "move" : null
+    }
+  },
+  {
+    "id" : "lishogi_game_2023_01_03_Tonyko_3級_vs_hyunkel56_3級_AlXRHPa9.kif#52",
+    "sfen" : "ln1gb2+R+B/1ks1s4/1p1gpp+N2/p1pp2p1p/9/P1P1PSP1P/1P1P1P3/2GSl4/LNK1G3+r b NL2P 53",
+    "hands" : "NL2P",
+    "judgement" : "Blunder",
+    "comment" : "(28.03 → -8.42) Blunder. Best move was [usi:52.5i6i]",
+    "timeControl" : "3分",
+    "date" : "2022/12/26 01:32:06",
+    "site" : "https://lishogi.org/AlXRHPa9",
+    "kifName" : "kif\\lishogi_game_2023_01_03_Tonyko_3級_vs_hyunkel56_3級_AlXRHPa9.kif",
+    "player" : "sente",
+    "opponentLastMoveUsi" : "L*5h",
+    "opponentLastMovePosition" : [
+      "5h"
+    ],
+    "yourMoveUsi" : "7i8h",
+    "yourMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "7i",
+          "dest" : "8h",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "7i",
+          "dest" : "8h",
+          "brush" : "alternative0"
+        }
+      }
+    },
+    "engineMoveUsi" : "5i6i",
+    "engineMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "5i",
+          "dest" : "6i",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "5i",
+          "dest" : "6i",
+          "brush" : "primary"
+        }
+      }
+    }
+  },
+  {
+    "id" : "lishogi_game_2023_01_03_Tonyko_3級_vs_hyunkel56_3級_AlXRHPa9.kif#56",
+    "sfen" : "ln1gb2+R+B/1ks1s1+N2/1p1gpp3/p1pp2p1p/9/P1P1PSP1P/1P1P1P3/1KGS5/LN1+l4+r b NL2Pg 57",
+    "hands" : "NL2Pg",
+    "judgement" : "Blunder",
+    "comment" : "(-6.15 → -20.41) Blunder. Best move was [usi:56.4f5g]",
+    "timeControl" : "3分",
+    "date" : "2022/12/26 01:32:06",
+    "site" : "https://lishogi.org/AlXRHPa9",
+    "kifName" : "kif\\lishogi_game_2023_01_03_Tonyko_3級_vs_hyunkel56_3級_AlXRHPa9.kif",
+    "player" : "sente",
+    "opponentLastMoveUsi" : "5i6i",
+    "opponentLastMovePosition" : [
+      "5i",
+      "6i"
+    ],
+    "yourMoveUsi" : "P*2i",
+    "yourMove" : {
+      "drop" : {
+        "drop" : {
+          "role" : "pawn",
+          "pos" : "2i"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "pawn",
+            "color" : "sente"
+          },
+          "dest" : "2i",
+          "brush" : "alternative0"
+        }
+      },
+      "move" : null
+    },
+    "engineMoveUsi" : "4f5g",
+    "engineMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "4f",
+          "dest" : "5g",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "4f",
+          "dest" : "5g",
+          "brush" : "primary"
+        }
+      }
+    }
+  },
+  {
+    "id" : "lishogi_game_2023_01_03_Tonyko_3級_vs_hyunkel56_3級_AlXRHPa9.kif#60",
+    "sfen" : "ln1g3+R+B/1ks1s1+N2/1p1gpp3/pbpp2p1p/9/P1P1PSP1P/1P1P1P3/1K1G5/LN5P+r b N2LPgs 61",
+    "hands" : "N2LPgs",
+    "judgement" : "Mistake",
+    "comment" : "(-5.55 → -12.33) Mistake. Best move was [usi:60.3b4b]",
+    "timeControl" : "3分",
+    "date" : "2022/12/26 01:32:06",
+    "site" : "https://lishogi.org/AlXRHPa9",
+    "kifName" : "kif\\lishogi_game_2023_01_03_Tonyko_3級_vs_hyunkel56_3級_AlXRHPa9.kif",
+    "player" : "sente",
+    "opponentLastMoveUsi" : "5a8d",
+    "opponentLastMovePosition" : [
+      "5a",
+      "8d"
+    ],
+    "yourMoveUsi" : "L*8f",
+    "yourMove" : {
+      "drop" : {
+        "drop" : {
+          "role" : "lance",
+          "pos" : "8f"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "lance",
+            "color" : "sente"
+          },
+          "dest" : "8f",
+          "brush" : "alternative0"
+        }
+      },
+      "move" : null
+    },
+    "engineMoveUsi" : "3b4b",
+    "engineMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "3b",
+          "dest" : "4b",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "3b",
+          "dest" : "4b",
+          "brush" : "primary"
+        }
+      }
+    }
+  },
+  {
+    "id" : "lishogi_game_2023_01_03_Tonyko_3級_vs_hyunkel56_3級_AlXRHPa9.kif#62",
+    "sfen" : "ln1g3+R+B/1ks1s1+N2/1p1gpp3/p1pp2p1p/9/PLP1PSP1P/1P1P1P3/1K1G1+b3/LN5P+r b NLPgs 63",
+    "hands" : "NLPgs",
+    "judgement" : "Blunder",
+    "comment" : "(0.16 → -15.27) Blunder. Best move was [usi:62.3b4b]",
+    "timeControl" : "3分",
+    "date" : "2022/12/26 01:32:06",
+    "site" : "https://lishogi.org/AlXRHPa9",
+    "kifName" : "kif\\lishogi_game_2023_01_03_Tonyko_3級_vs_hyunkel56_3級_AlXRHPa9.kif",
+    "player" : "sente",
+    "opponentLastMoveUsi" : "8d4h+",
+    "opponentLastMovePosition" : [
+      "8d",
+      "4h"
+    ],
+    "yourMoveUsi" : "L*8e",
+    "yourMove" : {
+      "drop" : {
+        "drop" : {
+          "role" : "lance",
+          "pos" : "8e"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "lance",
+            "color" : "sente"
+          },
+          "dest" : "8e",
+          "brush" : "alternative0"
+        }
+      },
+      "move" : null
+    },
+    "engineMoveUsi" : "3b4b",
+    "engineMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "3b",
+          "dest" : "4b",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "3b",
+          "dest" : "4b",
+          "brush" : "primary"
+        }
+      }
+    }
+  },
+  {
+    "id" : "lishogi_game_2023_01_03_Tonyko_3級_vs_MMceo_2級_2oY92vgX.kif#16",
+    "sfen" : "ln1gkgsnl/7b1/p1ppppppp/1rs6/9/6P2/PPPPPPSPP/1BGS2R2/LN2KG1NL b p 17",
+    "hands" : "p",
+    "judgement" : "Inaccuracy",
+    "comment" : "(-1.25 → -5.23) Inaccuracy. Best move was [usi:16.7g7f]",
+    "timeControl" : "3分",
+    "date" : "2023/01/03 06:20:46",
+    "site" : "https://lishogi.org/2oY92vgX",
+    "kifName" : "kif\\lishogi_game_2023_01_03_Tonyko_3級_vs_MMceo_2級_2oY92vgX.kif",
+    "player" : "sente",
+    "opponentLastMoveUsi" : "8c7d",
+    "opponentLastMovePosition" : [
+      "8c",
+      "7d"
+    ],
+    "yourMoveUsi" : "9g9f",
+    "yourMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "9g",
+          "dest" : "9f",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "9g",
+          "dest" : "9f",
+          "brush" : "alternative0"
+        }
+      }
+    },
+    "engineMoveUsi" : "7g7f",
+    "engineMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "7g",
+          "dest" : "7f",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "7g",
+          "dest" : "7f",
+          "brush" : "primary"
+        }
+      }
+    }
+  },
+  {
+    "id" : "lishogi_game_2023_01_03_Tonyko_3級_vs_MMceo_2級_2oY92vgX.kif#18",
+    "sfen" : "ln1gkgsnl/7b1/p1ppppppp/1r7/2s6/P5P2/1PPPPPSPP/1BGS2R2/LN2KG1NL b p 19",
+    "hands" : "p",
+    "judgement" : "Inaccuracy",
+    "comment" : "(-5.34 → -8.84) Inaccuracy. Best move was [usi:18.8h9g]",
+    "timeControl" : "3分",
+    "date" : "2023/01/03 06:20:46",
+    "site" : "https://lishogi.org/2oY92vgX",
+    "kifName" : "kif\\lishogi_game_2023_01_03_Tonyko_3級_vs_MMceo_2級_2oY92vgX.kif",
+    "player" : "sente",
+    "opponentLastMoveUsi" : "7d7e",
+    "opponentLastMovePosition" : [
+      "7d",
+      "7e"
+    ],
+    "yourMoveUsi" : "8h7i",
+    "yourMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "8h",
+          "dest" : "7i",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "8h",
+          "dest" : "7i",
+          "brush" : "alternative0"
+        }
+      }
+    },
+    "engineMoveUsi" : "8h9g",
+    "engineMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "8h",
+          "dest" : "9g",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "8h",
+          "dest" : "9g",
+          "brush" : "primary"
+        }
+      }
+    }
+  },
+  {
+    "id" : "lishogi_game_2023_01_03_Tonyko_3級_vs_MMceo_2級_2oY92vgX.kif#24",
+    "sfen" : "ln1gkgsnl/7b1/p1ppppppp/1r7/9/Ps4P2/1pPPPPSPP/1PGS2R2/LNB1KG1NL b - 25",
+    "hands" : "-",
+    "judgement" : "Blunder",
+    "comment" : "(-8.02 → -22.21) Blunder. Best move was [usi:24.7g7f]",
+    "timeControl" : "3分",
+    "date" : "2023/01/03 06:20:46",
+    "site" : "https://lishogi.org/2oY92vgX",
+    "kifName" : "kif\\lishogi_game_2023_01_03_Tonyko_3級_vs_MMceo_2級_2oY92vgX.kif",
+    "player" : "sente",
+    "opponentLastMoveUsi" : "P*8g",
+    "opponentLastMovePosition" : [
+      "8g"
+    ],
+    "yourMoveUsi" : "8h8g",
+    "yourMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "8h",
+          "dest" : "8g",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "8h",
+          "dest" : "8g",
+          "brush" : "alternative0"
+        }
+      }
+    },
+    "engineMoveUsi" : "7g7f",
+    "engineMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "7g",
+          "dest" : "7f",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "7g",
+          "dest" : "7f",
+          "brush" : "primary"
+        }
+      }
+    }
+  },
+  {
+    "id" : "lishogi_game_2023_01_03_Tonyko_3級_vs_MMceo_2級_2oY92vgX.kif#28",
+    "sfen" : "ln1gkgsnl/7b1/p1ppppppp/9/9/P5P2/1+rPPPPSPP/3S2R2/LNB1KG1NL b SPgp 29",
+    "hands" : "SPgp",
+    "judgement" : "Inaccuracy",
+    "comment" : "(-21.35 → -29.60) Inaccuracy. Best move was [usi:28.5i4h]",
+    "timeControl" : "3分",
+    "date" : "2023/01/03 06:20:46",
+    "site" : "https://lishogi.org/2oY92vgX",
+    "kifName" : "kif\\lishogi_game_2023_01_03_Tonyko_3級_vs_MMceo_2級_2oY92vgX.kif",
+    "player" : "sente",
+    "opponentLastMoveUsi" : "8d8g+",
+    "opponentLastMovePosition" : [
+      "8d",
+      "8g"
+    ],
+    "yourMoveUsi" : "P*8h",
+    "yourMove" : {
+      "drop" : {
+        "drop" : {
+          "role" : "pawn",
+          "pos" : "8h"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "pawn",
+            "color" : "sente"
+          },
+          "dest" : "8h",
+          "brush" : "alternative0"
+        }
+      },
+      "move" : null
+    },
+    "engineMoveUsi" : "5i4h",
+    "engineMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "5i",
+          "dest" : "4h",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "5i",
+          "dest" : "4h",
+          "brush" : "primary"
+        }
+      }
+    }
+  },
+  {
+    "id" : "lishogi_game_2023_01_03_Tonyko_3級_vs_Potemii_3級_ULSsVhpF.kif#16",
+    "sfen" : "lnsgk2nl/4g1rb1/ppppps1p1/5p2p/6p2/2P2S3/PP1PPP1PP/1BG3R2/LNS1KG1NL b p 17",
+    "hands" : "p",
+    "judgement" : "Inaccuracy",
+    "comment" : "(0.57 → -5.15) Inaccuracy. Best move was [usi:16.4f3e]",
+    "timeControl" : "3分",
+    "date" : "2022/11/16 18:28:43",
+    "site" : "https://lishogi.org/ULSsVhpF",
+    "kifName" : "kif\\lishogi_game_2023_01_03_Tonyko_3級_vs_Potemii_3級_ULSsVhpF.kif",
+    "player" : "sente",
+    "opponentLastMoveUsi" : "3d3e",
+    "opponentLastMovePosition" : [
+      "3d",
+      "3e"
+    ],
+    "yourMoveUsi" : "3h3e",
+    "yourMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "3h",
+          "dest" : "3e",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "3h",
+          "dest" : "3e",
+          "brush" : "alternative0"
+        }
+      }
+    },
+    "engineMoveUsi" : "4f3e",
+    "engineMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "4f",
+          "dest" : "3e",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "4f",
+          "dest" : "3e",
+          "brush" : "primary"
+        }
+      }
+    }
+  },
+  {
+    "id" : "lishogi_game_2023_01_03_Tonyko_3級_vs_Potemii_3級_ULSsVhpF.kif#18",
+    "sfen" : "lnsgk2nl/4g1rb1/ppppps1p1/5pp1p/6R2/2P2S3/PP1PPP1PP/1BG6/LNS1KG1NL b P 19",
+    "hands" : "P",
+    "judgement" : "Inaccuracy",
+    "comment" : "(5.54 → 0.97) Inaccuracy. Best move was [usi:18.3e2e]",
+    "timeControl" : "3分",
+    "date" : "2022/11/16 18:28:43",
+    "site" : "https://lishogi.org/ULSsVhpF",
+    "kifName" : "kif\\lishogi_game_2023_01_03_Tonyko_3級_vs_Potemii_3級_ULSsVhpF.kif",
+    "player" : "sente",
+    "opponentLastMoveUsi" : "P*3d",
+    "opponentLastMovePosition" : [
+      "3d"
+    ],
+    "yourMoveUsi" : "3e3f",
+    "yourMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "3e",
+          "dest" : "3f",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "3e",
+          "dest" : "3f",
+          "brush" : "alternative0"
+        }
+      }
+    },
+    "engineMoveUsi" : "3e2e",
+    "engineMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "3e",
+          "dest" : "2e",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "3e",
+          "dest" : "2e",
+          "brush" : "primary"
+        }
+      }
+    }
+  },
+  {
+    "id" : "lishogi_game_2023_01_03_Tonyko_3級_vs_Potemii_3級_ULSsVhpF.kif#28",
+    "sfen" : "lnsgk2nl/4g2r1/ppppps3/5pppp/5Ps2/2P1R4/PP1PP2PP/1BG6/LNS1KG1NL b BP 29",
+    "hands" : "BP",
+    "judgement" : "Blunder",
+    "comment" : "(23.70 → 10.73) Blunder. Best move was [usi:28.P*3f]",
+    "timeControl" : "3分",
+    "date" : "2022/11/16 18:28:43",
+    "site" : "https://lishogi.org/ULSsVhpF",
+    "kifName" : "kif\\lishogi_game_2023_01_03_Tonyko_3級_vs_Potemii_3級_ULSsVhpF.kif",
+    "player" : "sente",
+    "opponentLastMoveUsi" : "2c2d",
+    "opponentLastMovePosition" : [
+      "2c",
+      "2d"
+    ],
+    "yourMoveUsi" : "4e4d",
+    "yourMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "4e",
+          "dest" : "4d",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "4e",
+          "dest" : "4d",
+          "brush" : "alternative0"
+        }
+      }
+    },
+    "engineMoveUsi" : "P*3f",
+    "engineMove" : {
+      "drop" : {
+        "drop" : {
+          "role" : "pawn",
+          "pos" : "3f"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "pawn",
+            "color" : "sente"
+          },
+          "dest" : "3f",
+          "brush" : "primary"
+        }
+      },
+      "move" : null
+    }
+  },
+  {
+    "id" : "lishogi_game_2023_01_03_Tonyko_3級_vs_Potemii_3級_ULSsVhpF.kif#32",
+    "sfen" : "lnsgk2nl/4g2r1/pppppss2/6ppp/5P3/2P1R4/PP1PP2PP/1BG6/LNS1KG1NL b BPp 33",
+    "hands" : "BPp",
+    "judgement" : "Inaccuracy",
+    "comment" : "(9.78 → 5.67) Inaccuracy. Best move was [usi:32.7h6h]",
+    "timeControl" : "3分",
+    "date" : "2022/11/16 18:28:43",
+    "site" : "https://lishogi.org/ULSsVhpF",
+    "kifName" : "kif\\lishogi_game_2023_01_03_Tonyko_3級_vs_Potemii_3級_ULSsVhpF.kif",
+    "player" : "sente",
+    "opponentLastMoveUsi" : "4d3c",
+    "opponentLastMovePosition" : [
+      "4d",
+      "3c"
+    ],
+    "yourMoveUsi" : "B*2f",
+    "yourMove" : {
+      "drop" : {
+        "drop" : {
+          "role" : "bishop",
+          "pos" : "2f"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "bishop",
+            "color" : "sente"
+          },
+          "dest" : "2f",
+          "brush" : "alternative0"
+        }
+      },
+      "move" : null
+    },
+    "engineMoveUsi" : "7h6h",
+    "engineMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "7h",
+          "dest" : "6h",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "7h",
+          "dest" : "6h",
+          "brush" : "primary"
+        }
+      }
+    }
+  },
+  {
+    "id" : "lishogi_game_2023_01_03_Tonyko_3級_vs_Potemii_3級_ULSsVhpF.kif#44",
+    "sfen" : "lns1k3l/3gg2r1/ppppp1n2/5Sppp/5b3/2P1R4/PP1PP2PP/2G6/LNS1KG1NL b BSP2p 45",
+    "hands" : "BSP2p",
+    "judgement" : "Blunder",
+    "comment" : "(27.43 → 6.75) Blunder. Best move was [usi:44.5f4f]",
+    "timeControl" : "3分",
+    "date" : "2022/11/16 18:28:43",
+    "site" : "https://lishogi.org/ULSsVhpF",
+    "kifName" : "kif\\lishogi_game_2023_01_03_Tonyko_3級_vs_Potemii_3級_ULSsVhpF.kif",
+    "player" : "sente",
+    "opponentLastMoveUsi" : "B*4e",
+    "opponentLastMovePosition" : [
+      "4e"
+    ],
+    "yourMoveUsi" : "B*3a",
+    "yourMove" : {
+      "drop" : {
+        "drop" : {
+          "role" : "bishop",
+          "pos" : "3a"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "bishop",
+            "color" : "sente"
+          },
+          "dest" : "3a",
+          "brush" : "alternative0"
+        }
+      },
+      "move" : null
+    },
+    "engineMoveUsi" : "5f4f",
+    "engineMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "5f",
+          "dest" : "4f",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "5f",
+          "dest" : "4f",
+          "brush" : "primary"
+        }
+      }
+    }
+  },
+  {
+    "id" : "lishogi_game_2023_01_03_Tonyko_3級_vs_Z338769_4級_zeCZztlS.kif#22",
+    "sfen" : "ln1gkg1nl/3sr4/ppbp1p1pp/2p1psp2/3P5/2P2SP2/PP2PPNPP/1BGS2R2/LN2KG2L b - 23",
+    "hands" : "-",
+    "judgement" : "Mistake",
+    "comment" : "(1.57 → -4.61) Mistake. Best move was [usi:22.9g9f]",
+    "timeControl" : "3分",
+    "date" : "2022/12/22 16:32:37",
+    "site" : "https://lishogi.org/zeCZztlS",
+    "kifName" : "kif\\lishogi_game_2023_01_03_Tonyko_3級_vs_Z338769_4級_zeCZztlS.kif",
+    "player" : "sente",
+    "opponentLastMoveUsi" : "3c4d",
+    "opponentLastMovePosition" : [
+      "3c",
+      "4d"
+    ],
+    "yourMoveUsi" : "8h4d",
+    "yourMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "8h",
+          "dest" : "4d",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "8h",
+          "dest" : "4d",
+          "brush" : "alternative0"
+        }
+      }
+    },
+    "engineMoveUsi" : "9g9f",
+    "engineMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "9g",
+          "dest" : "9f",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "9g",
+          "dest" : "9f",
+          "brush" : "primary"
+        }
+      }
+    }
+  },
+  {
+    "id" : "lishogi_game_2023_01_03_Tonyko_3級_vs_Z338769_4級_zeCZztlS.kif#24",
+    "sfen" : "ln1gkg1nl/3sr4/ppbp3pp/2p1ppp2/3P5/2P2SP2/PP2PPNPP/2GS2R2/LN2KG2L b Sb 25",
+    "hands" : "Sb",
+    "judgement" : "Inaccuracy",
+    "comment" : "(-4.41 → -9.70) Inaccuracy. Best move was [usi:24.4i4h]",
+    "timeControl" : "3分",
+    "date" : "2022/12/22 16:32:37",
+    "site" : "https://lishogi.org/zeCZztlS",
+    "kifName" : "kif\\lishogi_game_2023_01_03_Tonyko_3級_vs_Z338769_4級_zeCZztlS.kif",
+    "player" : "sente",
+    "opponentLastMoveUsi" : "4c4d",
+    "opponentLastMovePosition" : [
+      "4c",
+      "4d"
+    ],
+    "yourMoveUsi" : "S*4c",
+    "yourMove" : {
+      "drop" : {
+        "drop" : {
+          "role" : "silver",
+          "pos" : "4c"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "silver",
+            "color" : "sente"
+          },
+          "dest" : "4c",
+          "brush" : "alternative0"
+        }
+      },
+      "move" : null
+    },
+    "engineMoveUsi" : "4i4h",
+    "engineMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "4i",
+          "dest" : "4h",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "4i",
+          "dest" : "4h",
+          "brush" : "primary"
+        }
+      }
+    }
+  },
+  {
+    "id" : "lishogi_game_2023_01_03_Tonyko_3級_vs_Z338769_4級_zeCZztlS.kif#28",
+    "sfen" : "ln1gkg1nl/3s3r1/pp1p3pp/2p1pp+S2/3P5/2P2bP2/PP2PPNPP/2GS2R2/LN2KG2L b Pbs 29",
+    "hands" : "Pbs",
+    "judgement" : "Blunder",
+    "comment" : "(-3.07 → -38.45) Blunder. Best move was [usi:28.4g4f]",
+    "timeControl" : "3分",
+    "date" : "2022/12/22 16:32:37",
+    "site" : "https://lishogi.org/zeCZztlS",
+    "kifName" : "kif\\lishogi_game_2023_01_03_Tonyko_3級_vs_Z338769_4級_zeCZztlS.kif",
+    "player" : "sente",
+    "opponentLastMoveUsi" : "7c4f",
+    "opponentLastMovePosition" : [
+      "7c",
+      "4f"
+    ],
+    "yourMoveUsi" : "3g2e",
+    "yourMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "3g",
+          "dest" : "2e",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "3g",
+          "dest" : "2e",
+          "brush" : "alternative0"
+        }
+      }
+    },
+    "engineMoveUsi" : "4g4f",
+    "engineMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "4g",
+          "dest" : "4f",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "4g",
+          "dest" : "4f",
+          "brush" : "primary"
+        }
+      }
+    }
+  },
+  {
+    "id" : "lishogi_game_2023_01_03_Tonyko_3級_vs_Z338769_4級_zeCZztlS.kif#34",
+    "sfen" : "ln1gkg2l/3s3r1/pp1p2+Spp/2p1pp3/3P5/2P3P2/PP2PP1PP/2GS2R2/LN2KG1+b1 b NPbsnl 35",
+    "hands" : "NPbsnl",
+    "judgement" : "Inaccuracy",
+    "comment" : "(-29.92 → -48.25) Inaccuracy. Best move was [usi:34.3c2b]",
+    "timeControl" : "3分",
+    "date" : "2022/12/22 16:32:37",
+    "site" : "https://lishogi.org/zeCZztlS",
+    "kifName" : "kif\\lishogi_game_2023_01_03_Tonyko_3級_vs_Z338769_4級_zeCZztlS.kif",
+    "player" : "sente",
+    "opponentLastMoveUsi" : "1i2i",
+    "opponentLastMovePosition" : [
+      "1i",
+      "2i"
+    ],
+    "yourMoveUsi" : "N*4c",
+    "yourMove" : {
+      "drop" : {
+        "drop" : {
+          "role" : "knight",
+          "pos" : "4c"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "knight",
+            "color" : "sente"
+          },
+          "dest" : "4c",
+          "brush" : "alternative0"
+        }
+      },
+      "move" : null
+    },
+    "engineMoveUsi" : "3c2b",
+    "engineMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "3c",
+          "dest" : "2b",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "3c",
+          "dest" : "2b",
+          "brush" : "primary"
+        }
+      }
+    }
+  },
+  {
+    "id" : "lishogi_game_2023_01_03_Tonyko_3級_vs_Z338769_4級_zeCZztlS.kif#40",
+    "sfen" : "ln1g1g2l/3sk2+S1/pp1p1N1pp/2p1pp3/3P5/2P3P2/PP2PP1PP/2GS2G2/LN2K2r1 b RBPbsnl 41",
+    "hands" : "RBPbsnl",
+    "judgement" : "Inaccuracy",
+    "comment" : "(-36.72 → -56.25) Inaccuracy. Best move was [usi:40.R*4i]",
+    "timeControl" : "3分",
+    "date" : "2022/12/22 16:32:37",
+    "site" : "https://lishogi.org/zeCZztlS",
+    "kifName" : "kif\\lishogi_game_2023_01_03_Tonyko_3級_vs_Z338769_4級_zeCZztlS.kif",
+    "player" : "sente",
+    "opponentLastMoveUsi" : "R*2i",
+    "opponentLastMovePosition" : [
+      "2i"
+    ],
+    "yourMoveUsi" : "5i5h",
+    "yourMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "5i",
+          "dest" : "5h",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "5i",
+          "dest" : "5h",
+          "brush" : "alternative0"
+        }
+      }
+    },
+    "engineMoveUsi" : "R*4i",
+    "engineMove" : {
+      "drop" : {
+        "drop" : {
+          "role" : "rook",
+          "pos" : "4i"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "rook",
+            "color" : "sente"
+          },
+          "dest" : "4i",
+          "brush" : "primary"
+        }
+      },
+      "move" : null
+    }
+  },
+  {
+    "id" : "lishogi_game_2023_01_03_Tonyko_3級_vs_z_z_z_z_z_z_z_z_6級_PTeWQMOe.kif#8",
+    "sfen" : "lnsgkgsnl/5r1b1/ppppp2pp/5p3/6R2/9/PPPPPP1PP/1B7/LNSGKGSNL b Pp 9",
+    "hands" : "Pp",
+    "judgement" : "Inaccuracy",
+    "comment" : "(0.87 → -2.40) Inaccuracy. Best move was [usi:8.9g9f]",
+    "timeControl" : "3分",
+    "date" : "2022/11/18 15:57:46",
+    "site" : "https://lishogi.org/PTeWQMOe",
+    "kifName" : "kif\\lishogi_game_2023_01_03_Tonyko_3級_vs_z_z_z_z_z_z_z_z_6級_PTeWQMOe.kif",
+    "player" : "sente",
+    "opponentLastMoveUsi" : "8b4b",
+    "opponentLastMovePosition" : [
+      "8b",
+      "4b"
+    ],
+    "yourMoveUsi" : "P*3d",
+    "yourMove" : {
+      "drop" : {
+        "drop" : {
+          "role" : "pawn",
+          "pos" : "3d"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "pawn",
+            "color" : "sente"
+          },
+          "dest" : "3d",
+          "brush" : "alternative0"
+        }
+      },
+      "move" : null
+    },
+    "engineMoveUsi" : "9g9f",
+    "engineMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "9g",
+          "dest" : "9f",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "9g",
+          "dest" : "9f",
+          "brush" : "primary"
+        }
+      }
+    }
+  },
+  {
+    "id" : "lishogi_game_2023_01_03_ttttttakkkan_3級_vs_Tonyko_3級_WczkIqdy.kif#5",
+    "sfen" : "ln1gkgsnl/2rs3b1/ppppppppp/9/2P6/9/PPNPPPPPP/1B5R1/L1SGKGSNL w - 6",
+    "hands" : "-",
+    "judgement" : "Inaccuracy",
+    "comment" : "(-6.94 → -2.13) Inaccuracy. Best move was [usi:5.7c7d]",
+    "timeControl" : "3分",
+    "date" : "2022/11/20 23:57:47",
+    "site" : "https://lishogi.org/WczkIqdy",
+    "kifName" : "kif\\lishogi_game_2023_01_03_ttttttakkkan_3級_vs_Tonyko_3級_WczkIqdy.kif",
+    "player" : "gote",
+    "opponentLastMoveUsi" : "8i7g",
+    "opponentLastMovePosition" : [
+      "8i",
+      "7g"
+    ],
+    "yourMoveUsi" : "6a5b",
+    "yourMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "6a",
+          "dest" : "5b",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "6a",
+          "dest" : "5b",
+          "brush" : "alternative0"
+        }
+      }
+    },
+    "engineMoveUsi" : "7c7d",
+    "engineMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "7c",
+          "dest" : "7d",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "7c",
+          "dest" : "7d",
+          "brush" : "primary"
+        }
+      }
+    }
+  },
+  {
+    "id" : "lishogi_game_2023_01_03_ttttttakkkan_3級_vs_Tonyko_3級_WczkIqdy.kif#15",
+    "sfen" : "ln2kgsnl/2r4b1/ppsgppppp/9/3pB4/9/PP1PPPPPP/2R6/L1SGKGSNL w Pnp 16",
+    "hands" : "Pnp",
+    "judgement" : "Inaccuracy",
+    "comment" : "(-12.21 → -8.34) Inaccuracy. Best move was [usi:15.5c5d]",
+    "timeControl" : "3分",
+    "date" : "2022/11/20 23:57:47",
+    "site" : "https://lishogi.org/WczkIqdy",
+    "kifName" : "kif\\lishogi_game_2023_01_03_ttttttakkkan_3級_vs_Tonyko_3級_WczkIqdy.kif",
+    "player" : "gote",
+    "opponentLastMoveUsi" : "2h7h",
+    "opponentLastMovePosition" : [
+      "2h",
+      "7h"
+    ],
+    "yourMoveUsi" : "P*7d",
+    "yourMove" : {
+      "drop" : {
+        "drop" : {
+          "role" : "pawn",
+          "pos" : "7d"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "pawn",
+            "color" : "gote"
+          },
+          "dest" : "7d",
+          "brush" : "alternative0"
+        }
+      },
+      "move" : null
+    },
+    "engineMoveUsi" : "5c5d",
+    "engineMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "5c",
+          "dest" : "5d",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "5c",
+          "dest" : "5d",
+          "brush" : "primary"
+        }
+      }
+    }
+  },
+  {
+    "id" : "lishogi_game_2023_01_03_yuusann0615_初段_vs_Tonyko_2級_gIHspao5.kif#23",
+    "sfen" : "ln1g1k1nl/2r2sgb1/1p1ppp1p1/p1ps2p1p/9/P1PS4P/1P1PPPPP1/1BR3SK1/LNG2G1NL w - 24",
+    "hands" : "-",
+    "judgement" : "Inaccuracy",
+    "comment" : "(0.15 → 3.70) Inaccuracy. Best move was [usi:23.3b3a]",
+    "timeControl" : "10分",
+    "date" : "2022/11/18 19:54:44",
+    "site" : "https://lishogi.org/gIHspao5",
+    "kifName" : "kif\\lishogi_game_2023_01_03_yuusann0615_初段_vs_Tonyko_2級_gIHspao5.kif",
+    "player" : "gote",
+    "opponentLastMoveUsi" : "6i7i",
+    "opponentLastMovePosition" : [
+      "6i",
+      "7i"
+    ],
+    "yourMoveUsi" : "7d7e",
+    "yourMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "7d",
+          "dest" : "7e",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "7d",
+          "dest" : "7e",
+          "brush" : "alternative0"
+        }
+      }
+    },
+    "engineMoveUsi" : "3b3a",
+    "engineMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "3b",
+          "dest" : "3a",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "3b",
+          "dest" : "3a",
+          "brush" : "primary"
+        }
+      }
+    }
+  },
+  {
+    "id" : "lishogi_game_2023_01_03_yuusann0615_初段_vs_Tonyko_2級_gIHspao5.kif#25",
+    "sfen" : "ln1g1k1nl/2r2sgb1/1p1ppp1p1/p2s2p1p/2P6/P2S4P/1P1PPPPP1/1BR3SK1/LNG2G1NL w P 26",
+    "hands" : "P",
+    "judgement" : "Blunder",
+    "comment" : "(3.68 → 16.68) Blunder. Best move was [usi:25.3b3a]",
+    "timeControl" : "10分",
+    "date" : "2022/11/18 19:54:44",
+    "site" : "https://lishogi.org/gIHspao5",
+    "kifName" : "kif\\lishogi_game_2023_01_03_yuusann0615_初段_vs_Tonyko_2級_gIHspao5.kif",
+    "player" : "gote",
+    "opponentLastMoveUsi" : "7f7e",
+    "opponentLastMovePosition" : [
+      "7f",
+      "7e"
+    ],
+    "yourMoveUsi" : "6d7e",
+    "yourMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "6d",
+          "dest" : "7e",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "6d",
+          "dest" : "7e",
+          "brush" : "alternative0"
+        }
+      }
+    },
+    "engineMoveUsi" : "3b3a",
+    "engineMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "3b",
+          "dest" : "3a",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "3b",
+          "dest" : "3a",
+          "brush" : "primary"
+        }
+      }
+    }
+  },
+  {
+    "id" : "lishogi_game_2023_01_03_yuusann0615_初段_vs_Tonyko_2級_gIHspao5.kif#45",
+    "sfen" : "l2g1k1nl/2r2sg2/1p+Sppp1p1/p4+bp1p/9/P1R5P/1PNP1PPP1/4S1SK1/L4G1NL w BNPg2p 46",
+    "hands" : "BNPg2p",
+    "judgement" : "Inaccuracy",
+    "comment" : "(12.96 → 17.43) Inaccuracy. Best move was [usi:45.7b9b]",
+    "timeControl" : "10分",
+    "date" : "2022/11/18 19:54:44",
+    "site" : "https://lishogi.org/gIHspao5",
+    "kifName" : "kif\\lishogi_game_2023_01_03_yuusann0615_初段_vs_Tonyko_2級_gIHspao5.kif",
+    "player" : "gote",
+    "opponentLastMoveUsi" : "8i7g",
+    "opponentLastMovePosition" : [
+      "8i",
+      "7g"
+    ],
+    "yourMoveUsi" : "7b7c",
+    "yourMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "7b",
+          "dest" : "7c",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "7b",
+          "dest" : "7c",
+          "brush" : "alternative0"
+        }
+      }
+    },
+    "engineMoveUsi" : "7b9b",
+    "engineMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "7b",
+          "dest" : "9b",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "7b",
+          "dest" : "9b",
+          "brush" : "primary"
+        }
+      }
+    }
+  },
+  {
+    "id" : "lishogi_game_2023_01_03_yuusann0615_初段_vs_Tonyko_2級_gIHspao5.kif#61",
+    "sfen" : "l2g1k1nl/2s2sg2/1pgppp1p1/p5p1p/2p6/P+R1P4P/1PN2PPP1/4S1SK1/L4G1NL w RBNPbp 62",
+    "hands" : "RBNPbp",
+    "judgement" : "Inaccuracy",
+    "comment" : "(27.76 → 35.98) Inaccuracy. Best move was [usi:61.6c6d]",
+    "timeControl" : "10分",
+    "date" : "2022/11/18 19:54:44",
+    "site" : "https://lishogi.org/gIHspao5",
+    "kifName" : "kif\\lishogi_game_2023_01_03_yuusann0615_初段_vs_Tonyko_2級_gIHspao5.kif",
+    "player" : "gote",
+    "opponentLastMoveUsi" : "6g6f",
+    "opponentLastMovePosition" : [
+      "6g",
+      "6f"
+    ],
+    "yourMoveUsi" : "B*8h",
+    "yourMove" : {
+      "drop" : {
+        "drop" : {
+          "role" : "bishop",
+          "pos" : "8h"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "bishop",
+            "color" : "gote"
+          },
+          "dest" : "8h",
+          "brush" : "alternative0"
+        }
+      },
+      "move" : null
+    },
+    "engineMoveUsi" : "6c6d",
+    "engineMove" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "6c",
+          "dest" : "6d",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "6c",
+          "dest" : "6d",
+          "brush" : "primary"
+        }
+      }
+    }
+  }
+]

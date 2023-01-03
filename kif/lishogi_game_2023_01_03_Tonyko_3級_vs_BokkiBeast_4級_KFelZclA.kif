@@ -1,0 +1,96 @@
+開始日時：2022/11/22 02:00:51
+棋戦：将棋ウォーズ(3分切れ負け)
+場所：https://lishogi.org/KFelZclA
+持ち時間：3分
+手合割：平手
+先手：Tonyko 3級
+後手：BokkiBeast 4級
+手数----指手---------消費時間--
+   1   ３六歩(37)
+* [%eval -0.03]
+   2   ３四歩(33)
+* [%eval 0.14]
+   3   ３八飛(28)
+* [%eval -0.93]
+   4   ５五角(22)
+* [%eval 0.5]
+   5   ２八銀(39)
+* [%eval 0.35]
+   6   ３三桂(21)
+* (0.35 → 3.50) Inaccuracy. Best move was [usi:5.5e2b]
+* [%eval 3.5]
+   7   ３七銀(28)
+* [%eval 3.46]
+   8   ６四角(55)
+* (3.46 → 8.88) Inaccuracy. Best move was [usi:7.3c4e]
+* [%eval 8.88]
+   9   ７六歩(77)
+* [%eval 6.81]
+  10   ２二銀(31)
+* [%eval 8.91]
+  11   ４六銀(37)
+* [%eval 8.67]
+  12   ４五桂(33)
+* [%eval 11.37]
+  13   ５八金(49)
+* [%eval 11.0]
+  14   ３五歩(34)
+* (11.00 → 17.63) Inaccuracy. Best move was [usi:13.7c7d]
+* [%eval 17.63]
+  15   同　歩(36)
+* [%eval 17.37]
+  16   ３二飛(82)
+* [%eval 17.38]
+  17   ３四歩(35)
+* [%eval 17.22]
+  18   ４二金(41)
+* [%eval 20.98]
+  19   ２二角成(88)
+* [%eval 21.2]
+  20   同　飛(32)
+* [%eval 20.03]
+  21   ３三銀打
+* [%eval 20.25]
+  22   同　金(42)
+* [%eval 23.36]
+  23   同　歩成(34)
+* [%eval 24.21]
+  24   ８二飛(22)
+* [%eval 28.26]
+  25   ４三と(33)
+* [%eval 26.35]
+  26   ３七銀打
+* (26.35 → 38.66) Inaccuracy. Best move was [usi:25.S*3b]
+* [%eval 38.66]
+  27   同　桂(29)
+* [%eval 38.47]
+  28   同　桂成(45)
+* [%eval 41.71]
+  29   同　飛(38)
+* [%eval 40.68]
+  30   ２八角打
+* (40.68 → Mate in 23) Checkmate is now unavoidable. Best move was [usi:29.N*3c]
+* [%eval mate23]
+  31   ３一飛成(37)
+* [%eval mate22]
+  32   ６二玉(51)
+* [%eval mate9]
+  33   ４二龍(31)
+* [%eval mate22]
+  34   ５二桂打
+* [%eval mate21]
+  35   同　と(43)
+* (Mate in 21 → 44.18) Lost forced checkmate sequence. Best move was [usi:34.4b4a]
+* [%eval 44.18]
+  36   同　金(61)
+* [%eval 41.84]
+  37   ５一銀打
+* [%eval 41.63]
+  38   ７二玉(62)
+* (41.63 → Mate in 3) Checkmate is now unavoidable. Best move was [usi:37.6b6a]
+* [%eval mate3]
+  39   ５二龍(42)
+* [%eval mate2]
+  40   投了
+
+

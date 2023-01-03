@@ -32,7 +32,7 @@
 <script type="module">
     let data, ids, sg
     $.ajax({
-        url:"data/blunders.json",
+        url:"data/positions.json",
         dataType : 'json',
         async : false,
         success : function(json) {
@@ -114,7 +114,7 @@
         Swal.fire({
             icon: 'error',
             title: 'Failure',
-            html: '<p>You played again the blunder move!</p> ' +
+            html: '<p>You played the bad move!</p> ' +
                 '<p>You should play <b>' + pos.engineMoveUsi + '</b> (green arrow) move.</p> ' +
                 '<p><i>' + pos.comment + '</i></p>' +
                 '<p><a href="' + pos.site + '" target="_blank">Lishogi game</a></p>',
@@ -139,7 +139,7 @@
             icon: 'success',
             title: 'Success',
             html: '<p>You found the engine move!</p> ' +
-                '<p>You played <b>' + pos.yourMoveUsi + '</b> (red arrow) move and was blunder.</p> ' +
+                '<p>You played <b>' + pos.yourMoveUsi + '</b> (red arrow) move.</p> ' +
                 '<p><i>' + pos.comment + '</i></p>' +
                 '<p><a href="' + pos.site + '" target="_blank">Lishogi game</a></p>',
             footer: '<a href="https://lishogi.org/analysis/standard/' + pos.sfen + '" target="_blank">Lishogi position</a>'
