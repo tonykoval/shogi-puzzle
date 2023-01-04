@@ -19,6 +19,7 @@
             <div id="dirty" class="sg-wrap"></div>
             <select class="games" style="width: 80%"></select>
             <button class="random" style="width: 19%">Random</button>
+            <button class="test">Test</button>
         </div>
         <div id="hand-bottom" class="sg-hand-wrap"></div>
     </div>
@@ -60,6 +61,43 @@
 
     $(".random").click( function (e) {
         selectSituation(randomNumber(0, data.length - 1))
+    });
+
+    $(".test").click( function (e) {
+        // var settings = {
+        //     "async": true,
+        //     "crossDomain": true,
+        //     "url": "https://shogipuzzle-cafe.restdb.io/rest/feedback",
+        //     "method": "GET",
+        //     "headers": {
+        //         "content-type": "application/json",
+        //         "x-apikey": "63b58ffb969f06502871a92e",
+        //         "cache-control": "no-cache"
+        //     }
+        // }
+        //
+        // $.ajax(settings).done(function (response) {
+        //     console.log(response);
+        // });
+
+        // var jsondata = {"field1": "xyz","field2": "abc"};
+        // var settings = {
+        //     "async": true,
+        //     "crossDomain": true,
+        //     "url": "https://shogipuzzle-cafe.restdb.io/rest/feedback",
+        //     "method": "POST",
+        //     "headers": {
+        //         "content-type": "application/json",
+        //         "x-apikey": "63b58ffb969f06502871a92e",
+        //         "cache-control": "no-cache"
+        //     },
+        //     "processData": false,
+        //     "data": JSON.stringify(jsondata)
+        // }
+        //
+        // $.ajax(settings).done(function (response) {
+        //     console.log(response);
+        // });
     });
 
     function selectSituation(id) {

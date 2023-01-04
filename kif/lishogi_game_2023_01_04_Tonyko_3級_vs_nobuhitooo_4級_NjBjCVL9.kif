@@ -1,0 +1,190 @@
+開始日時：2022/11/23 17:45:50
+棋戦：将棋ウォーズ(3分切れ負け)
+場所：https://lishogi.org/NjBjCVL9
+持ち時間：3分
+手合割：平手
+先手：Tonyko 3級
+後手：nobuhitooo 4級
+手数----指手---------消費時間--
+   1   ３六歩(37)
+* [%eval -0.03]
+   2   ３二金(41)
+* [%eval -0.02]
+   3   ３八飛(28)
+* [%eval -0.95]
+   4   ３四歩(33)
+* [%eval -1.21]
+   5   ３五歩(36)
+* [%eval -0.97]
+   6   ５五角(22)
+* [%eval 0.1]
+   7   ２八銀(39)
+* [%eval 0.36]
+   8   ３五歩(34)
+* [%eval 0.67]
+   9   ３七銀(28)
+* [%eval 0.62]
+  10   ３六歩(35)
+* [%eval 1.3]
+  11   ４六銀(37)
+* [%eval 1.43]
+  12   ６四角(55)
+* (1.43 → 6.48) Inaccuracy. Best move was [usi:11.5e2b]
+* [%eval 6.48]
+  13   ３六飛(38)
+* [%eval 3.78]
+  14   ８四歩(83)
+* (3.78 → 7.13) Inaccuracy. Best move was [usi:13.7c7d]
+* [%eval 7.13]
+  15   ７六歩(77)
+* [%eval 7.15]
+  16   ３三桂(21)
+* (7.15 → 22.20) Blunder. Best move was [usi:15.3a2b]
+* [%eval 22.2]
+  17   ３七桂(29)
+* (22.20 → 17.37) Inaccuracy. Best move was [usi:16.P*3d]
+* [%eval 17.37]
+  18   ４二銀(31)
+* (17.37 → 22.13) Inaccuracy. Best move was [usi:17.3a2b]
+* [%eval 22.13]
+  19   ３四歩打
+* [%eval 21.58]
+  20   ４五桂(33)
+* (21.58 → 28.83) Inaccuracy. Best move was [usi:19.4c4d]
+* [%eval 28.83]
+  21   同　桂(37)
+* [%eval 29.81]
+  22   ８五歩(84)
+* [%eval 36.43]
+  23   ７八金(69)
+* (36.43 → 26.68) Inaccuracy. Best move was [usi:22.3d3c+]
+* [%eval 26.68]
+  24   ８六歩(85)
+* [%eval 28.55]
+  25   同　歩(87)
+* [%eval 27.66]
+  26   同　飛(82)
+* [%eval 29.28]
+  27   ８七歩打
+* [%eval 31.8]
+  28   ８五飛(86)
+* [%eval 36.35]
+  29   ３三歩成(34)
+* [%eval 35.53]
+  30   ４六角(64)
+* [%eval 40.68]
+  31   同　飛(36)
+* [%eval 37.48]
+  32   ３三銀(42)
+* [%eval 38.61]
+  33   同　桂成(45)
+* [%eval 38.51]
+  34   同　金(32)
+* [%eval 43.21]
+  35   同　角成(88)
+* [%eval 41.92]
+  36   ６二玉(51)
+* [%eval 41.88]
+  37   ４三飛成(46)
+* [%eval 42.78]
+  38   ３五飛(85)
+* [%eval 52.11]
+  39   ４四馬(33)
+* [%eval 49.38]
+  40   ３七飛成(35)
+* (49.38 → Mate in 9) Checkmate is now unavoidable. Best move was [usi:39.S*5b]
+* [%eval mate9]
+  41   ８三銀打
+* [%eval mate14]
+  42   ５二銀打
+* [%eval mate3]
+  43   ４二龍(43)
+* [%eval mate8]
+  44   ４三歩打
+* [%eval mate1]
+  45   １一馬(44)
+* [%eval mate14]
+  46   ３六桂打
+* [%eval mate3]
+  47   ３八金打
+* [%eval mate16]
+  48   同　龍(37)
+* [%eval mate3]
+  49   同　金(49)
+* [%eval mate14]
+  50   ４一金打
+* [%eval mate3]
+  51   １二龍(42)
+* (Mate in 3 → 41.73) Lost forced checkmate sequence. Best move was [usi:50.N*5d]
+* [%eval 41.73]
+  52   ６四歩(63)
+* (41.73 → Mate in 15) Checkmate is now unavoidable. Best move was [usi:51.P*8b]
+* [%eval mate15]
+  53   ３七歩打
+* (Mate in 15 → 44.35) Lost forced checkmate sequence. Best move was [usi:52.L*6c]
+* [%eval 44.35]
+  54   ８二歩打
+* (44.35 → Mate in 13) Checkmate is now unavoidable. Best move was [usi:53.P*3b]
+* [%eval mate13]
+  55   ３六歩(37)
+* (Mate in 13 → 44.38) Lost forced checkmate sequence. Best move was [usi:54.L*6c]
+* [%eval 44.38]
+  56   ８三歩(82)
+* [%eval 46.31]
+  57   ５五桂打
+* [%eval 43.27]
+  58   ７四歩(73)
+* [%eval 311.11]
+  59   ６三香打
+* [%eval 311.11]
+  60   ７二玉(62)
+* [%eval 311.11]
+  61   ６一香成(63)
+* [%eval 311.11]
+  62   同　玉(72)
+* [%eval 311.11]
+  63   ７三桂打
+* [%eval 311.11]
+  64   同　桂(81)
+* [%eval 47.11]
+  65   ３三馬(11)
+* [%eval 45.13]
+  66   ４二銀打
+* (45.13 → Mate in 21) Checkmate is now unavoidable. Best move was [usi:65.N*2b]
+* [%eval mate21]
+  67   ３四馬(33)
+* (Mate in 21 → 44.42) Lost forced checkmate sequence. Best move was [usi:66.R*8a]
+* [%eval 44.42]
+  68   ３三歩打
+* (44.42 → Mate in 19) Checkmate is now unavoidable. Best move was [usi:67.P*3g]
+* [%eval mate19]
+  69   ３五馬(34)
+* (Mate in 19 → 45.31) Lost forced checkmate sequence. Best move was [usi:68.R*8a]
+* [%eval 45.31]
+  70   ８四歩(83)
+* (45.31 → Mate in 15) Checkmate is now unavoidable. Best move was [usi:69.N*8a]
+* [%eval mate15]
+  71   ８三金打
+* [%eval mate20]
+  72   ８二香打
+* [%eval mate13]
+  73   ７三金(83)
+* [%eval mate12]
+  74   ７二銀(71)
+* [%eval mate7]
+  75   ８二金(73)
+* [%eval mate12]
+  76   ４四歩(43)
+* [%eval mate3]
+  77   ７一飛打
+* [%eval mate2]
+  78   ６二玉(61)
+* [%eval mate1]
+  79   ７二飛成(71)
+* [%eval mate2]
+  80   ５一玉(62)
+* [%eval mate1]
+  81   ６二銀打
+  82   詰み
+
+
