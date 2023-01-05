@@ -17,9 +17,11 @@
         <div id="hand-top" class="sg-hand-wrap"></div>
         <div style="width: 500px; height: calc(500px / 11 * 12)" id="main-wrap" class="main-board">
             <div id="dirty" class="sg-wrap"></div>
-            <select class="games" style="width: 80%"></select>
-            <button class="random" style="width: 19%">Random</button>
-            <button class="test">Test</button>
+            <select class="games" style="width: 100%"></select>
+            <textarea class="content" style="width: 100%"></textarea>
+            <button class="random">Random</button>
+            <button class="lishogi-position">Lishogi position</button>
+            <button class="lishogi-game">Lishogi game</button>
         </div>
         <div id="hand-bottom" class="sg-hand-wrap"></div>
     </div>
@@ -31,7 +33,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
 <script type="module">
-    let data, ids, sg
+    let data, ids, sg, selected
     $.ajax({
         url:"data/positions.json",
         dataType : 'json',
@@ -61,6 +63,14 @@
 
     $(".random").click( function (e) {
         selectSituation(randomNumber(0, data.length - 1))
+    });
+
+    $(".lishogi-game").click( function (e) {
+        window.open(selected.site, "_blank");
+    });
+
+    $(".lishogi-position").click( function (e) {
+        window.open("https://lishogi.org/analysis/standard/" + selected.sfen, "_blank");
     });
 
     $(".test").click( function (e) {
@@ -103,9 +113,11 @@
     function selectSituation(id) {
         $('.games').val(ids[id].id)
         $('.games').trigger('change');
+        $('.content').text('Play the correct move!');
+        selected = data[id]
 
         sg = Shogiground();
-        sg.set(generateConfig(data[id]));
+        sg.set(generateConfig(selected));
 
         sg.attach({
             board: document.getElementById('dirty'),
@@ -154,8 +166,7 @@
             title: 'Failure',
             html: '<p>You played the bad move!</p> ' +
                 '<p>You should play <b>' + pos.engineMoveUsi + '</b> (green arrow) move.</p> ' +
-                '<p><i>' + pos.comment + '</i></p>' +
-                '<p><a href="' + pos.site + '" target="_blank">Lishogi game</a></p>',
+                '<p><i>' + pos.comment + '</i></p>',
             footer: '<a href="https://lishogi.org/analysis/standard/' + pos.sfen + '" target="_blank">Lishogi position</a>'
         })
     }
@@ -166,8 +177,7 @@
             title: 'Warning',
             html: '<p>You played the unknown move! Please analyze your move.</p>' +
                 '<p>You should play <b>' + pos.engineMoveUsi + '</b> (green arrow) move.</p> ' +
-                '<p><i>' + pos.comment + '</i></p>' +
-                '<p><a href="' + pos.site + '" target="_blank">Lishogi game</a></p>',
+                '<p><i>' + pos.comment + '</i></p>',
             footer: '<a href="https://lishogi.org/analysis/standard/' + pos.sfen + '" target="_blank">Lishogi position</a>'
         })
     }
@@ -178,8 +188,7 @@
             title: 'Success',
             html: '<p>You found the engine move!</p> ' +
                 '<p>You played <b>' + pos.yourMoveUsi + '</b> (red arrow) move.</p> ' +
-                '<p><i>' + pos.comment + '</i></p>' +
-                '<p><a href="' + pos.site + '" target="_blank">Lishogi game</a></p>',
+                '<p><i>' + pos.comment + '</i></p>',
             footer: '<a href="https://lishogi.org/analysis/standard/' + pos.sfen + '" target="_blank">Lishogi position</a>'
         })
     }
@@ -220,6 +229,7 @@
             events: {
                 move: (a, b, prom) => {
                     sg.setAutoShapes([setHint(pos.engineMove), setHint(pos.yourMove)]);
+                    $(".content").text(pos.comment)
                     if (isEngineMove(pos.engineMove, {"orig": a, "dest": b, "prom": prom}, "MOVE")) {
                         fireSuccess(pos)
                     } else {
@@ -232,6 +242,7 @@
                 },
                 drop: (piece, key, prom) => {
                     sg.setAutoShapes([setHint(pos.engineMove), setHint(pos.yourMove)]);
+                    $(".content").text(pos.comment)
                     if (isEngineMove(pos.engineMove, {"piece": piece, "key": key, "prom": prom}, "DROP")) {
                         fireSuccess(pos)
                     } else {

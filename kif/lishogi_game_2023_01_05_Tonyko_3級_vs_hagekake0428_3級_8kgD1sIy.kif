@@ -1,0 +1,200 @@
+開始日時：2022/12/12 21:33:38
+棋戦：将棋ウォーズ(3分切れ負け)
+場所：https://lishogi.org/8kgD1sIy
+持ち時間：3分
+手合割：平手
+先手：Tonyko 3級
+後手：hagekake0428 3級
+手数----指手---------消費時間--
+   1   ３六歩(37)
+* [%eval -0.03]
+   2   ４二銀(31)
+* [%eval 0.62]
+   3   ３八飛(28)
+* [%eval -1.04]
+   4   ５四歩(53)
+* [%eval -1.27]
+   5   ３五歩(36)
+* [%eval -0.91]
+   6   ３二金(41)
+* [%eval -1.21]
+   7   ４八銀(39)
+* [%eval -1.46]
+   8   ３一角(22)
+* [%eval -0.2]
+   9   ３七銀(48)
+* [%eval -2.43]
+  10   ５三銀(42)
+* [%eval -1.7]
+  11   ４六銀(37)
+* [%eval -1.83]
+  12   ４四銀(53)
+* [%eval -1.92]
+  13   ５八金(49)
+* [%eval -1.95]
+  14   ６四角(31)
+* [%eval -1.0]
+  15   ７六歩(77)
+* [%eval -1.04]
+  16   ８四歩(83)
+* [%eval -0.78]
+  17   ５六歩(57)
+* [%eval -3.01]
+  18   ４一玉(51)
+* [%eval -2.03]
+  19   ７八金(69)
+* [%eval -2.82]
+  20   ３一玉(41)
+* [%eval -2.33]
+  21   ６八銀(79)
+* [%eval -1.94]
+  22   ２二玉(31)
+* [%eval -1.1]
+  23   ６九玉(59)
+* [%eval -1.16]
+  24   ８五歩(84)
+* [%eval -0.75]
+  25   ６六歩(67)
+* [%eval -1.22]
+  26   ８六歩(85)
+* [%eval -0.78]
+  27   同　歩(87)
+* [%eval -1.34]
+  28   同　角(64)
+* [%eval 0.0]
+  29   ８七歩打
+* [%eval -0.33]
+  30   ６四角(86)
+* [%eval 0.53]
+  31   ６五歩(66)
+* [%eval -0.05]
+  32   ５三角(64)
+* [%eval 1.33]
+  33   ５五歩(56)
+* (1.33 → -1.88) Inaccuracy. Best move was [usi:32.2i3g]
+* [%eval -1.88]
+  34   同　歩(54)
+* [%eval -1.55]
+  35   同　銀(46)
+* (-1.55 → -4.74) Inaccuracy. Best move was [usi:34.3e3d]
+* [%eval -4.74]
+  36   同　銀(44)
+* [%eval -4.16]
+  37   同　角(88)
+* [%eval -5.03]
+  38   ４九銀打
+* [%eval -2.28]
+  39   ３六飛(38)
+* (-2.28 → -25.95) Blunder. Best move was [usi:38.3h4h]
+* [%eval -25.95]
+  40   ５八銀成(49)
+* [%eval -26.55]
+  41   同　玉(69)
+* [%eval -27.45]
+  42   ４五金打
+* [%eval -25.46]
+  43   ３三角成(55)
+* [%eval -26.74]
+  44   同　金(32)
+* [%eval -26.56]
+  45   ３九飛(36)
+* [%eval -29.61]
+  46   ３五角(53)
+* [%eval -28.75]
+  47   ３七桂(29)
+* [%eval -28.15]
+  48   ５六金(45)
+* (-28.15 → -20.05) Inaccuracy. Best move was [usi:47.P*5g]
+* [%eval -20.05]
+  49   ４五桂(37)
+* (-20.05 → -32.78) Mistake. Best move was [usi:48.P*5g]
+* [%eval -32.78]
+  50   ５七歩打
+* [%eval -32.27]
+  51   ６九玉(58)
+* [%eval -30.71]
+  52   ４四角(35)
+* (-30.71 → -18.06) Mistake. Best move was [usi:51.3c3d]
+* [%eval -18.06]
+  53   ３三桂成(45)
+* [%eval -21.82]
+  54   同　桂(21)
+* [%eval -24.26]
+  55   ３四歩打
+* (-24.26 → -34.46) Inaccuracy. Best move was [usi:54.S*7g]
+* [%eval -34.46]
+  56   ３五歩打
+* (-34.46 → -3.04) Blunder. Best move was [usi:55.N*6f]
+* [%eval -3.04]
+  57   ３三歩成(34)
+* [%eval -3.95]
+  58   同　玉(22)
+* [%eval -2.83]
+  59   ４五桂打
+* (-2.83 → -8.60) Inaccuracy. Best move was [usi:58.P*3d]
+* [%eval -8.6]
+  60   ４二玉(33)
+* (-8.60 → 2.37) Blunder. Best move was [usi:59.3c3d]
+* [%eval 2.37]
+  61   ５四金打
+* (2.37 → -32.25) Blunder. Best move was [usi:60.S*3c]
+* [%eval -32.25]
+  62   ９九角成(44)
+* (-32.25 → -4.36) Blunder. Best move was [usi:61.N*6f]
+* [%eval -4.36]
+  63   ５三桂成(45)
+* [%eval -1.24]
+  64   ５一玉(42)
+* (-1.24 → 5.20) Mistake. Best move was [usi:63.4b3a]
+* [%eval 5.2]
+  65   ４二銀打
+* (5.20 → -30.14) Blunder. Best move was [usi:64.P*5b]
+* [%eval -30.14]
+  66   同　飛(82)
+* [%eval -26.83]
+  67   同　成桂(53)
+* [%eval -27.93]
+  68   ６二玉(51)
+* [%eval -23.16]
+  69   ８三銀打
+* (-23.16 → -64.17) Mistake. Best move was [usi:68.4b5a]
+* [%eval -64.17]
+  70   ８二銀打
+* (-64.17 → 27.01) Blunder. Best move was [usi:69.9i8i]
+* [%eval 27.01]
+  71   ５二飛打
+* (27.01 → -52.86) Blunder. Best move was [usi:70.6e6d]
+* [%eval -52.86]
+  72   同　金(61)
+* [%eval -45.88]
+  73   同　成桂(42)
+* [%eval -49.04]
+  74   同　玉(62)
+* [%eval -45.73]
+  75   ５三金打
+* [%eval -53.1]
+  76   ６一玉(52)
+* [%eval -49.9]
+  77   ６三金(54)
+* (-49.90 → Mate in 21) Checkmate is now unavoidable. Best move was [usi:76.P*5i]
+* [%eval mate-21]
+  78   ５一香打
+* (Mate in 21 → Mate in 3) Lost forced checkmate sequence. Best move was [usi:77.5g5h+]
+* [%eval mate3]
+  79   ５二歩打
+* (Mate in 3 → 22.61) Lost forced checkmate sequence. Best move was [usi:78.5c6b]
+* [%eval 22.61]
+  80   ４一角打
+* (22.61 → Mate in 3) Checkmate is now unavoidable. Best move was [usi:79.5g5h+]
+* [%eval mate3]
+  81   ５一歩成(52)
+* [%eval mate6]
+  82   同　玉(61)
+* [%eval mate5]
+  83   ５二香打
+* [%eval mate4]
+  84   ６一玉(51)
+* [%eval mate3]
+  85   投了
+
+

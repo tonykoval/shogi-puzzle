@@ -1,0 +1,59 @@
+開始日時：2022/12/16 06:13:27
+棋戦：将棋ウォーズ(3分切れ負け)
+場所：https://lishogi.org/XzlltEFY
+持ち時間：3分
+手合割：平手
+先手：orePapa 4級
+後手：Tonyko 3級
+手数----指手---------消費時間--
+   1   ７六歩(77)
+* [%eval 0.28]
+   2   ７二飛(82)
+* [%eval 1.66]
+   3   ７五歩(76)
+* (1.66 → -1.34) Inaccuracy. Best move was [usi:2.2g2f]
+* [%eval -1.34]
+   4   ６二銀(71)
+* [%eval -0.55]
+   5   ７八飛(28)
+* [%eval -1.54]
+   6   ３二金(41)
+* [%eval -0.8]
+   7   ５五角(88)
+* [%eval -1.82]
+   8   ５四歩(53)
+* [%eval -0.66]
+   9   ４六角(55)
+* [%eval -1.88]
+  10   ５三銀(62)
+* (-1.88 → 3.43) Inaccuracy. Best move was [usi:9.3c3d]
+* [%eval 3.43]
+  11   ７七桂(89)
+* (3.43 → -6.46) Blunder. Best move was [usi:10.7e7d]
+* [%eval -6.46]
+  12   ３四歩(33)
+* (-6.46 → -3.48) Inaccuracy. Best move was [usi:11.5c6d]
+* [%eval -3.48]
+  13   ８八銀(79)
+* (-3.48 → -6.47) Inaccuracy. Best move was [usi:12.7e7d]
+* [%eval -6.47]
+  14   ６四銀(53)
+* [%eval -6.63]
+  15   ８五桂(77)
+* (-6.63 → -10.22) Inaccuracy. Best move was [usi:14.5g5f]
+* [%eval -10.22]
+  16   ６二金(61)
+* [%eval -8.58]
+  17   ７四歩(75)
+* [%eval -11.68]
+  18   同　歩(73)
+* [%eval -11.05]
+  19   同　飛(78)
+* (-11.05 → -52.74) Blunder. Best move was [usi:18.5i4h]
+* [%eval -52.74]
+  20   ７三歩打
+* (-52.74 → -8.51) Blunder. Best move was [usi:19.7b7d]
+* [%eval -8.51]
+  21   投了
+
+
