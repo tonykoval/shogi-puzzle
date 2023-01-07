@@ -19,9 +19,19 @@
             <div id="dirty" class="sg-wrap"></div>
             <select class="games" style="width: 100%"></select>
             <textarea class="content" style="width: 100%"></textarea>
-            <button class="random">Random</button>
+            <button class="random">Skip/Next</button>
             <button class="lishogi-position">Lishogi position</button>
             <button class="lishogi-game">Lishogi game</button>
+            <div>
+                <input type="radio" id="all" name="judgement-type" value="All">
+                <label for="all">all</label><br>
+                <input type="radio" id="blunders" name="judgement-type" value="Blunder" checked>
+                <label for="blunders">blunders</label><br>
+                <input type="radio" id="mistakes" name="judgement-type" value="Mistake">
+                <label for="mistakes">mistakes</label><br>
+                <input type="radio" id="inaccuracies" name="judgement-type" value="Inaccuracy">
+                <label for="inaccuracies">inaccuracies</label>
+            </div>
         </div>
         <div id="hand-bottom" class="sg-hand-wrap"></div>
     </div>
@@ -33,36 +43,32 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
 <script type="module">
-    let data, ids, sg, selected
+    let data, ids, sg, selected, selectedData
+    const games = $(".games")
     $.ajax({
         url:"data/positions.json",
         dataType : 'json',
         async : false,
         success : function(json) {
             data = json
-            ids = json.map( (value, index) => {
-                    let obj = {}
-                    obj["id"] = index
-                    obj["text"] = value.id
-                    return obj
-                }
-            )
+            selectedData = filterData()
+            ids = createIds(selectedData)
 
-            $(".games").select2({
-                placeholder: 'Select a position',
+            games.select2({
                 data: ids
             })
 
-            selectSituation(randomNumber(0, data.length - 1))
+            selectSituation(randomNumber(0, selectedData.length - 1), selectedData)
         }
     });
 
-    $('.games').on('select2:select', function (e) {
-        selectSituation(e.params.data.id)
+    games.on('select2:select', function (e) {
+        selectSituation(e.params.data.id, selectedData)
     });
 
     $(".random").click( function (e) {
-        selectSituation(randomNumber(0, data.length - 1))
+        selectedData = filterData()
+        selectSituation(randomNumber(0, selectedData.length - 1), selectedData)
     });
 
     $(".lishogi-game").click( function (e) {
@@ -110,9 +116,41 @@
         // });
     });
 
-    function selectSituation(id) {
-        $('.games').val(ids[id].id)
-        $('.games').trigger('change');
+    $('input[name="judgement-type"]').change(function(){
+        selectedData = filterData()
+        ids = createIds(selectedData)
+
+        games.select2('destroy');
+        games.empty();
+        games.select2({
+            placeholder: 'Select a position',
+            data: ids,
+            allowClear: true
+        })
+    });
+
+    function filterData() {
+        const type = $('input[name="judgement-type"]:checked').val();
+        if (type === "All") {
+            return data
+        } else {
+            return data.filter(x => x.judgement === type)
+        }
+    }
+
+    function createIds(data) {
+        return data.map( (value, index) => {
+                let obj = {}
+                obj["id"] = index
+                obj["text"] = value.id
+                return obj
+            }
+        )
+    }
+
+    function selectSituation(id, data) {
+        games.val(ids[id].id)
+        games.trigger('change');
         $('.content').text('Play the correct move!');
         selected = data[id]
 
