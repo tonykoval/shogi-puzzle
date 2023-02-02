@@ -283,7 +283,10 @@ sg-square-over {
 }
 .sg-wrap .sg-shapes g.description text {
   fill: white;
-  font-size: 60%;
+  font-size: 50%;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
+  font-family: sans; color: white;
 }
 .sg-wrap .sg-shapes g.current line {
   opacity: 0.9;
@@ -303,13 +306,13 @@ sg-square-over {
 }
 
 .sg-wrap .sg-shapes g.alternative0 ellipse {
-  stroke: #882020;
+  stroke: #e52621;
 }
 .sg-wrap .sg-shapes g.alternative0 line {
-  stroke: #882020;
+  stroke: #e52621;
 }
 .sg-wrap .sg-shapes marker#arrowhead-alternative0 path {
-  fill: #882020;
+  fill: #e52621;
 }
 
 .sg-wrap .sg-shapes g.alternative1 ellipse {
@@ -323,12 +326,11 @@ sg-square-over {
 }
 
 .sg-wrap .sg-shapes g.alternative2 ellipse {
-  stroke: #e68f00;
+  stroke: #b400e6;
 }
 .sg-wrap .sg-shapes g.alternative2 line {
-  stroke: #e68f00;
-  stroke-width: 0.2;
+  stroke: #b400e6;
 }
 .sg-wrap .sg-shapes marker#arrowhead-alternative2 path {
-  fill: #e68f00;
+  fill: #b400e6;
 }

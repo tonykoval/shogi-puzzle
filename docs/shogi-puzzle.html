@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="assets/css/themes/wood-grid.css"/>
     <link rel="stylesheet" href="assets/css/pieces/ryoko.css"/>
     <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+    <title>Shogi Puzzle</title>
 </head>
 
 <body>
@@ -18,20 +19,11 @@
         <div style="width: 500px; height: calc(500px / 11 * 12)" id="main-wrap" class="main-board">
             <div id="dirty" class="sg-wrap"></div>
             <select class="games" style="width: 100%"></select>
-            <textarea class="content" style="width: 100%"></textarea>
+            <textarea class="content" style="width: 100%; height: 5em;"></textarea>
             <button class="random">Skip/Next</button>
             <button class="lishogi-position">Lishogi position</button>
             <button class="lishogi-game">Lishogi game</button>
-            <div>
-                <input type="radio" id="all" name="judgement-type" value="All">
-                <label for="all">all</label><br>
-                <input type="radio" id="blunders" name="judgement-type" value="Blunder" checked>
-                <label for="blunders">blunders</label><br>
-                <input type="radio" id="mistakes" name="judgement-type" value="Mistake">
-                <label for="mistakes">mistakes</label><br>
-                <input type="radio" id="inaccuracies" name="judgement-type" value="Inaccuracy">
-                <label for="inaccuracies">inaccuracies</label>
-            </div>
+            <button class="save-comment">Review/Save comment</button>
         </div>
         <div id="hand-bottom" class="sg-hand-wrap"></div>
     </div>
@@ -46,13 +38,13 @@
     let data, ids, sg, selected, selectedData
     const games = $(".games")
     $.ajax({
-        url:"data/positions.json",
+        url:"data/puzzles.json",
         dataType : 'json',
         async : false,
         success : function(json) {
             data = json
-            selectedData = filterData()
-            ids = createIds(selectedData)
+            selectedData = data
+            ids = createIds(data)
 
             games.select2({
                 data: ids
@@ -66,77 +58,23 @@
         selectSituation(e.params.data.id, selectedData)
     });
 
-    $(".random").click( function (e) {
-        selectedData = filterData()
+    $(".random").click( function () {
+        selectedData = data
         selectSituation(randomNumber(0, selectedData.length - 1), selectedData)
     });
 
-    $(".lishogi-game").click( function (e) {
+    $(".lishogi-game").click( function () {
         window.open(selected.site, "_blank");
     });
 
-    $(".lishogi-position").click( function (e) {
+    $(".lishogi-position").click( function () {
         window.open("https://lishogi.org/analysis/standard/" + selected.sfen, "_blank");
     });
 
-    $(".test").click( function (e) {
-        // var settings = {
-        //     "async": true,
-        //     "crossDomain": true,
-        //     "url": "https://shogipuzzle-cafe.restdb.io/rest/feedback",
-        //     "method": "GET",
-        //     "headers": {
-        //         "content-type": "application/json",
-        //         "x-apikey": "63b58ffb969f06502871a92e",
-        //         "cache-control": "no-cache"
-        //     }
-        // }
-        //
-        // $.ajax(settings).done(function (response) {
-        //     console.log(response);
-        // });
-
-        // var jsondata = {"field1": "xyz","field2": "abc"};
-        // var settings = {
-        //     "async": true,
-        //     "crossDomain": true,
-        //     "url": "https://shogipuzzle-cafe.restdb.io/rest/feedback",
-        //     "method": "POST",
-        //     "headers": {
-        //         "content-type": "application/json",
-        //         "x-apikey": "63b58ffb969f06502871a92e",
-        //         "cache-control": "no-cache"
-        //     },
-        //     "processData": false,
-        //     "data": JSON.stringify(jsondata)
-        // }
-        //
-        // $.ajax(settings).done(function (response) {
-        //     console.log(response);
-        // });
+    $(".save-comment").click( function () {
+        const text = $(".content").val()
+        fireSave(text)
     });
-
-    $('input[name="judgement-type"]').change(function(){
-        selectedData = filterData()
-        ids = createIds(selectedData)
-
-        games.select2('destroy');
-        games.empty();
-        games.select2({
-            placeholder: 'Select a position',
-            data: ids,
-            allowClear: true
-        })
-    });
-
-    function filterData() {
-        const type = $('input[name="judgement-type"]:checked').val();
-        if (type === "All") {
-            return data
-        } else {
-            return data.filter(x => x.judgement === type)
-        }
-    }
 
     function createIds(data) {
         return data.map( (value, index) => {
@@ -152,6 +90,7 @@
         games.val(ids[id].id)
         games.trigger('change');
         $('.content').text('Play the correct move!');
+        $('.save-comment').hide();
         selected = data[id]
 
         sg = Shogiground();
@@ -172,21 +111,23 @@
         });
     }
 
-    function isEngineMove(engineMove, playerMove, playerPositionMove) {
+    function isMove(engineMove, playerMove, playerPositionMove, returnValue) {
+        let result = false
         if (engineMove.drop !== null) {
             if (playerPositionMove === "DROP") {
-                return engineMove.drop.drop.role === playerMove.piece.role && engineMove.drop.drop.pos === playerMove.key;
-            } else {
-                return false
+                result = engineMove.drop.drop.role === playerMove.piece.role && engineMove.drop.drop.pos === playerMove.key;
             }
         } else {
             if (playerPositionMove === "MOVE") {
-                return engineMove.move.move.orig === playerMove.orig &&
+                result = engineMove.move.move.orig === playerMove.orig &&
                     engineMove.move.move.dest === playerMove.dest &&
                     engineMove.move.move.promotion === playerMove.prom
-            } else {
-                return false
             }
+        }
+        if (result) {
+            return returnValue
+        } else {
+            return -1
         }
     }
 
@@ -203,8 +144,7 @@
             icon: 'error',
             title: 'Failure',
             html: '<p>You played the bad move!</p> ' +
-                '<p>You should play <b>' + pos.engineMoveUsi + '</b> (green arrow) move.</p> ' +
-                '<p><i>' + pos.comment + '</i></p>',
+                '<p><i>' + pos.comment.replaceAll("\n", "<br />") + '</i></p>',
             footer: '<a href="https://lishogi.org/analysis/standard/' + pos.sfen + '" target="_blank">Lishogi position</a>'
         })
     }
@@ -214,20 +154,82 @@
             icon: 'warning',
             title: 'Warning',
             html: '<p>You played the unknown move! Please analyze your move.</p>' +
-                '<p>You should play <b>' + pos.engineMoveUsi + '</b> (green arrow) move.</p> ' +
-                '<p><i>' + pos.comment + '</i></p>',
+                '<p><i>' + pos.comment.replaceAll("\n", "<br />") + '</i></p>',
             footer: '<a href="https://lishogi.org/analysis/standard/' + pos.sfen + '" target="_blank">Lishogi position</a>'
         })
     }
 
-    function fireSuccess(pos) {
+    function fireSuccess(pos, num) {
+        let msg;
+        switch (num) {
+            case 1:
+                msg = "You found <b>the best</b> engine move!"
+                break
+            case 2:
+                msg = "You found <b>the second</b> engine move! Check the best."
+                break
+            case 3:
+                msg = "You found <b>the third</b> engine move! Check the best."
+                break
+        }
         Swal.fire({
             icon: 'success',
             title: 'Success',
-            html: '<p>You found the engine move!</p> ' +
-                '<p>You played <b>' + pos.yourMoveUsi + '</b> (red arrow) move.</p> ' +
-                '<p><i>' + pos.comment + '</i></p>',
+            html: '<p> ' + msg + '</p> ' +
+                '<p><i>' + pos.comment.replaceAll("\n", "<br />") + '</i></p>',
             footer: '<a href="https://lishogi.org/analysis/standard/' + pos.sfen + '" target="_blank">Lishogi position</a>'
+        })
+    }
+
+    function fireSave(text) {
+        Swal.fire({
+            icon: 'question',
+            title: 'Update',
+            html: '<p>Do you want update the comment?</p>' +
+                '<p><i>' + text.replaceAll("\n", "<br />") + '</i></p>' +
+                '<p><b>Feedback</b></p>',
+            showCancelButton: true,
+            input: 'radio',
+            // TODO
+            inputOptions: {'yes': 'Yes',
+                'no': 'No'},
+            inputValidator: (value) => {
+                if (!value) {
+                    // TODO
+                    return 'You need to choose something!'
+                }
+            },
+            confirmButtonColor: '#3085d6',
+            cancelButtonColor: '#d33',
+            confirmButtonText: 'Send!'
+        }).then((result) => {
+            if (result.isConfirmed) {
+                const jsondata = {"id": selected.id, "comment": text, "timestamp": Date.now()};
+
+                // TODO Auth0
+                const settings = {
+                    "async": true,
+                    "crossDomain": true,
+                    "url": "https://shogipuzzle-cafe.restdb.io/rest/feedback",
+                    "method": "POST",
+                    "headers": {
+                        "content-type": "application/json",
+                        "x-apikey": "63b58ffb969f06502871a92e",
+                        "cache-control": "no-cache"
+                    },
+                    "processData": false,
+                    "data": JSON.stringify(jsondata)
+                }
+
+                $.ajax(settings).done(function (response) {
+                    console.log(response)
+                    Swal.fire(
+                        'Success',
+                        'Your feedback was successful updated.',
+                        'success'
+                    )
+                });
+            }
         })
     }
 
@@ -266,30 +268,45 @@
             },
             events: {
                 move: (a, b, prom) => {
-                    sg.setAutoShapes([setHint(pos.engineMove), setHint(pos.yourMove)]);
+                    sg.setAutoShapes([setHint(pos.best_move), setHint(pos.second_move), setHint(pos.third_move),
+                        setHint(pos.your_move)]);
                     $(".content").text(pos.comment)
-                    if (isEngineMove(pos.engineMove, {"orig": a, "dest": b, "prom": prom}, "MOVE")) {
-                        fireSuccess(pos)
+
+                    let r0 = isMove(pos.your_move, {"orig": a, "dest": b, "prom": prom}, "MOVE", 0)
+                    let r1 = isMove(pos.best_move, {"orig": a, "dest": b, "prom": prom}, "MOVE", 1)
+                    let r2 = isMove(pos.second_move, {"orig": a, "dest": b, "prom": prom}, "MOVE", 2)
+                    let r3 = isMove(pos.third_move, {"orig": a, "dest": b, "prom": prom}, "MOVE", 3)
+
+                    if (Math.max(r1, r2, r3) !== -1) {
+                        fireSuccess(pos, Math.max(r1, r2, r3))
                     } else {
-                        if (isEngineMove(pos.yourMove, {"orig": a, "dest": b, "prom": prom}, "MOVE")) {
+                        if (r0 !== -1) {
                             fireError(pos)
                         } else {
                             fireWarning(pos)
                         }
                     }
+                    $(".save-comment").show()
                 },
                 drop: (piece, key, prom) => {
-                    sg.setAutoShapes([setHint(pos.engineMove), setHint(pos.yourMove)]);
+                    sg.setAutoShapes([setHint(pos.best_move), setHint(pos.second_move), setHint(pos.third_move),
+                        setHint(pos.your_move)]);
                     $(".content").text(pos.comment)
-                    if (isEngineMove(pos.engineMove, {"piece": piece, "key": key, "prom": prom}, "DROP")) {
-                        fireSuccess(pos)
+
+                    let r0 = isMove(pos.your_move, {"piece": piece, "key": key, "prom": prom}, "DROP", 0)
+                    let r1 = isMove(pos.best_move, {"piece": piece, "key": key, "prom": prom}, "DROP", 1)
+                    let r2 = isMove(pos.second_move, {"piece": piece, "key": key, "prom": prom}, "DROP", 2)
+                    let r3 = isMove(pos.third_move, {"piece": piece, "key": key, "prom": prom}, "DROP", 3)
+                    if (Math.max(r1, r2, r3) !== -1) {
+                        fireSuccess(pos, Math.max(r1, r2, r3))
                     } else {
-                        if (isEngineMove(pos.yourMove, {"piece": piece, "key": key, "prom": prom}, "DROP")) {
+                        if (r0 !== -1) {
                             fireError(pos)
                         } else {
                             fireWarning(pos)
                         }
                     }
+                    $(".save-comment").show()
                 },
             },
         }
