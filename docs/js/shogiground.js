@@ -1280,7 +1280,7 @@ var Shogiground = (function () {
             'text-anchor': 'middle',
             'dominant-baseline': 'central',
         });
-        g.appendChild(circle);
+        // g.appendChild(circle);
         text.appendChild(document.createTextNode(shape.description));
         g.appendChild(text);
         return g;
