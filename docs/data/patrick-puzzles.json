@@ -1,0 +1,8144 @@
+[
+  {
+    "id" : "patrickanagumar38s46ob77VSginkanmurir32s43b22p55.kifu#99",
+    "sfen" : "l2p3+Rl/kS7/2Gs3p1/pppn2p1p/3N1p3/P1P1p1P2/1P1P1+bBPP/LS7/KN5+rL b NP3gsp 99",
+    "your_move_usi" : "2a6a",
+    "opponent_last_move_usi" : "9c9b",
+    "player" : "sente",
+    "score" : {
+      "cp" : null,
+      "moves" : 11
+    },
+    "prev_score" : {
+      "cp" : -2346,
+      "moves" : null
+    },
+    "best" : {
+      "score" : {
+        "cp" : -2748,
+        "moves" : null
+      },
+      "usi" : "8b9a+"
+    },
+    "second" : {
+      "score" : {
+        "cp" : -1916,
+        "moves" : null
+      },
+      "usi" : "3g6d"
+    },
+    "third" : {
+      "score" : {
+        "cp" : -1520,
+        "moves" : null
+      },
+      "usi" : "7c8c"
+    },
+    "opponent_last_move_usi_positions" : [
+      "9c",
+      "9b"
+    ],
+    "your_move" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "2a",
+          "dest" : "6a",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "2a",
+          "dest" : "6a",
+          "brush" : "alternative0",
+          "description" : "your"
+        }
+      },
+      "score" : {
+        "cp" : null,
+        "moves" : 11
+      }
+    },
+    "best_move" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "8b",
+          "dest" : "9a",
+          "promotion" : true
+        },
+        "hint" : {
+          "orig" : "8b",
+          "dest" : "9a",
+          "brush" : "primary",
+          "description" : "1st"
+        }
+      },
+      "score" : {
+        "cp" : -2748,
+        "moves" : null
+      }
+    },
+    "second_move" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "3g",
+          "dest" : "6d",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "3g",
+          "dest" : "6d",
+          "brush" : "alternative1",
+          "description" : "2nd"
+        }
+      },
+      "score" : {
+        "cp" : -1916,
+        "moves" : null
+      }
+    },
+    "third_move" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "7c",
+          "dest" : "8c",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "7c",
+          "dest" : "8c",
+          "brush" : "alternative2",
+          "description" : "3rd"
+        }
+      },
+      "score" : {
+        "cp" : -1520,
+        "moves" : null
+      }
+    },
+    "hands" : "NP3gsp",
+    "comment" : "Blunder [move dragon from 21 to 61, score: (-2346 → #11)] \nBest [move promotesilver from 82 to 91, score: (-2346 → -2748)] \nSecond [move bishop from 37 to 64, score: (-2346 → -1916)] \nThird [move gold from 73 to 83, score: (-2346 → -1520)]\n",
+    "sente" : "conquerror99",
+    "gote" : "youyouyousuzuki",
+    "timeControl" : "15分+60秒",
+    "site" : "81Dojo",
+    "date" : "2021/01/27"
+  },
+  {
+    "id" : "patrickduckr35cb88VSduckr32ob22pexch_fa.kifu#11",
+    "sfen" : "lnsgkgsnl/6r2/pppppp1pp/5bP2/6R2/9/PPPPPP1PP/1B7/LNSGKGSNL b p 11",
+    "your_move_usi" : "7g7f",
+    "opponent_last_move_usi" : "2b4d",
+    "player" : "sente",
+    "score" : {
+      "cp" : 1610,
+      "moves" : null
+    },
+    "prev_score" : {
+      "cp" : 146,
+      "moves" : null
+    },
+    "best" : {
+      "score" : {
+        "cp" : 136,
+        "moves" : null
+      },
+      "usi" : "3e3h"
+    },
+    "second" : {
+      "score" : {
+        "cp" : 158,
+        "moves" : null
+      },
+      "usi" : "3e3f"
+    },
+    "third" : {
+      "score" : {
+        "cp" : 243,
+        "moves" : null
+      },
+      "usi" : "3e3g"
+    },
+    "opponent_last_move_usi_positions" : [
+      "2b",
+      "4d"
+    ],
+    "your_move" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "7g",
+          "dest" : "7f",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "7g",
+          "dest" : "7f",
+          "brush" : "alternative0",
+          "description" : "your"
+        }
+      },
+      "score" : {
+        "cp" : 1610,
+        "moves" : null
+      }
+    },
+    "best_move" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "3e",
+          "dest" : "3h",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "3e",
+          "dest" : "3h",
+          "brush" : "primary",
+          "description" : "1st"
+        }
+      },
+      "score" : {
+        "cp" : 136,
+        "moves" : null
+      }
+    },
+    "second_move" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "3e",
+          "dest" : "3f",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "3e",
+          "dest" : "3f",
+          "brush" : "alternative1",
+          "description" : "2nd"
+        }
+      },
+      "score" : {
+        "cp" : 158,
+        "moves" : null
+      }
+    },
+    "third_move" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "3e",
+          "dest" : "3g",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "3e",
+          "dest" : "3g",
+          "brush" : "alternative2",
+          "description" : "3rd"
+        }
+      },
+      "score" : {
+        "cp" : 243,
+        "moves" : null
+      }
+    },
+    "hands" : "p",
+    "comment" : "Blunder [move pawn from 77 to 76, score: (146 → 1610)] \nBest [move rook from 35 to 38, score: (146 → 136)] \nSecond [move rook from 35 to 36, score: (146 → 158)] \nThird [move rook from 35 to 37, score: (146 → 243)]\n",
+    "sente" : "conquerror99",
+    "gote" : "houki4649",
+    "timeControl" : "5分+30秒",
+    "site" : "81Dojo",
+    "date" : "2021/01/15"
+  },
+  {
+    "id" : "patrickduckr36cb88VSduckr82ob22p86p87drop.kifu#9",
+    "sfen" : "lnsgkgsnl/1r5b1/p1pppp1pp/9/1p4R2/9/PPPPPP1PP/1B7/LNSGKGSNL b Pp 9",
+    "your_move_usi" : "3e3f",
+    "opponent_last_move_usi" : "8d8e",
+    "player" : "sente",
+    "score" : {
+      "cp" : 1518,
+      "moves" : null
+    },
+    "prev_score" : {
+      "cp" : 97,
+      "moves" : null
+    },
+    "best" : {
+      "score" : {
+        "cp" : 91,
+        "moves" : null
+      },
+      "usi" : "7g7f"
+    },
+    "second" : {
+      "score" : {
+        "cp" : 93,
+        "moves" : null
+      },
+      "usi" : "9g9f"
+    },
+    "third" : {
+      "score" : {
+        "cp" : 100,
+        "moves" : null
+      },
+      "usi" : "6i7h"
+    },
+    "opponent_last_move_usi_positions" : [
+      "8d",
+      "8e"
+    ],
+    "your_move" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "3e",
+          "dest" : "3f",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "3e",
+          "dest" : "3f",
+          "brush" : "alternative0",
+          "description" : "your"
+        }
+      },
+      "score" : {
+        "cp" : 1518,
+        "moves" : null
+      }
+    },
+    "best_move" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "7g",
+          "dest" : "7f",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "7g",
+          "dest" : "7f",
+          "brush" : "primary",
+          "description" : "1st"
+        }
+      },
+      "score" : {
+        "cp" : 91,
+        "moves" : null
+      }
+    },
+    "second_move" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "9g",
+          "dest" : "9f",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "9g",
+          "dest" : "9f",
+          "brush" : "alternative1",
+          "description" : "2nd"
+        }
+      },
+      "score" : {
+        "cp" : 93,
+        "moves" : null
+      }
+    },
+    "third_move" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "6i",
+          "dest" : "7h",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "6i",
+          "dest" : "7h",
+          "brush" : "alternative2",
+          "description" : "3rd"
+        }
+      },
+      "score" : {
+        "cp" : 100,
+        "moves" : null
+      }
+    },
+    "hands" : "Pp",
+    "comment" : "Blunder [move rook from 35 to 36, score: (97 → 1518)] \nBest [move pawn from 77 to 76, score: (97 → 91)] \nSecond [move pawn from 97 to 96, score: (97 → 93)] \nThird [move gold from 69 to 78, score: (97 → 100)]\n",
+    "sente" : "conquerror99",
+    "gote" : "fugasuki",
+    "timeControl" : "15分+60秒",
+    "site" : "81Dojo",
+    "date" : "2021/01/20"
+  },
+  {
+    "id" : "patrickduckr38s28ob88VSduckr32ob55bexch.kifu#35",
+    "sfen" : "ln1g1gsnl/1sk6/pppppp1pp/9/P5r2/4P4/1PSP1P2P/2G1G2S1/LN2K2NL b 2BPr3p 35",
+    "your_move_usi" : "P*3g",
+    "opponent_last_move_usi" : "3b3e",
+    "player" : "sente",
+    "score" : {
+      "cp" : 2328,
+      "moves" : null
+    },
+    "prev_score" : {
+      "cp" : 616,
+      "moves" : null
+    },
+    "best" : {
+      "score" : {
+        "cp" : 657,
+        "moves" : null
+      },
+      "usi" : "5h4h"
+    },
+    "second" : {
+      "score" : {
+        "cp" : 784,
+        "moves" : null
+      },
+      "usi" : "B*2g"
+    },
+    "third" : {
+      "score" : {
+        "cp" : 860,
+        "moves" : null
+      },
+      "usi" : "B*1f"
+    },
+    "opponent_last_move_usi_positions" : [
+      "3b",
+      "3e"
+    ],
+    "your_move" : {
+      "drop" : {
+        "drop" : {
+          "role" : "pawn",
+          "pos" : "3g"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "pawn",
+            "color" : "sente"
+          },
+          "dest" : "3g",
+          "brush" : "alternative0",
+          "description" : "your"
+        }
+      },
+      "move" : null,
+      "score" : {
+        "cp" : 2328,
+        "moves" : null
+      }
+    },
+    "best_move" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "5h",
+          "dest" : "4h",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "5h",
+          "dest" : "4h",
+          "brush" : "primary",
+          "description" : "1st"
+        }
+      },
+      "score" : {
+        "cp" : 657,
+        "moves" : null
+      }
+    },
+    "second_move" : {
+      "drop" : {
+        "drop" : {
+          "role" : "bishop",
+          "pos" : "2g"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "bishop",
+            "color" : "sente"
+          },
+          "dest" : "2g",
+          "brush" : "alternative1",
+          "description" : "2nd"
+        }
+      },
+      "move" : null,
+      "score" : {
+        "cp" : 784,
+        "moves" : null
+      }
+    },
+    "third_move" : {
+      "drop" : {
+        "drop" : {
+          "role" : "bishop",
+          "pos" : "1f"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "bishop",
+            "color" : "sente"
+          },
+          "dest" : "1f",
+          "brush" : "alternative2",
+          "description" : "3rd"
+        }
+      },
+      "move" : null,
+      "score" : {
+        "cp" : 860,
+        "moves" : null
+      }
+    },
+    "hands" : "2BPr3p",
+    "comment" : "Blunder [drop pawn 37, score: (616 → 2328)] \nBest [move gold from 58 to 48, score: (616 → 657)] \nSecond [drop bishop 27, score: (616 → 784)] \nThird [drop bishop 16, score: (616 → 860)]\n",
+    "sente" : "conquerror99",
+    "gote" : "f_ishigai",
+    "timeControl" : "15分+60秒",
+    "site" : "81Dojo",
+    "date" : "2021/01/15"
+  },
+  {
+    "id" : "patrickhalfmino_k28r36ob8855VSsode2_g72r82s86pX73.kifu#52",
+    "sfen" : "ln1g3rl/1ks3s2/pp2pp2p/3B5/2p6/P3P2P1/1PPP1P2P/1BGS2G2/LN1K4L w GN2Prsn2p 52",
+    "your_move_usi" : "S*7c",
+    "opponent_last_move_usi" : "3g6d",
+    "player" : "gote",
+    "score" : {
+      "cp" : null,
+      "moves" : 5
+    },
+    "prev_score" : {
+      "cp" : -174,
+      "moves" : null
+    },
+    "best" : {
+      "score" : {
+        "cp" : -158,
+        "moves" : null
+      },
+      "usi" : "7b7c"
+    },
+    "second" : {
+      "score" : {
+        "cp" : 1944,
+        "moves" : null
+      },
+      "usi" : "8b7a"
+    },
+    "third" : {
+      "score" : {
+        "cp" : null,
+        "moves" : 6
+      },
+      "usi" : "S*7c"
+    },
+    "opponent_last_move_usi_positions" : [
+      "3g",
+      "6d"
+    ],
+    "your_move" : {
+      "drop" : {
+        "drop" : {
+          "role" : "silver",
+          "pos" : "7c"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "silver",
+            "color" : "gote"
+          },
+          "dest" : "7c",
+          "brush" : "alternative0",
+          "description" : "your"
+        }
+      },
+      "move" : null,
+      "score" : {
+        "cp" : null,
+        "moves" : 5
+      }
+    },
+    "best_move" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "7b",
+          "dest" : "7c",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "7b",
+          "dest" : "7c",
+          "brush" : "primary",
+          "description" : "1st"
+        }
+      },
+      "score" : {
+        "cp" : -158,
+        "moves" : null
+      }
+    },
+    "second_move" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "8b",
+          "dest" : "7a",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "8b",
+          "dest" : "7a",
+          "brush" : "alternative1",
+          "description" : "2nd"
+        }
+      },
+      "score" : {
+        "cp" : 1944,
+        "moves" : null
+      }
+    },
+    "third_move" : {
+      "drop" : {
+        "drop" : {
+          "role" : "silver",
+          "pos" : "7c"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "silver",
+            "color" : "gote"
+          },
+          "dest" : "7c",
+          "brush" : "alternative2",
+          "description" : "3rd"
+        }
+      },
+      "move" : null,
+      "score" : {
+        "cp" : null,
+        "moves" : 6
+      }
+    },
+    "hands" : "GN2Prsn2p",
+    "comment" : "Blunder [drop silver 73, score: (-174 → #5)] \nBest [move silver from 72 to 73, score: (-174 → -158)] \nSecond [move king from 82 to 71, score: (-174 → 1944)] \nThird [drop silver 73, score: (-174 → #6)]\n",
+    "sente" : "tennomaru",
+    "gote" : "conquerror99",
+    "timeControl" : "15分+60秒",
+    "site" : "81Dojo",
+    "date" : "2021/01/24"
+  },
+  {
+    "id" : "patrickhighsoder58s46n37ob77VShalfminor51s46n33ob64.kifu#70",
+    "sfen" : "6gnl/l4sg2/3p1p1k1/pR+B3ppp/4B4/P7P/2+rPpPPP1/L5SK1/5G1NL w SN2Pgsn3p 70",
+    "your_move_usi" : "7g6h",
+    "opponent_last_move_usi" : "B*5e",
+    "player" : "gote",
+    "score" : {
+      "cp" : 1876,
+      "moves" : null
+    },
+    "prev_score" : {
+      "cp" : 263,
+      "moves" : null
+    },
+    "best" : {
+      "score" : {
+        "cp" : 235,
+        "moves" : null
+      },
+      "usi" : "7g7d"
+    },
+    "second" : {
+      "score" : {
+        "cp" : 1126,
+        "moves" : null
+      },
+      "usi" : "5g5h+"
+    },
+    "third" : {
+      "score" : {
+        "cp" : 1133,
+        "moves" : null
+      },
+      "usi" : "7g6g"
+    },
+    "opponent_last_move_usi_positions" : [
+      "5e"
+    ],
+    "your_move" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "7g",
+          "dest" : "6h",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "7g",
+          "dest" : "6h",
+          "brush" : "alternative0",
+          "description" : "your"
+        }
+      },
+      "score" : {
+        "cp" : 1876,
+        "moves" : null
+      }
+    },
+    "best_move" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "7g",
+          "dest" : "7d",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "7g",
+          "dest" : "7d",
+          "brush" : "primary",
+          "description" : "1st"
+        }
+      },
+      "score" : {
+        "cp" : 235,
+        "moves" : null
+      }
+    },
+    "second_move" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "5g",
+          "dest" : "5h",
+          "promotion" : true
+        },
+        "hint" : {
+          "orig" : "5g",
+          "dest" : "5h",
+          "brush" : "alternative1",
+          "description" : "2nd"
+        }
+      },
+      "score" : {
+        "cp" : 1126,
+        "moves" : null
+      }
+    },
+    "third_move" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "7g",
+          "dest" : "6g",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "7g",
+          "dest" : "6g",
+          "brush" : "alternative2",
+          "description" : "3rd"
+        }
+      },
+      "score" : {
+        "cp" : 1133,
+        "moves" : null
+      }
+    },
+    "hands" : "SN2Pgsn3p",
+    "comment" : "Blunder [move dragon from 77 to 68, score: (263 → 1876)] \nBest [move dragon from 77 to 74, score: (263 → 235)] \nSecond [move promotepawn from 57 to 58, score: (263 → 1126)] \nThird [move dragon from 77 to 67, score: (263 → 1133)]\n",
+    "sente" : "Magic",
+    "gote" : "conquerror99",
+    "timeControl" : "15分+60秒",
+    "site" : "81Dojo",
+    "date" : "2021/02/04"
+  },
+  {
+    "id" : "patrickhighsoder58s46n37ob77VShalfminor51s46n33ob64.kifu#74",
+    "sfen" : "6gn1/l4sg1g/3p1p1k1/pR+B3ppp/9/P2+B4P/3PpPPP1/L2+r2SK1/5G1NL w SNL2Psn3p 74",
+    "your_move_usi" : "5g5h+",
+    "opponent_last_move_usi" : "1a6f",
+    "player" : "gote",
+    "score" : {
+      "cp" : 2750,
+      "moves" : null
+    },
+    "prev_score" : {
+      "cp" : 871,
+      "moves" : null
+    },
+    "best" : {
+      "score" : {
+        "cp" : 793,
+        "moves" : null
+      },
+      "usi" : "N*4d"
+    },
+    "second" : {
+      "score" : {
+        "cp" : 900,
+        "moves" : null
+      },
+      "usi" : "4b3c"
+    },
+    "third" : {
+      "score" : {
+        "cp" : 973,
+        "moves" : null
+      },
+      "usi" : "3b3c"
+    },
+    "opponent_last_move_usi_positions" : [
+      "1a",
+      "6f"
+    ],
+    "your_move" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "5g",
+          "dest" : "5h",
+          "promotion" : true
+        },
+        "hint" : {
+          "orig" : "5g",
+          "dest" : "5h",
+          "brush" : "alternative0",
+          "description" : "your"
+        }
+      },
+      "score" : {
+        "cp" : 2750,
+        "moves" : null
+      }
+    },
+    "best_move" : {
+      "drop" : {
+        "drop" : {
+          "role" : "knight",
+          "pos" : "4d"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "knight",
+            "color" : "gote"
+          },
+          "dest" : "4d",
+          "brush" : "primary",
+          "description" : "1st"
+        }
+      },
+      "move" : null,
+      "score" : {
+        "cp" : 793,
+        "moves" : null
+      }
+    },
+    "second_move" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "4b",
+          "dest" : "3c",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "4b",
+          "dest" : "3c",
+          "brush" : "alternative1",
+          "description" : "2nd"
+        }
+      },
+      "score" : {
+        "cp" : 900,
+        "moves" : null
+      }
+    },
+    "third_move" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "3b",
+          "dest" : "3c",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "3b",
+          "dest" : "3c",
+          "brush" : "alternative2",
+          "description" : "3rd"
+        }
+      },
+      "score" : {
+        "cp" : 973,
+        "moves" : null
+      }
+    },
+    "hands" : "SNL2Psn3p",
+    "comment" : "Blunder [move promotepawn from 57 to 58, score: (871 → 2750)] \nBest [drop knight 44, score: (871 → 793)] \nSecond [move silver from 42 to 33, score: (871 → 900)] \nThird [move gold from 32 to 33, score: (871 → 973)]\n",
+    "sente" : "Magic",
+    "gote" : "conquerror99",
+    "timeControl" : "15分+60秒",
+    "site" : "81Dojo",
+    "date" : "2021/02/04"
+  },
+  {
+    "id" : "patrickhighsoder58s46n37ob77VShalfminor51s46n33ob64.kifu#82",
+    "sfen" : "6gn1/l4sgkg/3p1p1L1/pR3n+Bpp/6N2/P2+B4P/3P1PPP1/L2+r2SK1/5+p1NL w S3Pgs3p 82",
+    "your_move_usi" : "2b1a",
+    "opponent_last_move_usi" : "L*2c",
+    "player" : "gote",
+    "score" : {
+      "cp" : -571,
+      "moves" : null
+    },
+    "prev_score" : {
+      "cp" : -2077,
+      "moves" : null
+    },
+    "best" : {
+      "score" : {
+        "cp" : -1991,
+        "moves" : null
+      },
+      "usi" : "1b2c"
+    },
+    "second" : {
+      "score" : {
+        "cp" : -1913,
+        "moves" : null
+      },
+      "usi" : "3b2c"
+    },
+    "third" : {
+      "score" : {
+        "cp" : -396,
+        "moves" : null
+      },
+      "usi" : "2b1a"
+    },
+    "opponent_last_move_usi_positions" : [
+      "2c"
+    ],
+    "your_move" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "2b",
+          "dest" : "1a",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "2b",
+          "dest" : "1a",
+          "brush" : "alternative0",
+          "description" : "your"
+        }
+      },
+      "score" : {
+        "cp" : -571,
+        "moves" : null
+      }
+    },
+    "best_move" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "1b",
+          "dest" : "2c",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "1b",
+          "dest" : "2c",
+          "brush" : "primary",
+          "description" : "1st"
+        }
+      },
+      "score" : {
+        "cp" : -1991,
+        "moves" : null
+      }
+    },
+    "second_move" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "3b",
+          "dest" : "2c",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "3b",
+          "dest" : "2c",
+          "brush" : "alternative1",
+          "description" : "2nd"
+        }
+      },
+      "score" : {
+        "cp" : -1913,
+        "moves" : null
+      }
+    },
+    "third_move" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "2b",
+          "dest" : "1a",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "2b",
+          "dest" : "1a",
+          "brush" : "alternative2",
+          "description" : "3rd"
+        }
+      },
+      "score" : {
+        "cp" : -396,
+        "moves" : null
+      }
+    },
+    "hands" : "S3Pgs3p",
+    "comment" : "Blunder [move king from 22 to 11, score: (-2077 → -571)] \nBest [move gold from 12 to 23, score: (-2077 → -1991)] \nSecond [move gold from 32 to 23, score: (-2077 → -1913)] \nThird [move king from 22 to 11, score: (-2077 → -396)]\n",
+    "sente" : "Magic",
+    "gote" : "conquerror99",
+    "timeControl" : "15分+60秒",
+    "site" : "81Dojo",
+    "date" : "2021/02/04"
+  },
+  {
+    "id" : "patrickhighsoder58s46n37ob77VShalfminor51s46n33ob64.kifu#86",
+    "sfen" : "7gk/l4sg1g/3p1p1N1/pR3n+Bpp/6N2/P2+B4P/3P1PPP1/L2+r2SK1/5+p1NL w S3Pgsl3p 86",
+    "your_move_usi" : "1a2b",
+    "opponent_last_move_usi" : "N*2c",
+    "player" : "gote",
+    "score" : {
+      "cp" : 462,
+      "moves" : null
+    },
+    "prev_score" : {
+      "cp" : -555,
+      "moves" : null
+    },
+    "best" : {
+      "score" : {
+        "cp" : -873,
+        "moves" : null
+      },
+      "usi" : "1b2c"
+    },
+    "second" : {
+      "score" : {
+        "cp" : -785,
+        "moves" : null
+      },
+      "usi" : "3b2c"
+    },
+    "third" : {
+      "score" : {
+        "cp" : -36,
+        "moves" : null
+      },
+      "usi" : "1a2b"
+    },
+    "opponent_last_move_usi_positions" : [
+      "2c"
+    ],
+    "your_move" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "1a",
+          "dest" : "2b",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "1a",
+          "dest" : "2b",
+          "brush" : "alternative0",
+          "description" : "your"
+        }
+      },
+      "score" : {
+        "cp" : 462,
+        "moves" : null
+      }
+    },
+    "best_move" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "1b",
+          "dest" : "2c",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "1b",
+          "dest" : "2c",
+          "brush" : "primary",
+          "description" : "1st"
+        }
+      },
+      "score" : {
+        "cp" : -873,
+        "moves" : null
+      }
+    },
+    "second_move" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "3b",
+          "dest" : "2c",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "3b",
+          "dest" : "2c",
+          "brush" : "alternative1",
+          "description" : "2nd"
+        }
+      },
+      "score" : {
+        "cp" : -785,
+        "moves" : null
+      }
+    },
+    "third_move" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "1a",
+          "dest" : "2b",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "1a",
+          "dest" : "2b",
+          "brush" : "alternative2",
+          "description" : "3rd"
+        }
+      },
+      "score" : {
+        "cp" : -36,
+        "moves" : null
+      }
+    },
+    "hands" : "S3Pgsl3p",
+    "comment" : "Blunder [move king from 11 to 22, score: (-555 → 462)] \nBest [move gold from 12 to 23, score: (-555 → -873)] \nSecond [move gold from 32 to 23, score: (-555 → -785)] \nThird [move king from 11 to 22, score: (-555 → -36)]\n",
+    "sente" : "Magic",
+    "gote" : "conquerror99",
+    "timeControl" : "15分+60秒",
+    "site" : "81Dojo",
+    "date" : "2021/02/04"
+  },
+  {
+    "id" : "patrickhighsoder58s46n37ob77VShalfminor51s46n33ob64.kifu#90",
+    "sfen" : "1+R4pgS/l4sgkg/3p1p1N1/p4n+Bpp/6N2/P2+B4P/3P1PPP1/L2+r2SK1/5+p1NL w 3Pgsl2p 90",
+    "your_move_usi" : "2b1c",
+    "opponent_last_move_usi" : "S*1a",
+    "player" : "gote",
+    "score" : {
+      "cp" : 3313,
+      "moves" : null
+    },
+    "prev_score" : {
+      "cp" : -1506,
+      "moves" : null
+    },
+    "best" : {
+      "score" : {
+        "cp" : -1194,
+        "moves" : null
+      },
+      "usi" : "1b1a"
+    },
+    "second" : {
+      "score" : {
+        "cp" : -846,
+        "moves" : null
+      },
+      "usi" : "2a1a"
+    },
+    "third" : {
+      "score" : {
+        "cp" : 2038,
+        "moves" : null
+      },
+      "usi" : "2b1c"
+    },
+    "opponent_last_move_usi_positions" : [
+      "1a"
+    ],
+    "your_move" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "2b",
+          "dest" : "1c",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "2b",
+          "dest" : "1c",
+          "brush" : "alternative0",
+          "description" : "your"
+        }
+      },
+      "score" : {
+        "cp" : 3313,
+        "moves" : null
+      }
+    },
+    "best_move" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "1b",
+          "dest" : "1a",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "1b",
+          "dest" : "1a",
+          "brush" : "primary",
+          "description" : "1st"
+        }
+      },
+      "score" : {
+        "cp" : -1194,
+        "moves" : null
+      }
+    },
+    "second_move" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "2a",
+          "dest" : "1a",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "2a",
+          "dest" : "1a",
+          "brush" : "alternative1",
+          "description" : "2nd"
+        }
+      },
+      "score" : {
+        "cp" : -846,
+        "moves" : null
+      }
+    },
+    "third_move" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "2b",
+          "dest" : "1c",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "2b",
+          "dest" : "1c",
+          "brush" : "alternative2",
+          "description" : "3rd"
+        }
+      },
+      "score" : {
+        "cp" : 2038,
+        "moves" : null
+      }
+    },
+    "hands" : "3Pgsl2p",
+    "comment" : "Blunder [move king from 22 to 13, score: (-1506 → 3313)] \nBest [move gold from 12 to 11, score: (-1506 → -1194)] \nSecond [move gold from 21 to 11, score: (-1506 → -846)] \nThird [move king from 22 to 13, score: (-1506 → 2038)]\n",
+    "sente" : "Magic",
+    "gote" : "conquerror99",
+    "timeControl" : "15分+60秒",
+    "site" : "81Dojo",
+    "date" : "2021/02/04"
+  },
+  {
+    "id" : "patrickk48r36ob66VSduckg52r82s9586cb22cs_r86.kifu#27",
+    "sfen" : "ln2kgsnl/4g2b1/p1ppppppp/2P6/6P2/1rgB2R2/P2PPP1PP/1PS2K3/LN3GSNL b Sp 27",
+    "your_move_usi" : "6f5e",
+    "opponent_last_move_usi" : "G*7f",
+    "player" : "sente",
+    "score" : {
+      "cp" : -385,
+      "moves" : null
+    },
+    "prev_score" : {
+      "cp" : -1687,
+      "moves" : null
+    },
+    "best" : {
+      "score" : {
+        "cp" : -1715,
+        "moves" : null
+      },
+      "usi" : "6f7g"
+    },
+    "second" : {
+      "score" : {
+        "cp" : -1025,
+        "moves" : null
+      },
+      "usi" : "7h7g"
+    },
+    "third" : {
+      "score" : {
+        "cp" : -710,
+        "moves" : null
+      },
+      "usi" : "S*8g"
+    },
+    "opponent_last_move_usi_positions" : [
+      "7f"
+    ],
+    "your_move" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "6f",
+          "dest" : "5e",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "6f",
+          "dest" : "5e",
+          "brush" : "alternative0",
+          "description" : "your"
+        }
+      },
+      "score" : {
+        "cp" : -385,
+        "moves" : null
+      }
+    },
+    "best_move" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "6f",
+          "dest" : "7g",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "6f",
+          "dest" : "7g",
+          "brush" : "primary",
+          "description" : "1st"
+        }
+      },
+      "score" : {
+        "cp" : -1715,
+        "moves" : null
+      }
+    },
+    "second_move" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "7h",
+          "dest" : "7g",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "7h",
+          "dest" : "7g",
+          "brush" : "alternative1",
+          "description" : "2nd"
+        }
+      },
+      "score" : {
+        "cp" : -1025,
+        "moves" : null
+      }
+    },
+    "third_move" : {
+      "drop" : {
+        "drop" : {
+          "role" : "silver",
+          "pos" : "8g"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "silver",
+            "color" : "sente"
+          },
+          "dest" : "8g",
+          "brush" : "alternative2",
+          "description" : "3rd"
+        }
+      },
+      "move" : null,
+      "score" : {
+        "cp" : -710,
+        "moves" : null
+      }
+    },
+    "hands" : "Sp",
+    "comment" : "Blunder [move bishop from 66 to 55, score: (-1687 → -385)] \nBest [move bishop from 66 to 77, score: (-1687 → -1715)] \nSecond [move silver from 78 to 77, score: (-1687 → -1025)] \nThird [drop silver 87, score: (-1687 → -710)]\n",
+    "sente" : "conquerror99",
+    "gote" : "Lukas",
+    "timeControl" : null,
+    "site" : null,
+    "date" : "1/10/2021 2:05:37 PM"
+  },
+  {
+    "id" : "patrickk48r36ob66VSduckg52r82s9586cb22cs_r86.kifu#29",
+    "sfen" : "ln2kgsnl/4g2b1/p1pp1pppp/2P1p4/4B1P2/1rg3R2/P2PPP1PP/1PS2K3/LN3GSNL b Sp 29",
+    "your_move_usi" : "8h8g",
+    "opponent_last_move_usi" : "5c5d",
+    "player" : "sente",
+    "score" : {
+      "cp" : -414,
+      "moves" : null
+    },
+    "prev_score" : {
+      "cp" : -1818,
+      "moves" : null
+    },
+    "best" : {
+      "score" : {
+        "cp" : -1700,
+        "moves" : null
+      },
+      "usi" : "5e7g"
+    },
+    "second" : {
+      "score" : {
+        "cp" : -1237,
+        "moves" : null
+      },
+      "usi" : "5e3g"
+    },
+    "third" : {
+      "score" : {
+        "cp" : -994,
+        "moves" : null
+      },
+      "usi" : "5e2h"
+    },
+    "opponent_last_move_usi_positions" : [
+      "5c",
+      "5d"
+    ],
+    "your_move" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "8h",
+          "dest" : "8g",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "8h",
+          "dest" : "8g",
+          "brush" : "alternative0",
+          "description" : "your"
+        }
+      },
+      "score" : {
+        "cp" : -414,
+        "moves" : null
+      }
+    },
+    "best_move" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "5e",
+          "dest" : "7g",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "5e",
+          "dest" : "7g",
+          "brush" : "primary",
+          "description" : "1st"
+        }
+      },
+      "score" : {
+        "cp" : -1700,
+        "moves" : null
+      }
+    },
+    "second_move" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "5e",
+          "dest" : "3g",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "5e",
+          "dest" : "3g",
+          "brush" : "alternative1",
+          "description" : "2nd"
+        }
+      },
+      "score" : {
+        "cp" : -1237,
+        "moves" : null
+      }
+    },
+    "third_move" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "5e",
+          "dest" : "2h",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "5e",
+          "dest" : "2h",
+          "brush" : "alternative2",
+          "description" : "3rd"
+        }
+      },
+      "score" : {
+        "cp" : -994,
+        "moves" : null
+      }
+    },
+    "hands" : "Sp",
+    "comment" : "Blunder [move pawn from 88 to 87, score: (-1818 → -414)] \nBest [move bishop from 55 to 77, score: (-1818 → -1700)] \nSecond [move bishop from 55 to 37, score: (-1818 → -1237)] \nThird [move bishop from 55 to 28, score: (-1818 → -994)]\n",
+    "sente" : "conquerror99",
+    "gote" : "Lukas",
+    "timeControl" : null,
+    "site" : null,
+    "date" : "1/10/2021 2:05:37 PM"
+  },
+  {
+    "id" : "patrickLukas1.kifu#58",
+    "sfen" : "l4gsnl/4g1k2/p1n2p1p1/3pr1pb1/1pP5P/P2PP4/SP1GS1PP1/1BR3SK1/LN5NL w Pg3p 58",
+    "your_move_usi" : "1a1e",
+    "opponent_last_move_usi" : "1f1e",
+    "player" : "gote",
+    "score" : {
+      "cp" : -127,
+      "moves" : null
+    },
+    "prev_score" : {
+      "cp" : -1188,
+      "moves" : null
+    },
+    "best" : {
+      "score" : {
+        "cp" : -1131,
+        "moves" : null
+      },
+      "usi" : "P*7g"
+    },
+    "second" : {
+      "score" : {
+        "cp" : -978,
+        "moves" : null
+      },
+      "usi" : "6d6e"
+    },
+    "third" : {
+      "score" : {
+        "cp" : -858,
+        "moves" : null
+      },
+      "usi" : "P*1h"
+    },
+    "opponent_last_move_usi_positions" : [
+      "1f",
+      "1e"
+    ],
+    "your_move" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "1a",
+          "dest" : "1e",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "1a",
+          "dest" : "1e",
+          "brush" : "alternative0",
+          "description" : "your"
+        }
+      },
+      "score" : {
+        "cp" : -127,
+        "moves" : null
+      }
+    },
+    "best_move" : {
+      "drop" : {
+        "drop" : {
+          "role" : "pawn",
+          "pos" : "7g"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "pawn",
+            "color" : "gote"
+          },
+          "dest" : "7g",
+          "brush" : "primary",
+          "description" : "1st"
+        }
+      },
+      "move" : null,
+      "score" : {
+        "cp" : -1131,
+        "moves" : null
+      }
+    },
+    "second_move" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "6d",
+          "dest" : "6e",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "6d",
+          "dest" : "6e",
+          "brush" : "alternative1",
+          "description" : "2nd"
+        }
+      },
+      "score" : {
+        "cp" : -978,
+        "moves" : null
+      }
+    },
+    "third_move" : {
+      "drop" : {
+        "drop" : {
+          "role" : "pawn",
+          "pos" : "1h"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "pawn",
+            "color" : "gote"
+          },
+          "dest" : "1h",
+          "brush" : "alternative2",
+          "description" : "3rd"
+        }
+      },
+      "move" : null,
+      "score" : {
+        "cp" : -858,
+        "moves" : null
+      }
+    },
+    "hands" : "Pg3p",
+    "comment" : "Blunder [move lance from 11 to 15, score: (-1188 → -127)] \nBest [drop pawn 77, score: (-1188 → -1131)] \nSecond [move pawn from 64 to 65, score: (-1188 → -978)] \nThird [drop pawn 18, score: (-1188 → -858)]\n",
+    "sente" : "Lukas",
+    "gote" : "conquerror99",
+    "timeControl" : null,
+    "site" : null,
+    "date" : "7/9/2021 8:39:10 PM"
+  },
+  {
+    "id" : "patrickLukas2.kifu#31",
+    "sfen" : "ln1gkgsnl/7b1/p1ppppppp/2P6/5NP2/1rgB2R2/P2PPP1PP/2S6/LN2KGS1L b SPp 31",
+    "your_move_usi" : "4e5c+",
+    "opponent_last_move_usi" : "G*7f",
+    "player" : "sente",
+    "score" : {
+      "cp" : -283,
+      "moves" : null
+    },
+    "prev_score" : {
+      "cp" : -1405,
+      "moves" : null
+    },
+    "best" : {
+      "score" : {
+        "cp" : -1417,
+        "moves" : null
+      },
+      "usi" : "6f7g"
+    },
+    "second" : {
+      "score" : {
+        "cp" : -1355,
+        "moves" : null
+      },
+      "usi" : "4e5c"
+    },
+    "third" : {
+      "score" : {
+        "cp" : -571,
+        "moves" : null
+      },
+      "usi" : "6f5e"
+    },
+    "opponent_last_move_usi_positions" : [
+      "7f"
+    ],
+    "your_move" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "4e",
+          "dest" : "5c",
+          "promotion" : true
+        },
+        "hint" : {
+          "orig" : "4e",
+          "dest" : "5c",
+          "brush" : "alternative0",
+          "description" : "your"
+        }
+      },
+      "score" : {
+        "cp" : -283,
+        "moves" : null
+      }
+    },
+    "best_move" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "6f",
+          "dest" : "7g",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "6f",
+          "dest" : "7g",
+          "brush" : "primary",
+          "description" : "1st"
+        }
+      },
+      "score" : {
+        "cp" : -1417,
+        "moves" : null
+      }
+    },
+    "second_move" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "4e",
+          "dest" : "5c",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "4e",
+          "dest" : "5c",
+          "brush" : "alternative1",
+          "description" : "2nd"
+        }
+      },
+      "score" : {
+        "cp" : -1355,
+        "moves" : null
+      }
+    },
+    "third_move" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "6f",
+          "dest" : "5e",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "6f",
+          "dest" : "5e",
+          "brush" : "alternative2",
+          "description" : "3rd"
+        }
+      },
+      "score" : {
+        "cp" : -571,
+        "moves" : null
+      }
+    },
+    "hands" : "SPp",
+    "comment" : "Blunder [move promoteknight from 45 to 53, score: (-1405 → -283)] \nBest [move bishop from 66 to 77, score: (-1405 → -1417)] \nSecond [move knight from 45 to 53, score: (-1405 → -1355)] \nThird [move bishop from 66 to 55, score: (-1405 → -571)]\n",
+    "sente" : "conquerror99",
+    "gote" : "Lukas",
+    "timeControl" : null,
+    "site" : null,
+    "date" : "8/1/2021 7:09:31 PM"
+  },
+  {
+    "id" : "patrickLukas2.kifu#43",
+    "sfen" : "l+P1gkgsnl/7b1/p1ppbpppp/2P6/6P2/3P5/P1S1PP1PP/2S6/L+p2KGS1L b RGNPr2n 43",
+    "your_move_usi" : "8a9a",
+    "opponent_last_move_usi" : "8h8i+",
+    "player" : "sente",
+    "score" : {
+      "cp" : 753,
+      "moves" : null
+    },
+    "prev_score" : {
+      "cp" : -167,
+      "moves" : null
+    },
+    "best" : {
+      "score" : {
+        "cp" : -160,
+        "moves" : null
+      },
+      "usi" : "7d7c+"
+    },
+    "second" : {
+      "score" : {
+        "cp" : 274,
+        "moves" : null
+      },
+      "usi" : "N*6e"
+    },
+    "third" : {
+      "score" : {
+        "cp" : 353,
+        "moves" : null
+      },
+      "usi" : "N*5e"
+    },
+    "opponent_last_move_usi_positions" : [
+      "8h",
+      "8i"
+    ],
+    "your_move" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "8a",
+          "dest" : "9a",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "8a",
+          "dest" : "9a",
+          "brush" : "alternative0",
+          "description" : "your"
+        }
+      },
+      "score" : {
+        "cp" : 753,
+        "moves" : null
+      }
+    },
+    "best_move" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "7d",
+          "dest" : "7c",
+          "promotion" : true
+        },
+        "hint" : {
+          "orig" : "7d",
+          "dest" : "7c",
+          "brush" : "primary",
+          "description" : "1st"
+        }
+      },
+      "score" : {
+        "cp" : -160,
+        "moves" : null
+      }
+    },
+    "second_move" : {
+      "drop" : {
+        "drop" : {
+          "role" : "knight",
+          "pos" : "6e"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "knight",
+            "color" : "sente"
+          },
+          "dest" : "6e",
+          "brush" : "alternative1",
+          "description" : "2nd"
+        }
+      },
+      "move" : null,
+      "score" : {
+        "cp" : 274,
+        "moves" : null
+      }
+    },
+    "third_move" : {
+      "drop" : {
+        "drop" : {
+          "role" : "knight",
+          "pos" : "5e"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "knight",
+            "color" : "sente"
+          },
+          "dest" : "5e",
+          "brush" : "alternative2",
+          "description" : "3rd"
+        }
+      },
+      "move" : null,
+      "score" : {
+        "cp" : 353,
+        "moves" : null
+      }
+    },
+    "hands" : "RGNPr2n",
+    "comment" : "Blunder [move tokin from 81 to 91, score: (-167 → 753)] \nBest [move promotepawn from 74 to 73, score: (-167 → -160)] \nSecond [drop knight 65, score: (-167 → 274)] \nThird [drop knight 55, score: (-167 → 353)]\n",
+    "sente" : "conquerror99",
+    "gote" : "Lukas",
+    "timeControl" : null,
+    "site" : null,
+    "date" : "8/1/2021 7:09:31 PM"
+  },
+  {
+    "id" : "patricksode1r36ob88VSduckr85g32b13.kifu#23",
+    "sfen" : "lnsgk1snl/6+P2/p1pppp1p1/8p/1r7/2P3+b2/PP1P3PP/1BG6/LNS1KGSNL b GPr3p 23",
+    "your_move_usi" : "3b3a",
+    "opponent_last_move_usi" : "4g3f",
+    "player" : "sente",
+    "score" : {
+      "cp" : null,
+      "moves" : 27
+    },
+    "prev_score" : {
+      "cp" : 305,
+      "moves" : null
+    },
+    "best" : {
+      "score" : {
+        "cp" : 317,
+        "moves" : null
+      },
+      "usi" : "P*5h"
+    },
+    "second" : {
+      "score" : {
+        "cp" : 561,
+        "moves" : null
+      },
+      "usi" : "G*5h"
+    },
+    "third" : {
+      "score" : {
+        "cp" : 731,
+        "moves" : null
+      },
+      "usi" : "4i5h"
+    },
+    "opponent_last_move_usi_positions" : [
+      "4g",
+      "3f"
+    ],
+    "your_move" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "3b",
+          "dest" : "3a",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "3b",
+          "dest" : "3a",
+          "brush" : "alternative0",
+          "description" : "your"
+        }
+      },
+      "score" : {
+        "cp" : null,
+        "moves" : 27
+      }
+    },
+    "best_move" : {
+      "drop" : {
+        "drop" : {
+          "role" : "pawn",
+          "pos" : "5h"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "pawn",
+            "color" : "sente"
+          },
+          "dest" : "5h",
+          "brush" : "primary",
+          "description" : "1st"
+        }
+      },
+      "move" : null,
+      "score" : {
+        "cp" : 317,
+        "moves" : null
+      }
+    },
+    "second_move" : {
+      "drop" : {
+        "drop" : {
+          "role" : "gold",
+          "pos" : "5h"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "gold",
+            "color" : "sente"
+          },
+          "dest" : "5h",
+          "brush" : "alternative1",
+          "description" : "2nd"
+        }
+      },
+      "move" : null,
+      "score" : {
+        "cp" : 561,
+        "moves" : null
+      }
+    },
+    "third_move" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "4i",
+          "dest" : "5h",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "4i",
+          "dest" : "5h",
+          "brush" : "alternative2",
+          "description" : "3rd"
+        }
+      },
+      "score" : {
+        "cp" : 731,
+        "moves" : null
+      }
+    },
+    "hands" : "GPr3p",
+    "comment" : "Blunder [move tokin from 32 to 31, score: (305 → #27)] \nBest [drop pawn 58, score: (305 → 317)] \nSecond [drop gold 58, score: (305 → 561)] \nThird [move gold from 49 to 58, score: (305 → 731)]\n",
+    "sente" : "conquerror99",
+    "gote" : "miha",
+    "timeControl" : "15分+60秒",
+    "site" : "81Dojo",
+    "date" : "2021/02/09"
+  },
+  {
+    "id" : "patricksode2r34ob88VSduckr85ob22p35n77.kifu#31",
+    "sfen" : "lns3snl/4gkgb1/p1pppp1p1/6R1p/3NrNp2/2P6/PP1PPP1PP/1BGS2S2/L3KG2L b Pp 31",
+    "your_move_usi" : "3d3e",
+    "opponent_last_move_usi" : "5a4b",
+    "player" : "sente",
+    "score" : {
+      "cp" : -1588,
+      "moves" : null
+    },
+    "prev_score" : {
+      "cp" : -3415,
+      "moves" : null
+    },
+    "best" : {
+      "score" : {
+        "cp" : -3491,
+        "moves" : null
+      },
+      "usi" : "8h5e"
+    },
+    "second" : {
+      "score" : {
+        "cp" : -3462,
+        "moves" : null
+      },
+      "usi" : "6e5c+"
+    },
+    "third" : {
+      "score" : {
+        "cp" : -3372,
+        "moves" : null
+      },
+      "usi" : "4e5c+"
+    },
+    "opponent_last_move_usi_positions" : [
+      "5a",
+      "4b"
+    ],
+    "your_move" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "3d",
+          "dest" : "3e",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "3d",
+          "dest" : "3e",
+          "brush" : "alternative0",
+          "description" : "your"
+        }
+      },
+      "score" : {
+        "cp" : -1588,
+        "moves" : null
+      }
+    },
+    "best_move" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "8h",
+          "dest" : "5e",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "8h",
+          "dest" : "5e",
+          "brush" : "primary",
+          "description" : "1st"
+        }
+      },
+      "score" : {
+        "cp" : -3491,
+        "moves" : null
+      }
+    },
+    "second_move" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "6e",
+          "dest" : "5c",
+          "promotion" : true
+        },
+        "hint" : {
+          "orig" : "6e",
+          "dest" : "5c",
+          "brush" : "alternative1",
+          "description" : "2nd"
+        }
+      },
+      "score" : {
+        "cp" : -3462,
+        "moves" : null
+      }
+    },
+    "third_move" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "4e",
+          "dest" : "5c",
+          "promotion" : true
+        },
+        "hint" : {
+          "orig" : "4e",
+          "dest" : "5c",
+          "brush" : "alternative2",
+          "description" : "3rd"
+        }
+      },
+      "score" : {
+        "cp" : -3372,
+        "moves" : null
+      }
+    },
+    "hands" : "Pp",
+    "comment" : "Blunder [move rook from 34 to 35, score: (-3415 → -1588)] \nBest [move bishop from 88 to 55, score: (-3415 → -3491)] \nSecond [move promoteknight from 65 to 53, score: (-3415 → -3462)] \nThird [move promoteknight from 45 to 53, score: (-3415 → -3372)]\n",
+    "sente" : "conquerror99",
+    "gote" : "Kai435",
+    "timeControl" : "15分+60秒",
+    "site" : "81Dojo",
+    "date" : "2021/01/22"
+  },
+  {
+    "id" : "patricksode2r38s46ob88VSduckr52s44b22p5556push.kifu#41",
+    "sfen" : "ln1g3nl/2ks1R1g1/pppp1p1pp/4sbP2/9/5P3/PPPP3PP/2GS5/LN1K1G1NL b BSPr2p 41",
+    "your_move_usi" : "4f4e",
+    "opponent_last_move_usi" : "7a6b",
+    "player" : "sente",
+    "score" : {
+      "cp" : 102,
+      "moves" : null
+    },
+    "prev_score" : {
+      "cp" : -1162,
+      "moves" : null
+    },
+    "best" : {
+      "score" : {
+        "cp" : -1095,
+        "moves" : null
+      },
+      "usi" : "S*5b"
+    },
+    "second" : {
+      "score" : {
+        "cp" : -772,
+        "moves" : null
+      },
+      "usi" : "P*5c"
+    },
+    "third" : {
+      "score" : {
+        "cp" : -478,
+        "moves" : null
+      },
+      "usi" : "S*5c"
+    },
+    "opponent_last_move_usi_positions" : [
+      "7a",
+      "6b"
+    ],
+    "your_move" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "4f",
+          "dest" : "4e",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "4f",
+          "dest" : "4e",
+          "brush" : "alternative0",
+          "description" : "your"
+        }
+      },
+      "score" : {
+        "cp" : 102,
+        "moves" : null
+      }
+    },
+    "best_move" : {
+      "drop" : {
+        "drop" : {
+          "role" : "silver",
+          "pos" : "5b"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "silver",
+            "color" : "sente"
+          },
+          "dest" : "5b",
+          "brush" : "primary",
+          "description" : "1st"
+        }
+      },
+      "move" : null,
+      "score" : {
+        "cp" : -1095,
+        "moves" : null
+      }
+    },
+    "second_move" : {
+      "drop" : {
+        "drop" : {
+          "role" : "pawn",
+          "pos" : "5c"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "pawn",
+            "color" : "sente"
+          },
+          "dest" : "5c",
+          "brush" : "alternative1",
+          "description" : "2nd"
+        }
+      },
+      "move" : null,
+      "score" : {
+        "cp" : -772,
+        "moves" : null
+      }
+    },
+    "third_move" : {
+      "drop" : {
+        "drop" : {
+          "role" : "silver",
+          "pos" : "5c"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "silver",
+            "color" : "sente"
+          },
+          "dest" : "5c",
+          "brush" : "alternative2",
+          "description" : "3rd"
+        }
+      },
+      "move" : null,
+      "score" : {
+        "cp" : -478,
+        "moves" : null
+      }
+    },
+    "hands" : "BSPr2p",
+    "comment" : "Blunder [move pawn from 46 to 45, score: (-1162 → 102)] \nBest [drop silver 52, score: (-1162 → -1095)] \nSecond [drop pawn 53, score: (-1162 → -772)] \nThird [drop silver 53, score: (-1162 → -478)]\n",
+    "sente" : "conquerror99",
+    "gote" : "seramaturi_blue",
+    "timeControl" : "15分+60秒",
+    "site" : "81Dojo",
+    "date" : "2021/02/06"
+  },
+  {
+    "id" : "patricksode2r38s46ob88VSduckr52s44b22p5556push.kifu#61",
+    "sfen" : "ln1BS1+Rnl/1k1s3g1/pppp1pbpp/4s4/5P3/9/PPPP2+rPP/2G1p4/LN1KS3L b GPgn2p 61",
+    "your_move_usi" : "5a6b+",
+    "opponent_last_move_usi" : "P*5h",
+    "player" : "sente",
+    "score" : {
+      "cp" : null,
+      "moves" : 21
+    },
+    "prev_score" : {
+      "cp" : 171,
+      "moves" : null
+    },
+    "best" : {
+      "score" : {
+        "cp" : -1394,
+        "moves" : null
+      },
+      "usi" : "G*7b"
+    },
+    "second" : {
+      "score" : {
+        "cp" : -1336,
+        "moves" : null
+      },
+      "usi" : "5a6b+"
+    },
+    "third" : {
+      "score" : {
+        "cp" : -138,
+        "moves" : null
+      },
+      "usi" : "5i5h"
+    },
+    "opponent_last_move_usi_positions" : [
+      "5h"
+    ],
+    "your_move" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "5a",
+          "dest" : "6b",
+          "promotion" : true
+        },
+        "hint" : {
+          "orig" : "5a",
+          "dest" : "6b",
+          "brush" : "alternative0",
+          "description" : "your"
+        }
+      },
+      "score" : {
+        "cp" : null,
+        "moves" : 21
+      }
+    },
+    "best_move" : {
+      "drop" : {
+        "drop" : {
+          "role" : "gold",
+          "pos" : "7b"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "gold",
+            "color" : "sente"
+          },
+          "dest" : "7b",
+          "brush" : "primary",
+          "description" : "1st"
+        }
+      },
+      "move" : null,
+      "score" : {
+        "cp" : -1394,
+        "moves" : null
+      }
+    },
+    "second_move" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "5a",
+          "dest" : "6b",
+          "promotion" : true
+        },
+        "hint" : {
+          "orig" : "5a",
+          "dest" : "6b",
+          "brush" : "alternative1",
+          "description" : "2nd"
+        }
+      },
+      "score" : {
+        "cp" : -1336,
+        "moves" : null
+      }
+    },
+    "third_move" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "5i",
+          "dest" : "5h",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "5i",
+          "dest" : "5h",
+          "brush" : "alternative2",
+          "description" : "3rd"
+        }
+      },
+      "score" : {
+        "cp" : -138,
+        "moves" : null
+      }
+    },
+    "hands" : "GPgn2p",
+    "comment" : "Blunder [move promotesilver from 51 to 62, score: (171 → #21)] \nBest [drop gold 72, score: (171 → -1394)] \nSecond [move promotesilver from 51 to 62, score: (171 → -1336)] \nThird [move silver from 59 to 58, score: (171 → -138)]\n",
+    "sente" : "conquerror99",
+    "gote" : "seramaturi_blue",
+    "timeControl" : "15分+60秒",
+    "site" : "81Dojo",
+    "date" : "2021/02/06"
+  },
+  {
+    "id" : "patricksode2r38s46ob88VSk72r32s4464b22p55.kifu#29",
+    "sfen" : "ln1g3nl/2k2grb1/pppp1p1pp/3s1s3/4p1S2/P1P1P4/1P1P1P1PP/1BGS2R2/LN2KG1NL b Pp 29",
+    "your_move_usi" : "5f5e",
+    "opponent_last_move_usi" : "5d5e",
+    "player" : "sente",
+    "score" : {
+      "cp" : 1674,
+      "moves" : null
+    },
+    "prev_score" : {
+      "cp" : 80,
+      "moves" : null
+    },
+    "best" : {
+      "score" : {
+        "cp" : 144,
+        "moves" : null
+      },
+      "usi" : "3e3d"
+    },
+    "second" : {
+      "score" : {
+        "cp" : 330,
+        "moves" : null
+      },
+      "usi" : "3e4f"
+    },
+    "third" : {
+      "score" : {
+        "cp" : 440,
+        "moves" : null
+      },
+      "usi" : "3e4d"
+    },
+    "opponent_last_move_usi_positions" : [
+      "5d",
+      "5e"
+    ],
+    "your_move" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "5f",
+          "dest" : "5e",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "5f",
+          "dest" : "5e",
+          "brush" : "alternative0",
+          "description" : "your"
+        }
+      },
+      "score" : {
+        "cp" : 1674,
+        "moves" : null
+      }
+    },
+    "best_move" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "3e",
+          "dest" : "3d",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "3e",
+          "dest" : "3d",
+          "brush" : "primary",
+          "description" : "1st"
+        }
+      },
+      "score" : {
+        "cp" : 144,
+        "moves" : null
+      }
+    },
+    "second_move" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "3e",
+          "dest" : "4f",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "3e",
+          "dest" : "4f",
+          "brush" : "alternative1",
+          "description" : "2nd"
+        }
+      },
+      "score" : {
+        "cp" : 330,
+        "moves" : null
+      }
+    },
+    "third_move" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "3e",
+          "dest" : "4d",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "3e",
+          "dest" : "4d",
+          "brush" : "alternative2",
+          "description" : "3rd"
+        }
+      },
+      "score" : {
+        "cp" : 440,
+        "moves" : null
+      }
+    },
+    "hands" : "Pp",
+    "comment" : "Blunder [move pawn from 56 to 55, score: (80 → 1674)] \nBest [move silver from 35 to 34, score: (80 → 144)] \nSecond [move silver from 35 to 46, score: (80 → 330)] \nThird [move silver from 35 to 44, score: (80 → 440)]\n",
+    "sente" : "conquerror99",
+    "gote" : "kenchiri",
+    "timeControl" : "15分+60秒",
+    "site" : "81Dojo",
+    "date" : "2021/01/16"
+  },
+  {
+    "id" : "patricksode3r36n37ob88VSduck_s42g32r84s53cb22.kifu#26",
+    "sfen" : "l1sg1k1nl/5sgb1/ppnppp1pp/2r3p2/9/P1P1P2RP/1P1PSPP2/1BGS5/LN2KG1NL w 2P 26",
+    "your_move_usi" : "7d7f",
+    "opponent_last_move_usi" : "7g7f",
+    "player" : "gote",
+    "score" : {
+      "cp" : 81,
+      "moves" : null
+    },
+    "prev_score" : {
+      "cp" : -1260,
+      "moves" : null
+    },
+    "best" : {
+      "score" : {
+        "cp" : -1201,
+        "moves" : null
+      },
+      "usi" : "2b8h+"
+    },
+    "second" : {
+      "score" : {
+        "cp" : 58,
+        "moves" : null
+      },
+      "usi" : "7d7f"
+    },
+    "third" : {
+      "score" : {
+        "cp" : 335,
+        "moves" : null
+      },
+      "usi" : "4b3c"
+    },
+    "opponent_last_move_usi_positions" : [
+      "7g",
+      "7f"
+    ],
+    "your_move" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "7d",
+          "dest" : "7f",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "7d",
+          "dest" : "7f",
+          "brush" : "alternative0",
+          "description" : "your"
+        }
+      },
+      "score" : {
+        "cp" : 81,
+        "moves" : null
+      }
+    },
+    "best_move" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "2b",
+          "dest" : "8h",
+          "promotion" : true
+        },
+        "hint" : {
+          "orig" : "2b",
+          "dest" : "8h",
+          "brush" : "primary",
+          "description" : "1st"
+        }
+      },
+      "score" : {
+        "cp" : -1201,
+        "moves" : null
+      }
+    },
+    "second_move" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "7d",
+          "dest" : "7f",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "7d",
+          "dest" : "7f",
+          "brush" : "alternative1",
+          "description" : "2nd"
+        }
+      },
+      "score" : {
+        "cp" : 58,
+        "moves" : null
+      }
+    },
+    "third_move" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "4b",
+          "dest" : "3c",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "4b",
+          "dest" : "3c",
+          "brush" : "alternative2",
+          "description" : "3rd"
+        }
+      },
+      "score" : {
+        "cp" : 335,
+        "moves" : null
+      }
+    },
+    "hands" : "2P",
+    "comment" : "Blunder [move rook from 74 to 76, score: (-1260 → 81)] \nBest [move promotebishop from 22 to 88, score: (-1260 → -1201)] \nSecond [move rook from 74 to 76, score: (-1260 → 58)] \nThird [move silver from 42 to 33, score: (-1260 → 335)]\n",
+    "sente" : "nra1",
+    "gote" : "conquerror99",
+    "timeControl" : "15分+60秒",
+    "site" : "81Dojo",
+    "date" : "2021/02/05"
+  },
+  {
+    "id" : "patricksode4r36s48ob88VShalfmino_k62g32s31r85b13.kifu#71",
+    "sfen" : "ln2g1B2/2skl4/2ppNg1pl/p3pppb1/2PN4p/1P2P2+R1/P2P1P1PP/2GSKS3/1+r2G3L b Sn2p 71",
+    "your_move_usi" : "S*7i",
+    "opponent_last_move_usi" : "9i8i",
+    "player" : "sente",
+    "score" : {
+      "cp" : 300,
+      "moves" : null
+    },
+    "prev_score" : {
+      "cp" : -1180,
+      "moves" : null
+    },
+    "best" : {
+      "score" : {
+        "cp" : -1133,
+        "moves" : null
+      },
+      "usi" : "7h7i"
+    },
+    "second" : {
+      "score" : {
+        "cp" : -791,
+        "moves" : null
+      },
+      "usi" : "2f2d"
+    },
+    "third" : {
+      "score" : {
+        "cp" : -467,
+        "moves" : null
+      },
+      "usi" : "7h7g"
+    },
+    "opponent_last_move_usi_positions" : [
+      "9i",
+      "8i"
+    ],
+    "your_move" : {
+      "drop" : {
+        "drop" : {
+          "role" : "silver",
+          "pos" : "7i"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "silver",
+            "color" : "sente"
+          },
+          "dest" : "7i",
+          "brush" : "alternative0",
+          "description" : "your"
+        }
+      },
+      "move" : null,
+      "score" : {
+        "cp" : 300,
+        "moves" : null
+      }
+    },
+    "best_move" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "7h",
+          "dest" : "7i",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "7h",
+          "dest" : "7i",
+          "brush" : "primary",
+          "description" : "1st"
+        }
+      },
+      "score" : {
+        "cp" : -1133,
+        "moves" : null
+      }
+    },
+    "second_move" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "2f",
+          "dest" : "2d",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "2f",
+          "dest" : "2d",
+          "brush" : "alternative1",
+          "description" : "2nd"
+        }
+      },
+      "score" : {
+        "cp" : -791,
+        "moves" : null
+      }
+    },
+    "third_move" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "7h",
+          "dest" : "7g",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "7h",
+          "dest" : "7g",
+          "brush" : "alternative2",
+          "description" : "3rd"
+        }
+      },
+      "score" : {
+        "cp" : -467,
+        "moves" : null
+      }
+    },
+    "hands" : "Sn2p",
+    "comment" : "Blunder [drop silver 79, score: (-1180 → 300)] \nBest [move gold from 78 to 79, score: (-1180 → -1133)] \nSecond [move dragon from 26 to 24, score: (-1180 → -791)] \nThird [move gold from 78 to 77, score: (-1180 → -467)]\n",
+    "sente" : "conquerror99",
+    "gote" : "Konnichiwa",
+    "timeControl" : "10分+30秒",
+    "site" : "81Dojo",
+    "date" : "2021/02/16"
+  },
+  {
+    "id" : "patricksode4r36s48ob88VShalfmino_k62g32s31r85b13.kifu#93",
+    "sfen" : "ln2s4/2skl2+R1/2ppN4/p3ppp2/2PN4p/1Pn1P4/P2P1P1PP/+r+pG1KS3/3GG3L b GSLP2bp 93",
+    "your_move_usi" : "S*4c",
+    "opponent_last_move_usi" : "8g8h+",
+    "player" : "sente",
+    "score" : {
+      "cp" : 1768,
+      "moves" : null
+    },
+    "prev_score" : {
+      "cp" : -3282,
+      "moves" : null
+    },
+    "best" : {
+      "score" : {
+        "cp" : -3498,
+        "moves" : null
+      },
+      "usi" : "G*8b"
+    },
+    "second" : {
+      "score" : {
+        "cp" : -1964,
+        "moves" : null
+      },
+      "usi" : "5h4i"
+    },
+    "third" : {
+      "score" : {
+        "cp" : -1467,
+        "moves" : null
+      },
+      "usi" : "7h8h"
+    },
+    "opponent_last_move_usi_positions" : [
+      "8g",
+      "8h"
+    ],
+    "your_move" : {
+      "drop" : {
+        "drop" : {
+          "role" : "silver",
+          "pos" : "4c"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "silver",
+            "color" : "sente"
+          },
+          "dest" : "4c",
+          "brush" : "alternative0",
+          "description" : "your"
+        }
+      },
+      "move" : null,
+      "score" : {
+        "cp" : 1768,
+        "moves" : null
+      }
+    },
+    "best_move" : {
+      "drop" : {
+        "drop" : {
+          "role" : "gold",
+          "pos" : "8b"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "gold",
+            "color" : "sente"
+          },
+          "dest" : "8b",
+          "brush" : "primary",
+          "description" : "1st"
+        }
+      },
+      "move" : null,
+      "score" : {
+        "cp" : -3498,
+        "moves" : null
+      }
+    },
+    "second_move" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "5h",
+          "dest" : "4i",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "5h",
+          "dest" : "4i",
+          "brush" : "alternative1",
+          "description" : "2nd"
+        }
+      },
+      "score" : {
+        "cp" : -1964,
+        "moves" : null
+      }
+    },
+    "third_move" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "7h",
+          "dest" : "8h",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "7h",
+          "dest" : "8h",
+          "brush" : "alternative2",
+          "description" : "3rd"
+        }
+      },
+      "score" : {
+        "cp" : -1467,
+        "moves" : null
+      }
+    },
+    "hands" : "GSLP2bp",
+    "comment" : "Blunder [drop silver 43, score: (-3282 → 1768)] \nBest [drop gold 82, score: (-3282 → -3498)] \nSecond [move king from 58 to 49, score: (-3282 → -1964)] \nThird [move gold from 78 to 88, score: (-3282 → -1467)]\n",
+    "sente" : "conquerror99",
+    "gote" : "Konnichiwa",
+    "timeControl" : "10分+30秒",
+    "site" : "81Dojo",
+    "date" : "2021/02/16"
+  },
+  {
+    "id" : "patricksode4r36s48ob88VShalfmino_k62g32s31r85b13.kifu#97",
+    "sfen" : "lnk1s4/2s1+S2+R1/2ppN4/p3ppp2/2PN4p/1Pn1P4/P2P1P1PP/+r1+p1KS3/3GG3L b G2LP2bgp 97",
+    "your_move_usi" : "L*8e",
+    "opponent_last_move_usi" : "6b7a",
+    "player" : "sente",
+    "score" : {
+      "cp" : null,
+      "moves" : 17
+    },
+    "prev_score" : {
+      "cp" : -70,
+      "moves" : null
+    },
+    "best" : {
+      "score" : {
+        "cp" : 153,
+        "moves" : null
+      },
+      "usi" : "5b6a"
+    },
+    "second" : {
+      "score" : {
+        "cp" : 181,
+        "moves" : null
+      },
+      "usi" : "G*9i"
+    },
+    "third" : {
+      "score" : {
+        "cp" : 431,
+        "moves" : null
+      },
+      "usi" : "L*9i"
+    },
+    "opponent_last_move_usi_positions" : [
+      "6b",
+      "7a"
+    ],
+    "your_move" : {
+      "drop" : {
+        "drop" : {
+          "role" : "lance",
+          "pos" : "8e"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "lance",
+            "color" : "sente"
+          },
+          "dest" : "8e",
+          "brush" : "alternative0",
+          "description" : "your"
+        }
+      },
+      "move" : null,
+      "score" : {
+        "cp" : null,
+        "moves" : 17
+      }
+    },
+    "best_move" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "5b",
+          "dest" : "6a",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "5b",
+          "dest" : "6a",
+          "brush" : "primary",
+          "description" : "1st"
+        }
+      },
+      "score" : {
+        "cp" : 153,
+        "moves" : null
+      }
+    },
+    "second_move" : {
+      "drop" : {
+        "drop" : {
+          "role" : "gold",
+          "pos" : "9i"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "gold",
+            "color" : "sente"
+          },
+          "dest" : "9i",
+          "brush" : "alternative1",
+          "description" : "2nd"
+        }
+      },
+      "move" : null,
+      "score" : {
+        "cp" : 181,
+        "moves" : null
+      }
+    },
+    "third_move" : {
+      "drop" : {
+        "drop" : {
+          "role" : "lance",
+          "pos" : "9i"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "lance",
+            "color" : "sente"
+          },
+          "dest" : "9i",
+          "brush" : "alternative2",
+          "description" : "3rd"
+        }
+      },
+      "move" : null,
+      "score" : {
+        "cp" : 431,
+        "moves" : null
+      }
+    },
+    "hands" : "G2LP2bgp",
+    "comment" : "Blunder [drop lance 85, score: (-70 → #17)] \nBest [move promotedsilver from 52 to 61, score: (-70 → 153)] \nSecond [drop gold 99, score: (-70 → 181)] \nThird [drop lance 99, score: (-70 → 431)]\n",
+    "sente" : "conquerror99",
+    "gote" : "Konnichiwa",
+    "timeControl" : "10分+30秒",
+    "site" : "81Dojo",
+    "date" : "2021/02/16"
+  },
+  {
+    "id" : "patricksode5r36n37s26ob66VSk52g32s42r81n73cb22p74sacr.kifu#55",
+    "sfen" : "lr5nl/3gksgb1/4pppp1/2PB4p/p2n2S2/5PR2/P+s1PP1NPP/2GS5/LNK1G3L b 2P3p 55",
+    "your_move_usi" : "P*8h",
+    "opponent_last_move_usi" : "7f8g+",
+    "player" : "sente",
+    "score" : {
+      "cp" : 1255,
+      "moves" : null
+    },
+    "prev_score" : {
+      "cp" : 132,
+      "moves" : null
+    },
+    "best" : {
+      "score" : {
+        "cp" : 130,
+        "moves" : null
+      },
+      "usi" : "7d7c+"
+    },
+    "second" : {
+      "score" : {
+        "cp" : 875,
+        "moves" : null
+      },
+      "usi" : "6g6f"
+    },
+    "third" : {
+      "score" : {
+        "cp" : 922,
+        "moves" : null
+      },
+      "usi" : "P*8h"
+    },
+    "opponent_last_move_usi_positions" : [
+      "7f",
+      "8g"
+    ],
+    "your_move" : {
+      "drop" : {
+        "drop" : {
+          "role" : "pawn",
+          "pos" : "8h"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "pawn",
+            "color" : "sente"
+          },
+          "dest" : "8h",
+          "brush" : "alternative0",
+          "description" : "your"
+        }
+      },
+      "move" : null,
+      "score" : {
+        "cp" : 1255,
+        "moves" : null
+      }
+    },
+    "best_move" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "7d",
+          "dest" : "7c",
+          "promotion" : true
+        },
+        "hint" : {
+          "orig" : "7d",
+          "dest" : "7c",
+          "brush" : "primary",
+          "description" : "1st"
+        }
+      },
+      "score" : {
+        "cp" : 130,
+        "moves" : null
+      }
+    },
+    "second_move" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "6g",
+          "dest" : "6f",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "6g",
+          "dest" : "6f",
+          "brush" : "alternative1",
+          "description" : "2nd"
+        }
+      },
+      "score" : {
+        "cp" : 875,
+        "moves" : null
+      }
+    },
+    "third_move" : {
+      "drop" : {
+        "drop" : {
+          "role" : "pawn",
+          "pos" : "8h"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "pawn",
+            "color" : "sente"
+          },
+          "dest" : "8h",
+          "brush" : "alternative2",
+          "description" : "3rd"
+        }
+      },
+      "move" : null,
+      "score" : {
+        "cp" : 922,
+        "moves" : null
+      }
+    },
+    "hands" : "2P3p",
+    "comment" : "Blunder [drop pawn 88, score: (132 → 1255)] \nBest [move promotepawn from 74 to 73, score: (132 → 130)] \nSecond [move pawn from 67 to 66, score: (132 → 875)] \nThird [drop pawn 88, score: (132 → 922)]\n",
+    "sente" : "conquerror99",
+    "gote" : "bear",
+    "timeControl" : "15分+60秒",
+    "site" : "81Dojo",
+    "date" : "2021/01/26"
+  },
+  {
+    "id" : "patricksode5r36n37s26ob88VShalfminor32s43g33b22.kifu#37",
+    "sfen" : "ln1g3nl/1ks3rb1/1pppps3/p4gp1p/6Pp1/P1P3RS1/1P1PP1NPP/1BGS5/LNK1G3L b Pp 37",
+    "your_move_usi" : "8h4d",
+    "opponent_last_move_usi" : "3c4d",
+    "player" : "sente",
+    "score" : {
+      "cp" : 1136,
+      "moves" : null
+    },
+    "prev_score" : {
+      "cp" : 1,
+      "moves" : null
+    },
+    "best" : {
+      "score" : {
+        "cp" : 31,
+        "moves" : null
+      },
+      "usi" : "P*4e"
+    },
+    "second" : {
+      "score" : {
+        "cp" : 31,
+        "moves" : null
+      },
+      "usi" : "3e3d"
+    },
+    "third" : {
+      "score" : {
+        "cp" : 144,
+        "moves" : null
+      },
+      "usi" : "9f9e"
+    },
+    "opponent_last_move_usi_positions" : [
+      "3c",
+      "4d"
+    ],
+    "your_move" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "8h",
+          "dest" : "4d",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "8h",
+          "dest" : "4d",
+          "brush" : "alternative0",
+          "description" : "your"
+        }
+      },
+      "score" : {
+        "cp" : 1136,
+        "moves" : null
+      }
+    },
+    "best_move" : {
+      "drop" : {
+        "drop" : {
+          "role" : "pawn",
+          "pos" : "4e"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "pawn",
+            "color" : "sente"
+          },
+          "dest" : "4e",
+          "brush" : "primary",
+          "description" : "1st"
+        }
+      },
+      "move" : null,
+      "score" : {
+        "cp" : 31,
+        "moves" : null
+      }
+    },
+    "second_move" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "3e",
+          "dest" : "3d",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "3e",
+          "dest" : "3d",
+          "brush" : "alternative1",
+          "description" : "2nd"
+        }
+      },
+      "score" : {
+        "cp" : 31,
+        "moves" : null
+      }
+    },
+    "third_move" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "9f",
+          "dest" : "9e",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "9f",
+          "dest" : "9e",
+          "brush" : "alternative2",
+          "description" : "3rd"
+        }
+      },
+      "score" : {
+        "cp" : 144,
+        "moves" : null
+      }
+    },
+    "hands" : "Pp",
+    "comment" : "Blunder [move bishop from 88 to 44, score: (1 → 1136)] \nBest [drop pawn 45, score: (1 → 31)] \nSecond [move pawn from 35 to 34, score: (1 → 31)] \nThird [move pawn from 96 to 95, score: (1 → 144)]\n",
+    "sente" : "conquerror99",
+    "gote" : "starrybaby",
+    "timeControl" : "15分+60秒",
+    "site" : "81Dojo",
+    "date" : "2021/02/09"
+  },
+  {
+    "id" : "patricksode5r36n37s26ob88VSk52s43g32r84ob6455b55exch.kifu#45",
+    "sfen" : "ln1g3nl/2s1k2g1/p2p1sP1p/1rp2ppp1/4pN3/2P3RS1/PP1PP2PP/2GS5/LNK1G3L b Bb2p 45",
+    "your_move_usi" : "B*6f",
+    "opponent_last_move_usi" : "3b2b",
+    "player" : "sente",
+    "score" : {
+      "cp" : 478,
+      "moves" : null
+    },
+    "prev_score" : {
+      "cp" : -1604,
+      "moves" : null
+    },
+    "best" : {
+      "score" : {
+        "cp" : -1582,
+        "moves" : null
+      },
+      "usi" : "B*3a"
+    },
+    "second" : {
+      "score" : {
+        "cp" : -1142,
+        "moves" : null
+      },
+      "usi" : "4e5c+"
+    },
+    "third" : {
+      "score" : {
+        "cp" : -61,
+        "moves" : null
+      },
+      "usi" : "2f2e"
+    },
+    "opponent_last_move_usi_positions" : [
+      "3b",
+      "2b"
+    ],
+    "your_move" : {
+      "drop" : {
+        "drop" : {
+          "role" : "bishop",
+          "pos" : "6f"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "bishop",
+            "color" : "sente"
+          },
+          "dest" : "6f",
+          "brush" : "alternative0",
+          "description" : "your"
+        }
+      },
+      "move" : null,
+      "score" : {
+        "cp" : 478,
+        "moves" : null
+      }
+    },
+    "best_move" : {
+      "drop" : {
+        "drop" : {
+          "role" : "bishop",
+          "pos" : "3a"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "bishop",
+            "color" : "sente"
+          },
+          "dest" : "3a",
+          "brush" : "primary",
+          "description" : "1st"
+        }
+      },
+      "move" : null,
+      "score" : {
+        "cp" : -1582,
+        "moves" : null
+      }
+    },
+    "second_move" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "4e",
+          "dest" : "5c",
+          "promotion" : true
+        },
+        "hint" : {
+          "orig" : "4e",
+          "dest" : "5c",
+          "brush" : "alternative1",
+          "description" : "2nd"
+        }
+      },
+      "score" : {
+        "cp" : -1142,
+        "moves" : null
+      }
+    },
+    "third_move" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "2f",
+          "dest" : "2e",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "2f",
+          "dest" : "2e",
+          "brush" : "alternative2",
+          "description" : "3rd"
+        }
+      },
+      "score" : {
+        "cp" : -61,
+        "moves" : null
+      }
+    },
+    "hands" : "Bb2p",
+    "comment" : "Blunder [drop bishop 66, score: (-1604 → 478)] \nBest [drop bishop 31, score: (-1604 → -1582)] \nSecond [move promoteknight from 45 to 53, score: (-1604 → -1142)] \nThird [move silver from 26 to 25, score: (-1604 → -61)]\n",
+    "sente" : "conquerror99",
+    "gote" : "Arkan",
+    "timeControl" : "15分+60秒",
+    "site" : "81Dojo",
+    "date" : "2021/01/19"
+  },
+  {
+    "id" : "patricksode5r36n37s26ob88VSk52s43g32r84ob6455b55exch.kifu#85",
+    "sfen" : "l1kg4l/1rs1s4/p1npn1P1p/2N3Rp1/2p3B2/2+BP3S1/P3P+p1PP/1PK6/LN2S3L b G2P2g3p 85",
+    "your_move_usi" : "7d8b+",
+    "opponent_last_move_usi" : "8c8b",
+    "player" : "sente",
+    "score" : {
+      "cp" : -1813,
+      "moves" : null
+    },
+    "prev_score" : {
+      "cp" : null,
+      "moves" : -15
+    },
+    "best" : {
+      "score" : {
+        "cp" : null,
+        "moves" : -17
+      },
+      "usi" : "3e5c+"
+    },
+    "second" : {
+      "score" : {
+        "cp" : -1554,
+        "moves" : null
+      },
+      "usi" : "7d8b+"
+    },
+    "third" : {
+      "score" : {
+        "cp" : -917,
+        "moves" : null
+      },
+      "usi" : "7f7e"
+    },
+    "opponent_last_move_usi_positions" : [
+      "8c",
+      "8b"
+    ],
+    "your_move" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "7d",
+          "dest" : "8b",
+          "promotion" : true
+        },
+        "hint" : {
+          "orig" : "7d",
+          "dest" : "8b",
+          "brush" : "alternative0",
+          "description" : "your"
+        }
+      },
+      "score" : {
+        "cp" : -1813,
+        "moves" : null
+      }
+    },
+    "best_move" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "3e",
+          "dest" : "5c",
+          "promotion" : true
+        },
+        "hint" : {
+          "orig" : "3e",
+          "dest" : "5c",
+          "brush" : "primary",
+          "description" : "1st"
+        }
+      },
+      "score" : {
+        "cp" : null,
+        "moves" : -17
+      }
+    },
+    "second_move" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "7d",
+          "dest" : "8b",
+          "promotion" : true
+        },
+        "hint" : {
+          "orig" : "7d",
+          "dest" : "8b",
+          "brush" : "alternative1",
+          "description" : "2nd"
+        }
+      },
+      "score" : {
+        "cp" : -1554,
+        "moves" : null
+      }
+    },
+    "third_move" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "7f",
+          "dest" : "7e",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "7f",
+          "dest" : "7e",
+          "brush" : "alternative2",
+          "description" : "3rd"
+        }
+      },
+      "score" : {
+        "cp" : -917,
+        "moves" : null
+      }
+    },
+    "hands" : "G2P2g3p",
+    "comment" : "Blunder [move promoteknight from 74 to 82, score: (#-15 → -1813)] \nBest [move promotebishop from 35 to 53, score: (#-15 → #-17)] \nSecond [move promoteknight from 74 to 82, score: (#-15 → -1554)] \nThird [move horse from 76 to 75, score: (#-15 → -917)]\n",
+    "sente" : "conquerror99",
+    "gote" : "Arkan",
+    "timeControl" : "15分+60秒",
+    "site" : "81Dojo",
+    "date" : "2021/01/19"
+  },
+  {
+    "id" : "patricksode5r36n37s48ob88p34VSk41yagurar82_naka_s64.kifu#10",
+    "sfen" : "lnsgkgsnl/7b1/pp1pppppp/9/2r4P1/9/PP1PPPP1P/1BG4R1/LNS1KGSNL w Pp 10",
+    "your_move_usi" : "7e7d",
+    "opponent_last_move_usi" : "2f2e",
+    "player" : "gote",
+    "score" : {
+      "cp" : 1526,
+      "moves" : null
+    },
+    "prev_score" : {
+      "cp" : 135,
+      "moves" : null
+    },
+    "best" : {
+      "score" : {
+        "cp" : 150,
+        "moves" : null
+      },
+      "usi" : "1c1d"
+    },
+    "second" : {
+      "score" : {
+        "cp" : 161,
+        "moves" : null
+      },
+      "usi" : "3c3d"
+    },
+    "third" : {
+      "score" : {
+        "cp" : 163,
+        "moves" : null
+      },
+      "usi" : "4a3b"
+    },
+    "opponent_last_move_usi_positions" : [
+      "2f",
+      "2e"
+    ],
+    "your_move" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "7e",
+          "dest" : "7d",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "7e",
+          "dest" : "7d",
+          "brush" : "alternative0",
+          "description" : "your"
+        }
+      },
+      "score" : {
+        "cp" : 1526,
+        "moves" : null
+      }
+    },
+    "best_move" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "1c",
+          "dest" : "1d",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "1c",
+          "dest" : "1d",
+          "brush" : "primary",
+          "description" : "1st"
+        }
+      },
+      "score" : {
+        "cp" : 150,
+        "moves" : null
+      }
+    },
+    "second_move" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "3c",
+          "dest" : "3d",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "3c",
+          "dest" : "3d",
+          "brush" : "alternative1",
+          "description" : "2nd"
+        }
+      },
+      "score" : {
+        "cp" : 161,
+        "moves" : null
+      }
+    },
+    "third_move" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "4a",
+          "dest" : "3b",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "4a",
+          "dest" : "3b",
+          "brush" : "alternative2",
+          "description" : "3rd"
+        }
+      },
+      "score" : {
+        "cp" : 163,
+        "moves" : null
+      }
+    },
+    "hands" : "Pp",
+    "comment" : "Blunder [move rook from 75 to 74, score: (135 → 1526)] \nBest [move pawn from 13 to 14, score: (135 → 150)] \nSecond [move pawn from 33 to 34, score: (135 → 161)] \nThird [move gold from 41 to 32, score: (135 → 163)]\n",
+    "sente" : "TAKUYACAH",
+    "gote" : "conquerror99",
+    "timeControl" : "10分+30秒",
+    "site" : "81Dojo",
+    "date" : "2021/01/29"
+  },
+  {
+    "id" : "patricksode5r36n37s48ob88p34VSk41yagurar82_naka_s64.kifu#12",
+    "sfen" : "lnsgkgsnl/7b1/pp1pppppp/2r6/7P1/9/PP1PPPP1P/1BG2S1R1/LNS1KG1NL w Pp 12",
+    "your_move_usi" : "8a7c",
+    "opponent_last_move_usi" : "3i4h",
+    "player" : "gote",
+    "score" : {
+      "cp" : 1530,
+      "moves" : null
+    },
+    "prev_score" : {
+      "cp" : 146,
+      "moves" : null
+    },
+    "best" : {
+      "score" : {
+        "cp" : 120,
+        "moves" : null
+      },
+      "usi" : "1c1d"
+    },
+    "second" : {
+      "score" : {
+        "cp" : 132,
+        "moves" : null
+      },
+      "usi" : "4a3b"
+    },
+    "third" : {
+      "score" : {
+        "cp" : 221,
+        "moves" : null
+      },
+      "usi" : "3c3d"
+    },
+    "opponent_last_move_usi_positions" : [
+      "3i",
+      "4h"
+    ],
+    "your_move" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "8a",
+          "dest" : "7c",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "8a",
+          "dest" : "7c",
+          "brush" : "alternative0",
+          "description" : "your"
+        }
+      },
+      "score" : {
+        "cp" : 1530,
+        "moves" : null
+      }
+    },
+    "best_move" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "1c",
+          "dest" : "1d",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "1c",
+          "dest" : "1d",
+          "brush" : "primary",
+          "description" : "1st"
+        }
+      },
+      "score" : {
+        "cp" : 120,
+        "moves" : null
+      }
+    },
+    "second_move" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "4a",
+          "dest" : "3b",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "4a",
+          "dest" : "3b",
+          "brush" : "alternative1",
+          "description" : "2nd"
+        }
+      },
+      "score" : {
+        "cp" : 132,
+        "moves" : null
+      }
+    },
+    "third_move" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "3c",
+          "dest" : "3d",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "3c",
+          "dest" : "3d",
+          "brush" : "alternative2",
+          "description" : "3rd"
+        }
+      },
+      "score" : {
+        "cp" : 221,
+        "moves" : null
+      }
+    },
+    "hands" : "Pp",
+    "comment" : "Blunder [move knight from 81 to 73, score: (146 → 1530)] \nBest [move pawn from 13 to 14, score: (146 → 120)] \nSecond [move gold from 41 to 32, score: (146 → 132)] \nThird [move pawn from 33 to 34, score: (146 → 221)]\n",
+    "sente" : "TAKUYACAH",
+    "gote" : "conquerror99",
+    "timeControl" : "10分+30秒",
+    "site" : "81Dojo",
+    "date" : "2021/01/29"
+  },
+  {
+    "id" : "patricksode5r36n37s48ob88p34VSk41yagurar82_naka_s64.kifu#66",
+    "sfen" : "l3g2kl/3s1s1g1/ppn2p1pp/4rsp2/1PPpB4/P1G1RN3/5PP1P/2GS5/LN1K3NL w B2P3p 66",
+    "your_move_usi" : "4d5e",
+    "opponent_last_move_usi" : "N*4f",
+    "player" : "gote",
+    "score" : {
+      "cp" : -255,
+      "moves" : null
+    },
+    "prev_score" : {
+      "cp" : -1308,
+      "moves" : null
+    },
+    "best" : {
+      "score" : {
+        "cp" : -1212,
+        "moves" : null
+      },
+      "usi" : "5d5e"
+    },
+    "second" : {
+      "score" : {
+        "cp" : -192,
+        "moves" : null
+      },
+      "usi" : "4d5e"
+    },
+    "third" : {
+      "score" : {
+        "cp" : 884,
+        "moves" : null
+      },
+      "usi" : "5d5b"
+    },
+    "opponent_last_move_usi_positions" : [
+      "4f"
+    ],
+    "your_move" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "4d",
+          "dest" : "5e",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "4d",
+          "dest" : "5e",
+          "brush" : "alternative0",
+          "description" : "your"
+        }
+      },
+      "score" : {
+        "cp" : -255,
+        "moves" : null
+      }
+    },
+    "best_move" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "5d",
+          "dest" : "5e",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "5d",
+          "dest" : "5e",
+          "brush" : "primary",
+          "description" : "1st"
+        }
+      },
+      "score" : {
+        "cp" : -1212,
+        "moves" : null
+      }
+    },
+    "second_move" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "4d",
+          "dest" : "5e",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "4d",
+          "dest" : "5e",
+          "brush" : "alternative1",
+          "description" : "2nd"
+        }
+      },
+      "score" : {
+        "cp" : -192,
+        "moves" : null
+      }
+    },
+    "third_move" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "5d",
+          "dest" : "5b",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "5d",
+          "dest" : "5b",
+          "brush" : "alternative2",
+          "description" : "3rd"
+        }
+      },
+      "score" : {
+        "cp" : 884,
+        "moves" : null
+      }
+    },
+    "hands" : "B2P3p",
+    "comment" : "Blunder [move silver from 44 to 55, score: (-1308 → -255)] \nBest [move rook from 54 to 55, score: (-1308 → -1212)] \nSecond [move silver from 44 to 55, score: (-1308 → -192)] \nThird [move rook from 54 to 52, score: (-1308 → 884)]\n",
+    "sente" : "TAKUYACAH",
+    "gote" : "conquerror99",
+    "timeControl" : "10分+30秒",
+    "site" : "81Dojo",
+    "date" : "2021/01/29"
+  },
+  {
+    "id" : "patricksode5r36n37s48ob88p34VSk41yagurar82_naka_s64.kifu#74",
+    "sfen" : "l2R3kl/3s1g1g1/ppn2p1pp/6p2/1PPp5/P1G1s4/5PP1P/2GS5/LN1KP1rNL w BSPbn3p 74",
+    "your_move_usi" : "2a3b",
+    "opponent_last_move_usi" : "R*6a",
+    "player" : "gote",
+    "score" : {
+      "cp" : 1393,
+      "moves" : null
+    },
+    "prev_score" : {
+      "cp" : 124,
+      "moves" : null
+    },
+    "best" : {
+      "score" : {
+        "cp" : 98,
+        "moves" : null
+      },
+      "usi" : "P*5a"
+    },
+    "second" : {
+      "score" : {
+        "cp" : 533,
+        "moves" : null
+      },
+      "usi" : "N*3a"
+    },
+    "third" : {
+      "score" : {
+        "cp" : 556,
+        "moves" : null
+      },
+      "usi" : "B*3a"
+    },
+    "opponent_last_move_usi_positions" : [
+      "6a"
+    ],
+    "your_move" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "2a",
+          "dest" : "3b",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "2a",
+          "dest" : "3b",
+          "brush" : "alternative0",
+          "description" : "your"
+        }
+      },
+      "score" : {
+        "cp" : 1393,
+        "moves" : null
+      }
+    },
+    "best_move" : {
+      "drop" : {
+        "drop" : {
+          "role" : "pawn",
+          "pos" : "5a"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "pawn",
+            "color" : "gote"
+          },
+          "dest" : "5a",
+          "brush" : "primary",
+          "description" : "1st"
+        }
+      },
+      "move" : null,
+      "score" : {
+        "cp" : 98,
+        "moves" : null
+      }
+    },
+    "second_move" : {
+      "drop" : {
+        "drop" : {
+          "role" : "knight",
+          "pos" : "3a"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "knight",
+            "color" : "gote"
+          },
+          "dest" : "3a",
+          "brush" : "alternative1",
+          "description" : "2nd"
+        }
+      },
+      "move" : null,
+      "score" : {
+        "cp" : 533,
+        "moves" : null
+      }
+    },
+    "third_move" : {
+      "drop" : {
+        "drop" : {
+          "role" : "bishop",
+          "pos" : "3a"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "bishop",
+            "color" : "gote"
+          },
+          "dest" : "3a",
+          "brush" : "alternative2",
+          "description" : "3rd"
+        }
+      },
+      "move" : null,
+      "score" : {
+        "cp" : 556,
+        "moves" : null
+      }
+    },
+    "hands" : "BSPbn3p",
+    "comment" : "Blunder [move king from 21 to 32, score: (124 → 1393)] \nBest [drop pawn 51, score: (124 → 98)] \nSecond [drop knight 31, score: (124 → 533)] \nThird [drop bishop 31, score: (124 → 556)]\n",
+    "sente" : "TAKUYACAH",
+    "gote" : "conquerror99",
+    "timeControl" : "10分+30秒",
+    "site" : "81Dojo",
+    "date" : "2021/01/29"
+  },
+  {
+    "id" : "patricksode5r36n37s48ob88p34VSk41yagurar82_naka_s64.kifu#76",
+    "sfen" : "l2R4l/3s1gkg1/ppn2p1pp/6p2/1PPpB4/P1G1s4/5PP1P/2GS5/LN1KP1rNL w SPbn3p 76",
+    "your_move_usi" : "6b5c",
+    "opponent_last_move_usi" : "B*5e",
+    "player" : "gote",
+    "score" : {
+      "cp" : null,
+      "moves" : 5
+    },
+    "prev_score" : {
+      "cp" : 1484,
+      "moves" : null
+    },
+    "best" : {
+      "score" : {
+        "cp" : 1255,
+        "moves" : null
+      },
+      "usi" : "B*5a"
+    },
+    "second" : {
+      "score" : {
+        "cp" : 1327,
+        "moves" : null
+      },
+      "usi" : "B*3c"
+    },
+    "third" : {
+      "score" : {
+        "cp" : 1584,
+        "moves" : null
+      },
+      "usi" : "4c4d"
+    },
+    "opponent_last_move_usi_positions" : [
+      "5e"
+    ],
+    "your_move" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "6b",
+          "dest" : "5c",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "6b",
+          "dest" : "5c",
+          "brush" : "alternative0",
+          "description" : "your"
+        }
+      },
+      "score" : {
+        "cp" : null,
+        "moves" : 5
+      }
+    },
+    "best_move" : {
+      "drop" : {
+        "drop" : {
+          "role" : "bishop",
+          "pos" : "5a"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "bishop",
+            "color" : "gote"
+          },
+          "dest" : "5a",
+          "brush" : "primary",
+          "description" : "1st"
+        }
+      },
+      "move" : null,
+      "score" : {
+        "cp" : 1255,
+        "moves" : null
+      }
+    },
+    "second_move" : {
+      "drop" : {
+        "drop" : {
+          "role" : "bishop",
+          "pos" : "3c"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "bishop",
+            "color" : "gote"
+          },
+          "dest" : "3c",
+          "brush" : "alternative1",
+          "description" : "2nd"
+        }
+      },
+      "move" : null,
+      "score" : {
+        "cp" : 1327,
+        "moves" : null
+      }
+    },
+    "third_move" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "4c",
+          "dest" : "4d",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "4c",
+          "dest" : "4d",
+          "brush" : "alternative2",
+          "description" : "3rd"
+        }
+      },
+      "score" : {
+        "cp" : 1584,
+        "moves" : null
+      }
+    },
+    "hands" : "SPbn3p",
+    "comment" : "Blunder [move silver from 62 to 53, score: (1484 → #5)] \nBest [drop bishop 51, score: (1484 → 1255)] \nSecond [drop bishop 33, score: (1484 → 1327)] \nThird [move pawn from 43 to 44, score: (1484 → 1584)]\n",
+    "sente" : "TAKUYACAH",
+    "gote" : "conquerror99",
+    "timeControl" : "10分+30秒",
+    "site" : "81Dojo",
+    "date" : "2021/01/29"
+  },
+  {
+    "id" : "patricksode5r36n37s48ob88p34VSk41yagurar82_naka_s64.kifu#90",
+    "sfen" : "l3p3l/4ns1k1/pp+R4pp/6pP1/1PPp5/P1G1s4/4sPP1P/2GS5/LN1KP1rNL w 2GNP2b2p 90",
+    "your_move_usi" : "5g6h+",
+    "opponent_last_move_usi" : "6b7c",
+    "player" : "gote",
+    "score" : {
+      "cp" : 2688,
+      "moves" : null
+    },
+    "prev_score" : {
+      "cp" : null,
+      "moves" : -17
+    },
+    "best" : {
+      "score" : {
+        "cp" : -955,
+        "moves" : null
+      },
+      "usi" : "B*5h"
+    },
+    "second" : {
+      "score" : {
+        "cp" : -193,
+        "moves" : null
+      },
+      "usi" : "P*4c"
+    },
+    "third" : {
+      "score" : {
+        "cp" : 1463,
+        "moves" : null
+      },
+      "usi" : "B*4c"
+    },
+    "opponent_last_move_usi_positions" : [
+      "6b",
+      "7c"
+    ],
+    "your_move" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "5g",
+          "dest" : "6h",
+          "promotion" : true
+        },
+        "hint" : {
+          "orig" : "5g",
+          "dest" : "6h",
+          "brush" : "alternative0",
+          "description" : "your"
+        }
+      },
+      "score" : {
+        "cp" : 2688,
+        "moves" : null
+      }
+    },
+    "best_move" : {
+      "drop" : {
+        "drop" : {
+          "role" : "bishop",
+          "pos" : "5h"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "bishop",
+            "color" : "gote"
+          },
+          "dest" : "5h",
+          "brush" : "primary",
+          "description" : "1st"
+        }
+      },
+      "move" : null,
+      "score" : {
+        "cp" : -955,
+        "moves" : null
+      }
+    },
+    "second_move" : {
+      "drop" : {
+        "drop" : {
+          "role" : "pawn",
+          "pos" : "4c"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "pawn",
+            "color" : "gote"
+          },
+          "dest" : "4c",
+          "brush" : "alternative1",
+          "description" : "2nd"
+        }
+      },
+      "move" : null,
+      "score" : {
+        "cp" : -193,
+        "moves" : null
+      }
+    },
+    "third_move" : {
+      "drop" : {
+        "drop" : {
+          "role" : "bishop",
+          "pos" : "4c"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "bishop",
+            "color" : "gote"
+          },
+          "dest" : "4c",
+          "brush" : "alternative2",
+          "description" : "3rd"
+        }
+      },
+      "move" : null,
+      "score" : {
+        "cp" : 1463,
+        "moves" : null
+      }
+    },
+    "hands" : "2GNP2b2p",
+    "comment" : "Blunder [move promotesilver from 57 to 68, score: (#-17 → 2688)] \nBest [drop bishop 58, score: (#-17 → -955)] \nSecond [drop pawn 43, score: (#-17 → -193)] \nThird [drop bishop 43, score: (#-17 → 1463)]\n",
+    "sente" : "TAKUYACAH",
+    "gote" : "conquerror99",
+    "timeControl" : "10分+30秒",
+    "site" : "81Dojo",
+    "date" : "2021/01/29"
+  },
+  {
+    "id" : "patricksode5r36n37s48ob88p34VSk41yagurar82_naka_s64.kifu#94",
+    "sfen" : "l3pS2l/4ns1k1/pp+R3bpp/6pP1/1PPp5/P1G1s4/5PP1P/3G5/LN1KP1rNL w 2GNPbs2p 94",
+    "your_move_usi" : "S*3a",
+    "opponent_last_move_usi" : "S*4a",
+    "player" : "gote",
+    "score" : {
+      "cp" : 4101,
+      "moves" : null
+    },
+    "prev_score" : {
+      "cp" : 226,
+      "moves" : null
+    },
+    "best" : {
+      "score" : {
+        "cp" : -85,
+        "moves" : null
+      },
+      "usi" : "B*8g"
+    },
+    "second" : {
+      "score" : {
+        "cp" : 2491,
+        "moves" : null
+      },
+      "usi" : "B*4c"
+    },
+    "third" : {
+      "score" : {
+        "cp" : 3221,
+        "moves" : null
+      },
+      "usi" : "S*4c"
+    },
+    "opponent_last_move_usi_positions" : [
+      "4a"
+    ],
+    "your_move" : {
+      "drop" : {
+        "drop" : {
+          "role" : "silver",
+          "pos" : "3a"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "silver",
+            "color" : "gote"
+          },
+          "dest" : "3a",
+          "brush" : "alternative0",
+          "description" : "your"
+        }
+      },
+      "move" : null,
+      "score" : {
+        "cp" : 4101,
+        "moves" : null
+      }
+    },
+    "best_move" : {
+      "drop" : {
+        "drop" : {
+          "role" : "bishop",
+          "pos" : "8g"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "bishop",
+            "color" : "gote"
+          },
+          "dest" : "8g",
+          "brush" : "primary",
+          "description" : "1st"
+        }
+      },
+      "move" : null,
+      "score" : {
+        "cp" : -85,
+        "moves" : null
+      }
+    },
+    "second_move" : {
+      "drop" : {
+        "drop" : {
+          "role" : "bishop",
+          "pos" : "4c"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "bishop",
+            "color" : "gote"
+          },
+          "dest" : "4c",
+          "brush" : "alternative1",
+          "description" : "2nd"
+        }
+      },
+      "move" : null,
+      "score" : {
+        "cp" : 2491,
+        "moves" : null
+      }
+    },
+    "third_move" : {
+      "drop" : {
+        "drop" : {
+          "role" : "silver",
+          "pos" : "4c"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "silver",
+            "color" : "gote"
+          },
+          "dest" : "4c",
+          "brush" : "alternative2",
+          "description" : "3rd"
+        }
+      },
+      "move" : null,
+      "score" : {
+        "cp" : 3221,
+        "moves" : null
+      }
+    },
+    "hands" : "2GNPbs2p",
+    "comment" : "Blunder [drop silver 31, score: (226 → 4101)] \nBest [drop bishop 87, score: (226 → -85)] \nSecond [drop bishop 43, score: (226 → 2491)] \nThird [drop silver 43, score: (226 → 3221)]\n",
+    "sente" : "TAKUYACAH",
+    "gote" : "conquerror99",
+    "timeControl" : "10分+30秒",
+    "site" : "81Dojo",
+    "date" : "2021/01/29"
+  },
+  {
+    "id" : "patricksode5r38s26ob88VShalfminor32s54g41b22.kifu#56",
+    "sfen" : "l3g2nl/5sgk1/ppn1pp1pp/3s2p2/5P2P/P3G4/4P1PP1/5RSK1/+r4G1NL w BL4Pbsnp 56",
+    "your_move_usi" : "B*6g",
+    "opponent_last_move_usi" : "6f5f",
+    "player" : "gote",
+    "score" : {
+      "cp" : 621,
+      "moves" : null
+    },
+    "prev_score" : {
+      "cp" : -1654,
+      "moves" : null
+    },
+    "best" : {
+      "score" : {
+        "cp" : -1622,
+        "moves" : null
+      },
+      "usi" : "4b3c"
+    },
+    "second" : {
+      "score" : {
+        "cp" : -1568,
+        "moves" : null
+      },
+      "usi" : "P*6f"
+    },
+    "third" : {
+      "score" : {
+        "cp" : -1425,
+        "moves" : null
+      },
+      "usi" : "B*7g"
+    },
+    "opponent_last_move_usi_positions" : [
+      "6f",
+      "5f"
+    ],
+    "your_move" : {
+      "drop" : {
+        "drop" : {
+          "role" : "bishop",
+          "pos" : "6g"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "bishop",
+            "color" : "gote"
+          },
+          "dest" : "6g",
+          "brush" : "alternative0",
+          "description" : "your"
+        }
+      },
+      "move" : null,
+      "score" : {
+        "cp" : 621,
+        "moves" : null
+      }
+    },
+    "best_move" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "4b",
+          "dest" : "3c",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "4b",
+          "dest" : "3c",
+          "brush" : "primary",
+          "description" : "1st"
+        }
+      },
+      "score" : {
+        "cp" : -1622,
+        "moves" : null
+      }
+    },
+    "second_move" : {
+      "drop" : {
+        "drop" : {
+          "role" : "pawn",
+          "pos" : "6f"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "pawn",
+            "color" : "gote"
+          },
+          "dest" : "6f",
+          "brush" : "alternative1",
+          "description" : "2nd"
+        }
+      },
+      "move" : null,
+      "score" : {
+        "cp" : -1568,
+        "moves" : null
+      }
+    },
+    "third_move" : {
+      "drop" : {
+        "drop" : {
+          "role" : "bishop",
+          "pos" : "7g"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "bishop",
+            "color" : "gote"
+          },
+          "dest" : "7g",
+          "brush" : "alternative2",
+          "description" : "3rd"
+        }
+      },
+      "move" : null,
+      "score" : {
+        "cp" : -1425,
+        "moves" : null
+      }
+    },
+    "hands" : "BL4Pbsnp",
+    "comment" : "Blunder [drop bishop 67, score: (-1654 → 621)] \nBest [move silver from 42 to 33, score: (-1654 → -1622)] \nSecond [drop pawn 66, score: (-1654 → -1568)] \nThird [drop bishop 77, score: (-1654 → -1425)]\n",
+    "sente" : "spinel",
+    "gote" : "conquerror99",
+    "timeControl" : "15分+60秒",
+    "site" : "81Dojo",
+    "date" : "2021/01/19"
+  },
+  {
+    "id" : "patricksode5r38s26ob88VShalfminor32s54g41b22.kifu#82",
+    "sfen" : "l+R2s3l/3p2gk1/p3ppnpp/3s2p2/3b1P1SP/P3+nn3/6PP1/6SK1/B4G1NL w GL5Prgp 82",
+    "your_move_usi" : "G*4a",
+    "opponent_last_move_usi" : "8c8a",
+    "player" : "gote",
+    "score" : {
+      "cp" : -12,
+      "moves" : null
+    },
+    "prev_score" : {
+      "cp" : -917,
+      "moves" : null
+    },
+    "best" : {
+      "score" : {
+        "cp" : -1034,
+        "moves" : null
+      },
+      "usi" : "5f5e"
+    },
+    "second" : {
+      "score" : {
+        "cp" : -867,
+        "moves" : null
+      },
+      "usi" : "4f3h+"
+    },
+    "third" : {
+      "score" : {
+        "cp" : -152,
+        "moves" : null
+      },
+      "usi" : "P*7a"
+    },
+    "opponent_last_move_usi_positions" : [
+      "8c",
+      "8a"
+    ],
+    "your_move" : {
+      "drop" : {
+        "drop" : {
+          "role" : "gold",
+          "pos" : "4a"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "gold",
+            "color" : "gote"
+          },
+          "dest" : "4a",
+          "brush" : "alternative0",
+          "description" : "your"
+        }
+      },
+      "move" : null,
+      "score" : {
+        "cp" : -12,
+        "moves" : null
+      }
+    },
+    "best_move" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "5f",
+          "dest" : "5e",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "5f",
+          "dest" : "5e",
+          "brush" : "primary",
+          "description" : "1st"
+        }
+      },
+      "score" : {
+        "cp" : -1034,
+        "moves" : null
+      }
+    },
+    "second_move" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "4f",
+          "dest" : "3h",
+          "promotion" : true
+        },
+        "hint" : {
+          "orig" : "4f",
+          "dest" : "3h",
+          "brush" : "alternative1",
+          "description" : "2nd"
+        }
+      },
+      "score" : {
+        "cp" : -867,
+        "moves" : null
+      }
+    },
+    "third_move" : {
+      "drop" : {
+        "drop" : {
+          "role" : "pawn",
+          "pos" : "7a"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "pawn",
+            "color" : "gote"
+          },
+          "dest" : "7a",
+          "brush" : "alternative2",
+          "description" : "3rd"
+        }
+      },
+      "move" : null,
+      "score" : {
+        "cp" : -152,
+        "moves" : null
+      }
+    },
+    "hands" : "GL5Prgp",
+    "comment" : "Blunder [drop gold 41, score: (-917 → -12)] \nBest [move promotedknight from 56 to 55, score: (-917 → -1034)] \nSecond [move promoteknight from 46 to 38, score: (-917 → -867)] \nThird [drop pawn 71, score: (-917 → -152)]\n",
+    "sente" : "spinel",
+    "gote" : "conquerror99",
+    "timeControl" : "15分+60秒",
+    "site" : "81Dojo",
+    "date" : "2021/01/19"
+  },
+  {
+    "id" : "patricksode5r38s26ob88VShalfminor32s54g41b22.kifu#90",
+    "sfen" : "l+R2sg2l/3p2gk1/p3pp1pp/9/3bsP1NP/P3+nn3/4P1PP1/6SK1/B4G1NL w GL5Prsp 90",
+    "your_move_usi" : "R*9h",
+    "opponent_last_move_usi" : "P*5g",
+    "player" : "gote",
+    "score" : {
+      "cp" : 2091,
+      "moves" : null
+    },
+    "prev_score" : {
+      "cp" : -197,
+      "moves" : null
+    },
+    "best" : {
+      "score" : {
+        "cp" : -118,
+        "moves" : null
+      },
+      "usi" : "5f6f"
+    },
+    "second" : {
+      "score" : {
+        "cp" : 392,
+        "moves" : null
+      },
+      "usi" : "4f3h+"
+    },
+    "third" : {
+      "score" : {
+        "cp" : 405,
+        "moves" : null
+      },
+      "usi" : "S*3d"
+    },
+    "opponent_last_move_usi_positions" : [
+      "5g"
+    ],
+    "your_move" : {
+      "drop" : {
+        "drop" : {
+          "role" : "rook",
+          "pos" : "9h"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "rook",
+            "color" : "gote"
+          },
+          "dest" : "9h",
+          "brush" : "alternative0",
+          "description" : "your"
+        }
+      },
+      "move" : null,
+      "score" : {
+        "cp" : 2091,
+        "moves" : null
+      }
+    },
+    "best_move" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "5f",
+          "dest" : "6f",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "5f",
+          "dest" : "6f",
+          "brush" : "primary",
+          "description" : "1st"
+        }
+      },
+      "score" : {
+        "cp" : -118,
+        "moves" : null
+      }
+    },
+    "second_move" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "4f",
+          "dest" : "3h",
+          "promotion" : true
+        },
+        "hint" : {
+          "orig" : "4f",
+          "dest" : "3h",
+          "brush" : "alternative1",
+          "description" : "2nd"
+        }
+      },
+      "score" : {
+        "cp" : 392,
+        "moves" : null
+      }
+    },
+    "third_move" : {
+      "drop" : {
+        "drop" : {
+          "role" : "silver",
+          "pos" : "3d"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "silver",
+            "color" : "gote"
+          },
+          "dest" : "3d",
+          "brush" : "alternative2",
+          "description" : "3rd"
+        }
+      },
+      "move" : null,
+      "score" : {
+        "cp" : 405,
+        "moves" : null
+      }
+    },
+    "hands" : "GL5Prsp",
+    "comment" : "Blunder [drop rook 98, score: (-197 → 2091)] \nBest [move promotedknight from 56 to 66, score: (-197 → -118)] \nSecond [move promoteknight from 46 to 38, score: (-197 → 392)] \nThird [drop silver 34, score: (-197 → 405)]\n",
+    "sente" : "spinel",
+    "gote" : "conquerror99",
+    "timeControl" : "15分+60秒",
+    "site" : "81Dojo",
+    "date" : "2021/01/19"
+  },
+  {
+    "id" : "patricksode5r38s26ob88VShalfminor32s54g41b22.kifu#96",
+    "sfen" : "l3sg2l/3p2gk1/p3pp1pp/9/3bsP1NP/P3+n4/4P1PP1/1+R4GK1/7NL w RGNL5Pb2sp 96",
+    "your_move_usi" : "5f4g",
+    "opponent_last_move_usi" : "4i3h",
+    "player" : "gote",
+    "score" : {
+      "cp" : 2698,
+      "moves" : null
+    },
+    "prev_score" : {
+      "cp" : 288,
+      "moves" : null
+    },
+    "best" : {
+      "score" : {
+        "cp" : 294,
+        "moves" : null
+      },
+      "usi" : "S*3d"
+    },
+    "second" : {
+      "score" : {
+        "cp" : 520,
+        "moves" : null
+      },
+      "usi" : "P*3c"
+    },
+    "third" : {
+      "score" : {
+        "cp" : 962,
+        "moves" : null
+      },
+      "usi" : "B*3d"
+    },
+    "opponent_last_move_usi_positions" : [
+      "4i",
+      "3h"
+    ],
+    "your_move" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "5f",
+          "dest" : "4g",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "5f",
+          "dest" : "4g",
+          "brush" : "alternative0",
+          "description" : "your"
+        }
+      },
+      "score" : {
+        "cp" : 2698,
+        "moves" : null
+      }
+    },
+    "best_move" : {
+      "drop" : {
+        "drop" : {
+          "role" : "silver",
+          "pos" : "3d"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "silver",
+            "color" : "gote"
+          },
+          "dest" : "3d",
+          "brush" : "primary",
+          "description" : "1st"
+        }
+      },
+      "move" : null,
+      "score" : {
+        "cp" : 294,
+        "moves" : null
+      }
+    },
+    "second_move" : {
+      "drop" : {
+        "drop" : {
+          "role" : "pawn",
+          "pos" : "3c"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "pawn",
+            "color" : "gote"
+          },
+          "dest" : "3c",
+          "brush" : "alternative1",
+          "description" : "2nd"
+        }
+      },
+      "move" : null,
+      "score" : {
+        "cp" : 520,
+        "moves" : null
+      }
+    },
+    "third_move" : {
+      "drop" : {
+        "drop" : {
+          "role" : "bishop",
+          "pos" : "3d"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "bishop",
+            "color" : "gote"
+          },
+          "dest" : "3d",
+          "brush" : "alternative2",
+          "description" : "3rd"
+        }
+      },
+      "move" : null,
+      "score" : {
+        "cp" : 962,
+        "moves" : null
+      }
+    },
+    "hands" : "RGNL5Pb2sp",
+    "comment" : "Blunder [move promotedknight from 56 to 47, score: (288 → 2698)] \nBest [drop silver 34, score: (288 → 294)] \nSecond [drop pawn 33, score: (288 → 520)] \nThird [drop bishop 34, score: (288 → 962)]\n",
+    "sente" : "spinel",
+    "gote" : "conquerror99",
+    "timeControl" : "15分+60秒",
+    "site" : "81Dojo",
+    "date" : "2021/01/19"
+  },
+  {
+    "id" : "patricksode5r38s26ob88VShalfminor32s54g41b22.kifu#102",
+    "sfen" : "l3sgk1l/3p2g2/p3pp1pp/6N2/3bsP1NP/P3L4/4P1PP1/6+RK1/7NL w RGN5Pbg2sp 102",
+    "your_move_usi" : "S*2d",
+    "opponent_last_move_usi" : "8h3h",
+    "player" : "gote",
+    "score" : {
+      "cp" : null,
+      "moves" : 9
+    },
+    "prev_score" : {
+      "cp" : 634,
+      "moves" : null
+    },
+    "best" : {
+      "score" : {
+        "cp" : 547,
+        "moves" : null
+      },
+      "usi" : "G*2a"
+    },
+    "second" : {
+      "score" : {
+        "cp" : 672,
+        "moves" : null
+      },
+      "usi" : "S*2a"
+    },
+    "third" : {
+      "score" : {
+        "cp" : 840,
+        "moves" : null
+      },
+      "usi" : "S*2b"
+    },
+    "opponent_last_move_usi_positions" : [
+      "8h",
+      "3h"
+    ],
+    "your_move" : {
+      "drop" : {
+        "drop" : {
+          "role" : "silver",
+          "pos" : "2d"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "silver",
+            "color" : "gote"
+          },
+          "dest" : "2d",
+          "brush" : "alternative0",
+          "description" : "your"
+        }
+      },
+      "move" : null,
+      "score" : {
+        "cp" : null,
+        "moves" : 9
+      }
+    },
+    "best_move" : {
+      "drop" : {
+        "drop" : {
+          "role" : "gold",
+          "pos" : "2a"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "gold",
+            "color" : "gote"
+          },
+          "dest" : "2a",
+          "brush" : "primary",
+          "description" : "1st"
+        }
+      },
+      "move" : null,
+      "score" : {
+        "cp" : 547,
+        "moves" : null
+      }
+    },
+    "second_move" : {
+      "drop" : {
+        "drop" : {
+          "role" : "silver",
+          "pos" : "2a"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "silver",
+            "color" : "gote"
+          },
+          "dest" : "2a",
+          "brush" : "alternative1",
+          "description" : "2nd"
+        }
+      },
+      "move" : null,
+      "score" : {
+        "cp" : 672,
+        "moves" : null
+      }
+    },
+    "third_move" : {
+      "drop" : {
+        "drop" : {
+          "role" : "silver",
+          "pos" : "2b"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "silver",
+            "color" : "gote"
+          },
+          "dest" : "2b",
+          "brush" : "alternative2",
+          "description" : "3rd"
+        }
+      },
+      "move" : null,
+      "score" : {
+        "cp" : 840,
+        "moves" : null
+      }
+    },
+    "hands" : "RGN5Pbg2sp",
+    "comment" : "Blunder [drop silver 24, score: (634 → #9)] \nBest [drop gold 21, score: (634 → 547)] \nSecond [drop silver 21, score: (634 → 672)] \nThird [drop silver 22, score: (634 → 840)]\n",
+    "sente" : "spinel",
+    "gote" : "conquerror99",
+    "timeControl" : "15分+60秒",
+    "site" : "81Dojo",
+    "date" : "2021/01/19"
+  },
+  {
+    "id" : "patricksode5r38s26ob88VShalfminor32s54g41b22.kifu#108",
+    "sfen" : "l3sg2l/3p1k1+N1/p3pp1pp/7s1/3bsP1NP/P2PL4/4P1PP1/6+RK1/7NL w RGN4Pb2gsp 108",
+    "your_move_usi" : "6e9b",
+    "opponent_last_move_usi" : "P*6f",
+    "player" : "gote",
+    "score" : {
+      "cp" : 267,
+      "moves" : null
+    },
+    "prev_score" : {
+      "cp" : -1615,
+      "moves" : null
+    },
+    "best" : {
+      "score" : {
+        "cp" : -1507,
+        "moves" : null
+      },
+      "usi" : "2d2e"
+    },
+    "second" : {
+      "score" : {
+        "cp" : 171,
+        "moves" : null
+      },
+      "usi" : "6e7d"
+    },
+    "third" : {
+      "score" : {
+        "cp" : 202,
+        "moves" : null
+      },
+      "usi" : "6e9b"
+    },
+    "opponent_last_move_usi_positions" : [
+      "6f"
+    ],
+    "your_move" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "6e",
+          "dest" : "9b",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "6e",
+          "dest" : "9b",
+          "brush" : "alternative0",
+          "description" : "your"
+        }
+      },
+      "score" : {
+        "cp" : 267,
+        "moves" : null
+      }
+    },
+    "best_move" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "2d",
+          "dest" : "2e",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "2d",
+          "dest" : "2e",
+          "brush" : "primary",
+          "description" : "1st"
+        }
+      },
+      "score" : {
+        "cp" : -1507,
+        "moves" : null
+      }
+    },
+    "second_move" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "6e",
+          "dest" : "7d",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "6e",
+          "dest" : "7d",
+          "brush" : "alternative1",
+          "description" : "2nd"
+        }
+      },
+      "score" : {
+        "cp" : 171,
+        "moves" : null
+      }
+    },
+    "third_move" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "6e",
+          "dest" : "9b",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "6e",
+          "dest" : "9b",
+          "brush" : "alternative2",
+          "description" : "3rd"
+        }
+      },
+      "score" : {
+        "cp" : 202,
+        "moves" : null
+      }
+    },
+    "hands" : "RGN4Pb2gsp",
+    "comment" : "Blunder [move bishop from 65 to 92, score: (-1615 → 267)] \nBest [move silver from 24 to 25, score: (-1615 → -1507)] \nSecond [move bishop from 65 to 74, score: (-1615 → 171)] \nThird [move bishop from 65 to 92, score: (-1615 → 202)]\n",
+    "sente" : "spinel",
+    "gote" : "conquerror99",
+    "timeControl" : "15分+60秒",
+    "site" : "81Dojo",
+    "date" : "2021/01/19"
+  },
+  {
+    "id" : "patricksode5r38s26ob88VShalfminor32s54g41b22.kifu#110",
+    "sfen" : "l3sg2l/b2p1k1+N1/p3pp1pp/7s1/3GsP1NP/P2PL4/4P1PP1/6+RK1/7NL w RN4Pb2gsp 110",
+    "your_move_usi" : "S*5d",
+    "opponent_last_move_usi" : "G*6e",
+    "player" : "gote",
+    "score" : {
+      "cp" : 1015,
+      "moves" : null
+    },
+    "prev_score" : {
+      "cp" : -1912,
+      "moves" : null
+    },
+    "best" : {
+      "score" : {
+        "cp" : -1606,
+        "moves" : null
+      },
+      "usi" : "2d2e"
+    },
+    "second" : {
+      "score" : {
+        "cp" : -781,
+        "moves" : null
+      },
+      "usi" : "5e5f"
+    },
+    "third" : {
+      "score" : {
+        "cp" : 214,
+        "moves" : null
+      },
+      "usi" : "B*4f"
+    },
+    "opponent_last_move_usi_positions" : [
+      "6e"
+    ],
+    "your_move" : {
+      "drop" : {
+        "drop" : {
+          "role" : "silver",
+          "pos" : "5d"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "silver",
+            "color" : "gote"
+          },
+          "dest" : "5d",
+          "brush" : "alternative0",
+          "description" : "your"
+        }
+      },
+      "move" : null,
+      "score" : {
+        "cp" : 1015,
+        "moves" : null
+      }
+    },
+    "best_move" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "2d",
+          "dest" : "2e",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "2d",
+          "dest" : "2e",
+          "brush" : "primary",
+          "description" : "1st"
+        }
+      },
+      "score" : {
+        "cp" : -1606,
+        "moves" : null
+      }
+    },
+    "second_move" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "5e",
+          "dest" : "5f",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "5e",
+          "dest" : "5f",
+          "brush" : "alternative1",
+          "description" : "2nd"
+        }
+      },
+      "score" : {
+        "cp" : -781,
+        "moves" : null
+      }
+    },
+    "third_move" : {
+      "drop" : {
+        "drop" : {
+          "role" : "bishop",
+          "pos" : "4f"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "bishop",
+            "color" : "gote"
+          },
+          "dest" : "4f",
+          "brush" : "alternative2",
+          "description" : "3rd"
+        }
+      },
+      "move" : null,
+      "score" : {
+        "cp" : 214,
+        "moves" : null
+      }
+    },
+    "hands" : "RN4Pb2gsp",
+    "comment" : "Blunder [drop silver 54, score: (-1912 → 1015)] \nBest [move silver from 24 to 25, score: (-1912 → -1606)] \nSecond [move silver from 55 to 56, score: (-1912 → -781)] \nThird [drop bishop 46, score: (-1912 → 214)]\n",
+    "sente" : "spinel",
+    "gote" : "conquerror99",
+    "timeControl" : "15分+60秒",
+    "site" : "81Dojo",
+    "date" : "2021/01/19"
+  },
+  {
+    "id" : "patricksode5r38s26ob88VShalfminor32s54g41b22.kifu#130",
+    "sfen" : "l4g2l/b2pskpR1/p3p2+Np/3S1s3/4LP2P/P3S4/4P1PP1/6+RK1/7NL w N4Pb3gn3p 130",
+    "your_move_usi" : "4d3c",
+    "opponent_last_move_usi" : "P*4e",
+    "player" : "gote",
+    "score" : {
+      "cp" : 3148,
+      "moves" : null
+    },
+    "prev_score" : {
+      "cp" : -464,
+      "moves" : null
+    },
+    "best" : {
+      "score" : {
+        "cp" : -135,
+        "moves" : null
+      },
+      "usi" : "N*4f"
+    },
+    "second" : {
+      "score" : {
+        "cp" : 586,
+        "moves" : null
+      },
+      "usi" : "4d5e"
+    },
+    "third" : {
+      "score" : {
+        "cp" : 1001,
+        "moves" : null
+      },
+      "usi" : "G*1b"
+    },
+    "opponent_last_move_usi_positions" : [
+      "4e"
+    ],
+    "your_move" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "4d",
+          "dest" : "3c",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "4d",
+          "dest" : "3c",
+          "brush" : "alternative0",
+          "description" : "your"
+        }
+      },
+      "score" : {
+        "cp" : 3148,
+        "moves" : null
+      }
+    },
+    "best_move" : {
+      "drop" : {
+        "drop" : {
+          "role" : "knight",
+          "pos" : "4f"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "knight",
+            "color" : "gote"
+          },
+          "dest" : "4f",
+          "brush" : "primary",
+          "description" : "1st"
+        }
+      },
+      "move" : null,
+      "score" : {
+        "cp" : -135,
+        "moves" : null
+      }
+    },
+    "second_move" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "4d",
+          "dest" : "5e",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "4d",
+          "dest" : "5e",
+          "brush" : "alternative1",
+          "description" : "2nd"
+        }
+      },
+      "score" : {
+        "cp" : 586,
+        "moves" : null
+      }
+    },
+    "third_move" : {
+      "drop" : {
+        "drop" : {
+          "role" : "gold",
+          "pos" : "1b"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "gold",
+            "color" : "gote"
+          },
+          "dest" : "1b",
+          "brush" : "alternative2",
+          "description" : "3rd"
+        }
+      },
+      "move" : null,
+      "score" : {
+        "cp" : 1001,
+        "moves" : null
+      }
+    },
+    "hands" : "N4Pb3gn3p",
+    "comment" : "Blunder [move silver from 44 to 33, score: (-464 → 3148)] \nBest [drop knight 46, score: (-464 → -135)] \nSecond [move silver from 44 to 55, score: (-464 → 586)] \nThird [drop gold 12, score: (-464 → 1001)]\n",
+    "sente" : "spinel",
+    "gote" : "conquerror99",
+    "timeControl" : "15分+60秒",
+    "site" : "81Dojo",
+    "date" : "2021/01/19"
+  },
+  {
+    "id" : "patricksode5r38s26ob88VShalfminor32s54g41b22.kifu#148",
+    "sfen" : "l5k2/b2p+L1pgg/p7p/5S3/5P2P/P3Sn3/4P1PP1/2+R4K1/7NL w GSNL5Prbgsn3p 148",
+    "your_move_usi" : "G*3h",
+    "opponent_last_move_usi" : "3h7h",
+    "player" : "gote",
+    "score" : {
+      "cp" : 2197,
+      "moves" : null
+    },
+    "prev_score" : {
+      "cp" : -1738,
+      "moves" : null
+    },
+    "best" : {
+      "score" : {
+        "cp" : -1136,
+        "moves" : null
+      },
+      "usi" : "B*3i"
+    },
+    "second" : {
+      "score" : {
+        "cp" : 15,
+        "moves" : null
+      },
+      "usi" : "3a2a"
+    },
+    "third" : {
+      "score" : {
+        "cp" : 203,
+        "moves" : null
+      },
+      "usi" : "R*7g"
+    },
+    "opponent_last_move_usi_positions" : [
+      "3h",
+      "7h"
+    ],
+    "your_move" : {
+      "drop" : {
+        "drop" : {
+          "role" : "gold",
+          "pos" : "3h"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "gold",
+            "color" : "gote"
+          },
+          "dest" : "3h",
+          "brush" : "alternative0",
+          "description" : "your"
+        }
+      },
+      "move" : null,
+      "score" : {
+        "cp" : 2197,
+        "moves" : null
+      }
+    },
+    "best_move" : {
+      "drop" : {
+        "drop" : {
+          "role" : "bishop",
+          "pos" : "3i"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "bishop",
+            "color" : "gote"
+          },
+          "dest" : "3i",
+          "brush" : "primary",
+          "description" : "1st"
+        }
+      },
+      "move" : null,
+      "score" : {
+        "cp" : -1136,
+        "moves" : null
+      }
+    },
+    "second_move" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "3a",
+          "dest" : "2a",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "3a",
+          "dest" : "2a",
+          "brush" : "alternative1",
+          "description" : "2nd"
+        }
+      },
+      "score" : {
+        "cp" : 15,
+        "moves" : null
+      }
+    },
+    "third_move" : {
+      "drop" : {
+        "drop" : {
+          "role" : "rook",
+          "pos" : "7g"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "rook",
+            "color" : "gote"
+          },
+          "dest" : "7g",
+          "brush" : "alternative2",
+          "description" : "3rd"
+        }
+      },
+      "move" : null,
+      "score" : {
+        "cp" : 203,
+        "moves" : null
+      }
+    },
+    "hands" : "GSNL5Prbgsn3p",
+    "comment" : "Blunder [drop gold 38, score: (-1738 → 2197)] \nBest [drop bishop 39, score: (-1738 → -1136)] \nSecond [move king from 31 to 21, score: (-1738 → 15)] \nThird [drop rook 77, score: (-1738 → 203)]\n",
+    "sente" : "spinel",
+    "gote" : "conquerror99",
+    "timeControl" : "15分+60秒",
+    "site" : "81Dojo",
+    "date" : "2021/01/19"
+  },
+  {
+    "id" : "patricksode5r38s26ob88VShalfminor32s54g41b22.kifu#170",
+    "sfen" : "l2K2k2/b2p2pgg/p7p/5S3/3P1P2P/+b3S4/4P1PP1/5+r3/7NL w 2G2S3N5Pr2l3p 170",
+    "your_move_usi" : "R*4a",
+    "opponent_last_move_usi" : "5b6a",
+    "player" : "gote",
+    "score" : {
+      "cp" : 1388,
+      "moves" : null
+    },
+    "prev_score" : {
+      "cp" : null,
+      "moves" : -21
+    },
+    "best" : {
+      "score" : {
+        "cp" : null,
+        "moves" : -23
+      },
+      "usi" : "9b8c"
+    },
+    "second" : {
+      "score" : {
+        "cp" : null,
+        "moves" : -25
+      },
+      "usi" : "R*8a"
+    },
+    "third" : {
+      "score" : {
+        "cp" : 1206,
+        "moves" : null
+      },
+      "usi" : "3a2a"
+    },
+    "opponent_last_move_usi_positions" : [
+      "5b",
+      "6a"
+    ],
+    "your_move" : {
+      "drop" : {
+        "drop" : {
+          "role" : "rook",
+          "pos" : "4a"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "rook",
+            "color" : "gote"
+          },
+          "dest" : "4a",
+          "brush" : "alternative0",
+          "description" : "your"
+        }
+      },
+      "move" : null,
+      "score" : {
+        "cp" : 1388,
+        "moves" : null
+      }
+    },
+    "best_move" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "9b",
+          "dest" : "8c",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "9b",
+          "dest" : "8c",
+          "brush" : "primary",
+          "description" : "1st"
+        }
+      },
+      "score" : {
+        "cp" : null,
+        "moves" : -23
+      }
+    },
+    "second_move" : {
+      "drop" : {
+        "drop" : {
+          "role" : "rook",
+          "pos" : "8a"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "rook",
+            "color" : "gote"
+          },
+          "dest" : "8a",
+          "brush" : "alternative1",
+          "description" : "2nd"
+        }
+      },
+      "move" : null,
+      "score" : {
+        "cp" : null,
+        "moves" : -25
+      }
+    },
+    "third_move" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "3a",
+          "dest" : "2a",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "3a",
+          "dest" : "2a",
+          "brush" : "alternative2",
+          "description" : "3rd"
+        }
+      },
+      "score" : {
+        "cp" : 1206,
+        "moves" : null
+      }
+    },
+    "hands" : "2G2S3N5Pr2l3p",
+    "comment" : "Blunder [drop rook 41, score: (#-21 → 1388)] \nBest [move bishop from 92 to 83, score: (#-21 → #-23)] \nSecond [drop rook 81, score: (#-21 → #-25)] \nThird [move king from 31 to 21, score: (#-21 → 1206)]\n",
+    "sente" : "spinel",
+    "gote" : "conquerror99",
+    "timeControl" : "15分+60秒",
+    "site" : "81Dojo",
+    "date" : "2021/01/19"
+  },
+  {
+    "id" : "patricksode5r38s26ob88VShalfminor32s54g41b22.kifu#180",
+    "sfen" : "l3r1Gk1/2Kp2pgg/p4N2p/5S3/3P1P2P/+b3S4/4P1PP1/5+r3/7NL w B2S2N4Pg2l4p 180",
+    "your_move_usi" : "5a3a",
+    "opponent_last_move_usi" : "G*3a",
+    "player" : "gote",
+    "score" : {
+      "cp" : 2111,
+      "moves" : null
+    },
+    "prev_score" : {
+      "cp" : -31077,
+      "moves" : null
+    },
+    "best" : {
+      "score" : {
+        "cp" : -31111,
+        "moves" : null
+      },
+      "usi" : "2a1a"
+    },
+    "second" : {
+      "score" : {
+        "cp" : null,
+        "moves" : 18
+      },
+      "usi" : "5a3a"
+    },
+    "third" : null,
+    "opponent_last_move_usi_positions" : [
+      "3a"
+    ],
+    "your_move" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "5a",
+          "dest" : "3a",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "5a",
+          "dest" : "3a",
+          "brush" : "alternative0",
+          "description" : "your"
+        }
+      },
+      "score" : {
+        "cp" : 2111,
+        "moves" : null
+      }
+    },
+    "best_move" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "2a",
+          "dest" : "1a",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "2a",
+          "dest" : "1a",
+          "brush" : "primary",
+          "description" : "1st"
+        }
+      },
+      "score" : {
+        "cp" : -31111,
+        "moves" : null
+      }
+    },
+    "second_move" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "5a",
+          "dest" : "3a",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "5a",
+          "dest" : "3a",
+          "brush" : "alternative1",
+          "description" : "2nd"
+        }
+      },
+      "score" : {
+        "cp" : null,
+        "moves" : 18
+      }
+    },
+    "third_move" : null,
+    "hands" : "B2S2N4Pg2l4p",
+    "comment" : "Blunder [move rook from 51 to 31, score: (-31077 → 2111)] \nBest [move king from 21 to 11, score: (-31077 → -31111)] \nSecond [move rook from 51 to 31, score: (-31077 → #18)] \n",
+    "sente" : "spinel",
+    "gote" : "conquerror99",
+    "timeControl" : "15分+60秒",
+    "site" : "81Dojo",
+    "date" : "2021/01/19"
+  },
+  {
+    "id" : "patricksode5r38s46ob88VShalfminor32s43g42b22p55p45.kifu#60",
+    "sfen" : "l3g1k1l/4r1g2/ppB2snp1/2pp2p1p/3nPp3/2PBS3P/PP2S1PP1/3R2SK1/LN3G1NL w g3p 60",
+    "your_move_usi" : "G*4f",
+    "opponent_last_move_usi" : "B*7c",
+    "player" : "gote",
+    "score" : {
+      "cp" : 2662,
+      "moves" : null
+    },
+    "prev_score" : {
+      "cp" : 1167,
+      "moves" : null
+    },
+    "best" : {
+      "score" : {
+        "cp" : 1195,
+        "moves" : null
+      },
+      "usi" : "6e5g+"
+    },
+    "second" : {
+      "score" : {
+        "cp" : 1215,
+        "moves" : null
+      },
+      "usi" : "6e5g"
+    },
+    "third" : {
+      "score" : {
+        "cp" : 1264,
+        "moves" : null
+      },
+      "usi" : "3a2b"
+    },
+    "opponent_last_move_usi_positions" : [
+      "7c"
+    ],
+    "your_move" : {
+      "drop" : {
+        "drop" : {
+          "role" : "gold",
+          "pos" : "4f"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "gold",
+            "color" : "gote"
+          },
+          "dest" : "4f",
+          "brush" : "alternative0",
+          "description" : "your"
+        }
+      },
+      "move" : null,
+      "score" : {
+        "cp" : 2662,
+        "moves" : null
+      }
+    },
+    "best_move" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "6e",
+          "dest" : "5g",
+          "promotion" : true
+        },
+        "hint" : {
+          "orig" : "6e",
+          "dest" : "5g",
+          "brush" : "primary",
+          "description" : "1st"
+        }
+      },
+      "score" : {
+        "cp" : 1195,
+        "moves" : null
+      }
+    },
+    "second_move" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "6e",
+          "dest" : "5g",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "6e",
+          "dest" : "5g",
+          "brush" : "alternative1",
+          "description" : "2nd"
+        }
+      },
+      "score" : {
+        "cp" : 1215,
+        "moves" : null
+      }
+    },
+    "third_move" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "3a",
+          "dest" : "2b",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "3a",
+          "dest" : "2b",
+          "brush" : "alternative2",
+          "description" : "3rd"
+        }
+      },
+      "score" : {
+        "cp" : 1264,
+        "moves" : null
+      }
+    },
+    "hands" : "g3p",
+    "comment" : "Blunder [drop gold 46, score: (1167 → 2662)] \nBest [move promoteknight from 65 to 57, score: (1167 → 1195)] \nSecond [move knight from 65 to 57, score: (1167 → 1215)] \nThird [move king from 31 to 22, score: (1167 → 1264)]\n",
+    "sente" : "shougidaijin",
+    "gote" : "conquerror99",
+    "timeControl" : "10分+30秒",
+    "site" : "81Dojo",
+    "date" : "2021/01/17"
+  },
+  {
+    "id" : "patricksode5r38s46ob88VSminor32s44b22b13s35.kifu#56",
+    "sfen" : "l+Rpg2knl/5sg2/pp1+B1p+bp1/4p1p1p/9/P3P3P/3P1PPP1/1r+s1G1SK1/1N3G1NL w SNPl2p 56",
+    "your_move_usi" : "8h8i+",
+    "opponent_last_move_usi" : "8b8a+",
+    "player" : "gote",
+    "score" : {
+      "cp" : 507,
+      "moves" : null
+    },
+    "prev_score" : {
+      "cp" : -400,
+      "moves" : null
+    },
+    "best" : {
+      "score" : {
+        "cp" : -367,
+        "moves" : null
+      },
+      "usi" : "7h6h"
+    },
+    "second" : {
+      "score" : {
+        "cp" : -210,
+        "moves" : null
+      },
+      "usi" : "3a2b"
+    },
+    "third" : {
+      "score" : {
+        "cp" : -107,
+        "moves" : null
+      },
+      "usi" : "L*6b"
+    },
+    "opponent_last_move_usi_positions" : [
+      "8b",
+      "8a"
+    ],
+    "your_move" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "8h",
+          "dest" : "8i",
+          "promotion" : true
+        },
+        "hint" : {
+          "orig" : "8h",
+          "dest" : "8i",
+          "brush" : "alternative0",
+          "description" : "your"
+        }
+      },
+      "score" : {
+        "cp" : 507,
+        "moves" : null
+      }
+    },
+    "best_move" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "7h",
+          "dest" : "6h",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "7h",
+          "dest" : "6h",
+          "brush" : "primary",
+          "description" : "1st"
+        }
+      },
+      "score" : {
+        "cp" : -367,
+        "moves" : null
+      }
+    },
+    "second_move" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "3a",
+          "dest" : "2b",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "3a",
+          "dest" : "2b",
+          "brush" : "alternative1",
+          "description" : "2nd"
+        }
+      },
+      "score" : {
+        "cp" : -210,
+        "moves" : null
+      }
+    },
+    "third_move" : {
+      "drop" : {
+        "drop" : {
+          "role" : "lance",
+          "pos" : "6b"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "lance",
+            "color" : "gote"
+          },
+          "dest" : "6b",
+          "brush" : "alternative2",
+          "description" : "3rd"
+        }
+      },
+      "move" : null,
+      "score" : {
+        "cp" : -107,
+        "moves" : null
+      }
+    },
+    "hands" : "SNPl2p",
+    "comment" : "Blunder [move promoterook from 88 to 89, score: (-400 → 507)] \nBest [move promotedsilver from 78 to 68, score: (-400 → -367)] \nSecond [move king from 31 to 22, score: (-400 → -210)] \nThird [drop lance 62, score: (-400 → -107)]\n",
+    "sente" : "spinel",
+    "gote" : "conquerror99",
+    "timeControl" : "15分+60秒",
+    "site" : "81Dojo",
+    "date" : "2021/01/23"
+  },
+  {
+    "id" : "patricksode5r38s46ob88VSminor32s44b22b13s35.kifu#66",
+    "sfen" : "l1+R2G1nl/4+Bsgk1/pp3p+bp1/4p1plp/9/P3P3P/3P1PPP1/4G1SK1/1+r1+sNG1NL w 2Psn2p 66",
+    "your_move_usi" : "S*5a",
+    "opponent_last_move_usi" : "G*4a",
+    "player" : "gote",
+    "score" : {
+      "cp" : 578,
+      "moves" : null
+    },
+    "prev_score" : {
+      "cp" : -717,
+      "moves" : null
+    },
+    "best" : {
+      "score" : {
+        "cp" : -643,
+        "moves" : null
+      },
+      "usi" : "S*3a"
+    },
+    "second" : {
+      "score" : {
+        "cp" : -486,
+        "moves" : null
+      },
+      "usi" : "S*5c"
+    },
+    "third" : {
+      "score" : {
+        "cp" : -485,
+        "moves" : null
+      },
+      "usi" : "4b3a"
+    },
+    "opponent_last_move_usi_positions" : [
+      "4a"
+    ],
+    "your_move" : {
+      "drop" : {
+        "drop" : {
+          "role" : "silver",
+          "pos" : "5a"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "silver",
+            "color" : "gote"
+          },
+          "dest" : "5a",
+          "brush" : "alternative0",
+          "description" : "your"
+        }
+      },
+      "move" : null,
+      "score" : {
+        "cp" : 578,
+        "moves" : null
+      }
+    },
+    "best_move" : {
+      "drop" : {
+        "drop" : {
+          "role" : "silver",
+          "pos" : "3a"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "silver",
+            "color" : "gote"
+          },
+          "dest" : "3a",
+          "brush" : "primary",
+          "description" : "1st"
+        }
+      },
+      "move" : null,
+      "score" : {
+        "cp" : -643,
+        "moves" : null
+      }
+    },
+    "second_move" : {
+      "drop" : {
+        "drop" : {
+          "role" : "silver",
+          "pos" : "5c"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "silver",
+            "color" : "gote"
+          },
+          "dest" : "5c",
+          "brush" : "alternative1",
+          "description" : "2nd"
+        }
+      },
+      "move" : null,
+      "score" : {
+        "cp" : -486,
+        "moves" : null
+      }
+    },
+    "third_move" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "4b",
+          "dest" : "3a",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "4b",
+          "dest" : "3a",
+          "brush" : "alternative2",
+          "description" : "3rd"
+        }
+      },
+      "score" : {
+        "cp" : -485,
+        "moves" : null
+      }
+    },
+    "hands" : "2Psn2p",
+    "comment" : "Blunder [drop silver 51, score: (-717 → 578)] \nBest [drop silver 31, score: (-717 → -643)] \nSecond [drop silver 53, score: (-717 → -486)] \nThird [move silver from 42 to 31, score: (-717 → -485)]\n",
+    "sente" : "spinel",
+    "gote" : "conquerror99",
+    "timeControl" : "15分+60秒",
+    "site" : "81Dojo",
+    "date" : "2021/01/23"
+  },
+  {
+    "id" : "patricksode5r38s46ob88VSminor32s44b22b13s35.kifu#72",
+    "sfen" : "l1+R4nl/4+BGgk1/pp3p+bp1/4p1plp/9/P3P3P/3P1PPP1/4G1SK1/1+r1+sN+n1NL w 2S2Pg2p 72",
+    "your_move_usi" : "3c4b",
+    "opponent_last_move_usi" : "4a4b",
+    "player" : "gote",
+    "score" : {
+      "cp" : 2750,
+      "moves" : null
+    },
+    "prev_score" : {
+      "cp" : 1132,
+      "moves" : null
+    },
+    "best" : {
+      "score" : {
+        "cp" : 558,
+        "moves" : null
+      },
+      "usi" : "G*3a"
+    },
+    "second" : {
+      "score" : {
+        "cp" : 1102,
+        "moves" : null
+      },
+      "usi" : "3b4b"
+    },
+    "third" : {
+      "score" : {
+        "cp" : 1453,
+        "moves" : null
+      },
+      "usi" : "P*6a"
+    },
+    "opponent_last_move_usi_positions" : [
+      "4a",
+      "4b"
+    ],
+    "your_move" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "3c",
+          "dest" : "4b",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "3c",
+          "dest" : "4b",
+          "brush" : "alternative0",
+          "description" : "your"
+        }
+      },
+      "score" : {
+        "cp" : 2750,
+        "moves" : null
+      }
+    },
+    "best_move" : {
+      "drop" : {
+        "drop" : {
+          "role" : "gold",
+          "pos" : "3a"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "gold",
+            "color" : "gote"
+          },
+          "dest" : "3a",
+          "brush" : "primary",
+          "description" : "1st"
+        }
+      },
+      "move" : null,
+      "score" : {
+        "cp" : 558,
+        "moves" : null
+      }
+    },
+    "second_move" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "3b",
+          "dest" : "4b",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "3b",
+          "dest" : "4b",
+          "brush" : "alternative1",
+          "description" : "2nd"
+        }
+      },
+      "score" : {
+        "cp" : 1102,
+        "moves" : null
+      }
+    },
+    "third_move" : {
+      "drop" : {
+        "drop" : {
+          "role" : "pawn",
+          "pos" : "6a"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "pawn",
+            "color" : "gote"
+          },
+          "dest" : "6a",
+          "brush" : "alternative2",
+          "description" : "3rd"
+        }
+      },
+      "move" : null,
+      "score" : {
+        "cp" : 1453,
+        "moves" : null
+      }
+    },
+    "hands" : "2S2Pg2p",
+    "comment" : "Blunder [move horse from 33 to 42, score: (1132 → 2750)] \nBest [drop gold 31, score: (1132 → 558)] \nSecond [move gold from 32 to 42, score: (1132 → 1102)] \nThird [drop pawn 61, score: (1132 → 1453)]\n",
+    "sente" : "spinel",
+    "gote" : "conquerror99",
+    "timeControl" : "15分+60秒",
+    "site" : "81Dojo",
+    "date" : "2021/01/23"
+  },
+  {
+    "id" : "patricksode5r38s46ob88VSminor32s44b22b13s35.kifu#74",
+    "sfen" : "l1+R4nl/5+Bgk1/pp3p1p1/4p1plp/9/P3P3P/3P1PPP1/4G1SK1/1+r1+sN+n1NL w B2S2P2g2p 74",
+    "your_move_usi" : "3b4b",
+    "opponent_last_move_usi" : "5b4b",
+    "player" : "gote",
+    "score" : {
+      "cp" : null,
+      "moves" : 13
+    },
+    "prev_score" : {
+      "cp" : 2410,
+      "moves" : null
+    },
+    "best" : {
+      "score" : {
+        "cp" : 2372,
+        "moves" : null
+      },
+      "usi" : "G*3a"
+    },
+    "second" : {
+      "score" : {
+        "cp" : 3170,
+        "moves" : null
+      },
+      "usi" : "P*6a"
+    },
+    "third" : {
+      "score" : {
+        "cp" : 3463,
+        "moves" : null
+      },
+      "usi" : "2d2g"
+    },
+    "opponent_last_move_usi_positions" : [
+      "5b",
+      "4b"
+    ],
+    "your_move" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "3b",
+          "dest" : "4b",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "3b",
+          "dest" : "4b",
+          "brush" : "alternative0",
+          "description" : "your"
+        }
+      },
+      "score" : {
+        "cp" : null,
+        "moves" : 13
+      }
+    },
+    "best_move" : {
+      "drop" : {
+        "drop" : {
+          "role" : "gold",
+          "pos" : "3a"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "gold",
+            "color" : "gote"
+          },
+          "dest" : "3a",
+          "brush" : "primary",
+          "description" : "1st"
+        }
+      },
+      "move" : null,
+      "score" : {
+        "cp" : 2372,
+        "moves" : null
+      }
+    },
+    "second_move" : {
+      "drop" : {
+        "drop" : {
+          "role" : "pawn",
+          "pos" : "6a"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "pawn",
+            "color" : "gote"
+          },
+          "dest" : "6a",
+          "brush" : "alternative1",
+          "description" : "2nd"
+        }
+      },
+      "move" : null,
+      "score" : {
+        "cp" : 3170,
+        "moves" : null
+      }
+    },
+    "third_move" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "2d",
+          "dest" : "2g",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "2d",
+          "dest" : "2g",
+          "brush" : "alternative2",
+          "description" : "3rd"
+        }
+      },
+      "score" : {
+        "cp" : 3463,
+        "moves" : null
+      }
+    },
+    "hands" : "B2S2P2g2p",
+    "comment" : "Blunder [move gold from 32 to 42, score: (2410 → #13)] \nBest [drop gold 31, score: (2410 → 2372)] \nSecond [drop pawn 61, score: (2410 → 3170)] \nThird [move lance from 24 to 27, score: (2410 → 3463)]\n",
+    "sente" : "spinel",
+    "gote" : "conquerror99",
+    "timeControl" : "15分+60秒",
+    "site" : "81Dojo",
+    "date" : "2021/01/23"
+  },
+  {
+    "id" : "patricksode5r38s46ob88VSminor32s44b22b13s35.kifu#76",
+    "sfen" : "l1+R3Snl/5g1k1/pp3p1p1/4p1plp/9/P3P3P/3P1PPP1/4G1SK1/1+r1+sN+n1NL w BS2Pb2g2p 76",
+    "your_move_usi" : "2b3c",
+    "opponent_last_move_usi" : "S*3a",
+    "player" : "gote",
+    "score" : {
+      "cp" : null,
+      "moves" : 7
+    },
+    "prev_score" : {
+      "cp" : -188,
+      "moves" : null
+    },
+    "best" : {
+      "score" : {
+        "cp" : -191,
+        "moves" : null
+      },
+      "usi" : "2b1b"
+    },
+    "second" : {
+      "score" : {
+        "cp" : null,
+        "moves" : 18
+      },
+      "usi" : "2b1c"
+    },
+    "third" : {
+      "score" : {
+        "cp" : null,
+        "moves" : 12
+      },
+      "usi" : "2b3b"
+    },
+    "opponent_last_move_usi_positions" : [
+      "3a"
+    ],
+    "your_move" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "2b",
+          "dest" : "3c",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "2b",
+          "dest" : "3c",
+          "brush" : "alternative0",
+          "description" : "your"
+        }
+      },
+      "score" : {
+        "cp" : null,
+        "moves" : 7
+      }
+    },
+    "best_move" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "2b",
+          "dest" : "1b",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "2b",
+          "dest" : "1b",
+          "brush" : "primary",
+          "description" : "1st"
+        }
+      },
+      "score" : {
+        "cp" : -191,
+        "moves" : null
+      }
+    },
+    "second_move" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "2b",
+          "dest" : "1c",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "2b",
+          "dest" : "1c",
+          "brush" : "alternative1",
+          "description" : "2nd"
+        }
+      },
+      "score" : {
+        "cp" : null,
+        "moves" : 18
+      }
+    },
+    "third_move" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "2b",
+          "dest" : "3b",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "2b",
+          "dest" : "3b",
+          "brush" : "alternative2",
+          "description" : "3rd"
+        }
+      },
+      "score" : {
+        "cp" : null,
+        "moves" : 12
+      }
+    },
+    "hands" : "BS2Pb2g2p",
+    "comment" : "Blunder [move king from 22 to 33, score: (-188 → #7)] \nBest [move king from 22 to 12, score: (-188 → -191)] \nSecond [move king from 22 to 13, score: (-188 → #18)] \nThird [move king from 22 to 32, score: (-188 → #12)]\n",
+    "sente" : "spinel",
+    "gote" : "conquerror99",
+    "timeControl" : "15分+60秒",
+    "site" : "81Dojo",
+    "date" : "2021/01/23"
+  },
+  {
+    "id" : "patricksode6r36n37s47ob66VSk52r84s74cb22.kifu#72",
+    "sfen" : "4g1k1l/+B4sg2/pp+Psppnpp/6p2/P2p5/6S2/1P1PPPP1P/3K2GR1/+bN5NL w RNLPgslp 72",
+    "your_move_usi" : "6c5d",
+    "opponent_last_move_usi" : "7d7c+",
+    "player" : "gote",
+    "score" : {
+      "cp" : -596,
+      "moves" : null
+    },
+    "prev_score" : {
+      "cp" : -1648,
+      "moves" : null
+    },
+    "best" : {
+      "score" : {
+        "cp" : -1671,
+        "moves" : null
+      },
+      "usi" : "9i8i"
+    },
+    "second" : {
+      "score" : {
+        "cp" : -1456,
+        "moves" : null
+      },
+      "usi" : "L*2d"
+    },
+    "third" : {
+      "score" : {
+        "cp" : -1105,
+        "moves" : null
+      },
+      "usi" : "6e6f"
+    },
+    "opponent_last_move_usi_positions" : [
+      "7d",
+      "7c"
+    ],
+    "your_move" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "6c",
+          "dest" : "5d",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "6c",
+          "dest" : "5d",
+          "brush" : "alternative0",
+          "description" : "your"
+        }
+      },
+      "score" : {
+        "cp" : -596,
+        "moves" : null
+      }
+    },
+    "best_move" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "9i",
+          "dest" : "8i",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "9i",
+          "dest" : "8i",
+          "brush" : "primary",
+          "description" : "1st"
+        }
+      },
+      "score" : {
+        "cp" : -1671,
+        "moves" : null
+      }
+    },
+    "second_move" : {
+      "drop" : {
+        "drop" : {
+          "role" : "lance",
+          "pos" : "2d"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "lance",
+            "color" : "gote"
+          },
+          "dest" : "2d",
+          "brush" : "alternative1",
+          "description" : "2nd"
+        }
+      },
+      "move" : null,
+      "score" : {
+        "cp" : -1456,
+        "moves" : null
+      }
+    },
+    "third_move" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "6e",
+          "dest" : "6f",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "6e",
+          "dest" : "6f",
+          "brush" : "alternative2",
+          "description" : "3rd"
+        }
+      },
+      "score" : {
+        "cp" : -1105,
+        "moves" : null
+      }
+    },
+    "hands" : "RNLPgslp",
+    "comment" : "Blunder [move silver from 63 to 54, score: (-1648 → -596)] \nBest [move horse from 99 to 89, score: (-1648 → -1671)] \nSecond [drop lance 24, score: (-1648 → -1456)] \nThird [move pawn from 65 to 66, score: (-1648 → -1105)]\n",
+    "sente" : "kenchiri",
+    "gote" : "conquerror99",
+    "timeControl" : "15分+60秒",
+    "site" : "81Dojo",
+    "date" : "2021/01/16"
+  },
+  {
+    "id" : "patricksode6r36n37s47ob66VSk52r84s74cb22.kifu#82",
+    "sfen" : "2R1g1k1l/+B2+P1sg2/pp2ppnpp/4s1p2/P1Ks5/6S2/1P2PPP1P/6GR1/1+b5NL w NL2Pgnl2p 82",
+    "your_move_usi" : "G*7d",
+    "opponent_last_move_usi" : "7f7e",
+    "player" : "gote",
+    "score" : {
+      "cp" : -64,
+      "moves" : null
+    },
+    "prev_score" : {
+      "cp" : -2987,
+      "moves" : null
+    },
+    "best" : {
+      "score" : {
+        "cp" : null,
+        "moves" : -19
+      },
+      "usi" : "G*8d"
+    },
+    "second" : {
+      "score" : {
+        "cp" : -2361,
+        "moves" : null
+      },
+      "usi" : "8i6g"
+    },
+    "third" : {
+      "score" : {
+        "cp" : -2345,
+        "moves" : null
+      },
+      "usi" : "8i8h"
+    },
+    "opponent_last_move_usi_positions" : [
+      "7f",
+      "7e"
+    ],
+    "your_move" : {
+      "drop" : {
+        "drop" : {
+          "role" : "gold",
+          "pos" : "7d"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "gold",
+            "color" : "gote"
+          },
+          "dest" : "7d",
+          "brush" : "alternative0",
+          "description" : "your"
+        }
+      },
+      "move" : null,
+      "score" : {
+        "cp" : -64,
+        "moves" : null
+      }
+    },
+    "best_move" : {
+      "drop" : {
+        "drop" : {
+          "role" : "gold",
+          "pos" : "8d"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "gold",
+            "color" : "gote"
+          },
+          "dest" : "8d",
+          "brush" : "primary",
+          "description" : "1st"
+        }
+      },
+      "move" : null,
+      "score" : {
+        "cp" : null,
+        "moves" : -19
+      }
+    },
+    "second_move" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "8i",
+          "dest" : "6g",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "8i",
+          "dest" : "6g",
+          "brush" : "alternative1",
+          "description" : "2nd"
+        }
+      },
+      "score" : {
+        "cp" : -2361,
+        "moves" : null
+      }
+    },
+    "third_move" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "8i",
+          "dest" : "8h",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "8i",
+          "dest" : "8h",
+          "brush" : "alternative2",
+          "description" : "3rd"
+        }
+      },
+      "score" : {
+        "cp" : -2345,
+        "moves" : null
+      }
+    },
+    "hands" : "NL2Pgnl2p",
+    "comment" : "Blunder [drop gold 74, score: (-2987 → -64)] \nBest [drop gold 84, score: (-2987 → #-19)] \nSecond [move horse from 89 to 67, score: (-2987 → -2361)] \nThird [move horse from 89 to 88, score: (-2987 → -2345)]\n",
+    "sente" : "kenchiri",
+    "gote" : "conquerror99",
+    "timeControl" : "15分+60秒",
+    "site" : "81Dojo",
+    "date" : "2021/01/16"
+  },
+  {
+    "id" : "patricksode6r38s26ob77VShalfminor32s54g42b22.kifu#53",
+    "sfen" : "ln1g5/1ks6/1ppp+S2p1/p5g1p/3+B5/P1P6/KP1P1P1PP/3s5/LN4rNL b RBSNL3P2g2p 53",
+    "your_move_usi" : "L*8e",
+    "opponent_last_move_usi" : "7i6h",
+    "player" : "sente",
+    "score" : {
+      "cp" : 224,
+      "moves" : null
+    },
+    "prev_score" : {
+      "cp" : -848,
+      "moves" : null
+    },
+    "best" : {
+      "score" : {
+        "cp" : -824,
+        "moves" : null
+      },
+      "usi" : "B*2h"
+    },
+    "second" : {
+      "score" : {
+        "cp" : -34,
+        "moves" : null
+      },
+      "usi" : "S*6b"
+    },
+    "third" : {
+      "score" : {
+        "cp" : 74,
+        "moves" : null
+      },
+      "usi" : "B*6b"
+    },
+    "opponent_last_move_usi_positions" : [
+      "7i",
+      "6h"
+    ],
+    "your_move" : {
+      "drop" : {
+        "drop" : {
+          "role" : "lance",
+          "pos" : "8e"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "lance",
+            "color" : "sente"
+          },
+          "dest" : "8e",
+          "brush" : "alternative0",
+          "description" : "your"
+        }
+      },
+      "move" : null,
+      "score" : {
+        "cp" : 224,
+        "moves" : null
+      }
+    },
+    "best_move" : {
+      "drop" : {
+        "drop" : {
+          "role" : "bishop",
+          "pos" : "2h"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "bishop",
+            "color" : "sente"
+          },
+          "dest" : "2h",
+          "brush" : "primary",
+          "description" : "1st"
+        }
+      },
+      "move" : null,
+      "score" : {
+        "cp" : -824,
+        "moves" : null
+      }
+    },
+    "second_move" : {
+      "drop" : {
+        "drop" : {
+          "role" : "silver",
+          "pos" : "6b"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "silver",
+            "color" : "sente"
+          },
+          "dest" : "6b",
+          "brush" : "alternative1",
+          "description" : "2nd"
+        }
+      },
+      "move" : null,
+      "score" : {
+        "cp" : -34,
+        "moves" : null
+      }
+    },
+    "third_move" : {
+      "drop" : {
+        "drop" : {
+          "role" : "bishop",
+          "pos" : "6b"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "bishop",
+            "color" : "sente"
+          },
+          "dest" : "6b",
+          "brush" : "alternative2",
+          "description" : "3rd"
+        }
+      },
+      "move" : null,
+      "score" : {
+        "cp" : 74,
+        "moves" : null
+      }
+    },
+    "hands" : "RBSNL3P2g2p",
+    "comment" : "Blunder [drop lance 85, score: (-848 → 224)] \nBest [drop bishop 28, score: (-848 → -824)] \nSecond [drop silver 62, score: (-848 → -34)] \nThird [drop bishop 62, score: (-848 → 74)]\n",
+    "sente" : "conquerror99",
+    "gote" : "Amano_Kisetsu",
+    "timeControl" : "15分+60秒",
+    "site" : "81Dojo",
+    "date" : "2021/01/25"
+  },
+  {
+    "id" : "patricksode6r38s26ob77VShalfminor32s54g42b22.kifu#55",
+    "sfen" : "ln1g5/1ks6/1ppp+S2p1/p1g3g1p/1L1+B5/P1P6/KP1P1P1PP/3s5/LN4rNL b RBSN3Pg2p 55",
+    "your_move_usi" : "6e7d",
+    "opponent_last_move_usi" : "G*7d",
+    "player" : "sente",
+    "score" : {
+      "cp" : 1293,
+      "moves" : null
+    },
+    "prev_score" : {
+      "cp" : -610,
+      "moves" : null
+    },
+    "best" : {
+      "score" : {
+        "cp" : -391,
+        "moves" : null
+      },
+      "usi" : "B*2h"
+    },
+    "second" : {
+      "score" : {
+        "cp" : 1038,
+        "moves" : null
+      },
+      "usi" : "6e7d"
+    },
+    "third" : {
+      "score" : {
+        "cp" : 1107,
+        "moves" : null
+      },
+      "usi" : "B*5e"
+    },
+    "opponent_last_move_usi_positions" : [
+      "7d"
+    ],
+    "your_move" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "6e",
+          "dest" : "7d",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "6e",
+          "dest" : "7d",
+          "brush" : "alternative0",
+          "description" : "your"
+        }
+      },
+      "score" : {
+        "cp" : 1293,
+        "moves" : null
+      }
+    },
+    "best_move" : {
+      "drop" : {
+        "drop" : {
+          "role" : "bishop",
+          "pos" : "2h"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "bishop",
+            "color" : "sente"
+          },
+          "dest" : "2h",
+          "brush" : "primary",
+          "description" : "1st"
+        }
+      },
+      "move" : null,
+      "score" : {
+        "cp" : -391,
+        "moves" : null
+      }
+    },
+    "second_move" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "6e",
+          "dest" : "7d",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "6e",
+          "dest" : "7d",
+          "brush" : "alternative1",
+          "description" : "2nd"
+        }
+      },
+      "score" : {
+        "cp" : 1038,
+        "moves" : null
+      }
+    },
+    "third_move" : {
+      "drop" : {
+        "drop" : {
+          "role" : "bishop",
+          "pos" : "5e"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "bishop",
+            "color" : "sente"
+          },
+          "dest" : "5e",
+          "brush" : "alternative2",
+          "description" : "3rd"
+        }
+      },
+      "move" : null,
+      "score" : {
+        "cp" : 1107,
+        "moves" : null
+      }
+    },
+    "hands" : "RBSN3Pg2p",
+    "comment" : "Blunder [move horse from 65 to 74, score: (-610 → 1293)] \nBest [drop bishop 28, score: (-610 → -391)] \nSecond [move horse from 65 to 74, score: (-610 → 1038)] \nThird [drop bishop 55, score: (-610 → 1107)]\n",
+    "sente" : "conquerror99",
+    "gote" : "Amano_Kisetsu",
+    "timeControl" : "15分+60秒",
+    "site" : "81Dojo",
+    "date" : "2021/01/25"
+  },
+  {
+    "id" : "patricksode6r38s26ob77VShalfminor32s54g42b22.kifu#61",
+    "sfen" : "ln1g5/1ks6/1p2+S2p1/p1pp2g1p/1L7/P1P6/KP1P1P1PP/3s5/LN4rNL b RBGSN3Pbg2p 61",
+    "your_move_usi" : "B*2h",
+    "opponent_last_move_usi" : "6c6d",
+    "player" : "sente",
+    "score" : {
+      "cp" : 4568,
+      "moves" : null
+    },
+    "prev_score" : {
+      "cp" : 1588,
+      "moves" : null
+    },
+    "best" : {
+      "score" : {
+        "cp" : 1690,
+        "moves" : null
+      },
+      "usi" : "N*7e"
+    },
+    "second" : {
+      "score" : {
+        "cp" : 1808,
+        "moves" : null
+      },
+      "usi" : "N*6f"
+    },
+    "third" : {
+      "score" : {
+        "cp" : 1927,
+        "moves" : null
+      },
+      "usi" : "R*6c"
+    },
+    "opponent_last_move_usi_positions" : [
+      "6c",
+      "6d"
+    ],
+    "your_move" : {
+      "drop" : {
+        "drop" : {
+          "role" : "bishop",
+          "pos" : "2h"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "bishop",
+            "color" : "sente"
+          },
+          "dest" : "2h",
+          "brush" : "alternative0",
+          "description" : "your"
+        }
+      },
+      "move" : null,
+      "score" : {
+        "cp" : 4568,
+        "moves" : null
+      }
+    },
+    "best_move" : {
+      "drop" : {
+        "drop" : {
+          "role" : "knight",
+          "pos" : "7e"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "knight",
+            "color" : "sente"
+          },
+          "dest" : "7e",
+          "brush" : "primary",
+          "description" : "1st"
+        }
+      },
+      "move" : null,
+      "score" : {
+        "cp" : 1690,
+        "moves" : null
+      }
+    },
+    "second_move" : {
+      "drop" : {
+        "drop" : {
+          "role" : "knight",
+          "pos" : "6f"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "knight",
+            "color" : "sente"
+          },
+          "dest" : "6f",
+          "brush" : "alternative1",
+          "description" : "2nd"
+        }
+      },
+      "move" : null,
+      "score" : {
+        "cp" : 1808,
+        "moves" : null
+      }
+    },
+    "third_move" : {
+      "drop" : {
+        "drop" : {
+          "role" : "rook",
+          "pos" : "6c"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "rook",
+            "color" : "sente"
+          },
+          "dest" : "6c",
+          "brush" : "alternative2",
+          "description" : "3rd"
+        }
+      },
+      "move" : null,
+      "score" : {
+        "cp" : 1927,
+        "moves" : null
+      }
+    },
+    "hands" : "RBGSN3Pbg2p",
+    "comment" : "Blunder [drop bishop 28, score: (1588 → 4568)] \nBest [drop knight 75, score: (1588 → 1690)] \nSecond [drop knight 66, score: (1588 → 1808)] \nThird [drop rook 63, score: (1588 → 1927)]\n",
+    "sente" : "conquerror99",
+    "gote" : "Amano_Kisetsu",
+    "timeControl" : "15分+60秒",
+    "site" : "81Dojo",
+    "date" : "2021/01/25"
+  },
+  {
+    "id" : "patricksode6r38s46ob77VShalfminor32s43g33cb22.kifu#71",
+    "sfen" : "lnG5+R/1ksg5/1pp1psnp1/p2s2g1p/3pPp3/P1P6/1PBL1P1PP/1KS6/LN2G2+rL b 2Pbnp 71",
+    "your_move_usi" : "7g8f",
+    "opponent_last_move_usi" : "2h2i+",
+    "player" : "sente",
+    "score" : {
+      "cp" : 618,
+      "moves" : null
+    },
+    "prev_score" : {
+      "cp" : -1806,
+      "moves" : null
+    },
+    "best" : {
+      "score" : {
+        "cp" : -1121,
+        "moves" : null
+      },
+      "usi" : "1a5a"
+    },
+    "second" : {
+      "score" : {
+        "cp" : 218,
+        "moves" : null
+      },
+      "usi" : "9f9e"
+    },
+    "third" : {
+      "score" : {
+        "cp" : 378,
+        "moves" : null
+      },
+      "usi" : "P*3i"
+    },
+    "opponent_last_move_usi_positions" : [
+      "2h",
+      "2i"
+    ],
+    "your_move" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "7g",
+          "dest" : "8f",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "7g",
+          "dest" : "8f",
+          "brush" : "alternative0",
+          "description" : "your"
+        }
+      },
+      "score" : {
+        "cp" : 618,
+        "moves" : null
+      }
+    },
+    "best_move" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "1a",
+          "dest" : "5a",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "1a",
+          "dest" : "5a",
+          "brush" : "primary",
+          "description" : "1st"
+        }
+      },
+      "score" : {
+        "cp" : -1121,
+        "moves" : null
+      }
+    },
+    "second_move" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "9f",
+          "dest" : "9e",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "9f",
+          "dest" : "9e",
+          "brush" : "alternative1",
+          "description" : "2nd"
+        }
+      },
+      "score" : {
+        "cp" : 218,
+        "moves" : null
+      }
+    },
+    "third_move" : {
+      "drop" : {
+        "drop" : {
+          "role" : "pawn",
+          "pos" : "3i"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "pawn",
+            "color" : "sente"
+          },
+          "dest" : "3i",
+          "brush" : "alternative2",
+          "description" : "3rd"
+        }
+      },
+      "move" : null,
+      "score" : {
+        "cp" : 378,
+        "moves" : null
+      }
+    },
+    "hands" : "2Pbnp",
+    "comment" : "Blunder [move bishop from 77 to 86, score: (-1806 → 618)] \nBest [move dragon from 11 to 51, score: (-1806 → -1121)] \nSecond [move pawn from 96 to 95, score: (-1806 → 218)] \nThird [drop pawn 39, score: (-1806 → 378)]\n",
+    "sente" : "conquerror99",
+    "gote" : "Amano_Kisetsu",
+    "timeControl" : "15分+60秒",
+    "site" : "81Dojo",
+    "date" : "2021/02/06"
+  },
+  {
+    "id" : "patricksode6r38s46ob77VShalfminor32s43g33cb22.kifu#81",
+    "sfen" : "ln6+R/1k2s4/1ppgp1np1/p2s2g1p/3pPp3/PBP6/1P1L1P1PP/1KS6/LN2G2+rL b NPbgs2p 81",
+    "your_move_usi" : "N*7e",
+    "opponent_last_move_usi" : "4c5b",
+    "player" : "sente",
+    "score" : {
+      "cp" : 3690,
+      "moves" : null
+    },
+    "prev_score" : {
+      "cp" : 1614,
+      "moves" : null
+    },
+    "best" : {
+      "score" : {
+        "cp" : 1551,
+        "moves" : null
+      },
+      "usi" : "P*6i"
+    },
+    "second" : {
+      "score" : {
+        "cp" : 1726,
+        "moves" : null
+      },
+      "usi" : "1a1b"
+    },
+    "third" : {
+      "score" : {
+        "cp" : 1738,
+        "moves" : null
+      },
+      "usi" : "1a2b"
+    },
+    "opponent_last_move_usi_positions" : [
+      "4c",
+      "5b"
+    ],
+    "your_move" : {
+      "drop" : {
+        "drop" : {
+          "role" : "knight",
+          "pos" : "7e"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "knight",
+            "color" : "sente"
+          },
+          "dest" : "7e",
+          "brush" : "alternative0",
+          "description" : "your"
+        }
+      },
+      "move" : null,
+      "score" : {
+        "cp" : 3690,
+        "moves" : null
+      }
+    },
+    "best_move" : {
+      "drop" : {
+        "drop" : {
+          "role" : "pawn",
+          "pos" : "6i"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "pawn",
+            "color" : "sente"
+          },
+          "dest" : "6i",
+          "brush" : "primary",
+          "description" : "1st"
+        }
+      },
+      "move" : null,
+      "score" : {
+        "cp" : 1551,
+        "moves" : null
+      }
+    },
+    "second_move" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "1a",
+          "dest" : "1b",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "1a",
+          "dest" : "1b",
+          "brush" : "alternative1",
+          "description" : "2nd"
+        }
+      },
+      "score" : {
+        "cp" : 1726,
+        "moves" : null
+      }
+    },
+    "third_move" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "1a",
+          "dest" : "2b",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "1a",
+          "dest" : "2b",
+          "brush" : "alternative2",
+          "description" : "3rd"
+        }
+      },
+      "score" : {
+        "cp" : 1738,
+        "moves" : null
+      }
+    },
+    "hands" : "NPbgs2p",
+    "comment" : "Blunder [drop knight 75, score: (1614 → 3690)] \nBest [drop pawn 69, score: (1614 → 1551)] \nSecond [move dragon from 11 to 12, score: (1614 → 1726)] \nThird [move dragon from 11 to 22, score: (1614 → 1738)]\n",
+    "sente" : "conquerror99",
+    "gote" : "Amano_Kisetsu",
+    "timeControl" : "15分+60秒",
+    "site" : "81Dojo",
+    "date" : "2021/02/06"
+  },
+  {
+    "id" : "patricksode6r38s46ob77VSminor38s44b22bsexch_p33s44drop.kifu#61",
+    "sfen" : "ln1g3+Rl/1kslg4/1p2p1p1p/p1pp3p1/9/P1P1N4/1P1PP2+rP/2GS5/SNK1G2NL b B2Pbs2p 61",
+    "your_move_usi" : "B*4e",
+    "opponent_last_move_usi" : "4g2g",
+    "player" : "sente",
+    "score" : {
+      "cp" : 1728,
+      "moves" : null
+    },
+    "prev_score" : {
+      "cp" : 522,
+      "moves" : null
+    },
+    "best" : {
+      "score" : {
+        "cp" : 632,
+        "moves" : null
+      },
+      "usi" : "5f4d"
+    },
+    "second" : {
+      "score" : {
+        "cp" : 774,
+        "moves" : null
+      },
+      "usi" : "B*1h"
+    },
+    "third" : {
+      "score" : {
+        "cp" : 948,
+        "moves" : null
+      },
+      "usi" : "2a1a"
+    },
+    "opponent_last_move_usi_positions" : [
+      "4g",
+      "2g"
+    ],
+    "your_move" : {
+      "drop" : {
+        "drop" : {
+          "role" : "bishop",
+          "pos" : "4e"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "bishop",
+            "color" : "sente"
+          },
+          "dest" : "4e",
+          "brush" : "alternative0",
+          "description" : "your"
+        }
+      },
+      "move" : null,
+      "score" : {
+        "cp" : 1728,
+        "moves" : null
+      }
+    },
+    "best_move" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "5f",
+          "dest" : "4d",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "5f",
+          "dest" : "4d",
+          "brush" : "primary",
+          "description" : "1st"
+        }
+      },
+      "score" : {
+        "cp" : 632,
+        "moves" : null
+      }
+    },
+    "second_move" : {
+      "drop" : {
+        "drop" : {
+          "role" : "bishop",
+          "pos" : "1h"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "bishop",
+            "color" : "sente"
+          },
+          "dest" : "1h",
+          "brush" : "alternative1",
+          "description" : "2nd"
+        }
+      },
+      "move" : null,
+      "score" : {
+        "cp" : 774,
+        "moves" : null
+      }
+    },
+    "third_move" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "2a",
+          "dest" : "1a",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "2a",
+          "dest" : "1a",
+          "brush" : "alternative2",
+          "description" : "3rd"
+        }
+      },
+      "score" : {
+        "cp" : 948,
+        "moves" : null
+      }
+    },
+    "hands" : "B2Pbs2p",
+    "comment" : "Blunder [drop bishop 45, score: (522 → 1728)] \nBest [move knight from 56 to 44, score: (522 → 632)] \nSecond [drop bishop 18, score: (522 → 774)] \nThird [move dragon from 21 to 11, score: (522 → 948)]\n",
+    "sente" : "conquerror99",
+    "gote" : "tougarashi",
+    "timeControl" : "10分+30秒",
+    "site" : "81Dojo",
+    "date" : "2021/02/11"
+  },
+  {
+    "id" : "patricksode6r38s46ob77VSminor38s44b22bsexch_p33s44drop.kifu#67",
+    "sfen" : "ln1g4+R/1kslg4/1p2p1p1p/p1pp3p1/9/P1P1N4/1P1PP3P/2GS5/SNK1G1+rNL b BL2Pbs2p 67",
+    "your_move_usi" : "B*1h",
+    "opponent_last_move_usi" : "3f3i",
+    "player" : "sente",
+    "score" : {
+      "cp" : 1740,
+      "moves" : null
+    },
+    "prev_score" : {
+      "cp" : 582,
+      "moves" : null
+    },
+    "best" : {
+      "score" : {
+        "cp" : 393,
+        "moves" : null
+      },
+      "usi" : "5f4d"
+    },
+    "second" : {
+      "score" : {
+        "cp" : 1061,
+        "moves" : null
+      },
+      "usi" : "7i8h"
+    },
+    "third" : {
+      "score" : {
+        "cp" : 1122,
+        "moves" : null
+      },
+      "usi" : "P*4i"
+    },
+    "opponent_last_move_usi_positions" : [
+      "3f",
+      "3i"
+    ],
+    "your_move" : {
+      "drop" : {
+        "drop" : {
+          "role" : "bishop",
+          "pos" : "1h"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "bishop",
+            "color" : "sente"
+          },
+          "dest" : "1h",
+          "brush" : "alternative0",
+          "description" : "your"
+        }
+      },
+      "move" : null,
+      "score" : {
+        "cp" : 1740,
+        "moves" : null
+      }
+    },
+    "best_move" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "5f",
+          "dest" : "4d",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "5f",
+          "dest" : "4d",
+          "brush" : "primary",
+          "description" : "1st"
+        }
+      },
+      "score" : {
+        "cp" : 393,
+        "moves" : null
+      }
+    },
+    "second_move" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "7i",
+          "dest" : "8h",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "7i",
+          "dest" : "8h",
+          "brush" : "alternative1",
+          "description" : "2nd"
+        }
+      },
+      "score" : {
+        "cp" : 1061,
+        "moves" : null
+      }
+    },
+    "third_move" : {
+      "drop" : {
+        "drop" : {
+          "role" : "pawn",
+          "pos" : "4i"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "pawn",
+            "color" : "sente"
+          },
+          "dest" : "4i",
+          "brush" : "alternative2",
+          "description" : "3rd"
+        }
+      },
+      "move" : null,
+      "score" : {
+        "cp" : 1122,
+        "moves" : null
+      }
+    },
+    "hands" : "BL2Pbs2p",
+    "comment" : "Blunder [drop bishop 18, score: (582 → 1740)] \nBest [move knight from 56 to 44, score: (582 → 393)] \nSecond [move king from 79 to 88, score: (582 → 1061)] \nThird [drop pawn 49, score: (582 → 1122)]\n",
+    "sente" : "conquerror99",
+    "gote" : "tougarashi",
+    "timeControl" : "10分+30秒",
+    "site" : "81Dojo",
+    "date" : "2021/02/11"
+  },
+  {
+    "id" : "patricksode6r38s46ob77VSminor38s44b22bsexch_p33s44drop.kifu#85",
+    "sfen" : "lnG1l3+R/1kslg4/1p4p1p/p1ppp2p1/9/P1P6/1PNPP3P/2GS5/S1K1G1+rN+b b L3Pbsnp 85",
+    "your_move_usi" : "7a7b",
+    "opponent_last_move_usi" : "L*5a",
+    "player" : "sente",
+    "score" : {
+      "cp" : 1656,
+      "moves" : null
+    },
+    "prev_score" : {
+      "cp" : 418,
+      "moves" : null
+    },
+    "best" : {
+      "score" : {
+        "cp" : 438,
+        "moves" : null
+      },
+      "usi" : "L*5c"
+    },
+    "second" : {
+      "score" : {
+        "cp" : 1652,
+        "moves" : null
+      },
+      "usi" : "7a8a"
+    },
+    "third" : {
+      "score" : {
+        "cp" : 1653,
+        "moves" : null
+      },
+      "usi" : "7a7b"
+    },
+    "opponent_last_move_usi_positions" : [
+      "5a"
+    ],
+    "your_move" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "7a",
+          "dest" : "7b",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "7a",
+          "dest" : "7b",
+          "brush" : "alternative0",
+          "description" : "your"
+        }
+      },
+      "score" : {
+        "cp" : 1656,
+        "moves" : null
+      }
+    },
+    "best_move" : {
+      "drop" : {
+        "drop" : {
+          "role" : "lance",
+          "pos" : "5c"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "lance",
+            "color" : "sente"
+          },
+          "dest" : "5c",
+          "brush" : "primary",
+          "description" : "1st"
+        }
+      },
+      "move" : null,
+      "score" : {
+        "cp" : 438,
+        "moves" : null
+      }
+    },
+    "second_move" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "7a",
+          "dest" : "8a",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "7a",
+          "dest" : "8a",
+          "brush" : "alternative1",
+          "description" : "2nd"
+        }
+      },
+      "score" : {
+        "cp" : 1652,
+        "moves" : null
+      }
+    },
+    "third_move" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "7a",
+          "dest" : "7b",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "7a",
+          "dest" : "7b",
+          "brush" : "alternative2",
+          "description" : "3rd"
+        }
+      },
+      "score" : {
+        "cp" : 1653,
+        "moves" : null
+      }
+    },
+    "hands" : "L3Pbsnp",
+    "comment" : "Blunder [move gold from 71 to 72, score: (418 → 1656)] \nBest [drop lance 53, score: (418 → 438)] \nSecond [move gold from 71 to 81, score: (418 → 1652)] \nThird [move gold from 71 to 72, score: (418 → 1653)]\n",
+    "sente" : "conquerror99",
+    "gote" : "tougarashi",
+    "timeControl" : "10分+30秒",
+    "site" : "81Dojo",
+    "date" : "2021/02/11"
+  },
+  {
+    "id" : "patricksode6r38s46ob77VSminor38s44b22bsexch_p33s44drop.kifu#93",
+    "sfen" : "ln1g5/2kl5/1p2+R1p1p/p1ppp2p1/9/P1P4b1/1PNPP3P/2GS5/S1K1G1+rN+b b GSL3Psnlp 93",
+    "your_move_usi" : "5c4d",
+    "opponent_last_move_usi" : "B*2f",
+    "player" : "sente",
+    "score" : {
+      "cp" : 3430,
+      "moves" : null
+    },
+    "prev_score" : {
+      "cp" : 920,
+      "moves" : null
+    },
+    "best" : {
+      "score" : {
+        "cp" : 826,
+        "moves" : null
+      },
+      "usi" : "5c4b"
+    },
+    "second" : {
+      "score" : {
+        "cp" : 1154,
+        "moves" : null
+      },
+      "usi" : "5c4c"
+    },
+    "third" : {
+      "score" : {
+        "cp" : 1205,
+        "moves" : null
+      },
+      "usi" : "G*4i"
+    },
+    "opponent_last_move_usi_positions" : [
+      "2f"
+    ],
+    "your_move" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "5c",
+          "dest" : "4d",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "5c",
+          "dest" : "4d",
+          "brush" : "alternative0",
+          "description" : "your"
+        }
+      },
+      "score" : {
+        "cp" : 3430,
+        "moves" : null
+      }
+    },
+    "best_move" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "5c",
+          "dest" : "4b",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "5c",
+          "dest" : "4b",
+          "brush" : "primary",
+          "description" : "1st"
+        }
+      },
+      "score" : {
+        "cp" : 826,
+        "moves" : null
+      }
+    },
+    "second_move" : {
+      "drop" : null,
+      "move" : {
+        "move" : {
+          "orig" : "5c",
+          "dest" : "4c",
+          "promotion" : false
+        },
+        "hint" : {
+          "orig" : "5c",
+          "dest" : "4c",
+          "brush" : "alternative1",
+          "description" : "2nd"
+        }
+      },
+      "score" : {
+        "cp" : 1154,
+        "moves" : null
+      }
+    },
+    "third_move" : {
+      "drop" : {
+        "drop" : {
+          "role" : "gold",
+          "pos" : "4i"
+        },
+        "hint" : {
+          "orig" : {
+            "role" : "gold",
+            "color" : "sente"
+          },
+          "dest" : "4i",
+          "brush" : "alternative2",
+          "description" : "3rd"
+        }
+      },
+      "move" : null,
+      "score" : {
+        "cp" : 1205,
+        "moves" : null
+      }
+    },
+    "hands" : "GSL3Psnlp",
+    "comment" : "Blunder [move dragon from 53 to 44, score: (920 → 3430)] \nBest [move dragon from 53 to 42, score: (920 → 826)] \nSecond [move dragon from 53 to 43, score: (920 → 1154)] \nThird [drop gold 49, score: (920 → 1205)]\n",
+    "sente" : "conquerror99",
+    "gote" : "tougarashi",
+    "timeControl" : "10分+30秒",
+    "site" : "81Dojo",
+    "date" : "2021/02/11"
+  }
+]
