@@ -3,3 +3,6 @@
 node_modules/
 project/target
 target
+/generator/.ipynb_checkpoints/
+/generator/.ipynb_checkpoints/Generator-checkpoint.ipynb
+/generator/Generator.ipynb
