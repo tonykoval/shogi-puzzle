@@ -112,30 +112,38 @@
     }
 
     function isMove(engineMove, playerMove, playerPositionMove, returnValue) {
-        let result = false
-        if (engineMove.drop !== null) {
-            if (playerPositionMove === "DROP") {
-                result = engineMove.drop.drop.role === playerMove.piece.role && engineMove.drop.drop.pos === playerMove.key;
+        if (engineMove !== null) {
+            let result = false
+            if (engineMove.drop !== null) {
+                if (playerPositionMove === "DROP") {
+                    result = engineMove.drop.drop.role === playerMove.piece.role && engineMove.drop.drop.pos === playerMove.key;
+                }
+            } else {
+                if (playerPositionMove === "MOVE") {
+                    result = engineMove.move.move.orig === playerMove.orig &&
+                        engineMove.move.move.dest === playerMove.dest &&
+                        engineMove.move.move.promotion === playerMove.prom
+                }
+            }
+            if (result) {
+                return returnValue
+            } else {
+                return -1
             }
         } else {
-            if (playerPositionMove === "MOVE") {
-                result = engineMove.move.move.orig === playerMove.orig &&
-                    engineMove.move.move.dest === playerMove.dest &&
-                    engineMove.move.move.promotion === playerMove.prom
-            }
-        }
-        if (result) {
-            return returnValue
-        } else {
-            return -1
+            return null;
         }
     }
 
     function setHint(move) {
-        if (move.drop !== null) {
-            return move.drop.hint
+        if (move !== null) {
+            if (move.drop !== null) {
+                return move.drop.hint
+            } else {
+                return move.move.hint
+            }
         } else {
-            return move.move.hint
+            return null
         }
     }
 
@@ -153,7 +161,7 @@
         Swal.fire({
             icon: 'warning',
             title: 'Warning',
-            html: '<p>You played the unknown move! Please analyze your move.</p>' +
+            html: '<p>You didn\'t played one of the best 3 moves! Please analyze your move.</p>' +
                 '<p><i>' + pos.comment.replaceAll("\n", "<br />") + '</i></p>',
             footer: '<a href="https://lishogi.org/analysis/standard/' + pos.sfen + '" target="_blank">Lishogi position</a>'
         })
@@ -204,7 +212,8 @@
             confirmButtonText: 'Send!'
         }).then((result) => {
             if (result.isConfirmed) {
-                const jsondata = {"id": selected.id, "comment": text, "timestamp": Date.now()};
+                const jsondata = {"id": selected.id, "comment": text, "timestamp": Date.now(),
+                    feedback: Swal.getInput().value};
 
                 // TODO Auth0
                 const settings = {
@@ -225,12 +234,31 @@
                     console.log(response)
                     Swal.fire(
                         'Success',
-                        'Your feedback was successful updated.',
+                        'Your feedback was successfully updated.',
                         'success'
                     )
                 });
             }
         })
+    }
+
+    function setHints(pos) {
+        sg.setAutoShapes([setHint(pos.best_move), setHint(pos.second_move), setHint(pos.third_move),
+            setHint(pos.your_move)].filter(elements => {
+            return elements !== null;
+        }))
+    }
+
+    function resolveMove(pos, r0, r1, r2, r3) {
+        if (r0 !== -1) {
+            fireError(pos)
+        } else {
+            if (Math.max(r1, r2, r3) !== -1) {
+                fireSuccess(pos, Math.max(r1, r2, r3))
+            } else {
+                fireWarning(pos)
+            }
+        }
     }
 
     function generateConfig(pos) {
@@ -268,44 +296,27 @@
             },
             events: {
                 move: (a, b, prom) => {
-                    sg.setAutoShapes([setHint(pos.best_move), setHint(pos.second_move), setHint(pos.third_move),
-                        setHint(pos.your_move)]);
+                    setHints(pos)
                     $(".content").text(pos.comment)
 
                     let r0 = isMove(pos.your_move, {"orig": a, "dest": b, "prom": prom}, "MOVE", 0)
                     let r1 = isMove(pos.best_move, {"orig": a, "dest": b, "prom": prom}, "MOVE", 1)
                     let r2 = isMove(pos.second_move, {"orig": a, "dest": b, "prom": prom}, "MOVE", 2)
                     let r3 = isMove(pos.third_move, {"orig": a, "dest": b, "prom": prom}, "MOVE", 3)
+                    resolveMove(pos, r0, r1, r2, r3)
 
-                    if (Math.max(r1, r2, r3) !== -1) {
-                        fireSuccess(pos, Math.max(r1, r2, r3))
-                    } else {
-                        if (r0 !== -1) {
-                            fireError(pos)
-                        } else {
-                            fireWarning(pos)
-                        }
-                    }
                     $(".save-comment").show()
                 },
                 drop: (piece, key, prom) => {
-                    sg.setAutoShapes([setHint(pos.best_move), setHint(pos.second_move), setHint(pos.third_move),
-                        setHint(pos.your_move)]);
+                    setHints(pos)
                     $(".content").text(pos.comment)
 
                     let r0 = isMove(pos.your_move, {"piece": piece, "key": key, "prom": prom}, "DROP", 0)
                     let r1 = isMove(pos.best_move, {"piece": piece, "key": key, "prom": prom}, "DROP", 1)
                     let r2 = isMove(pos.second_move, {"piece": piece, "key": key, "prom": prom}, "DROP", 2)
                     let r3 = isMove(pos.third_move, {"piece": piece, "key": key, "prom": prom}, "DROP", 3)
-                    if (Math.max(r1, r2, r3) !== -1) {
-                        fireSuccess(pos, Math.max(r1, r2, r3))
-                    } else {
-                        if (r0 !== -1) {
-                            fireError(pos)
-                        } else {
-                            fireWarning(pos)
-                        }
-                    }
+                    resolveMove(pos, r0, r1, r2, r3)
+
                     $(".save-comment").show()
                 },
             },
