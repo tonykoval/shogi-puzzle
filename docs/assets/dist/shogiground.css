@@ -1,0 +1,128 @@
+/*
+   * Shogiground base css properties.
+   *
+   * You need to include the css files in themes folder in order to have the
+   * board and pieces displayed!
+   */
+
+.sg-wrap {
+  position: relative;
+  box-sizing: border-box;
+  width: 100%;
+  /* Correct shogi board ratio is 11:12, for square board, you can use height 100% */
+  height: calc(100% / 11 * 12);
+}
+
+sg-board {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: block;
+  top: 0;
+  left: 0;
+}
+
+sg-squares,
+sg-pieces,
+sg-promotion {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  line-height: 0;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  user-select: none;
+  box-sizing: border-box;
+}
+
+sg-pieces {
+  cursor: pointer;
+}
+
+sg-promotion {
+  z-index: 5;
+  background-color: #0000003f;
+}
+
+sg-promotion sg-promotion-square {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: calc(100% / 9);
+  height: calc(100% / 9);
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+sg-promotion sg-promotion-choices {
+  display: flex;
+  flex-direction: column;
+  background-color: #2e2e2e;
+  box-shadow: 3px 3px 7px #000000aa;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 100%;
+  height: 200%;
+  user-select: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+}
+
+sg-squares {
+  display: grid;
+  grid-template: repeat(9, 1fr) / repeat(9, 1fr);
+  background-size: cover;
+  pointer-events: none;
+}
+sg-squares sq.check {
+  background: radial-gradient(
+    ellipse at center,
+    rgba(255, 0, 0, 1) 0%,
+    rgba(231, 0, 0, 1) 25%,
+    rgba(169, 0, 0, 0) 89%,
+    rgba(158, 0, 0, 0) 100%
+  );
+}
+sg-squares sq.selected {
+  background-color: rgba(20, 85, 30, 0.5);
+}
+
+sg-square-over {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: calc(100% / 9);
+  height: calc(100% / 9);
+  background: #00000050;
+  border-radius: 50%;
+  padding: 6%;
+  margin: calc(-6%);
+  will-change: transform;
+  pointer-events: none;
+  z-index: 3;
+}
+
+.sg-wrap sg-free-pieces,
+.sg-wrap .sg-shapes,
+.sg-wrap .sg-custom-svgs {
+  overflow: visible;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 4;
+}
+
+.sg-wrap sg-free-pieces {
+  z-index: 3;
+}
+
+.sg-wrap .sg-custom-svgs {
+  z-index: 9;
+}

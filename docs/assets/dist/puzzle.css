@@ -1,0 +1,148 @@
+@charset "UTF-8";
+
+body {
+    --board-scale: 1;
+    --col2-uniboard-main-size: calc((100vh * var(--board-scale) - calc(var(--site-header-height) + var(--site-header-margin)) - 3rem) / 12 * 11 / 9 * 11 + 4vmin);
+    --col3-uniboard-main-size: calc((100vh * var(--board-scale) - calc(var(--site-header-height) + var(--site-header-margin)) - 3rem) / 12 * 11 / 9 * 11 + 4vmin);
+    --col2-uniboard-main-size-no-hands: calc((100vh * var(--board-scale) - calc(var(--site-header-height) + var(--site-header-margin)) - 3rem) / 12 * 11);
+    --col3-uniboard-main-size-no-hands: calc((100vh * var(--board-scale) - calc(var(--site-header-height) + var(--site-header-margin)) - 3rem) / 12 * 11)
+}
+
+@media (min-width: 979.3px),(orientation:landscape) {
+    body {
+        --board-scale:calc((var(--zoom) / 100) * 0.6 + 0.4)
+    }
+}
+
+@supports (width: min(1px,2px)) {
+    body {
+        --col2-uniboard-main-size:min(calc(100vw * var(--board-scale) - 4vmin - 200px - 2 * var(--main-margin, 0px) - 0.8rem),calc((100vh * var(--board-scale) - calc(var(--site-header-height) + var(--site-header-margin)) - 3rem) / 12 * 11 / 9 * 11 + 4vmin));
+        --col3-uniboard-main-size: min(calc(100vw * var(--board-scale) - 200px - 4vmin - 200px - 2 * var(--main-margin, 0px) - 0.8rem),calc((100vh * var(--board-scale) - calc(var(--site-header-height) + var(--site-header-margin)) - 3rem) / 12 * 11 / 9 * 11 + 4vmin));
+        --col2-uniboard-main-size-no-hands: min(calc(100vw * var(--board-scale) - 6vmin - 200px - 2 * var(--main-margin, 0px) - 0.8rem),calc((100vh * var(--board-scale) - calc(var(--site-header-height) + var(--site-header-margin)) - 3rem) / 12 * 11));
+        --col3-uniboard-main-size-no-hands: min(calc(100vw * var(--board-scale) - 200px - 6vmin - 200px - 2 * var(--main-margin, 0px) - 0.8rem),calc((100vh * var(--board-scale) - calc(var(--site-header-height) + var(--site-header-margin)) - 3rem) / 12 * 11))
+    }
+}
+
+@media (max-width: 979.29px) and (orientation:portrait) {
+    body {
+        --col1:1
+    }
+
+    .main-board sg-board {
+        border-radius: 0
+    }
+}
+
+sg-resize {
+    display: none
+}
+
+@media (min-width: 979.3px),(orientation:landscape) {
+    sg-resize {
+        bottom:-10px;
+        cursor: nwse-resize;
+        display: block;
+        height: 22px;
+        position: absolute;
+        right: -10px;
+        width: 22px
+    }
+
+    sg-resize:after,sg-resize:before {
+        background: #000;
+        content: "";
+        height: 1px;
+        position: absolute;
+        width: 12px
+    }
+
+    sg-resize:before {
+        transform: translate(7px,8px) rotate(-45deg);
+        width: 5px
+    }
+
+    sg-resize:after {
+        transform: translate(1px,6px) rotate(-45deg)
+    }
+
+    sg-resize:hover {
+        background: var(--m-accent_alpha_neg50);
+        border-radius: 50%;
+        z-index: 50
+    }
+}
+
+@keyframes glowing {
+    50% {
+        background: var(--m-link_bg-box_mix_20)
+    }
+}
+
+body ::-webkit-scrollbar,body ::-webkit-scrollbar-corner {
+    background: var(--c-bg-box);
+    width: .5rem
+}
+
+body ::-webkit-scrollbar-thumb {
+    background: var(--c-shade)
+}
+
+body ::-webkit-scrollbar-thumb:active,body ::-webkit-scrollbar-thumb:hover {
+    background: var(--c-font-dimmer)
+}
+
+@keyframes bar-anim {
+    0% {
+        background-position: 0 0
+    }
+
+    to {
+        background-position: 100000px 0
+    }
+}
+
+#main-wrap {
+    --main-max-width: calc((100vh - calc(var(--site-header-height) + var(--site-header-margin)) - 3rem - 4vmin) / 12 * 9)
+}
+
+@media (min-width: 979.3px),(orientation:landscape) {
+    #main-wrap {
+        --main-max-width:auto
+    }
+}
+
+.puzzle {
+    display: grid;
+    grid-area: main;
+    grid-template-areas: "board" "controls" "tools" "session" "kb-move" "side"
+}
+
+.puzzle__board {
+    grid-area: board
+}
+
+@media (min-width: 979.3px),(orientation:landscape) {
+    .puzzle {
+        grid-template-areas:"board   gauge tools" "session .     controls" "kb-move .     ." "side    side  side";
+        grid-template-columns: var(--col2-uniboard-main-size) 2vmin minmax(200px,320px);
+        grid-template-rows: fit-content(0)
+    }
+}
+
+@media (min-width: 1259.3px) and (orientation:landscape) {
+    .puzzle {
+        grid-template-areas:"side . board   gauge tools" "side . session .     controls" "side . kb-move .     ." "side . .       .     .";
+        grid-template-columns: minmax(200px,320px) 2vmin var(--col3-uniboard-main-size) 2vmin minmax(200px,320px);
+        grid-template-rows: fit-content(0)
+    }
+}
+
+@media (max-width: 979.29px) and (orientation:portrait) {
+    .hand-top {
+        margin-bottom:2vmin
+    }
+
+    .hand-bottom {
+        margin-top: 2vmin
+    }
+}
